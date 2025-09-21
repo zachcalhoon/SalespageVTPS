@@ -1501,6 +1501,188 @@ export function IntroSection() {
           </div>
 
           {/* Secret to Our Success #1 Component - existing content above */}
+          {/* Secret to Our Success #1 Component */}
+          <div className="mt-20">
+            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl p-8 border border-blue-200">
+              <div className="text-center mb-12">
+                <h4 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                  Secret to Our Success #1
+                </h4>
+                <h5 className="text-2xl md:text-3xl font-semibold text-blue-600 mb-8">
+                  Target Enterprise Clients and Price Based on Value, Not Time
+                </h5>
+              </div>
+
+              <div className="max-w-6xl mx-auto space-y-12">
+                {/* Introduction */}
+                <div className="text-center">
+                  <h6 className="text-xl font-bold text-gray-900 mb-6">
+                    Our Thesis: High-Ticket Pricing ($3,000-$10,000+) Is Better Than Low-Ticket Pricing ($100-$500)
+                  </h6>
+                  <p className="text-lg text-gray-700 max-w-4xl mx-auto leading-relaxed">
+                    Why charging $10,000 is better than charging $100. Virtual tours create massive value for enterprise
+                    clients who understand ROI and have budgets to match their ambitions.
+                  </p>
+                </div>
+
+                {/* CloudPano Mobile App Image */}
+                <div className="text-center">
+                  <img
+                    src="/cloudpano-mobile-app.png"
+                    alt="CloudPano mobile app interface showing virtual tour management"
+                    className="w-full max-w-md mx-auto rounded-lg shadow-lg"
+                  />
+                </div>
+
+                {/* Post-COVID Virtual Selling */}
+                <div className="bg-white rounded-xl p-8 shadow-lg border border-gray-200">
+                  <h6 className="text-2xl font-bold text-gray-900 mb-6 text-center">
+                    Post-COVID Virtual Selling Environment
+                  </h6>
+                  <div className="space-y-4 text-gray-700 leading-relaxed">
+                    <p>
+                      The pandemic fundamentally changed how businesses operate and sell. Virtual tours became
+                      essential, not optional. Enterprise clients now expect immersive digital experiences.
+                    </p>
+                    <p>
+                      This shift created unprecedented demand for high-quality virtual tour services, especially among
+                      businesses that rely on showcasing physical spaces to drive sales.
+                    </p>
+                  </div>
+                </div>
+
+                {/* ROI Breakdown Table */}
+                <div className="text-center">
+                  <h6 className="text-2xl font-bold text-gray-900 mb-6">
+                    Financial Breakdown: Why Enterprise Pricing Works
+                  </h6>
+                  <img
+                    src="/roi-breakdown-table.png"
+                    alt="ROI breakdown table showing three cases with different pricing models and their financial outcomes"
+                    className="w-full max-w-4xl mx-auto rounded-lg shadow-lg border border-gray-200"
+                  />
+                </div>
+
+                {/* Virtual Tour Example */}
+                <div className="text-center">
+                  <h6 className="text-2xl font-bold text-gray-900 mb-6">
+                    See Enterprise-Level Virtual Tours in Action
+                  </h6>
+                  <div className="bg-gray-100 rounded-lg overflow-hidden shadow-lg max-w-6xl mx-auto h-[500px] md:h-[600px]">
+                    <iframe
+                      src="https://app.cloudpano.com/tours/p01itLQTYzpS"
+                      width="100%"
+                      height="100%"
+                      frameBorder="0"
+                      allowFullScreen
+                      title="Enterprise Virtual Tour Example"
+                      className="w-full h-full"
+                    ></iframe>
+                  </div>
+                </div>
+
+                {/* Building Scalable Organizations */}
+                <div className="bg-white rounded-xl p-8 shadow-lg border border-gray-200">
+                  <h6 className="text-2xl font-bold text-gray-900 mb-6 text-center">
+                    Building Scalable Organizations with Higher Pricing
+                  </h6>
+
+                  <div className="grid md:grid-cols-2 gap-8 mb-8">
+                    <div className="space-y-4">
+                      <h7 className="text-lg font-semibold text-gray-900">Why High-Ticket Works:</h7>
+                      <div className="space-y-3">
+                        <div className="flex items-center space-x-3">
+                          <div className="w-2 h-2 bg-blue-500 rounded-full flex-shrink-0"></div>
+                          <p className="text-gray-700">Fewer clients needed for same revenue</p>
+                        </div>
+                        <div className="flex items-center space-x-3">
+                          <div className="w-2 h-2 bg-blue-500 rounded-full flex-shrink-0"></div>
+                          <p className="text-gray-700">Higher quality client relationships</p>
+                        </div>
+                        <div className="flex items-center space-x-3">
+                          <div className="w-2 h-2 bg-blue-500 rounded-full flex-shrink-0"></div>
+                          <p className="text-gray-700">More resources for team building</p>
+                        </div>
+                        <div className="flex items-center space-x-3">
+                          <div className="w-2 h-2 bg-blue-500 rounded-full flex-shrink-0"></div>
+                          <p className="text-gray-700">Sustainable business growth</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="text-center">
+                      <img
+                        src="/organization-structure.png"
+                        alt="Organization structure chart showing CEO, Admin, Photographer, Sales Rep, and Contractors hierarchy"
+                        className="w-full max-w-sm mx-auto rounded-lg shadow-md border border-gray-200"
+                      />
+                    </div>
+                  </div>
+
+                  <div className="text-center bg-blue-50 rounded-lg p-6">
+                    <p className="text-lg font-semibold text-gray-900 mb-2">
+                      The Result: A Business That Works Without You
+                    </p>
+                    <p className="text-gray-700">
+                      Higher pricing allows you to hire quality team members, invest in systems, and build a business
+                      that generates revenue even when you're not actively working.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Key Takeaways */}
+                <div className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-xl p-8 border border-green-200">
+                  <h6 className="text-2xl font-bold text-gray-900 mb-6 text-center">
+                    Key Takeaways for Enterprise Success
+                  </h6>
+                  <div className="grid md:grid-cols-2 gap-6">
+                    <div className="space-y-4">
+                      <div className="flex items-start space-x-3">
+                        <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                          <span className="text-white text-sm font-bold">1</span>
+                        </div>
+                        <div>
+                          <h7 className="font-semibold text-gray-900">Target the Right Clients</h7>
+                          <p className="text-gray-700 text-sm">
+                            Focus on businesses with real budgets and ROI expectations
+                          </p>
+                        </div>
+                      </div>
+                      <div className="flex items-start space-x-3">
+                        <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                          <span className="text-white text-sm font-bold">2</span>
+                        </div>
+                        <div>
+                          <h7 className="font-semibold text-gray-900">Price on Value</h7>
+                          <p className="text-gray-700 text-sm">Base pricing on business impact, not hours worked</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="space-y-4">
+                      <div className="flex items-start space-x-3">
+                        <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                          <span className="text-white text-sm font-bold">3</span>
+                        </div>
+                        <div>
+                          <h7 className="font-semibold text-gray-900">Build Systems</h7>
+                          <p className="text-gray-700 text-sm">Use higher margins to invest in team and automation</p>
+                        </div>
+                      </div>
+                      <div className="flex items-start space-x-3">
+                        <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                          <span className="text-white text-sm font-bold">4</span>
+                        </div>
+                        <div>
+                          <h7 className="font-semibold text-gray-900">Scale Smart</h7>
+                          <p className="text-gray-700 text-sm">Fewer, better clients = sustainable growth</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
           {/* Secret Number Two: How To Sell Subscriptions */}
           <div className="mt-20">
