@@ -1500,6 +1500,271 @@ export function IntroSection() {
             </div>
           </div>
 
+          {/* Secret to Our Success #1 Component - existing content above */}
+
+          {/* Secret Number Two: How To Sell Subscriptions */}
+          <div className="mt-20">
+            <div className="bg-gradient-to-r from-purple-50 to-pink-50 rounded-2xl p-8 border border-purple-200">
+              <div className="text-center mb-12">
+                <h4 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">Secret Number Two</h4>
+                <h5 className="text-2xl md:text-3xl font-semibold text-purple-600 mb-8">
+                  How To Sell Subscriptions and Why It's More Profitable and More Fun
+                </h5>
+              </div>
+
+              <div className="max-w-6xl mx-auto space-y-12">
+                {/* Introduction */}
+                <div className="text-center">
+                  <h6 className="text-xl font-bold text-gray-900 mb-6">
+                    The Fastest Way To Sell a Subscription Is To Target Customers Who Charge Subscriptions or High
+                    Volume Sales
+                  </h6>
+                </div>
+
+                {/* Target Markets */}
+                <div className="grid md:grid-cols-3 gap-8">
+                  {/* Commercial Real Estate */}
+                  <div className="bg-white rounded-lg p-6 shadow-lg">
+                    <h6 className="text-lg font-bold text-gray-900 mb-4">Commercial Real Estate</h6>
+                    <p className="text-gray-700 text-sm leading-relaxed">
+                      Commercial real estate is evaluated by the capitalization rate of the asset. Value = NOI / Cap
+                      Rate. If you can increase NOI for a commercial property, you will effectively increase the
+                      equitable value of the asset. This value is mathematically determined.
+                    </p>
+                  </div>
+
+                  {/* Dealers */}
+                  <div className="bg-white rounded-lg p-6 shadow-lg">
+                    <h6 className="text-lg font-bold text-gray-900 mb-4">Car Dealers, Boat Dealers, RV Dealers</h6>
+                    <p className="text-gray-700 text-sm leading-relaxed">
+                      With inventory needing to move, your possibilities for small interiors needing 360º has
+                      skyrocketed. There are already large companies using interior 360º and rolling it out to their
+                      dealers.
+                    </p>
+                  </div>
+
+                  {/* Small Business Owners */}
+                  <div className="bg-white rounded-lg p-6 shadow-lg">
+                    <h6 className="text-lg font-bold text-gray-900 mb-4">
+                      Small Business Owners Who Sell Subscriptions
+                    </h6>
+                    <p className="text-gray-700 text-sm leading-relaxed">
+                      If you can find small business owners who need more customers to pay them subscriptions, you will
+                      be surprised at all the services they will pay for (as long as you deliver on your big promise).
+                    </p>
+                  </div>
+                </div>
+
+                {/* Subscription Strategy */}
+                <div className="bg-white rounded-lg p-8 shadow-lg">
+                  <h6 className="text-xl font-bold text-gray-900 mb-6 text-center">The Subscription Words That Sell</h6>
+                  <div className="space-y-4 text-gray-700">
+                    <p>
+                      Use phrases like "hosting and maintenance" and build in the features into your subscriptions
+                      model. It's important you lead with subscriptions when selling recurring fees.
+                    </p>
+                    <p>
+                      Although pricing should only be shared after you have given value and established goals, it's
+                      important to lead with the recurring fees and not hide them until the end of your pitch.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Software Features Value */}
+                <div className="bg-gradient-to-r from-blue-50 to-cyan-50 rounded-lg p-8">
+                  <h6 className="text-xl font-bold text-gray-900 mb-6 text-center">
+                    Reference Recurring Value With Software Features
+                  </h6>
+                  <div className="space-y-4 text-gray-700">
+                    <p>
+                      When a client is consistently receiving value from software features, make sure you attach those
+                      features into your conversation. If they want to maintain these features, then it's important they
+                      are continually paying your company.
+                    </p>
+                    <p>
+                      Features like Lead Generation and CloudPano Live are designed so you can continually bring value
+                      to your clients and continually get credit for the technology you are providing.
+                    </p>
+                    <p className="font-semibold">
+                      Even if you are not actively providing the service (hosting and maintenance), you are the trusted
+                      tech provider. Automatically invoice accordingly.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Mathematical Comparison */}
+                <div className="text-center">
+                  <h6 className="text-2xl font-bold text-gray-900 mb-8">
+                    Mathematically subscriptions are more important than "set up" fees.
+                  </h6>
+
+                  {/* Old Way vs New Way Comparison */}
+                  <div className="bg-white rounded-lg p-6 shadow-lg mb-8">
+                    <img
+                      src="/old-way-new-way-comparison.png"
+                      alt="Old Way vs New Way: 100 Customers comparison showing traditional model vs subscription model revenue"
+                      className="w-full max-w-4xl mx-auto rounded-lg"
+                    />
+                  </div>
+
+                  <div className="grid md:grid-cols-2 gap-8 mb-8">
+                    {/* New Way Chart */}
+                    <div className="bg-white rounded-lg p-6 shadow-lg">
+                      <h6 className="text-lg font-bold text-gray-900 mb-4">New Way With Subscriptions</h6>
+                      <img
+                        src="/subscription-revenue-chart.png"
+                        alt="Revenue growth chart showing exponential growth with subscription model over time"
+                        className="w-full rounded-lg"
+                      />
+                    </div>
+
+                    {/* Old Way Chart */}
+                    <div className="bg-white rounded-lg p-6 shadow-lg">
+                      <h6 className="text-lg font-bold text-gray-900 mb-4">Old Way (No Subscriptions)</h6>
+                      <img
+                        src="/old-way-no-subscriptions-chart.png"
+                        alt="Flat revenue growth chart showing limited growth without subscription model"
+                        className="w-full rounded-lg"
+                      />
+                    </div>
+                  </div>
+
+                  <div className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-lg p-6 border border-green-200">
+                    <p className="text-lg font-semibold text-gray-900 mb-2">
+                      In this model we lower the "set up" fee and add a subscription fee of $97 / month.
+                    </p>
+                    <p className="text-xl font-bold text-green-600">
+                      The 3 year value for 100 customers spikes up to $424,000.
+                    </p>
+                    <p className="text-lg text-gray-700 mt-2">
+                      This is almost 4x the value for the same number of customers.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Real Life Example */}
+                <div className="bg-white rounded-lg p-8 shadow-lg">
+                  <h6 className="text-2xl font-bold text-gray-900 mb-8 text-center">
+                    Now Let's Use a Real Life Example...
+                  </h6>
+
+                  <div className="grid md:grid-cols-2 gap-8 items-center">
+                    <div>
+                      <img
+                        src="/30-customers-subscription-example.png"
+                        alt="Jordan Powers example showing 30 customers with subscription model generating $417,000 in revenue"
+                        className="w-full rounded-lg shadow-md"
+                      />
+                    </div>
+
+                    <div className="space-y-4">
+                      <p className="text-gray-700">
+                        Earlier we referenced Jordan Powers and his community college example. His "set up" fee was
+                        $8,500 and his subscription fee was $250 per month.
+                      </p>
+                      <p className="text-gray-700">
+                        Let's lower his subscription fee to $150 per month and run the numbers. Some quick math shows a
+                        1 year value for 1 customer is $10,300.
+                      </p>
+                      <div className="bg-blue-50 rounded-lg p-4 border border-blue-200">
+                        <p className="font-semibold text-gray-900">The 3 year value for this model is $13,900.</p>
+                        <p className="text-blue-600 font-bold text-lg">
+                          30 customers = approximately $417,000 in revenue
+                        </p>
+                      </div>
+                      <p className="text-gray-700">
+                        And if he's able to continue the $250 / month subscription fees, he will generate a 3 year value
+                        of $525,000.
+                      </p>
+                      <p className="font-bold text-purple-600 text-lg">
+                        That's the power of subscriptions when charging high ticket clients with virtual tours selling
+                        (done correctly).
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Lead Capture Visual */}
+                <div className="text-center">
+                  <h6 className="text-xl font-bold text-gray-900 mb-6">Subscription Lead Capture System</h6>
+                  <div className="bg-white rounded-lg p-6 shadow-lg max-w-md mx-auto">
+                    <img
+                      src="/lead-capture-form.png"
+                      alt="Lead capture form with cloud icon and name/email fields for subscription prospects"
+                      className="w-full rounded-lg"
+                    />
+                  </div>
+                  <p className="text-gray-600 mt-4">
+                    Professional lead capture system to convert prospects into subscription clients
+                  </p>
+                </div>
+
+                {/* Virtual Meeting Integration */}
+                <div className="bg-gradient-to-r from-indigo-50 to-purple-50 rounded-lg p-8">
+                  <h6 className="text-xl font-bold text-gray-900 mb-6 text-center">Virtual Selling Environments</h6>
+                  <div className="grid md:grid-cols-2 gap-8 items-center">
+                    <div className="space-y-4">
+                      <p className="text-gray-700">
+                        Post COVID-19 everything has changed. Sales teams who typically sell in person are scrambling
+                        and trying to adjust to the new virtual selling world.
+                      </p>
+                      <p className="text-gray-700">
+                        Our VR entrepreneurs are setting up virtual selling environments using features baked into the
+                        CloudPano software (like CloudPano Live).
+                      </p>
+                      <p className="font-semibold text-gray-900">
+                        You can set up a 360º selling environment where a sales person and prospect has a video
+                        conversation inside a 360º space.
+                      </p>
+                    </div>
+                    <div>
+                      <img
+                        src="/virtual-meeting-screenshot.png"
+                        alt="Virtual meeting screenshot showing people in a 360° virtual tour environment with Zach and Michelle"
+                        className="w-full rounded-lg shadow-md"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                {/* Key Takeaways */}
+                <div className="bg-gradient-to-r from-yellow-50 to-orange-50 rounded-lg p-8 border border-orange-200">
+                  <h6 className="text-xl font-bold text-gray-900 mb-6 text-center">Key Subscription Success Factors</h6>
+                  <div className="grid md:grid-cols-2 gap-6">
+                    <div className="space-y-3">
+                      <div className="flex items-center space-x-3">
+                        <div className="w-3 h-3 bg-orange-500 rounded-full flex-shrink-0"></div>
+                        <p className="font-medium text-gray-900">Target subscription-based businesses</p>
+                      </div>
+                      <div className="flex items-center space-x-3">
+                        <div className="w-3 h-3 bg-orange-500 rounded-full flex-shrink-0"></div>
+                        <p className="font-medium text-gray-900">Lead with recurring value proposition</p>
+                      </div>
+                      <div className="flex items-center space-x-3">
+                        <div className="w-3 h-3 bg-orange-500 rounded-full flex-shrink-0"></div>
+                        <p className="font-medium text-gray-900">Use "hosting and maintenance" language</p>
+                      </div>
+                    </div>
+                    <div className="space-y-3">
+                      <div className="flex items-center space-x-3">
+                        <div className="w-3 h-3 bg-orange-500 rounded-full flex-shrink-0"></div>
+                        <p className="font-medium text-gray-900">Attach value to software features</p>
+                      </div>
+                      <div className="flex items-center space-x-3">
+                        <div className="w-3 h-3 bg-orange-500 rounded-full flex-shrink-0"></div>
+                        <p className="font-medium text-gray-900">Focus on 3-year customer value</p>
+                      </div>
+                      <div className="flex items-center space-x-3">
+                        <div className="w-3 h-3 bg-orange-500 rounded-full flex-shrink-0"></div>
+                        <p className="font-medium text-gray-900">Build virtual selling environments</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div className="mt-16">
             <CombinedVideoTestimonials />
           </div>
