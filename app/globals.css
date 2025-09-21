@@ -4,56 +4,56 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Updated color scheme for Virtual Tour Profit System sales page */
+  /* Updated color scheme for glassomorphic design */
   --background: oklch(1 0 0); /* Pure white */
-  --foreground: oklch(0.35 0 0); /* Dark gray for text */
-  --card: oklch(0.98 0 0); /* Light gray for cards */
-  --card-foreground: oklch(0.35 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.35 0 0);
-  --primary: oklch(0.55 0.15 200); /* Cyan-600 equivalent */
+  --foreground: oklch(0.15 0 0); /* Dark gray-800 equivalent */
+  --card: oklch(1 0 0 / 0.8); /* Frosted glass effect for cards */
+  --card-foreground: oklch(0.15 0 0);
+  --popover: oklch(1 0 0 / 0.9);
+  --popover-foreground: oklch(0.15 0 0);
+  --primary: oklch(0.6 0.2 270); /* Purple-500 equivalent */
   --primary-foreground: oklch(1 0 0);
-  --secondary: oklch(0.6 0.2 270); /* Indigo-500 equivalent */
+  --secondary: oklch(0.45 0 0); /* Gray-600 equivalent */
   --secondary-foreground: oklch(1 0 0);
-  --muted: oklch(0.96 0.01 200); /* Light cyan tint */
-  --muted-foreground: oklch(0.45 0 0);
-  --accent: oklch(0.6 0.2 270); /* Indigo accent */
+  --muted: oklch(0.96 0.01 240); /* Light gray with purple tint */
+  --muted-foreground: oklch(0.15 0 0);
+  --accent: oklch(0.55 0.25 25); /* Orange accent */
   --accent-foreground: oklch(1 0 0);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(1 0 0);
-  --border: oklch(0.9 0 0);
-  --input: oklch(0.98 0 0);
-  --ring: oklch(0.55 0.15 200);
-  --chart-1: oklch(0.6 0.2 270);
-  --chart-2: oklch(0.7 0.15 270);
-  --chart-3: oklch(0.5 0.25 270);
-  --chart-4: oklch(0.8 0.1 270);
-  --chart-5: oklch(0.85 0.05 270);
+  --border: oklch(0 0 0 / 0.1); /* Light border */
+  --input: oklch(0.96 0.01 240);
+  --ring: oklch(0.6 0.2 270 / 0.5);
+  --chart-1: oklch(0.45 0 0);
+  --chart-2: oklch(0.6 0.2 270);
+  --chart-3: oklch(0.55 0.25 25);
+  --chart-4: oklch(0.15 0 0);
+  --chart-5: oklch(1 0 0);
   --radius: 0.5rem;
-  --sidebar: oklch(0.98 0 0);
-  --sidebar-foreground: oklch(0.35 0 0);
-  --sidebar-primary: oklch(0.55 0.15 200);
+  --sidebar: oklch(1 0 0 / 0.9);
+  --sidebar-foreground: oklch(0.15 0 0);
+  --sidebar-primary: oklch(0.6 0.2 270);
   --sidebar-primary-foreground: oklch(1 0 0);
-  --sidebar-accent: oklch(0.6 0.2 270);
+  --sidebar-accent: oklch(0.55 0.25 25);
   --sidebar-accent-foreground: oklch(1 0 0);
-  --sidebar-border: oklch(0.9 0 0);
-  --sidebar-ring: oklch(0.55 0.15 200);
+  --sidebar-border: oklch(0 0 0 / 0.1);
+  --sidebar-ring: oklch(0.6 0.2 270 / 0.5);
 }
 
 .dark {
   --background: oklch(0.145 0 0);
   --foreground: oklch(0.985 0 0);
-  --card: oklch(0.145 0 0);
+  --card: oklch(0.145 0 0 / 0.8);
   --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.145 0 0);
+  --popover: oklch(0.145 0 0 / 0.9);
   --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.65 0.15 200);
+  --primary: oklch(0.7 0.2 270);
   --primary-foreground: oklch(0.145 0 0);
   --secondary: oklch(0.269 0 0);
   --secondary-foreground: oklch(0.985 0 0);
   --muted: oklch(0.269 0 0);
   --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.7 0.2 270);
+  --accent: oklch(0.65 0.25 25);
   --accent-foreground: oklch(0.145 0 0);
   --destructive: oklch(0.396 0.141 25.723);
   --destructive-foreground: oklch(0.637 0.237 25.331);
@@ -122,23 +122,29 @@
   }
   body {
     @apply bg-background text-foreground;
+    /* Added gradient mesh background for glassomorphic effect */
+    background-image: radial-gradient(circle at 20% 80%, rgba(139, 92, 246, 0.15) 0%, transparent 50%),
+      radial-gradient(circle at 80% 20%, rgba(234, 88, 12, 0.1) 0%, transparent 50%),
+      radial-gradient(circle at 40% 40%, rgba(139, 92, 246, 0.08) 0%, transparent 50%);
   }
 }
 
 @layer utilities {
+  /* Enhanced glass effects for better visual hierarchy */
   .glass {
-    /* Updated glass effect with better background for text readability */
-    @apply bg-white/40 backdrop-blur-md border border-white/30;
+    @apply bg-white/20 backdrop-blur-md border border-white/20 shadow-lg;
   }
 
   .glass-card {
-    /* Increased background opacity for better text contrast */
-    @apply bg-white/25 backdrop-blur-xl border border-white/20 shadow-2xl;
+    @apply bg-white/10 backdrop-blur-xl border border-white/20 shadow-2xl;
   }
 
   .glass-strong {
-    /* Stronger background for badges and important elements */
-    @apply bg-white/50 backdrop-blur-lg border border-white/40;
+    @apply bg-white/30 backdrop-blur-lg border border-white/30 shadow-xl;
+  }
+
+  .glass-hero {
+    @apply bg-white/5 backdrop-blur-2xl border border-white/10 shadow-2xl;
   }
 
   .animate-float {
@@ -150,15 +156,33 @@
   }
 
   .hover-lift {
-    @apply transition-all duration-200 ease-out will-change-transform;
+    @apply transition-all duration-300 ease-out will-change-transform;
   }
 
   .hover-lift:hover {
-    @apply -translate-y-1 shadow-xl scale-[1.02];
+    @apply -translate-y-2 shadow-2xl scale-[1.02];
   }
 
   .text-glow {
-    text-shadow: 0 0 20px rgba(59, 130, 246, 0.5);
+    text-shadow: 0 0 20px rgba(139, 92, 246, 0.5);
+  }
+
+  .gradient-text {
+    background: linear-gradient(135deg, #8b5cf6 0%, #ea580c 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .gradient-border {
+    background: linear-gradient(135deg, rgba(139, 92, 246, 0.3) 0%, rgba(234, 88, 12, 0.3) 100%);
+    padding: 1px;
+    border-radius: inherit;
+  }
+
+  .gradient-border > * {
+    background: var(--background);
+    border-radius: inherit;
   }
 }
 
@@ -174,16 +198,16 @@
 
 @keyframes glow {
   from {
-    box-shadow: 0 0 20px rgba(59, 130, 246, 0.3);
+    box-shadow: 0 0 20px rgba(139, 92, 246, 0.3);
   }
   to {
-    box-shadow: 0 0 30px rgba(59, 130, 246, 0.6);
+    box-shadow: 0 0 30px rgba(139, 92, 246, 0.6);
   }
 }
 
+/* Added gradient mesh utility class */
 .gradient-mesh {
-  background: radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.3) 0%, transparent 50%),
-    radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.3) 0%, transparent 50%),
-    radial-gradient(circle at 40% 40%, rgba(120, 219, 255, 0.3) 0%, transparent 50%),
-    linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(147, 51, 234, 0.1) 100%);
+  background: radial-gradient(circle at 20% 80%, rgba(139, 92, 246, 0.15) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(234, 88, 12, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 40% 40%, rgba(139, 92, 246, 0.08) 0%, transparent 50%);
 }

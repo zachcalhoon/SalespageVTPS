@@ -39,13 +39,14 @@ export function TestimonialsSection() {
   ]
 
   return (
-    <section className="py-20 px-4 bg-muted/30">
+    <section className="py-20 px-4">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <Badge variant="outline" className="mb-4">
-            Social Proof
-          </Badge>
-          <h2 className="text-3xl md:text-5xl font-bold mb-6 text-balance" style={{ lineHeight: "2rem" }}>
+          <Badge className="glass-strong mb-4 text-primary">Social Proof</Badge>
+          <h2
+            className="text-3xl md:text-5xl font-bold mb-6 text-balance gradient-text text-glow"
+            style={{ lineHeight: "1.2" }}
+          >
             Join 1,500+ Successful VR Entrepreneurs
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto text-pretty">
@@ -56,30 +57,42 @@ export function TestimonialsSection() {
 
         <div className="grid lg:grid-cols-2 gap-8">
           {testimonials.map((testimonial, index) => (
-            <Card key={index} className={`p-8 ${testimonial.featured ? "ring-2 ring-primary/20 bg-primary/5" : ""}`}>
+            <Card
+              key={index}
+              className={`glass-card p-8 hover-lift ${testimonial.featured ? "ring-2 ring-primary/30 animate-glow" : ""}`}
+            >
               <CardContent className="space-y-6">
                 <div className="flex items-center gap-4">
-                  <img
-                    src={testimonial.image || "/placeholder.svg"}
-                    alt={testimonial.name}
-                    className="w-16 h-16 rounded-full object-cover"
-                  />
-                  <div>
-                    <h3 className="font-semibold text-lg">{testimonial.name}</h3>
+                  <div className="relative">
+                    <img
+                      src={testimonial.image || "/placeholder.svg"}
+                      alt={testimonial.name}
+                      className="w-16 h-16 rounded-full object-cover ring-2 ring-white/20"
+                    />
+                    {testimonial.featured && (
+                      <div className="absolute -top-1 -right-1 w-6 h-6 bg-gradient-to-r from-primary to-accent rounded-full flex items-center justify-center">
+                        <span className="text-white text-xs">★</span>
+                      </div>
+                    )}
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="font-semibold text-lg text-foreground">{testimonial.name}</h3>
                     <p className="text-muted-foreground text-sm">{testimonial.role}</p>
                   </div>
-                  {testimonial.featured && (
-                    <Badge variant="secondary" className="ml-auto">
-                      Featured
-                    </Badge>
-                  )}
+                  {testimonial.featured && <Badge className="glass-strong text-primary animate-float">Featured</Badge>}
                 </div>
 
-                <blockquote className="text-lg italic leading-relaxed">"{testimonial.quote}"</blockquote>
+                <blockquote className="text-lg italic leading-relaxed text-foreground">
+                  "{testimonial.quote}"
+                </blockquote>
 
                 <div className="flex flex-wrap gap-2">
                   {testimonial.results.map((result, resultIndex) => (
-                    <Badge key={resultIndex} variant="outline" className="text-xs">
+                    <Badge
+                      key={resultIndex}
+                      className="glass text-xs hover-lift"
+                      style={{ animationDelay: `${resultIndex * 0.1}s` }}
+                    >
                       {result}
                     </Badge>
                   ))}
@@ -90,14 +103,17 @@ export function TestimonialsSection() {
         </div>
 
         <div className="mt-16 text-center">
-          <div className="inline-flex items-center gap-4 bg-card px-8 py-4 rounded-full">
+          <div className="glass-card inline-flex items-center gap-4 px-8 py-4 rounded-full hover-lift animate-float">
             <div className="flex -space-x-2">
               {[1, 2, 3, 4, 5].map((i) => (
-                <div key={i} className="w-8 h-8 bg-primary/20 rounded-full border-2 border-background" />
+                <div
+                  key={i}
+                  className="w-8 h-8 bg-gradient-to-r from-primary/30 to-accent/30 rounded-full border-2 border-white/20 backdrop-blur-sm"
+                />
               ))}
             </div>
             <div className="text-left">
-              <div className="font-semibold">1,500+ Members</div>
+              <div className="font-semibold text-foreground">1,500+ Members</div>
               <div className="text-sm text-muted-foreground">Average: $8,500/month</div>
             </div>
           </div>
