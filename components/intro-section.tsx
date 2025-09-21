@@ -929,7 +929,7 @@ export function IntroSection() {
                 </p>
               </div>
 
-              <div className="max-w-6xl mx-auto">
+              <div className="max-w-7xl mx-auto">
                 <div className="bg-gradient-to-r from-blue-50 to-cyan-50 rounded-2xl p-8 border border-blue-200">
                   <div className="text-center mb-8">
                     <h5 className="text-2xl font-bold text-gray-900 mb-4">🚢 Luxury Yacht Tour - Interactive Demo</h5>
@@ -940,7 +940,7 @@ export function IntroSection() {
                     </p>
                   </div>
 
-                  <div className="aspect-video bg-gray-100 rounded-lg overflow-hidden shadow-lg mb-8">
+                  <div className="w-full h-[600px] md:h-[700px] lg:h-[800px] bg-gray-100 rounded-lg overflow-hidden shadow-lg mb-8">
                     <iframe
                       src="https://app.cloudpano.com/tours/UgR3P-ICE-RI"
                       width="100%"
