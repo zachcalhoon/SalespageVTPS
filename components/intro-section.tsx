@@ -366,7 +366,7 @@ export function IntroSection() {
 
             <div className="space-y-8 text-gray-700 leading-relaxed max-w-3xl mx-auto">
               <p className="text-lg text-center">
-                That's why I took every step of the business building process and just did it for you.
+                That's why I took every step of the business building process and did it for you.
               </p>
 
               <div className="bg-gradient-to-r from-green-50 to-emerald-50 p-8 rounded-lg">
