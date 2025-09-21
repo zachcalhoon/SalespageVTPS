@@ -339,7 +339,7 @@ export function IntroSection() {
                 </p>
               </div>
 
-              <div className="aspect-video bg-gray-100 rounded-lg overflow-hidden shadow-lg max-w-4xl mx-auto">
+              <div className="bg-gray-100 rounded-lg overflow-hidden shadow-lg max-w-7xl mx-auto h-[600px] md:h-[700px] lg:h-[800px]">
                 <iframe
                   src="https://app.cloudpano.com/tours/7DpRqNlJ8MV"
                   width="100%"
