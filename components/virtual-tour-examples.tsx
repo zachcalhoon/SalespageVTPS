@@ -1,35 +1,27 @@
 import { Badge } from "@/components/ui/badge"
-import { Button } from "@/components/ui/button"
 
 export function VirtualTourExamples() {
   const tourExamples = [
     {
       title: "Luxury Real Estate",
       description: "High-end property showcasing with immersive 360° views",
-      image: "/luxury-modern-house-interior-living-room.jpg",
+      tourUrl: "https://app.cloudpano.com/tours/yIruAAr1e",
       price: "$2,500 - $5,000",
       features: ["360° Photography", "Virtual Staging", "Floor Plans", "Drone Footage"],
     },
     {
       title: "Restaurant & Hospitality",
       description: "Interactive dining experiences that drive reservations",
-      image: "/elegant-restaurant-interior-dining-room.jpg",
+      tourUrl: "https://app.cloudpano.com/tours/Equ2uLPjSlUj",
       price: "$1,500 - $3,000",
       features: ["Menu Integration", "Reservation Links", "Ambiance Capture", "Social Sharing"],
     },
     {
       title: "Retail Showrooms",
       description: "Virtual shopping experiences for modern consumers",
-      image: "/modern-retail-store-showroom-interior.jpg",
+      tourUrl: "https://app.cloudpano.com/tours/WArqlV0kRFLi",
       price: "$2,000 - $4,000",
       features: ["Product Hotspots", "E-commerce Links", "Brand Storytelling", "Mobile Optimized"],
-    },
-    {
-      title: "Corporate Offices",
-      description: "Professional spaces for recruitment and client presentations",
-      image: "/modern-corporate-office-workspace.jpg",
-      price: "$3,000 - $6,000",
-      features: ["Team Introductions", "Company Culture", "Meeting Rooms", "Facility Tours"],
     },
   ]
 
@@ -44,21 +36,16 @@ export function VirtualTourExamples() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+        <div className="grid grid-cols-1 gap-8 mb-16">
           {tourExamples.map((example, index) => (
             <div key={index} className="glass-card rounded-2xl overflow-hidden hover-lift group">
               <div className="relative aspect-video overflow-hidden">
-                <img
-                  src={example.image || "/placeholder.svg"}
-                  alt={example.title}
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                <iframe
+                  src={example.tourUrl}
+                  className="w-full h-full border-0"
+                  allowFullScreen
+                  title={`${example.title} Virtual Tour`}
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                <div className="absolute bottom-4 left-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <Button size="sm" className="glass-strong text-white border-white/20">
-                    View Tour
-                  </Button>
-                </div>
               </div>
 
               <div className="p-6 space-y-4">
