@@ -1,0 +1,272 @@
+"use client"
+
+import { useState } from "react"
+import { ChevronDown, ChevronRight, Play, Download, Users, DollarSign } from "lucide-react"
+
+const modules = [
+  {
+    title: "Virtual Tour Sales Foundation",
+    description: "Master the fundamentals of selling virtual tours and building your business from scratch",
+    image: "/professional-virtual-tour-sales-training.jpg",
+    lessons: [
+      "Introduction: Virtual Tour Sales. Getting Started Selling Virtual Tours",
+      "How To Start a Virtual Tour Business From Scratch",
+      "How To Pick a Virtual Tour Niche With Exact Examples",
+      "How To Find Leads And Niches With Google",
+      "How To Find And Email 2000 Prospects",
+      "How To Handle Hot and Cold Leads",
+      "How To Have a Successful Cold Call",
+      "Live Cold Call - Bonus",
+      "How To Sell Your Virtual Tours In Person",
+      "How To Get Referrals and Charge Hosting Fees",
+      "The Value Ladder - How To Structure a Digital Media Business To Your First $100,000",
+    ],
+  },
+  {
+    title: "Virtual Tour Profit System",
+    description: "Learn the automated system that generates $10K per month",
+    image: "/automated-business-system-dashboard.jpg",
+    lessons: [
+      "[The Virtual Tour Profit System Video 1 of 2] Virtual Tour Business Automation Explained",
+      "[The Virtual Tour Profit System 2 of 2] How To Build A System That Generates $10K Per Month Automatically",
+      "Pre-selling Pack: 360 Virtual Tour Demos To Sell With",
+      "Business Page Set Up - The Simple Method For Pre-selling",
+      "Getting Started With Your Website",
+    ],
+  },
+  {
+    title: "Outbound Sales Growth Hacking",
+    description: "Scale your business with proven outbound selling strategies",
+    image: "/email-marketing-sales-funnel.jpg",
+    lessons: [
+      "Introduction: Outbound Selling and The Path To Scaleable Profit",
+      "Picking a Niche: How To Accelerate Profit One Niche At A Time",
+      "The Customer Journey - How To Understand The Deep Desires Of Your Niche",
+      "How To Use Email To Become A Sales Juggernaut",
+      "How To Write Great Cold Emails",
+      "How To Build a List For Your Email Marketing",
+      "How To Find Prebuilt List [3 Examples]",
+      "How To Outsource List Building With Real World Examples",
+      "Outbound Document List - Written Emails, Niche List, Pricing Pack Example",
+      "[Design Kit] Brochure, Tri Fold, Pitch Deck, Pricing Presentation and Stock Images",
+    ],
+  },
+  {
+    title: "CloudPano Power User Training",
+    description: "Master the industry-leading virtual tour software",
+    image: "/virtual-tour-software-interface.jpg",
+    lessons: [
+      "CloudPano.com Getting Started",
+      "Power User Training Introduction - 360° Photos Explained",
+      "Virtual Tour Software Full Walkthrough CloudPano.com",
+      "Dashboard Demo and Tour Management",
+      "How To Embed Content Onto Your Virtual Tour Software CloudPano",
+      "How To White Label Your Virtual Tour On CloudPano.com - And Keep Your Domain",
+      "Lead Generation Advanced Feature",
+      "How To Create A Virtual Tour 'Walk Through'",
+      "Advanced HTML School 1-3: Custom Info Spots and Buttons",
+      "How To Add a Floor Plan To Your Virtual Tour",
+      "How To Create and Share Real Estate In Virtual Reality With CloudPano",
+    ],
+  },
+  {
+    title: "360° Photography Mastery",
+    description: "Professional 360° photography techniques and post-processing",
+    image: "/360-degree-camera-photography-setup.jpg",
+    lessons: [
+      "Introduction and Interior Setup On The Z1",
+      "Interior Set Up (2) With Bracketed Exposures Z1",
+      "Exterior Manual Bracketing Set Up Walkthrough Z1",
+      "Getting Started and The Ricoh Theta Stitcher",
+      "Lightroom Walkthrough Z1 Examples",
+      "Photoshop Walkthrough Z1 Examples",
+      "Nadir Change and Metadata Correction",
+      "Interior and Exterior Post Processing Examples",
+      "How To Photograph and Create a 360 Virtual Tour On Location With The Insta 360 One X",
+      "Noise Reduction - Full Tutorial",
+    ],
+  },
+  {
+    title: "Inbound Advertising Mastery",
+    description: "Buy customers for profit with Google Ads and Facebook Ads",
+    image: "/digital-advertising-dashboard-analytics.jpg",
+    lessons: [
+      "Google Adwords Overview: How To Determine Your Local Keyword Targets",
+      "Google Adwords Campaign Example: How To Build Your First PPC Campaign",
+      "Facebook Ads: Getting Started With Facebook Ads",
+      "How To Install Your Facebook Pixel",
+      "How To Run an Engagement Ad On Facebook",
+      "How To Create a Custom Conversion On Facebook Ads",
+      "Facebook Ads Funnel Example",
+      "Facebook Ad Copy and Video Examples",
+      "Facebook Ads Live Training - Algorithm, Structure, Targeting, Funnels and CTA",
+    ],
+  },
+  {
+    title: "High Ticket Upsell Program",
+    description: "Upsell your way to $10K/month with fewer clients",
+    image: "/high-ticket-sales-presentation.jpg",
+    lessons: [
+      "Introduction: How To Upsell Your Way To 10k a Month With a Few Clients",
+      "Session 1: Lead Generation System Explained",
+      "Session 2: The Tools Needed - AC and CF Explained",
+      "Session 3: Automation Set Up and Connecting AC to CF",
+      "Section 4: How To Run Facebook Ads For Clients",
+      "[Downloads] Lead Generation Files (Everything done for you)",
+    ],
+  },
+  {
+    title: "Outsourcing Mastery Program",
+    description: "Build lasting resources for your business life",
+    image: "/virtual-assistant-team-collaboration.jpg",
+    lessons: [
+      "Introduction: Outsourcing - How To Be Resourced For All Your Business Life",
+      "Outsourcing Overview 1: How to build lasting resources",
+      "[Document]: Example Job Post",
+      "[Interview] Joe My Virtual Assistant",
+      "[Document] List of Post Processing Editors",
+      "[People] List of professional 360º photo editors",
+      "[Resource] Data Mining Team",
+    ],
+  },
+]
+
+const bonusItems = [
+  { title: "Full Website Template", icon: "🌐" },
+  { title: "Pitch Deck & Presentations", icon: "📊" },
+  { title: "Tri-Fold Brochures", icon: "📄" },
+  { title: "Pricing Presentation Package", icon: "💰" },
+  { title: "Proposal Examples", icon: "📝" },
+  { title: "Media & Stock Images Folder", icon: "🖼️" },
+  { title: "70+ Profitable Niche Ideas", icon: "🎯" },
+  { title: "Pre-Written Email Campaigns", icon: "📧" },
+  { title: "Sales Design Kit", icon: "🎨" },
+  { title: "Power Presell Demos", icon: "🚀" },
+]
+
+export default function ProgramBreakdown() {
+  const [expandedModule, setExpandedModule] = useState<number | null>(null)
+
+  return (
+    <section className="py-24 relative overflow-hidden">
+      {/* Animated Background */}
+      <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-purple-900/20 to-slate-900">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(120,119,198,0.3),transparent_50%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(120,119,198,0.2),transparent_50%)]" />
+      </div>
+
+      <div className="container mx-auto px-4 relative z-10">
+        {/* Header */}
+        <div className="text-center mb-16">
+          <h2 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-white via-purple-200 to-white bg-clip-text text-transparent leading-tight">
+            Complete Program Breakdown
+          </h2>
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+            Everything you need to build a wildly profitable 360° virtual tour business - from complete beginner to
+            $10K/month
+          </p>
+        </div>
+
+        {/* Value Stats */}
+        <div className="grid md:grid-cols-3 gap-6 mb-16">
+          <div className="glass-card p-6 text-center group hover:scale-105 transition-all duration-300">
+            <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:rotate-12 transition-transform duration-300">
+              <Play className="w-8 h-8 text-white" />
+            </div>
+            <h3 className="text-2xl font-bold text-foreground mb-2">200+ Videos</h3>
+            <p className="text-muted-foreground">Step-by-step training modules</p>
+          </div>
+          <div className="glass-card p-6 text-center group hover:scale-105 transition-all duration-300">
+            <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:rotate-12 transition-transform duration-300">
+              <Download className="w-8 h-8 text-white" />
+            </div>
+            <h3 className="text-2xl font-bold text-foreground mb-2">50+ Templates</h3>
+            <p className="text-muted-foreground">Done-for-you business assets</p>
+          </div>
+          <div className="glass-card p-6 text-center group hover:scale-105 transition-all duration-300">
+            <div className="w-16 h-16 bg-gradient-to-r from-green-500 to-emerald-500 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:rotate-12 transition-transform duration-300">
+              <DollarSign className="w-8 h-8 text-white" />
+            </div>
+            <h3 className="text-2xl font-bold text-foreground mb-2">$10K/Month</h3>
+            <p className="text-muted-foreground">Proven profit system</p>
+          </div>
+        </div>
+
+        {/* Modules */}
+        <div className="space-y-6 mb-16">
+          {modules.map((module, index) => (
+            <div key={index} className="glass-card overflow-hidden">
+              <div
+                className="p-6 cursor-pointer flex items-center justify-between hover:bg-white/5 transition-colors duration-200"
+                onClick={() => setExpandedModule(expandedModule === index ? null : index)}
+              >
+                <div className="flex items-center space-x-4">
+                  <img
+                    src={module.image || "/placeholder.svg"}
+                    alt={module.title}
+                    className="w-16 h-16 rounded-lg object-cover"
+                  />
+                  <div>
+                    <h3 className="text-xl font-bold text-foreground mb-1">
+                      Module {index + 1}: {module.title}
+                    </h3>
+                    <p className="text-muted-foreground">{module.description}</p>
+                  </div>
+                </div>
+                {expandedModule === index ? (
+                  <ChevronDown className="w-6 h-6 text-muted-foreground" />
+                ) : (
+                  <ChevronRight className="w-6 h-6 text-muted-foreground" />
+                )}
+              </div>
+
+              {expandedModule === index && (
+                <div className="px-6 pb-6 border-t border-white/10">
+                  <div className="pt-4 space-y-2">
+                    {module.lessons.map((lesson, lessonIndex) => (
+                      <div key={lessonIndex} className="flex items-center space-x-3 py-2">
+                        <div className="w-2 h-2 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex-shrink-0" />
+                        <span className="text-muted-foreground">{lesson}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+
+        {/* Bonus Section */}
+        <div className="glass-card p-8 mb-16">
+          <h3 className="text-3xl font-bold text-center mb-8 bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent">
+            🎁 Bonus Materials Included
+          </h3>
+          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-4">
+            {bonusItems.map((item, index) => (
+              <div
+                key={index}
+                className="text-center p-4 rounded-lg bg-white/5 hover:bg-white/10 transition-colors duration-200"
+              >
+                <div className="text-2xl mb-2">{item.icon}</div>
+                <p className="text-sm text-muted-foreground">{item.title}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Affiliate Program */}
+        <div className="glass-card p-8 text-center">
+          <div className="flex items-center justify-center mb-4">
+            <Users className="w-8 h-8 text-purple-400 mr-3" />
+            <h3 className="text-2xl font-bold text-foreground">Affiliate Program Included</h3>
+          </div>
+          <p className="text-muted-foreground mb-4">Earn $300 for every person you refer to the program</p>
+          <div className="inline-flex items-center space-x-2 bg-gradient-to-r from-green-500 to-emerald-500 text-white px-6 py-3 rounded-lg font-semibold">
+            <DollarSign className="w-5 h-5" />
+            <span>$300 Per Referral</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}
