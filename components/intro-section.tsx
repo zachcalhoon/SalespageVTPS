@@ -238,7 +238,7 @@ export default function IntroSection() {
           </div>
         </div>
 
-        <div className="glass-card rounded-3xl p-8 mb-16 hover-lift shadow-2xl">
+        <div className="glass-card rounded-3xl p-8 mb-12 hover-lift shadow-2xl">
           <div className="text-center mb-8">
             <h4 className="font-bold text-foreground mb-2 text-2xl">Built On Results</h4>
             <p className="text-xl text-muted-foreground">and</p>
@@ -957,7 +957,8 @@ export default function IntroSection() {
                 </p>
               </div>
 
-              <div className="aspect-video bg-gray-100 rounded-lg overflow-hidden shadow-lg mb-8">
+              {/* CHANGE: Increased yacht tour embed width from aspect-video to aspect-[21/9] for wider display */}
+              <div className="aspect-[21/9] bg-gray-100 rounded-lg overflow-hidden shadow-lg mb-8">
                 <iframe
                   src="https://app.cloudpano.com/tours/UgR3P-ICE-RI"
                   width="100%"
