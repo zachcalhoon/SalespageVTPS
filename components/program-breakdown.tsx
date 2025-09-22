@@ -22,9 +22,9 @@ const modules = [
     ],
   },
   {
-    title: "Virtual Tour Profit System",
+    title: "Outbound Sales Growth Hacking Secrets",
     description: "Learn the automated system that generates $10K per month",
-    image: "/automated-business-system-dashboard.jpg",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-rn0ESS2Uv9oL2vgYIQ1kc5FjkjjLHw.png",
     lessons: [
       "[The Virtual Tour Profit System Video 1 of 2] Virtual Tour Business Automation Explained",
       "[The Virtual Tour Profit System 2 of 2] How To Build A System That Generates $10K Per Month Automatically",
