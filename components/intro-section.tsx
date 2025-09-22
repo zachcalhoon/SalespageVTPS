@@ -3,17 +3,17 @@
 // If it's a remote component, it would need to be imported.
 
 // Placeholder for CombinedVideoTestimonials if it's not imported from elsewhere
-const CombinedVideoTestimonials = () => {
-  // This is a placeholder component. Replace with actual implementation or import.
-  return (
-    <div className="text-center text-gray-500">
-      {/* Placeholder for video testimonials */}
-      <p>Video Testimonials Section (Placeholder)</p>
-    </div>
-  )
-}
+// const CombinedVideoTestimonials = () => {
+//   // This is a placeholder component. Replace with actual implementation or import.
+//   return (
+//     <div className="text-center text-gray-500">
+//       {/* Placeholder for video testimonials */}
+//       <p>Video Testimonials Section (Placeholder)</p>
+//     </div>
+//   )
+// }
 
-export function IntroSection() {
+export default function IntroSection() {
   return (
     <section className="relative py-24 px-4 overflow-hidden">
       {/* Animated background elements */}
@@ -98,7 +98,7 @@ export function IntroSection() {
           </div>
         </div>
 
-        <div className="glass-card rounded-3xl p-8 mb-16 hover-lift shadow-2xl">
+        <div className="glass-card rounded-3xl p-8 mb-12 hover-lift shadow-2xl">
           <h4 className="text-2xl font-bold text-foreground mb-8 text-center">
             ...and unlock $30K deals the next month
           </h4>
@@ -128,7 +128,7 @@ export function IntroSection() {
           </div>
         </div>
 
-        <div className="glass-card rounded-3xl p-8 mb-16 hover-lift shadow-2xl">
+        <div className="glass-card rounded-3xl p-8 mb-12 hover-lift shadow-2xl">
           <h4 className="text-2xl font-bold text-foreground mb-8">Meet the Virtual Tour Profit System (VTPS)</h4>
           <div className="glass rounded-2xl p-6 mb-8 hover-lift shadow-xl">
             <img
@@ -1057,7 +1057,7 @@ export function IntroSection() {
 
       <div className="text-center mt-8">
         <img
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%20Sep%2021%2C%202025%2C%2001_32_41%20PM-sJtYtVMfACR9lX9EtKcBAZyTv2bIXc.png"
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%20Sep%221%2C%202025%2C%2001_32_41%20PM-sJtYtVMfACR9lX9EtKcBAZyTv2bIXc.png"
           alt="VTPS Success Visual"
           className="w-full max-w-4xl mx-auto rounded-lg shadow-lg"
         />
@@ -1513,9 +1513,7 @@ export function IntroSection() {
         </div>
       </div>
 
-      <div className="mt-16">
-        <CombinedVideoTestimonials />
-      </div>
+      <div className="mt-16">{/* Removed the placeholder CombinedVideoTestimonials component entirely */}</div>
 
       {/* Read How Content Inside VTPS Is Changing Lives Section */}
       <section className="py-16 bg-white">
@@ -1548,3 +1546,5 @@ export function IntroSection() {
     </section>
   )
 }
+
+export { IntroSection }
