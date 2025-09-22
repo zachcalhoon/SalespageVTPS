@@ -119,7 +119,7 @@ export function NotificationWidget() {
                 window.open("https://wnh.thrivecart.com/virtual-tour-profit-system/?coupon=START1000", "_blank")
               }
             >
-              Enroll Now - Save $200
+              Enroll Now - Save $1,000
             </button>
           </div>
         </div>
