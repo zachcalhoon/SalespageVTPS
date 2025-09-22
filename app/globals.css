@@ -184,6 +184,11 @@
     background: var(--background);
     border-radius: inherit;
   }
+
+  /* Added slide-in-right animation for floating CTA */
+  .animate-slide-in-right {
+    animation: slide-in-right 0.5s ease-out;
+  }
 }
 
 @keyframes float {
@@ -202,6 +207,17 @@
   }
   to {
     box-shadow: 0 0 30px rgba(139, 92, 246, 0.6);
+  }
+}
+
+@keyframes slide-in-right {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
   }
 }
 

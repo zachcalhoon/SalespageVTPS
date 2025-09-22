@@ -10,6 +10,7 @@ import { FinalCTASection } from "@/components/final-cta-section"
 import { Footer } from "@/components/footer"
 import { StickyBanner } from "@/components/sticky-banner"
 import { NotificationWidget } from "@/components/notification-widget"
+import { FloatingCTA } from "@/components/floating-cta"
 
 export default function VTPSPage() {
   return (
@@ -26,6 +27,7 @@ export default function VTPSPage() {
       <Footer />
       <StickyBanner />
       <NotificationWidget />
+      <FloatingCTA />
     </main>
   )
 }
