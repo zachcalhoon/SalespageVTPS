@@ -21,7 +21,7 @@ export function HeroSection() {
           🚀 The 360º and VR Revolution Is Here
         </Badge>
 
-        <div className="glass-card rounded-3xl p-8 shadow-2xl border border-white/30 hover-lift">
+        <div className="glass-card rounded-3xl p-8 shadow-2xl hover-lift">
           <h1 className="text-4xl md:text-6xl font-bold text-balance leading-tight text-foreground lg:text-5xl">
             The 360º and VR Revolution Is Here…Build a Wildly Profitable{" "}
             <span className="gradient-text text-glow">360º VR Agency</span> And Automatically Fill Your Calendar Every
