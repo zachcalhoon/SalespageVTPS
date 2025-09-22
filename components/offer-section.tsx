@@ -32,13 +32,13 @@ export function OfferSection() {
     },
     {
       name: "VTPS + Personal Coaching",
-      price: "$3,000",
+      price: "$4997",
       originalPrice: "$7,997",
       description: "Everything in Core Program PLUS personal coaching with Zach",
       popular: true,
       features: [
         "Everything in VTPS Core Program",
-        "Monthly 1-on-1 Coaching Calls with Zach (12 sessions)",
+        "Coaching calls one-on-one.",
         "Personal Success Manager",
         "Priority Support (24-hour response)",
         "Done-For-You Marketing Setup",
