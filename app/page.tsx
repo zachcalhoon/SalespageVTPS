@@ -9,6 +9,7 @@ import { BonusMaterialsSection } from "@/components/bonus-materials-section"
 import { FinalCTASection } from "@/components/final-cta-section"
 import { Footer } from "@/components/footer"
 import { StickyBanner } from "@/components/sticky-banner"
+import { NotificationWidget } from "@/components/notification-widget"
 
 export default function VTPSPage() {
   return (
@@ -24,6 +25,7 @@ export default function VTPSPage() {
       <FinalCTASection />
       <Footer />
       <StickyBanner />
+      <NotificationWidget />
     </main>
   )
 }
