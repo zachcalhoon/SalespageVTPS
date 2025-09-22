@@ -598,28 +598,28 @@ export default function IntroSection() {
             <p className="text-lg text-gray-600">Students achieving real results with VTPS</p>
           </div>
 
-          <div className="max-w-4xl mx-auto space-y-8">
+          <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Mark Rutherford $10,500 testimonial */}
-            <div className="bg-white rounded-lg shadow-lg border border-gray-200 p-8 text-center">
-              <div className="mb-6">
-                <h6 className="text-2xl font-bold text-gray-900 mb-2">
+            <div className="bg-white rounded-lg shadow-lg border border-gray-200 p-6 text-center">
+              <div className="mb-4">
+                <h6 className="text-xl font-bold text-gray-900 mb-2">
                   Read How Mark Sold His First $10,500 Virtual Tour Deal
                 </h6>
-                <h6 className="text-xl font-bold text-blue-600 mb-4">To The Mayor Of His Town (Really!)</h6>
-                <div className="w-16 h-16 bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">
+                <h6 className="text-lg font-bold text-blue-600 mb-3">To The Mayor Of His Town (Really!)</h6>
+                <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-full flex items-center justify-center text-sm font-bold mx-auto mb-3">
                   MR
                 </div>
-                <h6 className="text-xl font-bold text-gray-900">Mark Rutherford</h6>
-                <p className="text-sm text-gray-600">Owner, CrazeVR Virtual Tours</p>
+                <h6 className="text-lg font-bold text-gray-900">Mark Rutherford</h6>
+                <p className="text-xs text-gray-600">Owner, CrazeVR Virtual Tours</p>
               </div>
-              <div className="bg-gray-50 rounded-lg p-6 mb-6">
+              <div className="bg-gray-50 rounded-lg p-4 mb-4">
                 <img
                   src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/image-vMV5OMtdwucpmc972pRDZY0oh85e8Z.png"
                   alt="Email from Mark Rutherford celebrating his $10,500 virtual tour deal after getting advice from Zach, with potential for 100 more tours"
                   className="w-full rounded-lg"
                 />
               </div>
-              <blockquote className="text-lg text-gray-700 italic leading-relaxed">
+              <blockquote className="text-sm text-gray-700 italic leading-relaxed">
                 "Here is a success story I had a virtual talk with you on an idea because I needed some advice and to
                 brainstorm prices. I ran with the idea and advice 2 days later I closed a 10,500 deal with one client
                 with potential to add in 100 more virtual tours."
@@ -627,17 +627,17 @@ export default function IntroSection() {
             </div>
 
             {/* Ron video testimonial */}
-            <div className="bg-white rounded-lg shadow-lg border border-gray-200 p-8 text-center">
-              <div className="mb-6">
-                <h6 className="text-2xl font-bold text-gray-900 mb-2">Hear How Ron Made $10,000+</h6>
-                <h6 className="text-xl font-bold text-blue-600 mb-4">With This Content...</h6>
-                <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-indigo-600 text-white rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">
+            <div className="bg-white rounded-lg shadow-lg border border-gray-200 p-6 text-center">
+              <div className="mb-4">
+                <h6 className="text-xl font-bold text-gray-900 mb-2">Hear How Ron Made $10,000+</h6>
+                <h6 className="text-lg font-bold text-blue-600 mb-3">With This Content...</h6>
+                <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-indigo-600 text-white rounded-full flex items-center justify-center text-sm font-bold mx-auto mb-3">
                   R
                 </div>
-                <h6 className="text-xl font-bold text-gray-900">Ron</h6>
-                <p className="text-sm text-gray-600">VTPS Success Story</p>
+                <h6 className="text-lg font-bold text-gray-900">Ron</h6>
+                <p className="text-xs text-gray-600">VTPS Success Story</p>
               </div>
-              <div className="bg-gray-50 rounded-lg p-6 mb-6">
+              <div className="bg-gray-50 rounded-lg p-4 mb-4">
                 <div className="relative aspect-video rounded-lg overflow-hidden">
                   <video controls className="w-full h-full object-cover">
                     <source
@@ -648,24 +648,24 @@ export default function IntroSection() {
                   </video>
                 </div>
               </div>
-              <p className="text-lg text-gray-700 leading-relaxed">
+              <p className="text-sm text-gray-700 leading-relaxed">
                 Watch Ron share his incredible success story and how he generated over $10,000 using the VTPS system and
                 content strategies.
               </p>
             </div>
 
             {/* Bobby video testimonial */}
-            <div className="bg-white rounded-lg shadow-lg border border-gray-200 p-8 text-center">
-              <div className="mb-6">
-                <h6 className="text-2xl font-bold text-gray-900 mb-2">Hear How Bobby Got His First 2 Clients Fast</h6>
-                <h6 className="text-xl font-bold text-blue-600 mb-4">With VTPS</h6>
-                <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-600 text-white rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">
+            <div className="bg-white rounded-lg shadow-lg border border-gray-200 p-6 text-center">
+              <div className="mb-4">
+                <h6 className="text-xl font-bold text-gray-900 mb-2">Hear How Bobby Got His First 2 Clients Fast</h6>
+                <h6 className="text-lg font-bold text-blue-600 mb-3">With VTPS</h6>
+                <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-600 text-white rounded-full flex items-center justify-center text-sm font-bold mx-auto mb-3">
                   B
                 </div>
-                <h6 className="text-xl font-bold text-gray-900">Bobby</h6>
-                <p className="text-sm text-gray-600">VTPS Success Story</p>
+                <h6 className="text-lg font-bold text-gray-900">Bobby</h6>
+                <p className="text-xs text-gray-600">VTPS Success Story</p>
               </div>
-              <div className="bg-gray-50 rounded-lg p-6 mb-6">
+              <div className="bg-gray-50 rounded-lg p-4 mb-4">
                 <div className="relative aspect-video rounded-lg overflow-hidden">
                   <video controls className="w-full h-full object-cover">
                     <source
@@ -676,30 +676,30 @@ export default function IntroSection() {
                   </video>
                 </div>
               </div>
-              <p className="text-lg text-gray-700 leading-relaxed">
+              <p className="text-sm text-gray-700 leading-relaxed">
                 Watch Bobby share how he quickly landed his first two clients using the VTPS system and strategies.
               </p>
             </div>
 
             {/* Tony "Making Bank" testimonial */}
-            <div className="bg-white rounded-lg shadow-lg border border-gray-200 p-8 text-center">
-              <div className="mb-6">
-                <h6 className="text-2xl font-bold text-gray-900 mb-2">Read How Tony Is "Making Bank"</h6>
-                <h6 className="text-xl font-bold text-green-600 mb-4">Straight Out Of The Box</h6>
-                <div className="w-16 h-16 bg-gradient-to-r from-orange-500 to-red-600 text-white rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">
+            <div className="bg-white rounded-lg shadow-lg border border-gray-200 p-6 text-center">
+              <div className="mb-4">
+                <h6 className="text-xl font-bold text-gray-900 mb-2">Read How Tony Is "Making Bank"</h6>
+                <h6 className="text-lg font-bold text-green-600 mb-3">Straight Out Of The Box</h6>
+                <div className="w-12 h-12 bg-gradient-to-r from-orange-500 to-red-600 text-white rounded-full flex items-center justify-center text-sm font-bold mx-auto mb-3">
                   TM
                 </div>
-                <h6 className="text-xl font-bold text-gray-900">Tony Martin</h6>
-                <p className="text-sm text-gray-600">VTPS Success Story</p>
+                <h6 className="text-lg font-bold text-gray-900">Tony Martin</h6>
+                <p className="text-xs text-gray-600">VTPS Success Story</p>
               </div>
-              <div className="bg-gray-50 rounded-lg p-6 mb-6">
+              <div className="bg-gray-50 rounded-lg p-4 mb-4">
                 <img
                   src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/image-M5WuxCjB6Kvy4LPmE9GfuAZormVWRP.png"
                   alt="Email from Tony Martin showing his rapid success - $600 contract within days plus multiple prospects in pipeline"
                   className="w-full rounded-lg"
                 />
               </div>
-              <blockquote className="text-lg text-gray-700 italic leading-relaxed">
+              <blockquote className="text-sm text-gray-700 italic leading-relaxed">
                 "Within days of watching your YouTube videos, I had a new Insta360 One X, built a tour of my own house,
                 and landed a hotel/function center contract for $600. One week further in, and I have secured an
                 engineering company, and am in negotiations with an RV/Caravan manufacturer, and an interior design
@@ -707,17 +707,18 @@ export default function IntroSection() {
               </blockquote>
             </div>
 
-            <div className="bg-white rounded-lg shadow-lg border border-gray-200 p-8 text-center">
-              <div className="mb-6">
-                <h6 className="text-2xl font-bold text-gray-900 mb-2">Listen To David And His Experience</h6>
-                <h6 className="text-xl font-bold text-blue-600 mb-4">Using The Tools In VTPS</h6>
-                <div className="w-16 h-16 bg-gradient-to-r from-indigo-500 to-purple-600 text-white rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">
+            {/* David testimonial */}
+            <div className="bg-white rounded-lg shadow-lg border border-gray-200 p-6 text-center">
+              <div className="mb-4">
+                <h6 className="text-xl font-bold text-gray-900 mb-2">Listen To David And His Experience</h6>
+                <h6 className="text-lg font-bold text-blue-600 mb-3">Using The Tools In VTPS</h6>
+                <div className="w-12 h-12 bg-gradient-to-r from-indigo-500 to-purple-600 text-white rounded-full flex items-center justify-center text-sm font-bold mx-auto mb-3">
                   D
                 </div>
-                <h6 className="text-xl font-bold text-gray-900">David</h6>
-                <p className="text-sm text-gray-600">VTPS Success Story</p>
+                <h6 className="text-lg font-bold text-gray-900">David</h6>
+                <p className="text-xs text-gray-600">VTPS Success Story</p>
               </div>
-              <div className="bg-gray-50 rounded-lg p-6 mb-6">
+              <div className="bg-gray-50 rounded-lg p-4 mb-4">
                 <div className="relative aspect-video rounded-lg overflow-hidden">
                   <iframe
                     src="https://player.vimeo.com/video/658140520?h=5ae48f8fc0"
@@ -729,101 +730,144 @@ export default function IntroSection() {
                   ></iframe>
                 </div>
               </div>
-              <p className="text-lg text-gray-700 leading-relaxed">
+              <p className="text-sm text-gray-700 leading-relaxed">
                 Watch David share his experience using the tools and strategies provided in the VTPS system.
               </p>
             </div>
-          </div>
-        </div>
 
-        {/* Jean Paul Testimonial */}
-        <div className="bg-white rounded-lg shadow-lg border border-gray-200 p-8 text-center">
-          <div className="mb-6">
-            <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-600 text-white rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">
-              JP
+            {/* Jean Paul Testimonial */}
+            <div className="bg-white rounded-lg shadow-lg border border-gray-200 p-6 text-center">
+              <div className="mb-4">
+                <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-600 text-white rounded-full flex items-center justify-center text-sm font-bold mx-auto mb-3">
+                  JP
+                </div>
+                <h6 className="text-lg font-bold text-gray-900">Jean Paul Kamaiopili</h6>
+                <p className="text-xs text-gray-600">VTPS Student</p>
+              </div>
+              <div className="bg-gray-50 rounded-lg p-4 mb-4">
+                <img
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/image-8zkpAqxELYdC7GHaLNGqq3qrLL1p11.png"
+                  alt="Email from Jean Paul celebrating landing a $530 deal with $30 monthly subscription and additional land survey work"
+                  className="w-full rounded-lg"
+                />
+              </div>
+              <blockquote className="text-sm text-gray-700 italic leading-relaxed">
+                "Will do Zach! Your adding a lot of value to me with your step by step set up. I just landed a $530 deal
+                with a $30 subscription fee every month for 6 months! Also landed a land survey from the tiny home
+                community. I'll most def get your course now."
+              </blockquote>
             </div>
-            <h6 className="text-xl font-bold text-gray-900">Jean Paul Kamaiopili</h6>
-            <p className="text-sm text-gray-600">VTPS Student</p>
-          </div>
-          <div className="bg-gray-50 rounded-lg p-6 mb-6">
-            <img
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/image-8zkpAqxELYdC7GHaLNGqq3qrLL1p11.png"
-              alt="Email from Jean Paul celebrating landing a $530 deal with $30 monthly subscription and additional land survey work"
-              className="w-full rounded-lg"
-            />
-          </div>
-          <blockquote className="text-lg text-gray-700 italic leading-relaxed">
-            "Will do Zach! Your adding a lot of value to me with your step by step set up. I just landed a $530 deal
-            with a $30 subscription fee every month for 6 months! Also landed a land survey from the tiny home
-            community. I'll most def get your course now."
-          </blockquote>
-        </div>
 
-        {/* Aiden Kaczka Testimonial */}
-        <div className="bg-white rounded-lg shadow-lg border border-gray-200 p-8 text-center">
-          <div className="mb-6">
-            <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-cyan-600 text-white rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">
-              AK
+            {/* Aiden Kaczka Testimonial */}
+            <div className="bg-white rounded-lg shadow-lg border border-gray-200 p-6 text-center">
+              <div className="mb-4">
+                <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-cyan-600 text-white rounded-full flex items-center justify-center text-sm font-bold mx-auto mb-3">
+                  AK
+                </div>
+                <h6 className="text-lg font-bold text-gray-900">Aiden Kaczka</h6>
+                <p className="text-xs text-gray-600">Training Attendee</p>
+              </div>
+              <div className="bg-gray-50 rounded-lg p-4 mb-4">
+                <img
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/image-hhFCScAR6HinWoz3B7WiM8zDecBJDm.png"
+                  alt="Facebook post from Aiden Kaczka praising Zach Calhoon's content and live FB ad training as extremely valuable"
+                  className="w-full rounded-lg"
+                />
+              </div>
+              <blockquote className="text-sm text-gray-700 italic leading-relaxed">
+                "If you haven't started watching Zach Calhoons content, you're making a mistake. I attended his live FB
+                ad training and it was the most useful thing I've watched in a while. Definitely tune in next time if he
+                holds another."
+              </blockquote>
             </div>
-            <h6 className="text-xl font-bold text-gray-900">Aiden Kaczka</h6>
-            <p className="text-sm text-gray-600">Training Attendee</p>
-          </div>
-          <div className="bg-gray-50 rounded-lg p-6 mb-6">
-            <img
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/image-hhFCScAR6HinWoz3B7WiM8zDecBJDm.png"
-              alt="Facebook post from Aiden Kaczka praising Zach Calhoon's content and live FB ad training as extremely valuable"
-              className="w-full rounded-lg"
-            />
-          </div>
-          <blockquote className="text-lg text-gray-700 italic leading-relaxed">
-            "If you haven't started watching Zach Calhoons content, you're making a mistake. I attended his live FB ad
-            training and it was the most useful thing I've watched in a while. Definitely tune in next time if he holds
-            another."
-          </blockquote>
-        </div>
 
-        {/* Taha Lababedi Testimonial */}
-        <div className="bg-white rounded-lg shadow-lg border border-gray-200 p-8 text-center">
-          <div className="mb-6">
-            <div className="w-16 h-16 bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">
-              TL
+            {/* Taha Lababedi Testimonial */}
+            <div className="bg-white rounded-lg shadow-lg border border-gray-200 p-6 text-center">
+              <div className="mb-4">
+                <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-full flex items-center justify-center text-sm font-bold mx-auto mb-3">
+                  TL
+                </div>
+                <h6 className="text-lg font-bold text-gray-900">Taha Lababedi</h6>
+                <p className="text-xs text-gray-600">Rising Star Member</p>
+              </div>
+              <div className="bg-gray-50 rounded-lg p-4 mb-4">
+                <img
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/image-Zx02UoMPyJxCtpJ6I3rdWp0pfnabWy.png"
+                  alt="Facebook post from Taha Lababedi thanking the VTPS group for helping him land $2000 worth of clients just two days after getting his camera"
+                  className="w-full rounded-lg"
+                />
+              </div>
+              <blockquote className="text-sm text-gray-700 italic leading-relaxed">
+                "Really thankful to be in this group, i had clients worth of $2000 and i got the camera two days ago.
+                Thank you so much for all the members of this group, and especially to Zach Calhoon for the helpful
+                videos that he always made for us."
+              </blockquote>
             </div>
-            <h6 className="text-xl font-bold text-gray-900">Taha Lababedi</h6>
-            <p className="text-sm text-gray-600">Rising Star Member</p>
-          </div>
-          <div className="bg-gray-50 rounded-lg p-6 mb-6">
-            <img
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/image-Zx02UoMPyJxCtpJ6I3rdWp0pfnabWy.png"
-              alt="Facebook post from Taha Lababedi thanking the VTPS group for helping him land $2000 worth of clients just two days after getting his camera"
-              className="w-full rounded-lg"
-            />
-          </div>
-          <blockquote className="text-lg text-gray-700 italic leading-relaxed">
-            "Really thankful to be in this group, i had clients worth of $2000 and i got the camera two days ago. Thank
-            you so much for all the members of this group, and especially to Zach Calhoon for the helpful videos that he
-            always made for us."
-          </blockquote>
-        </div>
 
-        {/* Rick Brazil Testimonial */}
-        <div className="bg-white rounded-lg shadow-lg border border-gray-200 p-8 text-center">
-          <div className="mb-6">
-            <div className="w-16 h-16 bg-gradient-to-r from-orange-500 to-red-600 text-white rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">
-              RB
+            {/* Rick Brazil Testimonial */}
+            <div className="bg-white rounded-lg shadow-lg border border-gray-200 p-6 text-center">
+              <div className="mb-4">
+                <div className="w-12 h-12 bg-gradient-to-r from-orange-500 to-red-600 text-white rounded-full flex items-center justify-center text-sm font-bold mx-auto mb-3">
+                  RB
+                </div>
+                <h6 className="text-lg font-bold text-gray-900">Rick Brazil</h6>
+                <p className="text-xs text-gray-600">CloudPano User</p>
+              </div>
+              <div className="bg-gray-50 rounded-lg p-4 mb-4">
+                <img
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/image-7MxB2v31DFL2HqPM8Q6fikwQ26gSI1.png"
+                  alt="Facebook comment from Rick Brazil praising CloudPano and thanking Zach and Clayton"
+                  className="w-full rounded-lg"
+                />
+              </div>
+              <blockquote className="text-sm text-gray-700 italic leading-relaxed">
+                "I just wanna say Cloudpano rocks! Thanks Zach & Clayton!"
+              </blockquote>
             </div>
-            <h6 className="text-xl font-bold text-gray-900">Rick Brazil</h6>
-            <p className="text-sm text-gray-600">CloudPano User</p>
+
+            {/* Arlando Fitzgerald Testimonial */}
+            <div className="bg-white rounded-lg shadow-lg border border-gray-200 p-6 text-center">
+              <div className="mb-4">
+                <div className="w-12 h-12 bg-gradient-to-r from-teal-500 to-cyan-600 text-white rounded-full flex items-center justify-center text-sm font-bold mx-auto mb-3">
+                  AF
+                </div>
+                <h6 className="text-lg font-bold text-gray-900">Arlando Fitzgerald</h6>
+                <p className="text-xs text-gray-600">New VR Entrepreneur</p>
+              </div>
+              <div className="bg-gray-50 rounded-lg p-4 mb-4">
+                <img
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/image-pIELMpVN25bVj4wSAk8gngVBkYv6qC.png"
+                  alt="Facebook post from Arlando Fitzgerald showing cash earnings from his first paying customer, a dispensary shoot that took 7 minutes and earned $250+"
+                  className="w-full rounded-lg"
+                />
+              </div>
+              <blockquote className="text-sm text-gray-700 italic leading-relaxed">
+                "First paying customer, shot a Dispensary. Took 2 shots. I was in/out in about 7 min. $250+ some weekend
+                party favors. I love my new job. Putting in my two weeks notice on Monday."
+              </blockquote>
+            </div>
+
+            {/* Otavio Marques Testimonial */}
+            <div className="bg-white rounded-lg shadow-lg border border-gray-200 p-6 text-center">
+              <div className="mb-4">
+                <div className="w-12 h-12 bg-gradient-to-r from-indigo-500 to-purple-600 text-white rounded-full flex items-center justify-center text-sm font-bold mx-auto mb-3">
+                  OM
+                </div>
+                <h6 className="text-lg font-bold text-gray-900">Otavio Marques</h6>
+                <p className="text-xs text-gray-600">VTPS Follower</p>
+              </div>
+              <div className="bg-gray-50 rounded-lg p-4 mb-4">
+                <img
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/image-f4WqqDfcHp2wPLIcomH5b1EHsSemT1.png"
+                  alt="Email from Otavio Marques thanking Zach and saying following his content has been a life changer"
+                  className="w-full rounded-lg"
+                />
+              </div>
+              <blockquote className="text-sm text-gray-700 italic leading-relaxed">
+                "Thanks, Zach! Following your content has been a life changer for me."
+              </blockquote>
+            </div>
           </div>
-          <div className="bg-gray-50 rounded-lg p-6 mb-6">
-            <img
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/image-7MxB2v31DFL2HqPM8Q6fikwQ26gSI1.png"
-              alt="Facebook comment from Rick Brazil praising CloudPano and thanking Zach and Clayton"
-              className="w-full rounded-lg"
-            />
-          </div>
-          <blockquote className="text-lg text-gray-700 italic leading-relaxed">
-            "I just wanna say Cloudpano rocks! Thanks Zach & Clayton!"
-          </blockquote>
         </div>
 
         {/* CloudPano User Love Section */}
