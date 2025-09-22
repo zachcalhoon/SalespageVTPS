@@ -133,6 +133,9 @@ export function OfferSection() {
                       : "glass-strong"
                   }`}
                   size="lg"
+                  onClick={() =>
+                    window.open("https://wnh.thrivecart.com/virtual-tour-profit-system/?coupon=START1000", "_blank")
+                  }
                 >
                   Get Started Now →
                 </Button>

@@ -1,3 +1,5 @@
+"use client"
+
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
@@ -110,6 +112,9 @@ export function PricingSection() {
                 <Button
                   className={`w-full hover-lift ${plan.popular ? "bg-gradient-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90 animate-glow" : "glass-strong"}`}
                   size="lg"
+                  onClick={() =>
+                    window.open("https://wnh.thrivecart.com/virtual-tour-profit-system/?coupon=START1000", "_blank")
+                  }
                 >
                   Get Started Now →
                 </Button>

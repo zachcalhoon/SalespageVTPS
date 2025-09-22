@@ -1,3 +1,5 @@
+"use client"
+
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 
@@ -67,6 +69,9 @@ export function HeroSection() {
           <Button
             size="lg"
             className="text-xl px-12 py-8 font-bold bg-gradient-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90 shadow-2xl hover-lift animate-glow border-0 text-primary-foreground"
+            onClick={() =>
+              window.open("https://wnh.thrivecart.com/virtual-tour-profit-system/?coupon=START1000", "_blank")
+            }
           >
             Yes, I Want Access Now →
           </Button>

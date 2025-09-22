@@ -51,7 +51,12 @@ export function NotificationWidget() {
             <p className="text-xs text-gray-600">
               3 students enrolled in the last hour. Secure your spot before prices increase!
             </p>
-            <button className="w-full bg-blue-600 hover:bg-blue-700 text-white text-xs font-medium py-2 px-3 rounded transition-colors">
+            <button
+              className="w-full bg-blue-600 hover:bg-blue-700 text-white text-xs font-medium py-2 px-3 rounded transition-colors"
+              onClick={() =>
+                window.open("https://wnh.thrivecart.com/virtual-tour-profit-system/?coupon=START1000", "_blank")
+              }
+            >
               Enroll Now - Save $200
             </button>
           </div>

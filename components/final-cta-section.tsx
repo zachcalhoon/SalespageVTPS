@@ -1,3 +1,5 @@
+"use client"
+
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 
@@ -62,6 +64,9 @@ export function FinalCTASection() {
             <Button
               size="lg"
               className="text-xl px-12 py-6 font-bold bg-gradient-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90 hover-lift animate-glow text-primary-foreground"
+              onClick={() =>
+                window.open("https://wnh.thrivecart.com/virtual-tour-profit-system/?coupon=START1000", "_blank")
+              }
             >
               Join VTPS & Transform My Business →
             </Button>
