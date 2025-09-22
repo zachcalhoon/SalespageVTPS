@@ -130,7 +130,7 @@ export function OfferSection() {
                   className={`w-full hover-lift text-lg py-6 ${
                     tier.popular
                       ? "bg-gradient-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90 animate-glow"
-                      : "glass-strong"
+                      : "bg-gradient-to-r from-primary to-accent text-primary-foreground hover:bg-white hover:text-foreground"
                   }`}
                   size="lg"
                   onClick={() =>
