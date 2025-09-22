@@ -5,6 +5,7 @@ import { VideoTestimonials } from "@/components/video-testimonials"
 import { VirtualTourExamples } from "@/components/virtual-tour-examples"
 import { OfferSection } from "@/components/offer-section"
 import { ProgramBreakdown } from "@/components/program-breakdown"
+import { BonusMaterialsSection } from "@/components/bonus-materials-section"
 import { FinalCTASection } from "@/components/final-cta-section"
 import { Footer } from "@/components/footer"
 import { StickyBanner } from "@/components/sticky-banner"
@@ -19,6 +20,7 @@ export default function VTPSPage() {
       <VirtualTourExamples />
       <OfferSection />
       <ProgramBreakdown />
+      <BonusMaterialsSection />
       <FinalCTASection />
       <Footer />
       <StickyBanner />
