@@ -58,8 +58,6 @@ export function Footer() {
           <div className="border-t border-white/10 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center gap-4">
               <div className="flex items-center gap-4">
-                <Badge className="glass text-primary">1,500+ Members</Badge>
-                <Badge className="glass text-accent">$8.5K Avg Monthly</Badge>
                 <Badge className="glass text-green-600">98% Success Rate</Badge>
               </div>
 

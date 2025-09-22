@@ -101,23 +101,6 @@ export function TestimonialsSection() {
             </Card>
           ))}
         </div>
-
-        <div className="mt-16 text-center">
-          <div className="glass-card inline-flex items-center gap-4 px-8 py-4 rounded-full hover-lift animate-float">
-            <div className="flex -space-x-2">
-              {[1, 2, 3, 4, 5].map((i) => (
-                <div
-                  key={i}
-                  className="w-8 h-8 bg-gradient-to-r from-primary/30 to-accent/30 rounded-full border-2 border-white/20 backdrop-blur-sm"
-                />
-              ))}
-            </div>
-            <div className="text-left">
-              <div className="font-semibold text-foreground">1,500+ Members</div>
-              <div className="text-sm text-muted-foreground">Average: $8,500/month</div>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   )
