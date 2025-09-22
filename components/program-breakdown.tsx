@@ -145,13 +145,25 @@ const bonusItems = [
 
 export function ProgramBreakdown() {
   const [expandedModule, setExpandedModule] = useState<number | null>(null)
+  const [allExpanded, setAllExpanded] = useState(true)
+
+  const toggleModule = (index: number) => {
+    if (allExpanded) {
+      setExpandedModule(expandedModule === index ? null : index)
+    } else {
+      setExpandedModule(expandedModule === index ? null : index)
+    }
+  }
+
+  const isModuleExpanded = (index: number) => {
+    return allExpanded || expandedModule === index
+  }
 
   return (
     <section className="py-24 relative overflow-hidden">
-      {/* Animated Background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-purple-900/20 to-slate-900">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(120,119,198,0.3),transparent_50%)]" />
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(120,119,198,0.2),transparent_50%)]" />
+      <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(120,119,198,0.1),transparent_50%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(120,119,198,0.1),transparent_50%)]" />
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
@@ -160,10 +172,19 @@ export function ProgramBreakdown() {
           <h2 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-white via-purple-200 to-white bg-clip-text text-transparent leading-tight">
             Complete Program Breakdown
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
             Everything you need to build a wildly profitable 360° virtual tour business - from complete beginner to
             $10K/month
           </p>
+        </div>
+
+        <div className="text-center mb-8">
+          <button
+            onClick={() => setAllExpanded(!allExpanded)}
+            className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-6 py-3 rounded-lg font-semibold hover:from-purple-700 hover:to-pink-700 transition-all duration-200"
+          >
+            {allExpanded ? "Collapse All Modules" : "Expand All Modules"}
+          </button>
         </div>
 
         {/* Value Stats */}
@@ -172,32 +193,32 @@ export function ProgramBreakdown() {
             <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:rotate-12 transition-transform duration-300">
               <span className="text-white text-2xl">▶</span>
             </div>
-            <h3 className="text-2xl font-bold text-foreground mb-2">200+ Videos</h3>
-            <p className="text-muted-foreground">Step-by-step training modules</p>
+            <h3 className="text-2xl font-bold text-white mb-2">200+ Videos</h3>
+            <p className="text-gray-300">Step-by-step training modules</p>
           </div>
           <div className="glass-card p-6 text-center group hover:scale-105 transition-all duration-300">
             <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:rotate-12 transition-transform duration-300">
               <span className="text-white text-2xl">⬇</span>
             </div>
-            <h3 className="text-2xl font-bold text-foreground mb-2">50+ Templates</h3>
-            <p className="text-muted-foreground">Done-for-you business assets</p>
+            <h3 className="text-2xl font-bold text-white mb-2">50+ Templates</h3>
+            <p className="text-gray-300">Done-for-you business assets</p>
           </div>
           <div className="glass-card p-6 text-center group hover:scale-105 transition-all duration-300">
             <div className="w-16 h-16 bg-gradient-to-r from-green-500 to-emerald-500 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:rotate-12 transition-transform duration-300">
               <span className="text-white text-2xl">$</span>
             </div>
-            <h3 className="text-2xl font-bold text-foreground mb-2">$10K/Month</h3>
-            <p className="text-muted-foreground">Proven profit system</p>
+            <h3 className="text-2xl font-bold text-white mb-2">$10K/Month</h3>
+            <p className="text-gray-300">Proven profit system</p>
           </div>
         </div>
 
         {/* Modules */}
         <div className="space-y-6 mb-16">
           {modules.map((module, index) => (
-            <div key={index} className="glass-card overflow-hidden">
+            <div key={index} className="glass-card overflow-hidden bg-white/10 backdrop-blur-md border border-white/20">
               <div
                 className="p-6 cursor-pointer flex items-center justify-between hover:bg-white/5 transition-colors duration-200"
-                onClick={() => setExpandedModule(expandedModule === index ? null : index)}
+                onClick={() => toggleModule(index)}
               >
                 <div className="flex items-center space-x-4">
                   <img
@@ -206,22 +227,22 @@ export function ProgramBreakdown() {
                     className="w-16 h-16 rounded-lg object-cover"
                   />
                   <div>
-                    <h3 className="text-xl font-bold text-foreground mb-1">
+                    <h3 className="text-xl font-bold text-white mb-1">
                       Module {index + 1}: {module.title}
                     </h3>
-                    <p className="text-muted-foreground">{module.description}</p>
+                    <p className="text-gray-300">{module.description}</p>
                   </div>
                 </div>
-                <span className="text-muted-foreground text-xl">{expandedModule === index ? "▼" : "▶"}</span>
+                <span className="text-gray-300 text-xl">{isModuleExpanded(index) ? "▼" : "▶"}</span>
               </div>
 
-              {expandedModule === index && (
-                <div className="px-6 pb-6 border-t border-white/10">
+              {isModuleExpanded(index) && (
+                <div className="px-6 pb-6 border-t border-white/20 bg-black/20">
                   <div className="pt-4 space-y-2">
                     {module.lessons.map((lesson, lessonIndex) => (
                       <div key={lessonIndex} className="flex items-center space-x-3 py-2">
                         <div className="w-2 h-2 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex-shrink-0" />
-                        <span className="text-muted-foreground">{lesson}</span>
+                        <span className="text-gray-200">{lesson}</span>
                       </div>
                     ))}
                   </div>
@@ -232,7 +253,7 @@ export function ProgramBreakdown() {
         </div>
 
         {/* Bonus Section */}
-        <div className="glass-card p-8 mb-16">
+        <div className="glass-card p-8 mb-16 bg-white/10 backdrop-blur-md border border-white/20">
           <h3 className="text-3xl font-bold text-center mb-8 bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent">
             🎁 Bonus Materials Included
           </h3>
@@ -240,22 +261,22 @@ export function ProgramBreakdown() {
             {bonusItems.map((item, index) => (
               <div
                 key={index}
-                className="text-center p-4 rounded-lg bg-white/5 hover:bg-white/10 transition-colors duration-200"
+                className="text-center p-4 rounded-lg bg-white/10 hover:bg-white/20 transition-colors duration-200 border border-white/10"
               >
                 <div className="text-2xl mb-2">{item.icon}</div>
-                <p className="text-sm text-muted-foreground">{item.title}</p>
+                <p className="text-sm text-gray-200">{item.title}</p>
               </div>
             ))}
           </div>
         </div>
 
         {/* Affiliate Program */}
-        <div className="glass-card p-8 text-center">
+        <div className="glass-card p-8 text-center bg-white/10 backdrop-blur-md border border-white/20">
           <div className="flex items-center justify-center mb-4">
             <span className="text-2xl mr-3">👥</span>
-            <h3 className="text-2xl font-bold text-foreground">Affiliate Program Included</h3>
+            <h3 className="text-2xl font-bold text-white">Affiliate Program Included</h3>
           </div>
-          <p className="text-muted-foreground mb-4">Earn $300 for every person you refer to the program</p>
+          <p className="text-gray-300 mb-4">Earn $300 for every person you refer to the program</p>
           <div className="inline-flex items-center space-x-2 bg-gradient-to-r from-green-500 to-emerald-500 text-white px-6 py-3 rounded-lg font-semibold">
             <span className="text-xl">$</span>
             <span>$300 Per Referral</span>

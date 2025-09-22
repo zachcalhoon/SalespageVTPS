@@ -7,6 +7,7 @@ import { OfferSection } from "@/components/offer-section"
 import { ProgramBreakdown } from "@/components/program-breakdown"
 import { FinalCTASection } from "@/components/final-cta-section"
 import { Footer } from "@/components/footer"
+import { StickyBanner } from "@/components/sticky-banner"
 
 export default function VTPSPage() {
   return (
@@ -20,6 +21,7 @@ export default function VTPSPage() {
       <ProgramBreakdown />
       <FinalCTASection />
       <Footer />
+      <StickyBanner />
     </main>
   )
 }
