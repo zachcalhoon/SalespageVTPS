@@ -220,11 +220,11 @@ export function ProgramBreakdown() {
                 className="p-6 cursor-pointer flex items-center justify-between hover:bg-white/5 transition-colors duration-200"
                 onClick={() => toggleModule(index)}
               >
-                <div className="flex items-center space-x-4">
+                <div className="flex items-center space-x-6">
                   <img
                     src={module.image || "/placeholder.svg"}
                     alt={module.title}
-                    className="w-16 h-16 rounded-lg object-cover"
+                    className="w-32 h-24 rounded-lg object-cover shadow-lg"
                   />
                   <div>
                     <h3 className="text-xl font-bold text-white mb-1">
@@ -238,7 +238,14 @@ export function ProgramBreakdown() {
 
               {isModuleExpanded(index) && (
                 <div className="px-6 pb-6 border-t border-white/20 bg-black/20">
-                  <div className="pt-4 space-y-2">
+                  <div className="pt-6 mb-6">
+                    <img
+                      src={module.image || "/placeholder.svg"}
+                      alt={module.title}
+                      className="w-full h-64 rounded-lg object-cover shadow-xl"
+                    />
+                  </div>
+                  <div className="space-y-2">
                     {module.lessons.map((lesson, lessonIndex) => (
                       <div key={lessonIndex} className="flex items-center space-x-3 py-2">
                         <div className="w-2 h-2 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex-shrink-0" />
