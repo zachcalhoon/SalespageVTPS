@@ -8,7 +8,7 @@ export function StickyBanner() {
           <div className="flex items-center space-x-4">
             <div className="hidden md:block">
               <p className="text-white font-semibold text-lg">Ready to Build Your Virtual Tour Empire?</p>
-              <p className="text-white/90 text-sm">Join 2,000+ students already earning $10K+/month</p>
+              <p className="text-white/90 text-sm">Join 500+ students already earning $10K+/month</p>
             </div>
             <div className="md:hidden">
               <p className="text-white font-semibold">Start Your VR Business Today!</p>
