@@ -1,7 +1,6 @@
 "use client"
 
 import { useState } from "react"
-import { ChevronDown, ChevronRight, Play, Download, Users, DollarSign } from "lucide-react"
 
 const modules = [
   {
@@ -171,21 +170,21 @@ export default function ProgramBreakdown() {
         <div className="grid md:grid-cols-3 gap-6 mb-16">
           <div className="glass-card p-6 text-center group hover:scale-105 transition-all duration-300">
             <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:rotate-12 transition-transform duration-300">
-              <Play className="w-8 h-8 text-white" />
+              <span className="text-white text-2xl">▶</span>
             </div>
             <h3 className="text-2xl font-bold text-foreground mb-2">200+ Videos</h3>
             <p className="text-muted-foreground">Step-by-step training modules</p>
           </div>
           <div className="glass-card p-6 text-center group hover:scale-105 transition-all duration-300">
             <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:rotate-12 transition-transform duration-300">
-              <Download className="w-8 h-8 text-white" />
+              <span className="text-white text-2xl">⬇</span>
             </div>
             <h3 className="text-2xl font-bold text-foreground mb-2">50+ Templates</h3>
             <p className="text-muted-foreground">Done-for-you business assets</p>
           </div>
           <div className="glass-card p-6 text-center group hover:scale-105 transition-all duration-300">
             <div className="w-16 h-16 bg-gradient-to-r from-green-500 to-emerald-500 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:rotate-12 transition-transform duration-300">
-              <DollarSign className="w-8 h-8 text-white" />
+              <span className="text-white text-2xl">$</span>
             </div>
             <h3 className="text-2xl font-bold text-foreground mb-2">$10K/Month</h3>
             <p className="text-muted-foreground">Proven profit system</p>
@@ -213,11 +212,7 @@ export default function ProgramBreakdown() {
                     <p className="text-muted-foreground">{module.description}</p>
                   </div>
                 </div>
-                {expandedModule === index ? (
-                  <ChevronDown className="w-6 h-6 text-muted-foreground" />
-                ) : (
-                  <ChevronRight className="w-6 h-6 text-muted-foreground" />
-                )}
+                <span className="text-muted-foreground text-xl">{expandedModule === index ? "▼" : "▶"}</span>
               </div>
 
               {expandedModule === index && (
@@ -257,12 +252,12 @@ export default function ProgramBreakdown() {
         {/* Affiliate Program */}
         <div className="glass-card p-8 text-center">
           <div className="flex items-center justify-center mb-4">
-            <Users className="w-8 h-8 text-purple-400 mr-3" />
+            <span className="text-2xl mr-3">👥</span>
             <h3 className="text-2xl font-bold text-foreground">Affiliate Program Included</h3>
           </div>
           <p className="text-muted-foreground mb-4">Earn $300 for every person you refer to the program</p>
           <div className="inline-flex items-center space-x-2 bg-gradient-to-r from-green-500 to-emerald-500 text-white px-6 py-3 rounded-lg font-semibold">
-            <DollarSign className="w-5 h-5" />
+            <span className="text-xl">$</span>
             <span>$300 Per Referral</span>
           </div>
         </div>
