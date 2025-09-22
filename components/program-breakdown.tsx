@@ -4,9 +4,9 @@ import { useState } from "react"
 
 const modules = [
   {
-    title: "Virtual Tour Sales Foundation",
+    title: "The Digital Media Business Blueprint - How To Sell Virtual Tours For Profit",
     description: "Master the fundamentals of selling virtual tours and building your business from scratch",
-    image: "/professional-virtual-tour-sales-training.jpg",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-0nH70fpzuFzMUaWAf94KicUbA6jvZD.png",
     lessons: [
       "Introduction: Virtual Tour Sales. Getting Started Selling Virtual Tours",
       "How To Start a Virtual Tour Business From Scratch",
