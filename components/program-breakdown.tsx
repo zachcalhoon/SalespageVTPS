@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 
-const modules = [
+const programs = [
   {
     title: "The Digital Media Business Blueprint - How To Sell Virtual Tours For Profit",
     description: "Master the fundamentals of selling virtual tours and building your business from scratch",
@@ -144,19 +144,19 @@ const bonusItems = [
 ]
 
 export function ProgramBreakdown() {
-  const [expandedModule, setExpandedModule] = useState<number | null>(null)
+  const [expandedProgram, setExpandedProgram] = useState<number | null>(null)
   const [allExpanded, setAllExpanded] = useState(true)
 
-  const toggleModule = (index: number) => {
+  const toggleProgram = (index: number) => {
     if (allExpanded) {
-      setExpandedModule(expandedModule === index ? null : index)
+      setExpandedProgram(expandedProgram === index ? null : index)
     } else {
-      setExpandedModule(expandedModule === index ? null : index)
+      setExpandedProgram(expandedProgram === index ? null : index)
     }
   }
 
-  const isModuleExpanded = (index: number) => {
-    return allExpanded || expandedModule === index
+  const isProgramExpanded = (index: number) => {
+    return allExpanded || expandedProgram === index
   }
 
   return (
@@ -183,7 +183,7 @@ export function ProgramBreakdown() {
             onClick={() => setAllExpanded(!allExpanded)}
             className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-6 py-3 rounded-lg font-semibold hover:from-purple-700 hover:to-pink-700 transition-all duration-200"
           >
-            {allExpanded ? "Collapse All Modules" : "Expand All Modules"}
+            {allExpanded ? "Collapse All Programs" : "Expand All Programs"}
           </button>
         </div>
 
@@ -212,41 +212,41 @@ export function ProgramBreakdown() {
           </div>
         </div>
 
-        {/* Modules */}
+        {/* Programs */}
         <div className="space-y-6 mb-16">
-          {modules.map((module, index) => (
+          {programs.map((program, index) => (
             <div key={index} className="glass-card overflow-hidden bg-white/10 backdrop-blur-md border border-white/20">
               <div
                 className="p-6 cursor-pointer flex items-center justify-between hover:bg-white/5 transition-colors duration-200"
-                onClick={() => toggleModule(index)}
+                onClick={() => toggleProgram(index)}
               >
                 <div className="flex items-center space-x-6">
                   <img
-                    src={module.image || "/placeholder.svg"}
-                    alt={module.title}
+                    src={program.image || "/placeholder.svg"}
+                    alt={program.title}
                     className="w-32 h-24 rounded-lg object-cover shadow-lg"
                   />
                   <div>
                     <h3 className="text-xl font-bold text-white mb-1">
-                      Module {index + 1}: {module.title}
+                      Program {index + 1}: {program.title}
                     </h3>
-                    <p className="text-gray-300">{module.description}</p>
+                    <p className="text-gray-300">{program.description}</p>
                   </div>
                 </div>
-                <span className="text-gray-300 text-xl">{isModuleExpanded(index) ? "▼" : "▶"}</span>
+                <span className="text-gray-300 text-xl">{isProgramExpanded(index) ? "▼" : "▶"}</span>
               </div>
 
-              {isModuleExpanded(index) && (
+              {isProgramExpanded(index) && (
                 <div className="px-6 pb-6 border-t border-white/20 bg-black/20">
                   <div className="pt-6 mb-6">
                     <img
-                      src={module.image || "/placeholder.svg"}
-                      alt={module.title}
+                      src={program.image || "/placeholder.svg"}
+                      alt={program.title}
                       className="w-full h-64 rounded-lg object-cover shadow-xl"
                     />
                   </div>
                   <div className="space-y-2">
-                    {module.lessons.map((lesson, lessonIndex) => (
+                    {program.lessons.map((lesson, lessonIndex) => (
                       <div key={lessonIndex} className="flex items-center space-x-3 py-2">
                         <div className="w-2 h-2 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex-shrink-0" />
                         <span className="text-gray-200">{lesson}</span>
