@@ -189,6 +189,11 @@
   .animate-slide-in-right {
     animation: slide-in-right 0.5s ease-out;
   }
+
+  /* Added duration-2000 for smooth connecting line animation */
+  .duration-2000 {
+    transition-duration: 2000ms;
+  }
 }
 
 @keyframes float {
