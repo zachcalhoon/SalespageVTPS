@@ -90,7 +90,7 @@ export function VirtualTourExamples() {
         <div className="glass-card rounded-3xl p-8 text-center">
           <div className="max-w-4xl mx-auto space-y-6">
             <h3 className="text-2xl md:text-3xl font-bold gradient-text">
-              Professional 360° Camera Equipment Included
+              Learn the equipment needed without over paying!
             </h3>
             <p className="text-lg text-muted-foreground">
               Get access to professional-grade 360° cameras and equipment recommendations to create stunning virtual
@@ -99,8 +99,8 @@ export function VirtualTourExamples() {
 
             <div className="flex justify-center">
               <img
-                src="/360-degree-virtual-tour-camera-setup-professional-.jpg"
-                alt="Professional 360° camera equipment setup"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-U9mTypZJkTnhDVEqxskkEekEDrBxl5.png"
+                alt="Professional 360° Camera Equipment Collection"
                 className="max-w-md rounded-lg shadow-xl hover-lift"
               />
             </div>
