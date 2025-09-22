@@ -4,7 +4,7 @@ import { TestimonialsSection } from "@/components/testimonials-section"
 import { VideoTestimonials } from "@/components/video-testimonials"
 import { VirtualTourExamples } from "@/components/virtual-tour-examples"
 import { OfferSection } from "@/components/offer-section"
-import ProgramBreakdown from "@/components/program-breakdown"
+import { ProgramBreakdown } from "@/components/program-breakdown"
 import { FinalCTASection } from "@/components/final-cta-section"
 import { Footer } from "@/components/footer"
 

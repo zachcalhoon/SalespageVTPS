@@ -143,7 +143,7 @@ const bonusItems = [
   { title: "Power Presell Demos", icon: "🚀" },
 ]
 
-export default function ProgramBreakdown() {
+export function ProgramBreakdown() {
   const [expandedModule, setExpandedModule] = useState<number | null>(null)
 
   return (
