@@ -2,10 +2,24 @@
 
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
+import Link from "next/link"
 
 export function HeroSection() {
   return (
     <section className="relative min-h-screen flex items-center justify-center px-4 overflow-hidden">
+      <nav className="absolute top-0 left-0 right-0 z-20 p-6">
+        <div className="max-w-6xl mx-auto flex justify-between items-center">
+          <div className="glass-strong rounded-full px-6 py-3">
+            <span className="font-bold gradient-text">VTPS Training</span>
+          </div>
+          <Link href="/webinar">
+            <Button variant="outline" className="glass-strong border-primary/30 hover:bg-primary/10 bg-transparent">
+              Free Webinar Training
+            </Button>
+          </Link>
+        </div>
+      </nav>
+
       <div className="absolute inset-0">
         <div className="absolute top-20 left-20 w-72 h-72 bg-primary/20 rounded-full blur-3xl animate-float" />
         <div
@@ -78,6 +92,19 @@ export function HeroSection() {
           <div className="glass-strong rounded-full px-6 py-3 animate-float">
             <p className="text-sm text-foreground font-medium">⚡ Limited Time: Save $500 Today</p>
           </div>
+        </div>
+
+        <div className="pt-6">
+          <p className="text-muted-foreground mb-4">Or watch our free training first:</p>
+          <Link href="/webinar">
+            <Button
+              variant="outline"
+              size="lg"
+              className="glass-strong border-accent/30 hover:bg-accent/10 text-accent bg-transparent"
+            >
+              Watch Free Webinar Training
+            </Button>
+          </Link>
         </div>
 
         <div className="flex flex-wrap justify-center gap-6 pt-12 pb-16">
