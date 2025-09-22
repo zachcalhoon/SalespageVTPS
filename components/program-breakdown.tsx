@@ -88,7 +88,7 @@ const programs = [
   {
     title: "Inbound Advertising Mastery",
     description: "Buy customers for profit with Google Ads and Facebook Ads",
-    image: "/digital-advertising-dashboard-analytics.jpg",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-pf1P5rvvyPLEG6hJvburT21rAQIoih.png",
     lessons: [
       "Google Adwords Overview: How To Determine Your Local Keyword Targets",
       "Google Adwords Campaign Example: How To Build Your First PPC Campaign",
