@@ -88,7 +88,7 @@ export function VirtualTourExamples() {
               <img
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-U9mTypZJkTnhDVEqxskkEekEDrBxl5.png"
                 alt="Professional 360° Camera Equipment Collection"
-                className="max-w-md rounded-lg shadow-xl hover-lift"
+                className="max-w-2xl w-full rounded-lg shadow-xl hover-lift"
               />
             </div>
 
