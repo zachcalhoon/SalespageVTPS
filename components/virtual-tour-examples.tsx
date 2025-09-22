@@ -17,7 +17,7 @@ export function VirtualTourExamples() {
       features: ["Menu Integration", "Reservation Links", "Ambiance Capture", "Social Sharing"],
     },
     {
-      title: "Retail Showrooms",
+      title: "Dealership Showrooms", // changed from "Retail Showrooms" to "Dealership Showrooms"
       description: "Virtual shopping experiences for modern consumers",
       tourUrl: "https://app.cloudpano.com/tours/WArqlV0kRFLi",
       price: "$2,000 - $4,000",
