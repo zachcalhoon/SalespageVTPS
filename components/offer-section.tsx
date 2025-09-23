@@ -115,7 +115,7 @@ export function OfferSection() {
               </CardHeader>
 
               <CardContent className="space-y-6">
-                <div className="max-h-80 overflow-y-auto pr-2 custom-scrollbar">
+                <div className="pr-2">
                   <ul className="space-y-3">
                     {tier.features.map((feature, featureIndex) => (
                       <li key={featureIndex} className="flex items-start gap-3">
