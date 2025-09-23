@@ -71,7 +71,7 @@ const programs = [
   {
     title: "360° Photography Mastery",
     description: "Professional 360° photography techniques and post-processing",
-    image: "/360-degree-camera-photography-setup.jpg",
+    image: "/360-photography-equipment-collection.png",
     lessons: [
       "Introduction and Interior Setup On The Z1",
       "Interior Set Up (2) With Bracketed Exposures Z1",
