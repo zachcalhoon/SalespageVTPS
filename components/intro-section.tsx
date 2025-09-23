@@ -1399,159 +1399,163 @@ export default function IntroSection() {
 
       {/* Program Value Breakdown Section */}
       <div className="mt-20">
-        <div className="text-center mb-12">
-          <h4 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 leading-[2rem]">
-            Complete Program Value Breakdown
-          </h4>
-          <p className="text-lg text-gray-600">See exactly what you get when you join the Virtual Tour Profit System</p>
-        </div>
-
-        {/* Strategy Section */}
-        <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-8 rounded-lg mb-8">
-          <div className="text-center mb-8">
-            <h5 className="text-2xl font-bold text-gray-900 mb-4">🎯 Strategy & Business Framework</h5>
-            <p className="text-lg text-gray-700">Complete roadmap to building your profitable VR business</p>
-          </div>
-
-          <div className="grid md:grid-cols-2 gap-6">
-            <div className="space-y-4">
-              <div className="flex items-center space-x-3">
-                <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0"></div>
-                <p className="font-medium text-gray-900">Step-by-step business setup guide</p>
-              </div>
-              <div className="flex items-center space-x-3">
-                <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0"></div>
-                <p className="font-medium text-gray-900">Proven pricing strategies</p>
-              </div>
-              <div className="flex items-center space-x-3">
-                <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0"></div>
-                <p className="font-medium text-gray-900">Client acquisition system</p>
-              </div>
-            </div>
-            <div className="space-y-4">
-              <div className="flex items-center space-x-3">
-                <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0"></div>
-                <p className="font-medium text-gray-900">Market positioning tactics</p>
-              </div>
-              <div className="flex items-center space-x-3">
-                <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0"></div>
-                <p className="font-medium text-gray-900">Scaling and outsourcing methods</p>
-              </div>
-              <div className="flex items-center space-x-3">
-                <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0"></div>
-                <p className="font-medium text-gray-900">Recurring revenue models</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Training Section */}
-        <div className="bg-gradient-to-r from-green-50 to-emerald-50 p-8 rounded-lg mb-8">
-          <div className="text-center mb-8">
-            <h5 className="text-2xl font-bold text-gray-900 mb-4">📚 Comprehensive Training System</h5>
-            <p className="text-lg text-gray-700">40+ hours of in-depth training and resources</p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-6">
-            <div className="text-center">
-              <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-4">
-                40+
-              </div>
-              <h6 className="font-bold text-gray-900 mb-2">Hours of Training</h6>
-              <p className="text-gray-600 text-sm">Complete video course library</p>
-            </div>
-            <div className="text-center">
-              <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-4">
-                19
-              </div>
-              <h6 className="font-bold text-gray-900 mb-2">White Label Tours</h6>
-              <p className="text-gray-600 text-sm">Ready-to-use portfolio examples</p>
-            </div>
-            <div className="text-center">
-              <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-4">
-                70+
-              </div>
-              <h6 className="font-bold text-gray-900 mb-2">Target Industries</h6>
-              <p className="text-gray-600 text-sm">Proven hot buyer niches</p>
-            </div>
-          </div>
-        </div>
-
-        {/* Results Section */}
-        <div className="bg-gradient-to-r from-purple-50 to-pink-50 p-8 rounded-lg mb-8">
-          <div className="text-center mb-8">
-            <h5 className="text-2xl font-bold text-gray-900 mb-4">📈 Expected Results & Outcomes</h5>
-            <p className="text-lg text-gray-700">What our successful students typically achieve</p>
-          </div>
-
-          <div className="grid md:grid-cols-2 gap-8">
-            <div className="space-y-6">
-              <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h6 className="text-xl font-bold text-purple-600 mb-2">First 30 Days</h6>
-                <ul className="space-y-2 text-gray-700">
-                  <li>• Complete system setup</li>
-                  <li>• First virtual tour created</li>
-                  <li>• Initial prospect outreach</li>
-                  <li>• Portfolio development</li>
-                </ul>
-              </div>
-              <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h6 className="text-xl font-bold text-purple-600 mb-2">60-90 Days</h6>
-                <ul className="space-y-2 text-gray-700">
-                  <li>• First paying clients secured</li>
-                  <li>• $2,000-$5,000+ monthly revenue</li>
-                  <li>• Established local presence</li>
-                  <li>• Referral system activated</li>
-                </ul>
-              </div>
-            </div>
-            <div className="space-y-6">
-              <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h6 className="text-xl font-bold text-purple-600 mb-2">6+ Months</h6>
-                <ul className="space-y-2 text-gray-700">
-                  <li>• $10,000+ monthly revenue</li>
-                  <li>• Team building & outsourcing</li>
-                  <li>• Multiple revenue streams</li>
-                  <li>• Business automation</li>
-                </ul>
-              </div>
-              <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h6 className="text-xl font-bold text-purple-600 mb-2">Long-term Success</h6>
-                <ul className="space-y-2 text-gray-700">
-                  <li>• Six-figure annual income</li>
-                  <li>• Passive revenue streams</li>
-                  <li>• Location independence</li>
-                  <li>• Financial freedom</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Success Guarantee */}
-        <div className="bg-gradient-to-r from-yellow-50 to-orange-50 p-8 rounded-lg border-2 border-orange-200">
-          <div className="text-center">
-            <h5 className="text-2xl font-bold text-gray-900 mb-4">🛡️ 90-Day Success Guarantee</h5>
-            <p className="text-lg text-gray-700 mb-6">
-              We're so confident in the VTPS system that we guarantee you'll land your first paying client within 90
-              days, or we'll refund every penny.
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h4 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 leading-[2rem]">
+              Complete Program Value Breakdown
+            </h4>
+            <p className="text-lg text-gray-600">
+              See exactly what you get when you join the Virtual Tour Profit System
             </p>
-            <div className="grid md:grid-cols-2 gap-4 max-w-2xl mx-auto">
-              <div className="flex items-center space-x-3">
-                <div className="w-3 h-3 bg-green-500 rounded-full flex-shrink-0"></div>
-                <span className="text-gray-700 font-medium">First client within 90 days guaranteed</span>
+          </div>
+
+          {/* Strategy Section */}
+          <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-8 rounded-lg mb-8">
+            <div className="text-center mb-8">
+              <h5 className="text-2xl font-bold text-gray-900 mb-4">🎯 Strategy & Business Framework</h5>
+              <p className="text-lg text-gray-700">Complete roadmap to building your profitable VR business</p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <div className="flex items-center space-x-3">
+                  <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0"></div>
+                  <p className="font-medium text-gray-900">Step-by-step business setup guide</p>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0"></div>
+                  <p className="font-medium text-gray-900">Proven pricing strategies</p>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0"></div>
+                  <p className="font-medium text-gray-900">Client acquisition system</p>
+                </div>
               </div>
-              <div className="flex items-center space-x-3">
-                <div className="w-3 h-3 bg-green-500 rounded-full flex-shrink-0"></div>
-                <span className="text-gray-700 font-medium">100% money-back guarantee</span>
+              <div className="space-y-4">
+                <div className="flex items-center space-x-3">
+                  <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0"></div>
+                  <p className="font-medium text-gray-900">Market positioning tactics</p>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0"></div>
+                  <p className="font-medium text-gray-900">Scaling and outsourcing methods</p>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0"></div>
+                  <p className="font-medium text-gray-900">Recurring revenue models</p>
+                </div>
               </div>
-              <div className="flex items-center space-x-3">
-                <div className="w-3 h-3 bg-green-500 rounded-full flex-shrink-0"></div>
-                <span className="text-gray-700 font-medium">Complete system setup included</span>
+            </div>
+          </div>
+
+          {/* Training Section */}
+          <div className="bg-gradient-to-r from-green-50 to-emerald-50 p-8 rounded-lg mb-8">
+            <div className="text-center mb-8">
+              <h5 className="text-2xl font-bold text-gray-900 mb-4">📚 Comprehensive Training System</h5>
+              <p className="text-lg text-gray-700">40+ hours of in-depth training and resources</p>
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="text-center">
+                <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-4">
+                  40+
+                </div>
+                <h6 className="font-bold text-gray-900 mb-2">Hours of Training</h6>
+                <p className="text-gray-600 text-sm">Complete video course library</p>
               </div>
-              <div className="flex items-center space-x-3">
-                <div className="w-3 h-3 bg-green-500 rounded-full flex-shrink-0"></div>
-                <span className="text-gray-700 font-medium">Personal support throughout</span>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-4">
+                  19
+                </div>
+                <h6 className="font-bold text-gray-900 mb-2">White Label Tours</h6>
+                <p className="text-gray-600 text-sm">Ready-to-use portfolio examples</p>
+              </div>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-4">
+                  70+
+                </div>
+                <h6 className="font-bold text-gray-900 mb-2">Target Industries</h6>
+                <p className="text-gray-600 text-sm">Proven hot buyer niches</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Results Section */}
+          <div className="bg-gradient-to-r from-purple-50 to-pink-50 p-8 rounded-lg mb-8">
+            <div className="text-center mb-8">
+              <h5 className="text-2xl font-bold text-gray-900 mb-4">📈 Expected Results & Outcomes</h5>
+              <p className="text-lg text-gray-700">What our successful students typically achieve</p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="space-y-6">
+                <div className="bg-white p-6 rounded-lg shadow-sm">
+                  <h6 className="text-xl font-bold text-purple-600 mb-2">First 30 Days</h6>
+                  <ul className="space-y-2 text-gray-700">
+                    <li>• Complete system setup</li>
+                    <li>• First virtual tour created</li>
+                    <li>• Initial prospect outreach</li>
+                    <li>• Portfolio development</li>
+                  </ul>
+                </div>
+                <div className="bg-white p-6 rounded-lg shadow-sm">
+                  <h6 className="text-xl font-bold text-purple-600 mb-2">60-90 Days</h6>
+                  <ul className="space-y-2 text-gray-700">
+                    <li>• First paying clients secured</li>
+                    <li>• $2,000-$5,000+ monthly revenue</li>
+                    <li>• Established local presence</li>
+                    <li>• Referral system activated</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="space-y-6">
+                <div className="bg-white p-6 rounded-lg shadow-sm">
+                  <h6 className="text-xl font-bold text-purple-600 mb-2">6+ Months</h6>
+                  <ul className="space-y-2 text-gray-700">
+                    <li>• $10,000+ monthly revenue</li>
+                    <li>• Team building & outsourcing</li>
+                    <li>• Multiple revenue streams</li>
+                    <li>• Business automation</li>
+                  </ul>
+                </div>
+                <div className="bg-white p-6 rounded-lg shadow-sm">
+                  <h6 className="text-xl font-bold text-purple-600 mb-2">Long-term Success</h6>
+                  <ul className="space-y-2 text-gray-700">
+                    <li>• Six-figure annual income</li>
+                    <li>• Passive revenue streams</li>
+                    <li>• Location independence</li>
+                    <li>• Financial freedom</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Success Guarantee */}
+          <div className="bg-gradient-to-r from-yellow-50 to-orange-50 p-8 rounded-lg border-2 border-orange-200">
+            <div className="text-center">
+              <h5 className="text-2xl font-bold text-gray-900 mb-4">🛡️ 90-Day Success Guarantee</h5>
+              <p className="text-lg text-gray-700 mb-6">
+                We're so confident in the VTPS system that we guarantee you'll land your first paying client within 90
+                days, or we'll refund every penny.
+              </p>
+              <div className="grid md:grid-cols-2 gap-4 max-w-2xl mx-auto">
+                <div className="flex items-center space-x-3">
+                  <div className="w-3 h-3 bg-green-500 rounded-full flex-shrink-0"></div>
+                  <span className="text-gray-700 font-medium">First client within 90 days guaranteed</span>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <div className="w-3 h-3 bg-green-500 rounded-full flex-shrink-0"></div>
+                  <span className="text-gray-700 font-medium">100% money-back guarantee</span>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <div className="w-3 h-3 bg-green-500 rounded-full flex-shrink-0"></div>
+                  <span className="text-gray-700 font-medium">Complete system setup included</span>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <div className="w-3 h-3 bg-green-500 rounded-full flex-shrink-0"></div>
+                  <span className="text-gray-700 font-medium">Personal support throughout</span>
+                </div>
               </div>
             </div>
           </div>
