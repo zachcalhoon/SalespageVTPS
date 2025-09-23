@@ -3,6 +3,7 @@
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import Link from "next/link"
+import { VideoEmbed } from "@/components/video-embed"
 
 export function HeroSection() {
   return (
@@ -52,59 +53,42 @@ export function HeroSection() {
           </p>
         </div>
 
-        <div className="max-w-5xl mx-auto space-y-6">
-          <p className="text-lg text-foreground font-medium">Press Play To Learn More</p>
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-16">
+          {/* Hero Content */}
+          <div className="text-center space-y-8 mb-16">
+            <div className="space-y-6">
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-foreground leading-tight">
+                <span className="bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent animate-gradient bg-300% text-balance">
+                  Virtual Tour Profit System
+                </span>
+              </h1>
 
-          <div className="glass-card rounded-3xl p-4 hover-lift shadow-2xl">
-            <div className="relative aspect-video bg-black/20 rounded-2xl overflow-hidden shadow-2xl group backdrop-blur-sm">
-              <video
-                controls
-                className="w-full h-full"
-                poster="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-N1qjaB5tfYLiOBlaYLkHZdC9MgaEdg.png"
-              >
-                <source
-                  src="https://vtpssalesvideo.s3.us-west-2.amazonaws.com/VTPS+Information+VSL+-+Aug+25+2021.mp4"
-                  type="video/mp4"
-                />
-                Your browser does not support the video tag.
-              </video>
-              <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
-                <div className="glass-strong rounded-full p-4 shadow-lg animate-glow">
-                  <svg className="w-8 h-8 text-primary" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M8 5v14l11-7z" />
-                  </svg>
-                </div>
-              </div>
+              <p className="text-xl sm:text-2xl text-muted-foreground max-w-4xl mx-auto leading-relaxed text-balance">
+                The Complete Blueprint to Building a Six-Figure Virtual Tour Business
+              </p>
+            </div>
+
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              <button className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl">
+                Get Started Today
+              </button>
+              <button className="border border-border hover:bg-accent/10 text-foreground px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 hover:scale-105">
+                Learn More
+              </button>
             </div>
           </div>
-        </div>
 
-        <div className="flex flex-col sm:flex-row gap-6 justify-center items-center pt-8">
-          <Button
-            size="lg"
-            className="text-xl px-12 py-8 font-bold bg-gradient-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90 shadow-2xl hover-lift animate-glow border-0 text-primary-foreground"
-            onClick={() =>
-              window.open("https://wnh.thrivecart.com/virtual-tour-profit-system/?coupon=START1000", "_blank")
-            }
-          >
-            Yes, I Want Access Now →
-          </Button>
-          <div className="glass-strong rounded-full px-6 py-3 animate-float">
-            <p className="text-sm text-foreground font-medium">⚡ Limited Time: Save $500 Today</p>
+          {/* Video Section */}
+          <div className="max-w-5xl mx-auto">
+            <VideoEmbed
+              src="https://vtpssalesvideo.s3.us-west-2.amazonaws.com/VTPS+Information+VSL+-+Aug+25+2021.mp4"
+              poster="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-N1qjaB5tfYLiOBlaYLkHZdC9MgaEdg.png"
+              title="Virtual Tour Profit System Training"
+              description="Press Play To Learn More"
+              enableStickyOnScroll={true}
+              stickyPosition="top-right"
+            />
           </div>
-        </div>
-
-        <div className="pt-6">
-          <p className="text-muted-foreground mb-4">Or watch our free training first:</p>
-          <Link href="/webinar">
-            <Button
-              variant="outline"
-              size="lg"
-              className="glass-strong border-accent/30 hover:bg-accent/10 text-accent bg-transparent"
-            >
-              Watch Free Webinar Training
-            </Button>
-          </Link>
         </div>
 
         <div className="flex flex-wrap justify-center gap-6 pt-12 pb-16">
@@ -120,6 +104,19 @@ export function HeroSection() {
               </div>
             </div>
           ))}
+        </div>
+
+        <div className="pt-6">
+          <p className="text-muted-foreground mb-4">Or watch our free training first:</p>
+          <Link href="/webinar">
+            <Button
+              variant="outline"
+              size="lg"
+              className="glass-strong border-accent/30 hover:bg-accent/10 text-accent bg-transparent"
+            >
+              Watch Free Webinar Training
+            </Button>
+          </Link>
         </div>
       </div>
     </section>
