@@ -1,7 +1,5 @@
 "use client"
 
-import { useState } from "react"
-
 const programs = [
   {
     title: "The Digital Media Business Blueprint - How To Sell Virtual Tours For Profit",
@@ -144,21 +142,6 @@ const bonusItems = [
 ]
 
 export function ProgramBreakdown() {
-  const [expandedProgram, setExpandedProgram] = useState<number | null>(null)
-  const [allExpanded, setAllExpanded] = useState(true)
-
-  const toggleProgram = (index: number) => {
-    if (allExpanded) {
-      setExpandedProgram(expandedProgram === index ? null : index)
-    } else {
-      setExpandedProgram(expandedProgram === index ? null : index)
-    }
-  }
-
-  const isProgramExpanded = (index: number) => {
-    return allExpanded || expandedProgram === index
-  }
-
   return (
     <section className="py-24 bg-white">
       <div className="container mx-auto px-4">
@@ -169,15 +152,6 @@ export function ProgramBreakdown() {
             Everything you need to build a wildly profitable 360° virtual tour business - from complete beginner to
             $10K/month
           </p>
-        </div>
-
-        <div className="text-center mb-8">
-          <button
-            onClick={() => setAllExpanded(!allExpanded)}
-            className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-6 py-3 rounded-lg font-semibold hover:from-purple-700 hover:to-pink-700 transition-all duration-200"
-          >
-            {allExpanded ? "Collapse All Programs" : "Expand All Programs"}
-          </button>
         </div>
 
         {/* Value Stats */}
@@ -206,48 +180,41 @@ export function ProgramBreakdown() {
         </div>
 
         {/* Programs */}
-        <div className="space-y-6 mb-16">
+        <div className="space-y-16 mb-16">
           {programs.map((program, index) => (
             <div key={index} className="bg-white border border-gray-200 rounded-xl shadow-lg overflow-hidden">
-              <div
-                className="p-6 cursor-pointer flex items-center justify-between hover:bg-gray-50 transition-colors duration-200"
-                onClick={() => toggleProgram(index)}
-              >
-                <div className="flex items-center space-x-6">
+              <div className="grid lg:grid-cols-2 gap-8 p-8">
+                {/* Left side - Image */}
+                <div className="relative">
+                  <div className="absolute -top-4 -left-4 bg-gradient-to-r from-purple-600 to-pink-600 text-white px-4 py-2 rounded-lg font-bold text-sm shadow-lg">
+                    Program {index + 1}
+                  </div>
                   <img
                     src={program.image || "/placeholder.svg"}
                     alt={program.title}
-                    className="w-32 h-24 rounded-lg object-cover shadow-lg"
+                    className="w-full h-80 rounded-lg object-cover shadow-xl"
                   />
-                  <div>
-                    <h3 className="text-xl font-bold text-black mb-1">
-                      Program {index + 1}: {program.title}
-                    </h3>
-                    <p className="text-gray-600">{program.description}</p>
-                  </div>
                 </div>
-                <span className="text-gray-600 text-xl">{isProgramExpanded(index) ? "▼" : "▶"}</span>
-              </div>
 
-              {isProgramExpanded(index) && (
-                <div className="px-6 pb-6 border-t border-gray-200 bg-gray-50">
-                  <div className="pt-6 mb-6">
-                    <img
-                      src={program.image || "/placeholder.svg"}
-                      alt={program.title}
-                      className="w-full h-64 rounded-lg object-cover shadow-xl"
-                    />
-                  </div>
-                  <div className="space-y-2">
+                {/* Right side - Content */}
+                <div className="flex flex-col justify-center">
+                  <h3 className="text-2xl lg:text-3xl font-bold text-black mb-4 leading-tight">{program.title}</h3>
+                  <p className="text-lg text-gray-600 mb-6 leading-relaxed">{program.description}</p>
+
+                  {/* Lessons as bullets */}
+                  <div className="space-y-3">
+                    <h4 className="text-lg font-semibold text-black mb-4">What You'll Learn:</h4>
                     {program.lessons.map((lesson, lessonIndex) => (
-                      <div key={lessonIndex} className="flex items-center space-x-3 py-2">
-                        <div className="w-2 h-2 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex-shrink-0" />
-                        <span className="text-gray-800">{lesson}</span>
+                      <div key={lessonIndex} className="flex items-start space-x-3 group">
+                        <div className="w-2 h-2 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex-shrink-0 mt-2 group-hover:scale-150 transition-transform duration-200" />
+                        <span className="text-gray-800 leading-relaxed group-hover:text-black transition-colors duration-200">
+                          {lesson}
+                        </span>
                       </div>
                     ))}
                   </div>
                 </div>
-              )}
+              </div>
             </div>
           ))}
         </div>
