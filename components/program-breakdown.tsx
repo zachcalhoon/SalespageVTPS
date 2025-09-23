@@ -104,7 +104,7 @@ const programs = [
   {
     title: "High Ticket Upsell Program",
     description: "Upsell your way to $10K/month with fewer clients",
-    image: "/high-ticket-sales-presentation.jpg",
+    image: "/high-ticket-training-video.png",
     lessons: [
       "Introduction: How To Upsell Your Way To 10k a Month With a Few Clients",
       "Session 1: Lead Generation System Explained",
