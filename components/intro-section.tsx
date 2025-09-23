@@ -1059,91 +1059,8 @@ export default function IntroSection() {
       {/* $10k/month profit section with business model diagram */}
       <div className="mt-20">
         <div className="text-center mb-12">
-          <h4 className="text-4xl font-bold text-gray-900 mb-6 leading-[2rem]">
-            A simple path to $10,000 / month in pure profit
-            <br />
-            in your bank account
-          </h4>
-          <div className="max-w-4xl mx-auto space-y-6 text-lg text-gray-700 leading-relaxed">
-            <p>
-              If you work in photography, media, digital marketing, technology, or any type of local service, you can
-              launch into VTPS as a no-brainer business model that plugs into your business.
-            </p>
-            <p>
-              And if you just want to launch VR Tours as its own standalone offer – that's fine too! That's what some of
-              my most successful students are doing.
-            </p>
-            <p>
-              Either way it's possible to start from zero and start making a six-figure income in what I think is the
-              easiest way on the planet.
-            </p>
-            <p>
-              If you simply ask the right people in the right way (which we'll teach you) people will raise their hand,
-              chase you down, and throw money at you for this service.
-            </p>
-            <p className="font-semibold text-gray-900">
-              I've seen it over and over from providers all across the country and it's only picking up steam.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      {/* Everything You Need to Succeed */}
-      <div className="text-center mt-12">
-        <div className="bg-gradient-to-r from-green-50 to-emerald-50 p-8 rounded-lg border border-green-200">
-          <h5 className="text-2xl font-bold text-gray-900 mb-4">Everything You Need to Succeed</h5>
-          <h6 className="text-xl font-bold text-blue-600 mb-4">The Virtual Tour Profit System</h6>
-          <p className="text-lg text-gray-700">
-            This comprehensive system removes all guesswork and gives you a proven roadmap to building a profitable VR
-            business.
-          </p>
-        </div>
-      </div>
-
-      <div className="text-center mt-8">
-        <img
-          src="/vtps-success-visual.png"
-          alt="VTPS Success Visual - Comprehensive business platform showing multiple devices with various business applications, analytics dashboards, virtual tours, and cloud connectivity"
-          className="w-full max-w-4xl mx-auto rounded-lg shadow-lg"
-        />
-      </div>
-
-      <div className="mt-12">
-        <div className="max-w-4xl mx-auto">
-          {/* David's Testimonial - Moved to just above the "Read How Content Inside VTPS Is Changing Lives" section */}
-          <div className="bg-white rounded-lg shadow-lg border border-gray-200 p-8 text-center mb-16">
-            <div className="mb-6">
-              <h6 className="text-2xl font-bold text-gray-900 mb-2">Listen To David And His Experience</h6>
-              <h6 className="text-xl font-bold text-blue-600 mb-4">Using The Tools In VTPS</h6>
-              <div className="w-16 h-16 bg-gradient-to-r from-indigo-500 to-purple-600 text-white rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">
-                D
-              </div>
-              <h6 className="text-xl font-bold text-gray-900">David</h6>
-              <p className="text-sm text-gray-600">VTPS Success Story</p>
-            </div>
-            <div className="bg-gray-50 rounded-lg p-6 mb-6">
-              <div className="relative aspect-video rounded-lg overflow-hidden">
-                <iframe
-                  src="https://player.vimeo.com/video/658140520?h=5ae48f8fc0"
-                  className="w-full h-full"
-                  frameBorder="0"
-                  allow="autoplay; fullscreen; picture-in-picture"
-                  allowFullScreen
-                  title="David's VTPS Experience Testimonial"
-                ></iframe>
-              </div>
-            </div>
-            <p className="text-lg text-gray-700 leading-relaxed">
-              Watch David share his experience using the tools and strategies provided in the VTPS system.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div className="mt-20">
-        <div className="text-center mb-12">
           <h4 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-            Let me and my team take you by the hand and show you EXACTLY how to win at this.
+            The VTPS Program: Your Copy and Paste Guide to a Successful Virtual Tour Business Locally
           </h4>
           <p className="text-xl text-gray-600">You'll get:</p>
         </div>
@@ -1154,7 +1071,7 @@ export default function IntroSection() {
             <div className="group bg-white p-8 rounded-xl shadow-lg border border-gray-200 hover:shadow-2xl hover:border-blue-300 transition-all duration-300 transform hover:-translate-y-2">
               <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-indigo-600 text-white rounded-full flex items-center justify-center flex-shrink-0 mb-4 group-hover:scale-110 transition-transform duration-300">
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z" />
                 </svg>
               </div>
               <div>
@@ -1169,7 +1086,7 @@ export default function IntroSection() {
             <div className="group bg-white p-8 rounded-xl shadow-lg border border-gray-200 hover:shadow-2xl hover:border-green-300 transition-all duration-300 transform hover:-translate-y-2">
               <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-full flex items-center justify-center flex-shrink-0 mb-4 group-hover:scale-110 transition-transform duration-300">
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z" />
                 </svg>
               </div>
               <div>
@@ -1184,7 +1101,11 @@ export default function IntroSection() {
             <div className="group bg-white p-8 rounded-xl shadow-lg border border-gray-200 hover:shadow-2xl hover:border-purple-300 transition-all duration-300 transform hover:-translate-y-2">
               <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-600 text-white rounded-full flex items-center justify-center flex-shrink-0 mb-4 group-hover:scale-110 transition-transform duration-300">
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  <path
+                    fillRule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zM4.332 8.027a6.012 6.012 0 011.912-2.706C6.512 5.73 6.974 6 7.5 6A1.5 1.5 0 019 7.5V8a2 2 0 004 0 2 2 0 011.523-1.943A5.977 5.977 0 0116 10c0 .34-.028.675-.083 1H15a2 2 0 00-2 2v2.197A5.973 5.973 0 0110 16v-2a2 2 0 00-2-2 2 2 0 01-2-2 2 2 0 00-1.668-1.973z"
+                    clipRule="evenodd"
+                  />
                 </svg>
               </div>
               <div>
@@ -1199,7 +1120,7 @@ export default function IntroSection() {
             <div className="group bg-white p-8 rounded-xl shadow-lg border border-gray-200 hover:shadow-2xl hover:border-orange-300 transition-all duration-300 transform hover:-translate-y-2">
               <div className="w-12 h-12 bg-gradient-to-r from-orange-500 to-red-600 text-white rounded-full flex items-center justify-center flex-shrink-0 mb-4 group-hover:scale-110 transition-transform duration-300">
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                 </svg>
               </div>
               <div>
@@ -1214,7 +1135,11 @@ export default function IntroSection() {
             <div className="group bg-white p-8 rounded-xl shadow-lg border border-gray-200 hover:shadow-2xl hover:border-teal-300 transition-all duration-300 transform hover:-translate-y-2">
               <div className="w-12 h-12 bg-gradient-to-r from-teal-500 to-cyan-600 text-white rounded-full flex items-center justify-center flex-shrink-0 mb-4 group-hover:scale-110 transition-transform duration-300">
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  <path
+                    fillRule="evenodd"
+                    d="M18 3a1 1 0 00-1.447-.894L8.763 6H5a3 3 0 000 6h.28l1.771 5.316A1 1 0 008 18h1a1 1 0 001-1v-4.382l6.553 3.894A1 1 0 0018 16V3z"
+                    clipRule="evenodd"
+                  />
                 </svg>
               </div>
               <div>
@@ -1229,7 +1154,7 @@ export default function IntroSection() {
             <div className="group bg-white p-8 rounded-xl shadow-lg border border-gray-200 hover:shadow-2xl hover:border-yellow-300 transition-all duration-300 transform hover:-translate-y-2">
               <div className="w-12 h-12 bg-gradient-to-r from-yellow-500 to-amber-600 text-white rounded-full flex items-center justify-center flex-shrink-0 mb-4 group-hover:scale-110 transition-transform duration-300">
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  <path d="M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM12.93 17c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z" />
                 </svg>
               </div>
               <div>
@@ -1244,7 +1169,11 @@ export default function IntroSection() {
             <div className="group bg-white p-8 rounded-xl shadow-lg border border-gray-200 hover:shadow-2xl hover:border-indigo-300 transition-all duration-300 transform hover:-translate-y-2">
               <div className="w-12 h-12 bg-gradient-to-r from-indigo-500 to-purple-600 text-white rounded-full flex items-center justify-center flex-shrink-0 mb-4 group-hover:scale-110 transition-transform duration-300">
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  <path
+                    fillRule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zM5.5 10a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM10 7a3 3 0 100 6 3 3 0 000-6z"
+                    clipRule="evenodd"
+                  />
                 </svg>
               </div>
               <div>
@@ -1259,7 +1188,8 @@ export default function IntroSection() {
             <div className="group bg-white p-8 rounded-xl shadow-lg border border-gray-200 hover:shadow-2xl hover:border-pink-300 transition-all duration-300 transform hover:-translate-y-2">
               <div className="w-12 h-12 bg-gradient-to-r from-pink-500 to-rose-600 text-white rounded-full flex items-center justify-center flex-shrink-0 mb-4 group-hover:scale-110 transition-transform duration-300">
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                  <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                 </svg>
               </div>
               <div>
@@ -1274,7 +1204,11 @@ export default function IntroSection() {
             <div className="group bg-white p-8 rounded-xl shadow-lg border border-gray-200 hover:shadow-2xl hover:border-blue-300 transition-all duration-300 transform hover:-translate-y-2">
               <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-indigo-600 text-white rounded-full flex items-center justify-center flex-shrink-0 mb-4 group-hover:scale-110 transition-transform duration-300">
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  <path
+                    fillRule="evenodd"
+                    d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z"
+                    clipRule="evenodd"
+                  />
                 </svg>
               </div>
               <div>
@@ -1289,7 +1223,11 @@ export default function IntroSection() {
             <div className="group bg-white p-8 rounded-xl shadow-lg border border-gray-200 hover:shadow-2xl hover:border-green-300 transition-all duration-300 transform hover:-translate-y-2">
               <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-full flex items-center justify-center flex-shrink-0 mb-4 group-hover:scale-110 transition-transform duration-300">
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  <path
+                    fillRule="evenodd"
+                    d="M3 4a1 1 0 011-1h12a1 1 0 011 1v8a1 1 0 01-1 1h-5v2a1 1 0 01-1.707.707L7.586 14H4a1 1 0 01-1-1V4zm4 10.414l.293.293A1 1 0 008 15v-2h8V5H4v8h3z"
+                    clipRule="evenodd"
+                  />
                 </svg>
               </div>
               <div>
