@@ -1148,250 +1148,173 @@ export default function IntroSection() {
           <p className="text-xl text-gray-600">You'll get:</p>
         </div>
 
-        <div className="max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-6">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Training & Courses */}
-            <div className="flex items-start space-x-4 bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
-              <div className="w-8 h-8 bg-gradient-to-r from-blue-500 to-indigo-600 text-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+            <div className="group bg-white p-8 rounded-xl shadow-lg border border-gray-200 hover:shadow-2xl hover:border-blue-300 transition-all duration-300 transform hover:-translate-y-2">
+              <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-indigo-600 text-white rounded-full flex items-center justify-center flex-shrink-0 mb-4 group-hover:scale-110 transition-transform duration-300">
+                <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
               <div>
-                <h5 className="font-semibold text-gray-900 mb-2">40+ hours of sales training and courses</h5>
-                <p className="text-gray-600 text-sm">Zero fuzziness or question about how to proceed and profit.</p>
+                <h5 className="font-bold text-lg text-gray-900 mb-3 group-hover:text-blue-600 transition-colors duration-300">
+                  40+ hours of sales training and courses
+                </h5>
+                <p className="text-gray-600">Zero fuzziness or question about how to proceed and profit.</p>
               </div>
             </div>
 
             {/* List Building */}
-            <div className="flex items-start space-x-4 bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
-              <div className="w-8 h-8 bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+            <div className="group bg-white p-8 rounded-xl shadow-lg border border-gray-200 hover:shadow-2xl hover:border-green-300 transition-all duration-300 transform hover:-translate-y-2">
+              <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-full flex items-center justify-center flex-shrink-0 mb-4 group-hover:scale-110 transition-transform duration-300">
+                <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
               <div>
-                <h5 className="font-semibold text-gray-900 mb-2">
+                <h5 className="font-bold text-lg text-gray-900 mb-3 group-hover:text-green-600 transition-colors duration-300">
                   Step-by-step guidance on building a list of 2,000 businesses
                 </h5>
-                <p className="text-gray-600 text-sm">Likeminded businesses ready to prospect.</p>
+                <p className="text-gray-600">Likeminded businesses ready to prospect.</p>
               </div>
             </div>
 
             {/* White Label Tours */}
-            <div className="flex items-start space-x-4 bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
-              <div className="w-8 h-8 bg-gradient-to-r from-purple-500 to-pink-600 text-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+            <div className="group bg-white p-8 rounded-xl shadow-lg border border-gray-200 hover:shadow-2xl hover:border-purple-300 transition-all duration-300 transform hover:-translate-y-2">
+              <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-600 text-white rounded-full flex items-center justify-center flex-shrink-0 mb-4 group-hover:scale-110 transition-transform duration-300">
+                <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
               <div>
-                <h5 className="font-semibold text-gray-900 mb-2">19 virtual tours to white label</h5>
-                <p className="text-gray-600 text-sm">Pre-sell your audience and help them visualize your offer.</p>
+                <h5 className="font-bold text-lg text-gray-900 mb-3 group-hover:text-purple-600 transition-colors duration-300">
+                  19 virtual tours to white label
+                </h5>
+                <p className="text-gray-600">Pre-sell your audience and help them visualize your offer.</p>
               </div>
             </div>
 
             {/* Cold Call Recordings */}
-            <div className="flex items-start space-x-4 bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
-              <div className="w-8 h-8 bg-gradient-to-r from-orange-500 to-red-600 text-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+            <div className="group bg-white p-8 rounded-xl shadow-lg border border-gray-200 hover:shadow-2xl hover:border-orange-300 transition-all duration-300 transform hover:-translate-y-2">
+              <div className="w-12 h-12 bg-gradient-to-r from-orange-500 to-red-600 text-white rounded-full flex items-center justify-center flex-shrink-0 mb-4 group-hover:scale-110 transition-transform duration-300">
+                <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
               <div>
-                <h5 className="font-semibold text-gray-900 mb-2">Live cold call recordings</h5>
-                <p className="text-gray-600 text-sm">Learn exactly what to say to prospect and close business.</p>
+                <h5 className="font-bold text-lg text-gray-900 mb-3 group-hover:text-orange-600 transition-colors duration-300">
+                  Live cold call recordings
+                </h5>
+                <p className="text-gray-600">Learn exactly what to say to prospect and close business.</p>
               </div>
             </div>
 
             {/* Outreach Tools */}
-            <div className="flex items-start space-x-4 bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
-              <div className="w-8 h-8 bg-gradient-to-r from-teal-500 to-cyan-600 text-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+            <div className="group bg-white p-8 rounded-xl shadow-lg border border-gray-200 hover:shadow-2xl hover:border-teal-300 transition-all duration-300 transform hover:-translate-y-2">
+              <div className="w-12 h-12 bg-gradient-to-r from-teal-500 to-cyan-600 text-white rounded-full flex items-center justify-center flex-shrink-0 mb-4 group-hover:scale-110 transition-transform duration-300">
+                <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
               <div>
-                <h5 className="font-semibold text-gray-900 mb-2">Outreach tools</h5>
-                <p className="text-gray-600 text-sm">Better reach your audience and automate prospecting.</p>
+                <h5 className="font-bold text-lg text-gray-900 mb-3 group-hover:text-teal-600 transition-colors duration-300">
+                  Outreach tools
+                </h5>
+                <p className="text-gray-600">Better reach your audience and automate prospecting.</p>
               </div>
             </div>
 
             {/* Outsourcing Techniques */}
-            <div className="flex items-start space-x-4 bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
-              <div className="w-8 h-8 bg-gradient-to-r from-yellow-500 to-amber-600 text-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+            <div className="group bg-white p-8 rounded-xl shadow-lg border border-gray-200 hover:shadow-2xl hover:border-yellow-300 transition-all duration-300 transform hover:-translate-y-2">
+              <div className="w-12 h-12 bg-gradient-to-r from-yellow-500 to-amber-600 text-white rounded-full flex items-center justify-center flex-shrink-0 mb-4 group-hover:scale-110 transition-transform duration-300">
+                <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
               <div>
-                <h5 className="font-semibold text-gray-900 mb-2">"How to Outsource" techniques and tricks</h5>
-                <p className="text-gray-600 text-sm">Hire the best talent at the best prices.</p>
+                <h5 className="font-bold text-lg text-gray-900 mb-3 group-hover:text-yellow-600 transition-colors duration-300">
+                  "How to Outsource" techniques and tricks
+                </h5>
+                <p className="text-gray-600">Hire the best talent at the best prices.</p>
               </div>
             </div>
 
             {/* Niche List */}
-            <div className="flex items-start space-x-4 bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
-              <div className="w-8 h-8 bg-gradient-to-r from-indigo-500 to-purple-600 text-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+            <div className="group bg-white p-8 rounded-xl shadow-lg border border-gray-200 hover:shadow-2xl hover:border-indigo-300 transition-all duration-300 transform hover:-translate-y-2">
+              <div className="w-12 h-12 bg-gradient-to-r from-indigo-500 to-purple-600 text-white rounded-full flex items-center justify-center flex-shrink-0 mb-4 group-hover:scale-110 transition-transform duration-300">
+                <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
               <div>
-                <h5 className="font-semibold text-gray-900 mb-2">Niche list of 70+ industries</h5>
-                <p className="text-gray-600 text-sm">Proven hot buyers for VR tours.</p>
+                <h5 className="font-bold text-lg text-gray-900 mb-3 group-hover:text-indigo-600 transition-colors duration-300">
+                  Niche list of 70+ industries
+                </h5>
+                <p className="text-gray-600">Proven hot buyers for VR tours.</p>
               </div>
             </div>
 
             {/* Email Campaigns */}
-            <div className="flex items-start space-x-4 bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
-              <div className="w-8 h-8 bg-gradient-to-r from-pink-500 to-rose-600 text-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+            <div className="group bg-white p-8 rounded-xl shadow-lg border border-gray-200 hover:shadow-2xl hover:border-pink-300 transition-all duration-300 transform hover:-translate-y-2">
+              <div className="w-12 h-12 bg-gradient-to-r from-pink-500 to-rose-600 text-white rounded-full flex items-center justify-center flex-shrink-0 mb-4 group-hover:scale-110 transition-transform duration-300">
+                <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
               <div>
-                <h5 className="font-semibold text-gray-900 mb-2">Pre-written email campaigns</h5>
-                <p className="text-gray-600 text-sm">Shoot off to get fast business.</p>
+                <h5 className="font-bold text-lg text-gray-900 mb-3 group-hover:text-pink-600 transition-colors duration-300">
+                  Pre-written email campaigns
+                </h5>
+                <p className="text-gray-600">Shoot off to get fast business.</p>
               </div>
             </div>
 
             {/* Pricing Proposals */}
-            <div className="flex items-start space-x-4 bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
-              <div className="w-8 h-8 bg-gradient-to-r from-blue-500 to-indigo-600 text-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+            <div className="group bg-white p-8 rounded-xl shadow-lg border border-gray-200 hover:shadow-2xl hover:border-blue-300 transition-all duration-300 transform hover:-translate-y-2">
+              <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-indigo-600 text-white rounded-full flex items-center justify-center flex-shrink-0 mb-4 group-hover:scale-110 transition-transform duration-300">
+                <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
               <div>
-                <h5 className="font-semibold text-gray-900 mb-2">Pricing proposals</h5>
-                <p className="text-gray-600 text-sm">Look professional and seal the deal.</p>
+                <h5 className="font-bold text-lg text-gray-900 mb-3 group-hover:text-blue-600 transition-colors duration-300">
+                  Pricing proposals
+                </h5>
+                <p className="text-gray-600">Look professional and seal the deal.</p>
               </div>
             </div>
 
             {/* Marketing Materials */}
-            <div className="flex items-start space-x-4 bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
-              <div className="w-8 h-8 bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+            <div className="group bg-white p-8 rounded-xl shadow-lg border border-gray-200 hover:shadow-2xl hover:border-green-300 transition-all duration-300 transform hover:-translate-y-2">
+              <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-full flex items-center justify-center flex-shrink-0 mb-4 group-hover:scale-110 transition-transform duration-300">
+                <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
               <div>
-                <h5 className="font-semibold text-gray-900 mb-2">Complete marketing materials</h5>
-                <p className="text-gray-600 text-sm">
+                <h5 className="font-bold text-lg text-gray-900 mb-3 group-hover:text-green-600 transition-colors duration-300">
+                  Complete marketing materials
+                </h5>
+                <p className="text-gray-600">
                   Brochures, tri-folds, pitch decks, stock images, and exactly how to use them.
                 </p>
               </div>
             </div>
 
-            {/* CloudPano License */}
-
             {/* Bonus Interviews */}
-            <div className="flex items-start space-x-4 bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
-              <div className="w-8 h-8 bg-gradient-to-r from-red-500 to-orange-600 text-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+            <div className="group bg-white p-8 rounded-xl shadow-lg border border-gray-200 hover:shadow-2xl hover:border-red-300 transition-all duration-300 transform hover:-translate-y-2">
+              <div className="w-12 h-12 bg-gradient-to-r from-red-500 to-orange-600 text-white rounded-full flex items-center justify-center flex-shrink-0 mb-4 group-hover:scale-110 transition-transform duration-300">
+                <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
               <div>
-                <h5 className="font-semibold text-gray-900 mb-2">Bonus Interviews</h5>
-                <p className="text-gray-600 text-sm">Exclusive interviews with successful VTPS providers.</p>
+                <h5 className="font-bold text-lg text-gray-900 mb-3 group-hover:text-red-600 transition-colors duration-300">
+                  Bonus Interviews
+                </h5>
+                <p className="text-gray-600">Exclusive interviews with successful VTPS providers.</p>
               </div>
-            </div>
-
-            {/* Advertising Tutorials */}
-            <div className="flex items-start space-x-4 bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
-              <div className="w-8 h-8 bg-gradient-to-r from-teal-500 to-cyan-600 text-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              </div>
-              <div>
-                <h5 className="font-semibold text-gray-900 mb-2">Online advertising tutorials</h5>
-                <p className="text-gray-600 text-sm">Best practices for Facebook and Google ads that get clients.</p>
-              </div>
-            </div>
-
-            {/* Camera Tutorials */}
-            <div className="flex items-start space-x-4 bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
-              <div className="w-8 h-8 bg-gradient-to-r from-yellow-500 to-amber-600 text-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              </div>
-              <div>
-                <h5 className="font-semibold text-gray-900 mb-2">360º camera tutorials and pro tips</h5>
-                <p className="text-gray-600 text-sm">Master the technical side with ease.</p>
-              </div>
-            </div>
-
-            {/* Photo Editing */}
-            <div className="flex items-start space-x-4 bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
-              <div className="w-8 h-8 bg-gradient-to-r from-indigo-500 to-purple-600 text-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              </div>
-              <div>
-                <h5 className="font-semibold text-gray-900 mb-2">Photoshop and Lightroom tutorials</h5>
-                <p className="text-gray-600 text-sm">
-                  Add extra polish and professionalism to your work, plus a list of professional editors.
-                </p>
-              </div>
-            </div>
-
-            {/* Q&A Calls */}
-            <div className="flex items-start space-x-4 bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
-              <div className="w-8 h-8 bg-gradient-to-r from-pink-500 to-rose-600 text-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              </div>
-              <div>
-                <h5 className="font-semibold text-gray-900 mb-2">Recorded Q&A calls with successful providers</h5>
-                <p className="text-gray-600 text-sm">
-                  Learn from hyper-successful industry leaders who took the exact same steps.
-                </p>
-              </div>
-            </div>
-
-            {/* Lead Generation Systems */}
-            <div className="flex items-start space-x-4 bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
-              <div className="w-8 h-8 bg-gradient-to-r from-blue-500 to-indigo-600 text-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              </div>
-              <div>
-                <h5 className="font-semibold text-gray-900 mb-2">Lead generation systems and website templates</h5>
-                <p className="text-gray-600 text-sm">
-                  Upload and show off in 3 clicks - just swap out your name and info.
-                </p>
-              </div>
-            </div>
-
-            {/* Upselling Scripts */}
-            <div className="flex items-start space-x-4 bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
-              <div className="w-8 h-8 bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              </div>
-              <div>
-                <h5 className="font-semibold text-gray-900 mb-2">Salesmanship techniques and scripts</h5>
-                <p className="text-gray-600 text-sm">Upsell clients to larger revenue subscriptions.</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="text-center mt-12">
-            <div className="bg-gradient-to-r from-green-50 to-emerald-50 p-8 rounded-lg border border-green-200">
-              <h5 className="text-2xl font-bold text-gray-900 mb-4">Everything You Need to Succeed</h5>
-              <h6 className="text-xl font-bold text-blue-600 mb-4">The Virtual Tour Profit System</h6>
-              <p className="text-lg text-gray-700">
-                This comprehensive system removes all guesswork and gives you a proven roadmap to building a profitable
-                VR business.
-              </p>
             </div>
           </div>
         </div>
