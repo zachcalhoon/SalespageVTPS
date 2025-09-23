@@ -36,7 +36,7 @@ export default function WebinarLandingPage() {
             >
               <X className="h-4 w-4 text-white" />
             </button>
-            <div className="aspect-video">
+            <div className="aspect-video bg-black">
               <video
                 autoPlay
                 muted
@@ -51,7 +51,7 @@ export default function WebinarLandingPage() {
                 />
               </video>
             </div>
-            <div className="p-4">
+            <div className="p-4 bg-background">
               <p className="text-sm font-medium mb-3">Free VR Business Training</p>
               <Button
                 className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold"
