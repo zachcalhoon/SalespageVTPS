@@ -170,6 +170,11 @@ export default function WebinarLandingPage() {
                   "Since working with Zach and his team I have made over $10,000 and my business has quadrupled."
                 </p>
                 <div className="flex items-center">
+                  <img
+                    src="/testimonials/ron-kroeger.png"
+                    alt="Ron Kroeger"
+                    className="w-12 h-12 rounded-full object-cover mr-4"
+                  />
                   <div>
                     <p className="font-semibold">Ron Kroeger</p>
                     <p className="text-sm text-muted-foreground">Kansas City, KS</p>
@@ -188,6 +193,11 @@ export default function WebinarLandingPage() {
                   customers are excited about it, I am going to make some more money."
                 </p>
                 <div className="flex items-center">
+                  <img
+                    src="/testimonials/mark-mckinney.png"
+                    alt="Mark McKinney"
+                    className="w-12 h-12 rounded-full object-cover mr-4"
+                  />
                   <div>
                     <p className="font-semibold">Mark McKinney</p>
                     <p className="text-sm text-muted-foreground">Fort Worth TX</p>
@@ -206,6 +216,11 @@ export default function WebinarLandingPage() {
                   to add in 100 more virtual tours."
                 </p>
                 <div className="flex items-center">
+                  <img
+                    src="/testimonials/mark-rutherford.png"
+                    alt="Mark Rutherford"
+                    className="w-12 h-12 rounded-full object-cover mr-4"
+                  />
                   <div>
                     <p className="font-semibold">Mark Rutherford</p>
                     <p className="text-sm text-muted-foreground">St. Joseph Michigan</p>
