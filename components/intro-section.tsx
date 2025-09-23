@@ -1102,8 +1102,8 @@ export default function IntroSection() {
 
       <div className="text-center mt-8">
         <img
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%20Sep%221%2C%202025%2C%2001_32_41%20PM-sJtYtVMfACR9lX9EtKcBAZyTv2bIXc.png"
-          alt="VTPS Success Visual"
+          src="/vtps-success-visual.png"
+          alt="VTPS Success Visual - Comprehensive business platform showing multiple devices with various business applications, analytics dashboards, virtual tours, and cloud connectivity"
           className="w-full max-w-4xl mx-auto rounded-lg shadow-lg"
         />
       </div>
