@@ -132,8 +132,8 @@ export default function IntroSection() {
           <h4 className="text-2xl font-bold text-foreground mb-8">Meet the Virtual Tour Profit System (VTPS)</h4>
           <div className="glass rounded-2xl p-6 mb-8 hover-lift shadow-xl">
             <img
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%20Sep%2021%2C%202025%2C%2001_32_41%20PM-sJtYtVMfACR9lX9EtKcBAZyTv2bIXc.png"
-              alt="VTPS - Virtual Tour Profit System with dramatic fiery text effect over business environment showing training materials and virtual tour content"
+              src="/vtps-comprehensive-platform.png"
+              alt="VTPS - Virtual Tour Profit System comprehensive business platform showing multiple devices with real estate listings, analytics dashboards, virtual tours, and cloud connectivity"
               className="w-full max-w-5xl mx-auto rounded-lg shadow-lg"
             />
           </div>
