@@ -20,8 +20,8 @@ export default function VTPSPage() {
       <TestimonialsSection />
       <VideoTestimonials />
       <VirtualTourExamples />
-      <OfferSection />
       <ProgramBreakdown />
+      <OfferSection />
       <BonusMaterialsSection />
       <FinalCTASection />
       <Footer />
