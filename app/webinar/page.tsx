@@ -2,8 +2,7 @@
 
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
-import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog"
-import { Play, Users, TrendingUp, DollarSign } from "lucide-react"
+import { Users, TrendingUp, DollarSign } from "lucide-react"
 import { WebinarNav } from "@/components/webinar-nav"
 
 export default function WebinarLandingPage() {
@@ -13,67 +12,82 @@ export default function WebinarLandingPage() {
     <div className="min-h-screen bg-background">
       <WebinarNav currentPage="landing" />
 
-      {/* Hero Section with Video */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
-        {/* Background Video */}
-        <div className="absolute inset-0 z-0">
-          <video autoPlay muted loop playsInline className="w-full h-full object-cover">
-            <source
-              src="https://webinarregistrationvtp.s3.us-west-2.amazonaws.com/Webinar+Registration+new+July+29.mp4"
-              type="video/mp4"
-            />
-          </video>
-          <div className="absolute inset-0 bg-black/50" />
-        </div>
-
-        {/* Hero Content */}
-        <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto">
-          <div className="glass-hero rounded-2xl p-8 md:p-12">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6 text-balance">
+        <div className="max-w-7xl mx-auto px-4 w-full">
+          {/* Headline on top */}
+          <div className="text-center mb-12">
+            <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-4 text-balance">
               Exclusive Free Training With Zach Calhoon:
             </h1>
-            <h2 className="text-2xl md:text-4xl font-semibold mb-8 gradient-text">
+            <h2 className="text-xl md:text-3xl lg:text-4xl font-semibold gradient-text text-balance">
               How To Start a Wildly Profitable Virtual Tour Business and Get High Ticket Clients To Come To You
             </h2>
-            <p className="text-xl md:text-2xl mb-8 text-gray-200">
+            <p className="text-lg md:text-xl lg:text-2xl mt-4 text-muted-foreground">
               Without Hard Selling Or Buying a Large Camera System
             </p>
+          </div>
 
-            <Dialog open={isFormOpen} onOpenChange={setIsFormOpen}>
-              <DialogTrigger asChild>
-                <Button
-                  size="lg"
-                  className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4 text-xl font-semibold rounded-xl hover-lift animate-glow"
+          {/* Hero content with video left, form right */}
+          <div className="grid lg:grid-cols-2 gap-8 items-center">
+            {/* Video on the left */}
+            <div className="relative">
+              <div className="aspect-video rounded-2xl overflow-hidden shadow-2xl">
+                <video
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                  className="w-full h-full object-cover"
+                  poster="/vr-business-training-video-thumbnail.jpg"
                 >
-                  <Play className="mr-2 h-6 w-6" />
-                  Yes! Reserve My Seat Now!
-                </Button>
-              </DialogTrigger>
-              <DialogContent className="max-w-2xl">
-                <div className="p-4">
-                  <iframe
-                    src="https://api.leadconnectorhq.com/widget/form/lO1sk3If9Q1m60lpPUQw"
-                    style={{ width: "100%", height: "432px", border: "none", borderRadius: "3px" }}
-                    id="inline-lO1sk3If9Q1m60lpPUQw"
-                    data-layout="{'id':'INLINE'}"
-                    data-trigger-type="alwaysShow"
-                    data-trigger-value=""
-                    data-activation-type="alwaysActivated"
-                    data-activation-value=""
-                    data-deactivation-type="neverDeactivate"
-                    data-deactivation-value=""
-                    data-form-name="VTPS webinar yeah "
-                    data-height="432"
-                    data-layout-iframe-id="inline-lO1sk3If9Q1m60lpPUQw"
-                    data-form-id="lO1sk3If9Q1m60lpPUQw"
-                    title="VTPS webinar yeah "
+                  <source
+                    src="https://webinarregistrationvtp.s3.us-west-2.amazonaws.com/Webinar+Registration+new+July+29.mp4"
+                    type="video/mp4"
                   />
-                  <script src="https://link.msgsndr.com/js/form_embed.js" />
-                </div>
-              </DialogContent>
-            </Dialog>
+                </video>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
+              </div>
+            </div>
 
-            <p className="text-lg mt-4 text-gray-300">100% Free • Our Next Training Starts Today</p>
+            {/* Opt-in form on the right */}
+            <div className="glass-card p-8 rounded-2xl">
+              <div className="text-center mb-6">
+                <h3 className="text-2xl md:text-3xl font-bold mb-4">Reserve Your FREE Seat Now!</h3>
+                <p className="text-lg text-muted-foreground mb-6">
+                  Join thousands of entrepreneurs who are building profitable VR businesses
+                </p>
+              </div>
+
+              {/* Embedded registration form */}
+              <div className="mb-6">
+                <iframe
+                  src="https://api.leadconnectorhq.com/widget/form/lO1sk3If9Q1m60lpPUQw"
+                  style={{ width: "100%", height: "432px", border: "none", borderRadius: "8px" }}
+                  id="inline-lO1sk3If9Q1m60lpPUQw"
+                  data-layout="{'id':'INLINE'}"
+                  data-trigger-type="alwaysShow"
+                  data-trigger-value=""
+                  data-activation-type="alwaysActivated"
+                  data-activation-value=""
+                  data-deactivation-type="neverDeactivate"
+                  data-deactivation-value=""
+                  data-form-name="VTPS webinar yeah "
+                  data-height="432"
+                  data-layout-iframe-id="inline-lO1sk3If9Q1m60lpPUQw"
+                  data-form-id="lO1sk3If9Q1m60lpPUQw"
+                  title="VTPS webinar yeah "
+                />
+                <script src="https://link.msgsndr.com/js/form_embed.js" />
+              </div>
+
+              <div className="text-center">
+                <p className="text-sm text-muted-foreground">
+                  ✓ 100% Free Training
+                  <br />✓ No Credit Card Required
+                  <br />✓ Instant Access After Registration
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -83,7 +97,7 @@ export default function WebinarLandingPage() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold mb-6 gradient-text">
-              EXCLUSIVE FREE TRAINING WITH ZACH CALHOON
+              What You'll Learn In This FREE Training
             </h2>
           </div>
 
@@ -116,20 +130,6 @@ export default function WebinarLandingPage() {
                 $10,000+ Case studies.
               </h3>
             </div>
-          </div>
-
-          <div className="text-center">
-            <Dialog open={isFormOpen} onOpenChange={setIsFormOpen}>
-              <DialogTrigger asChild>
-                <Button
-                  size="lg"
-                  className="bg-accent hover:bg-accent/90 text-accent-foreground px-8 py-4 text-xl font-semibold rounded-xl hover-lift"
-                >
-                  Yes! Reserve My Seat Now!
-                </Button>
-              </DialogTrigger>
-            </Dialog>
-            <p className="text-lg mt-4 text-muted-foreground">100% Free • Our Next Training Starts Today</p>
           </div>
         </div>
       </section>
@@ -229,16 +229,13 @@ export default function WebinarLandingPage() {
               Before we take down this page and shut down the webinar.
             </p>
 
-            <Dialog open={isFormOpen} onOpenChange={setIsFormOpen}>
-              <DialogTrigger asChild>
-                <Button
-                  size="lg"
-                  className="bg-primary hover:bg-primary/90 text-primary-foreground px-12 py-6 text-2xl font-bold rounded-xl hover-lift animate-glow"
-                >
-                  Yes! Reserve My Seat Now!
-                </Button>
-              </DialogTrigger>
-            </Dialog>
+            <Button
+              size="lg"
+              className="bg-primary hover:bg-primary/90 text-primary-foreground px-12 py-6 text-2xl font-bold rounded-xl hover-lift animate-glow"
+              onClick={() => setIsFormOpen(true)}
+            >
+              Yes! Reserve My Seat Now!
+            </Button>
 
             <p className="text-lg mt-6 text-muted-foreground">100% Free • Our Next Training Starts Today</p>
             <p className="text-base mt-2 text-muted-foreground">
