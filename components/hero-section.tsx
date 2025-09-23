@@ -87,6 +87,7 @@ export function HeroSection() {
               description="Press Play To Learn More"
               enableStickyOnScroll={true}
               stickyPosition="top-right"
+              showEnrollButton={true}
             />
           </div>
         </div>

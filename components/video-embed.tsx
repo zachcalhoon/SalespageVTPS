@@ -11,6 +11,7 @@ interface VideoEmbedProps {
   enableStickyOnScroll?: boolean
   stickyPosition?: "top-right" | "top-left" | "bottom-right" | "bottom-left"
   className?: string
+  showEnrollButton?: boolean
 }
 
 export function VideoEmbed({
@@ -21,6 +22,7 @@ export function VideoEmbed({
   enableStickyOnScroll = false,
   stickyPosition = "top-right",
   className = "",
+  showEnrollButton = false,
 }: VideoEmbedProps) {
   const [showStickyVideo, setShowStickyVideo] = useState(false)
   const [isPlaying, setIsPlaying] = useState(false)
@@ -122,6 +124,19 @@ export function VideoEmbed({
               {title && (
                 <div className="mt-2">
                   <h4 className="text-sm font-semibold text-foreground">{title}</h4>
+                </div>
+              )}
+
+              {showEnrollButton && (
+                <div className="mt-3">
+                  <button
+                    onClick={() =>
+                      window.open("https://wnh.thrivecart.com/virtual-tour-profit-system/?coupon=START1000", "_blank")
+                    }
+                    className="w-full bg-gradient-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90 text-primary-foreground font-semibold px-4 py-2 rounded-lg text-sm transition-all duration-300 hover:scale-105 shadow-lg"
+                  >
+                    Enroll Now
+                  </button>
                 </div>
               )}
             </div>
