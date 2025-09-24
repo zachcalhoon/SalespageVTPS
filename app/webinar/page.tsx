@@ -9,6 +9,7 @@ export default function WebinarLandingPage() {
   const [isFormOpen, setIsFormOpen] = useState(false)
   const [showStickyVideo, setShowStickyVideo] = useState(false)
   const videoRef = useRef<HTMLDivElement>(null)
+  const registrationFormRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
     const handleScroll = () => {
@@ -38,10 +39,9 @@ export default function WebinarLandingPage() {
             </button>
             <div className="aspect-video bg-black">
               <video
-                autoPlay
-                muted
                 loop
                 playsInline
+                controls
                 className="w-full h-full object-cover"
                 poster="/vr-business-training-video-thumbnail.jpg"
               >
@@ -85,12 +85,14 @@ export default function WebinarLandingPage() {
           <div className="grid lg:grid-cols-2 gap-8 items-center">
             {/* Video on the left */}
             <div className="relative" ref={videoRef}>
+              <div className="text-center mb-4">
+                <p className="text-lg font-semibold text-primary animate-pulse">Press Play ▶️</p>
+              </div>
               <div className="aspect-video rounded-2xl overflow-hidden shadow-2xl">
                 <video
-                  autoPlay
-                  muted
                   loop
                   playsInline
+                  controls
                   className="w-full h-full object-cover"
                   poster="/vr-business-training-video-thumbnail.jpg"
                 >
@@ -99,12 +101,12 @@ export default function WebinarLandingPage() {
                     type="video/mp4"
                   />
                 </video>
-                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent pointer-events-none" />
               </div>
             </div>
 
             {/* Opt-in form on the right */}
-            <div className="glass-card p-8 rounded-2xl">
+            <div className="glass-card p-8 rounded-2xl" ref={registrationFormRef}>
               <div className="text-center mb-6">
                 <h3 className="text-2xl md:text-3xl font-bold mb-4">Reserve Your FREE Seat Now!</h3>
                 <p className="text-lg text-muted-foreground mb-6">
@@ -301,7 +303,12 @@ export default function WebinarLandingPage() {
             <Button
               size="lg"
               className="bg-primary hover:bg-primary/90 text-primary-foreground px-12 py-6 text-2xl font-bold rounded-xl hover-lift animate-glow"
-              onClick={() => setIsFormOpen(true)}
+              onClick={() => {
+                registrationFormRef.current?.scrollIntoView({
+                  behavior: "smooth",
+                  block: "center",
+                })
+              }}
             >
               Yes! Reserve My Seat Now!
             </Button>
