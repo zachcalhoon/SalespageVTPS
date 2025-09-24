@@ -1001,8 +1001,8 @@ export default function IntroSection() {
                 </p>
               </div>
 
-              {/* CHANGE: Increased yacht tour embed width from aspect-video to aspect-[21/9] for wider display */}
-              <div className="aspect-[21/9] bg-gray-100 rounded-lg overflow-hidden shadow-lg mb-8">
+              {/* CHANGE: Changed from aspect-[21/9] to fixed height of 700px for yacht tour embed */}
+              <div className="bg-gray-100 rounded-lg overflow-hidden shadow-lg mb-8" style={{ height: "700px" }}>
                 <iframe
                   src="https://app.cloudpano.com/tours/UgR3P-ICE-RI"
                   width="100%"
