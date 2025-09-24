@@ -879,7 +879,7 @@ export default function IntroSection() {
             <p className="text-lg text-gray-600">See what real users are saying about CloudPano</p>
           </div>
 
-          <div className="max-w-4xl mx-auto space-y-8">
+          <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Aspect 360 Multimedia Love */}
             <div className="bg-white rounded-lg shadow-lg border border-gray-200 p-6">
               <img
@@ -1475,349 +1475,379 @@ export default function IntroSection() {
         </div>
 
         {/* High-Ticket Revenue Model Section */}
-        <div className="mt-20 bg-gradient-to-br from-slate-50 to-blue-50">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-            {/* Hero Header */}
-            <div className="text-center mb-16">
-              <div className="inline-flex items-center bg-gradient-to-r from-green-500 to-emerald-600 text-white px-6 py-3 rounded-full font-bold text-sm mb-6 animate-pulse">
-                💰 High-Ticket Revenue Model
-              </div>
-              <h3 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 text-balance">
-                How To Unlock High Ticket Clients:
-                <span className="block text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-emerald-600">
-                  Why Charging $10,000 Is Better Than $100
-                </span>
-              </h3>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto text-pretty">
-                Custom Virtual Tours Create Massive Value For Large Enterprise Clients
-              </p>
-            </div>
+        <div className="mt-32 relative overflow-hidden">
+          {/* Background Elements */}
+          <div className="absolute inset-0 bg-gradient-to-br from-indigo-50 via-white to-purple-50"></div>
+          <div className="absolute top-0 left-1/4 w-96 h-96 bg-gradient-to-r from-blue-400/20 to-indigo-400/20 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-gradient-to-r from-purple-400/20 to-pink-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
 
-            {/* ROI Value Proposition */}
-            <div className="mb-20">
-              <div className="glass-card rounded-3xl p-8 md:p-12 shadow-2xl hover-lift">
-                <div className="grid lg:grid-cols-2 gap-12 items-center">
-                  <div className="space-y-6">
-                    <h4 className="text-2xl md:text-3xl font-bold text-gray-900">The ROI Decision Framework</h4>
-                    <p className="text-lg text-gray-700 leading-relaxed">
-                      When choosing a niche, the most important metric is <strong>utility value</strong>. If your client
-                      can insert a virtual tour and their customer value is 10x your price, it's a no-brainer ROI
-                      decision.
-                    </p>
-                    <div className="space-y-4">
-                      <div className="flex items-start space-x-4 group">
-                        <div className="w-8 h-8 bg-green-500 text-white rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
-                          <span className="text-sm font-bold">1</span>
-                        </div>
-                        <div>
-                          <h5 className="font-semibold text-gray-900">Leverage 12-Month Customer Value</h5>
-                          <p className="text-gray-600">
-                            Get prospects thinking about value over the next 12 months, not just days
-                          </p>
-                        </div>
-                      </div>
-                      <div className="flex items-start space-x-4 group">
-                        <div className="w-8 h-8 bg-green-500 text-white rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
-                          <span className="text-sm font-bold">2</span>
-                        </div>
-                        <div>
-                          <h5 className="font-semibold text-gray-900">Target Product Owners, Not Resellers</h5>
-                          <p className="text-gray-600">
-                            Clients who own their products care deeply and pay premium prices
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="relative">
-                    <img
-                      src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-B2gEjPaBeotBFoMCUJg8ftqYuPP5Y9.png"
-                      alt="Organization Structure Chart"
-                      className="w-full h-auto rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300"
-                    />
-                    <div className="absolute -bottom-4 -right-4 bg-gradient-to-r from-green-500 to-emerald-600 text-white px-4 py-2 rounded-full font-bold text-sm shadow-lg animate-bounce">
-                      Scale Your Team
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Virtual Selling Environments */}
-            <div className="mb-20">
-              <div className="text-center mb-12">
-                <h4 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                  Virtual Selling Environments Align With Sales Goals Post COVID
-                </h4>
-                <p className="text-lg text-gray-600 max-w-4xl mx-auto text-pretty">
-                  Sales teams who typically sell in person are scrambling to adapt. Our VR entrepreneurs are setting up
-                  virtual selling environments that give the personal touch of walking someone through the space.
-                </p>
-              </div>
-
-              <div className="grid lg:grid-cols-2 gap-12 items-center">
-                <div className="relative">
-                  <img
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-IUGDjvZkvGrpjL96RWpb6hh8HNfOZL.png"
-                    alt="CloudPano Virtual Tour Mobile Interface"
-                    className="w-full max-w-md mx-auto h-auto hover:scale-105 transition-transform duration-500"
-                  />
-                  <div className="absolute -top-6 -left-6 bg-blue-500 text-white px-4 py-2 rounded-full font-bold text-sm shadow-lg">
-                    CloudPano Live
-                  </div>
-                </div>
-                <div className="space-y-6">
-                  <h5 className="text-2xl font-bold text-gray-900">360º Selling Environment Features</h5>
-                  <div className="space-y-4">
-                    <div className="flex items-start space-x-4 group hover:bg-blue-50 p-3 rounded-lg transition-all duration-300">
-                      <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0 mt-2 group-hover:scale-125 transition-transform duration-300"></div>
-                      <div>
-                        <p className="font-semibold text-gray-900">Video Conversations Inside 360º Spaces</p>
-                        <p className="text-gray-600 text-sm">Just like FaceTime, but in immersive environments</p>
-                      </div>
-                    </div>
-                    <div className="flex items-start space-x-4 group hover:bg-blue-50 p-3 rounded-lg transition-all duration-300">
-                      <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0 mt-2 group-hover:scale-125 transition-transform duration-300"></div>
-                      <div>
-                        <p className="font-semibold text-gray-900">Smooth Control Handoff</p>
-                        <p className="text-gray-600 text-sm">
-                          Pass control between sales person and prospect seamlessly
-                        </p>
-                      </div>
-                    </div>
-                    <div className="flex items-start space-x-4 group hover:bg-blue-50 p-3 rounded-lg transition-all duration-300">
-                      <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0 mt-2 group-hover:scale-125 transition-transform duration-300"></div>
-                      <div>
-                        <p className="font-semibold text-gray-900">Monthly Recurring Revenue</p>
-                        <p className="text-gray-600 text-sm">Charge customers monthly for continued access</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Embedded Virtual Tour */}
-              <div className="mt-16">
-                <div className="text-center mb-8">
-                  <h5 className="text-2xl font-bold text-gray-900 mb-4">Experience a Virtual Selling Environment</h5>
-                  <p className="text-gray-600">Click and drag to explore this interactive virtual tour</p>
-                </div>
-                <div className="aspect-[21/9] bg-gray-100 rounded-2xl overflow-hidden shadow-2xl hover:shadow-3xl transition-shadow duration-500">
-                  <iframe
-                    src="https://app.cloudpano.com/tours/p01itLQTYzpS"
-                    width="100%"
-                    height="100%"
-                    frameBorder="0"
-                    allowFullScreen
-                    title="Virtual Selling Environment Demo"
-                    className="w-full h-full"
-                  ></iframe>
-                </div>
-              </div>
-            </div>
-
-            {/* High Ticket Features & Benefits */}
-            <div className="mb-20">
-              <div className="glass-card rounded-3xl p-8 md:p-12 shadow-2xl">
-                <h4 className="text-3xl md:text-4xl font-bold text-gray-900 text-center mb-12">
-                  High Ticket Custom Virtual Tours Are More Robust With Features,
-                  <span className="block text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600">
-                    But Take Little Time To Create
-                  </span>
-                </h4>
-
-                <div className="grid md:grid-cols-3 gap-8">
-                  <div className="text-center group">
-                    <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
-                      <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
-                        <path
-                          fillRule="evenodd"
-                          d="M3 4a1 1 0 011-1h3a1 1 0 011 1v3a1 1 0 01-1 1H4a1 1 0 01-1-1V4zm2 2V5h1v1H5zM3 13a1 1 0 011-1h3a1 1 0 011 1v3a1 1 0 01-1 1H4a1 1 0 01-1-1v-3zm2 2v-1h1v1H5zM13 4a1 1 0 011-1h3a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1V4zm2 2V5h1v1h-1zM13 13a1 1 0 011-1h3a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-3zm2 2v-1h1v1h-1z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
-                    </div>
-                    <h5 className="text-xl font-bold text-gray-900 mb-2">Multitude of Features</h5>
-                    <p className="text-gray-600">Embed videos, pictures, sounds, and interactive elements</p>
-                  </div>
-
-                  <div className="text-center group">
-                    <div className="w-16 h-16 bg-gradient-to-r from-green-500 to-emerald-500 text-white rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
-                      <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
-                        <path
-                          fillRule="evenodd"
-                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
-                    </div>
-                    <h5 className="text-xl font-bold text-gray-900 mb-2">5 Minutes to Create</h5>
-                    <p className="text-gray-600">Quick creation process with massive profit margins</p>
-                  </div>
-
-                  <div className="text-center group">
-                    <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-indigo-500 text-white rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
-                      <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                      </svg>
-                    </div>
-                    <h5 className="text-xl font-bold text-gray-900 mb-2">Competitive Advantage</h5>
-                    <p className="text-gray-600">Unique skillset that's very difficult to copy</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Pricing & ROI Analysis */}
-            <div className="mb-20">
-              <div className="text-center mb-12">
-                <h4 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                  With $3,000 to $10,000 Offerings
-                  <span className="block text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-emerald-600">
-                    You Can Hire and Build An Organization That Scales
-                  </span>
-                </h4>
-                <p className="text-lg text-gray-600 max-w-3xl mx-auto text-pretty">
-                  Higher prices create loyalty, happy employees, and exponential growth opportunities
-                </p>
-              </div>
-
-              <div className="glass-card rounded-3xl p-8 shadow-2xl hover-lift mb-12">
-                <img
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-SrIR5JnpaZs5zamySskOtlyVCiVbi7.png"
-                  alt="ROI Analysis Spreadsheet showing 3 pricing cases"
-                  className="w-full h-auto rounded-2xl shadow-lg"
-                />
-                <div className="mt-6 text-center">
-                  <p className="text-sm text-gray-600 mb-4">
-                    <strong>Case Analysis:</strong> See how different pricing models affect your ROI
-                  </p>
-                  <div className="grid md:grid-cols-3 gap-4">
-                    <div className="bg-red-50 border border-red-200 rounded-lg p-4">
-                      <div className="text-2xl font-bold text-red-600 mb-1">-37.50%</div>
-                      <div className="text-sm text-red-700">Case 1: Low Price Model</div>
-                    </div>
-                    <div className="bg-green-50 border border-green-200 rounded-lg p-4">
-                      <div className="text-2xl font-bold text-green-600 mb-1">138.10%</div>
-                      <div className="text-sm text-green-700">Case 2: Mid-Tier Pricing</div>
-                    </div>
-                    <div className="bg-emerald-50 border border-emerald-200 rounded-lg p-4">
-                      <div className="text-2xl font-bold text-emerald-600 mb-1">441.40%</div>
-                      <div className="text-sm text-emerald-700">Case 3: High-Ticket Model</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="grid lg:grid-cols-2 gap-12">
-                <div className="space-y-6">
-                  <h5 className="text-2xl font-bold text-gray-900">Why Higher Prices Work</h5>
-                  <div className="space-y-4">
-                    <div className="flex items-start space-x-4 group hover:bg-green-50 p-4 rounded-lg transition-all duration-300">
-                      <div className="w-8 h-8 bg-green-500 text-white rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
-                        <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                          <path
-                            fillRule="evenodd"
-                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                            clipRule="evenodd"
-                          />
-                        </svg>
-                      </div>
-                      <div>
-                        <p className="font-semibold text-gray-900">High Commissions Create Loyalty</p>
-                        <p className="text-gray-600 text-sm">
-                          10-15% commissions motivate sales reps to beat down doors for you
-                        </p>
-                      </div>
-                    </div>
-                    <div className="flex items-start space-x-4 group hover:bg-green-50 p-4 rounded-lg transition-all duration-300">
-                      <div className="w-8 h-8 bg-green-500 text-white rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
-                        <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                          <path
-                            fillRule="evenodd"
-                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                            clipRule="evenodd"
-                          />
-                        </svg>
-                      </div>
-                      <div>
-                        <p className="font-semibold text-gray-900">Simple Fulfillment Process</p>
-                        <p className="text-gray-600 text-sm">
-                          Train young photographers, pay hourly, scale up and down as needed
-                        </p>
-                      </div>
-                    </div>
-                    <div className="flex items-start space-x-4 group hover:bg-green-50 p-4 rounded-lg transition-all duration-300">
-                      <div className="w-8 h-8 bg-green-500 text-white rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
-                        <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                          <path
-                            fillRule="evenodd"
-                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                            clipRule="evenodd"
-                          />
-                        </svg>
-                      </div>
-                      <div>
-                        <p className="font-semibold text-gray-900">Zero Risk Business Model</p>
-                        <p className="text-gray-600 text-sm">Only invest in COGS after jobs are sold</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="space-y-6">
-                  <h5 className="text-2xl font-bold text-gray-900">The Math That Works</h5>
-                  <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-6 border border-blue-200">
-                    <div className="space-y-4">
-                      <div className="flex justify-between items-center">
-                        <span className="text-gray-700">Average Project Value:</span>
-                        <span className="font-bold text-2xl text-green-600">$5,000</span>
-                      </div>
-                      <div className="flex justify-between items-center">
-                        <span className="text-gray-700">Sales Rep Commission (10%):</span>
-                        <span className="font-bold text-lg text-blue-600">$500</span>
-                      </div>
-                      <div className="flex justify-between items-center">
-                        <span className="text-gray-700">Fulfillment Cost:</span>
-                        <span className="font-bold text-lg text-orange-600">$300</span>
-                      </div>
-                      <hr className="border-gray-300" />
-                      <div className="flex justify-between items-center">
-                        <span className="text-gray-900 font-semibold">Net Profit Per Project:</span>
-                        <span className="font-bold text-3xl text-emerald-600">$4,200</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="text-center">
-                    <p className="text-sm text-gray-600 italic">
-                      "Sell bigger and win bigger. Let sales be your guide as you decide who to hire and bring onto your
-                      team."
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Call to Action */}
-          <div className="text-center">
-            <div className="glass-card rounded-3xl p-8 md:p-12 shadow-2xl hover-lift">
-              <h4 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-                Ready to Build Your High-Ticket Virtual Tour Business?
-              </h4>
-              <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto text-pretty">
-                Stop competing on price and start building a scalable organization that attracts enterprise clients and
-                generates massive ROI.
-              </p>
-              <div className="inline-flex items-center bg-gradient-to-r from-green-600 to-emerald-600 text-white px-8 py-4 rounded-full font-bold text-lg shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 cursor-pointer">
-                <span>Learn the Complete System Below</span>
-                <svg className="w-5 h-5 ml-2" fill="currentColor" viewBox="0 0 20 20">
+          <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+            {/* Header */}
+            <div className="text-center mb-20">
+              <div className="inline-flex items-center bg-gradient-to-r from-indigo-100 to-purple-100 text-indigo-800 px-6 py-3 rounded-full font-semibold text-sm mb-6 animate-bounce">
+                <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                   <path
                     fillRule="evenodd"
-                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                    d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z"
                     clipRule="evenodd"
                   />
                 </svg>
+                Secret #2 Revealed
+              </div>
+              <h3 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 text-balance">
+                The Power of Selling
+                <span className="bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
+                  {" "}
+                  Subscriptions
+                </span>
+              </h3>
+              <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto text-pretty">
+                Why recurring revenue is more profitable, more fun, and the key to building a scalable virtual tour
+                empire
+              </p>
+            </div>
+
+            {/* Old Way vs New Way Comparison */}
+            <div className="mb-20">
+              <div className="text-center mb-12">
+                <h4 className="text-3xl font-bold text-gray-900 mb-4">The Mathematical Proof</h4>
+                <p className="text-lg text-gray-600">Same customers, 4x the revenue. Here's how:</p>
+              </div>
+
+              <div className="glass-card rounded-3xl p-8 md:p-12 shadow-2xl hover-lift mb-12">
+                <img
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-FU67BmvrZ2zGWlXDEOM4MBqIqBaP3S.png"
+                  alt="Old Way vs New Way Subscription Comparison"
+                  className="w-full h-auto rounded-2xl shadow-lg"
+                />
+              </div>
+
+              <div className="grid md:grid-cols-2 gap-8 mb-12">
+                <div className="bg-red-50 border-2 border-red-200 rounded-2xl p-8 hover:shadow-lg transition-all duration-300">
+                  <div className="text-center mb-6">
+                    <div className="w-16 h-16 bg-red-500 text-white rounded-full flex items-center justify-center mx-auto mb-4">
+                      <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+                        <path
+                          fillRule="evenodd"
+                          d="M13.477 14.89A6 6 0 015.11 6.524l8.367 8.368zm1.414-1.414L6.524 5.11a6 6 0 018.367 8.367zM18 10a8 8 0 11-16 0 8 8 0 0116 0z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                    </div>
+                    <h5 className="text-2xl font-bold text-red-700 mb-2">Old Way: One-Time Fees</h5>
+                    <p className="text-red-600">100 customers × $1,100 = $110,000</p>
+                  </div>
+                  <div className="space-y-3">
+                    <div className="flex justify-between">
+                      <span className="text-gray-700">Setup Fee:</span>
+                      <span className="font-bold text-red-600">$1,100</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-gray-700">Monthly Subscription:</span>
+                      <span className="font-bold text-red-600">$0</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-gray-700">3-Year Value:</span>
+                      <span className="font-bold text-red-600">$1,100</span>
+                    </div>
+                    <hr className="border-red-300" />
+                    <div className="flex justify-between text-lg">
+                      <span className="font-semibold text-gray-900">Total (100 customers):</span>
+                      <span className="font-bold text-2xl text-red-600">$110,000</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-green-50 border-2 border-green-200 rounded-2xl p-8 hover:shadow-lg transition-all duration-300 transform hover:scale-105">
+                  <div className="text-center mb-6">
+                    <div className="w-16 h-16 bg-green-500 text-white rounded-full flex items-center justify-center mx-auto mb-4">
+                      <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+                        <path
+                          fillRule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                    </div>
+                    <h5 className="text-2xl font-bold text-green-700 mb-2">New Way: Subscriptions</h5>
+                    <p className="text-green-600">100 customers × $4,240 = $424,000</p>
+                  </div>
+                  <div className="space-y-3">
+                    <div className="flex justify-between">
+                      <span className="text-gray-700">Setup Fee:</span>
+                      <span className="font-bold text-green-600">$750</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-gray-700">Monthly Subscription:</span>
+                      <span className="font-bold text-green-600">$97</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-gray-700">3-Year Value:</span>
+                      <span className="font-bold text-green-600">$4,242</span>
+                    </div>
+                    <hr className="border-green-300" />
+                    <div className="flex justify-between text-lg">
+                      <span className="font-semibold text-gray-900">Total (100 customers):</span>
+                      <span className="font-bold text-2xl text-green-600">$424,000</span>
+                    </div>
+                  </div>
+                  <div className="mt-4 text-center">
+                    <span className="inline-flex items-center bg-green-100 text-green-800 px-4 py-2 rounded-full font-bold">
+                      <svg className="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
+                        <path
+                          fillRule="evenodd"
+                          d="M12 7a1 1 0 110-2h5a1 1 0 011 1v5a1 1 0 11-2 0V8.414l-4.293 4.293a1 1 0 01-1.414 0L8 10.414l-4.293 4.293a1 1 0 01-1.414-1.414l5-5a1 1 0 011.414 0L11 10.586 14.586 7H12z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                      4x More Revenue!
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              {/* Growth Charts */}
+              <div className="grid lg:grid-cols-2 gap-8 mb-16">
+                <div className="glass-card rounded-2xl p-6 shadow-lg hover-lift">
+                  <h5 className="text-xl font-bold text-gray-900 mb-4 text-center">Old Way: Flat Growth</h5>
+                  <img
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-5zmP7mVqSZ0Zbn5SrnZH1q7WfroCLl.png"
+                    alt="Old Way No Subscriptions Flat Growth Chart"
+                    className="w-full h-auto rounded-lg"
+                  />
+                  <p className="text-sm text-gray-600 text-center mt-4">Linear growth with diminishing returns</p>
+                </div>
+
+                <div className="glass-card rounded-2xl p-6 shadow-lg hover-lift">
+                  <h5 className="text-xl font-bold text-gray-900 mb-4 text-center">New Way: Exponential Growth</h5>
+                  <img
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-tevzXRAsSu0zLoEWahH7z3kAlA84uI.png"
+                    alt="New Way With Subscriptions Exponential Growth Chart"
+                    className="w-full h-auto rounded-lg"
+                  />
+                  <p className="text-sm text-gray-600 text-center mt-4">Compound growth that accelerates over time</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Target Customer Types */}
+            <div className="mb-20">
+              <div className="text-center mb-12">
+                <h4 className="text-3xl font-bold text-gray-900 mb-4">Who to Target for Subscriptions</h4>
+                <p className="text-lg text-gray-600">
+                  The fastest way to sell subscriptions is to target customers who already charge them
+                </p>
+              </div>
+
+              <div className="grid md:grid-cols-3 gap-8">
+                <div className="group hover:bg-blue-50 p-6 rounded-2xl transition-all duration-300 hover:shadow-lg">
+                  <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-indigo-600 text-white rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
+                    <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+                      <path
+                        fillRule="evenodd"
+                        d="M4 4a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2H4zm0 2v8h12V6H4z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                  <h5 className="text-xl font-bold text-gray-900 mb-3 text-center">Commercial Real Estate</h5>
+                  <p className="text-gray-600 text-center mb-4">
+                    Properties are valued by NOI/Cap Rate. Increase NOI = Increase property value. Mathematical ROI
+                    calculations make closing easier.
+                  </p>
+                  <div className="text-center">
+                    <span className="inline-flex items-center bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-semibold">
+                      High-Value Target
+                    </span>
+                  </div>
+                </div>
+
+                <div className="group hover:bg-green-50 p-6 rounded-2xl transition-all duration-300 hover:shadow-lg">
+                  <div className="w-16 h-16 bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
+                    <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M8 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM15 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z" />
+                      <path d="M3 4a1 1 0 00-1 1v10a1 1 0 001 1h1.05a2.5 2.5 0 014.9 0H10a1 1 0 001-1V5a1 1 0 00-1-1H3zM14 7a1 1 0 00-1 1v6.05A2.5 2.5 0 0115.95 16H17a1 1 0 001-1V8a1 1 0 00-1-1h-3z" />
+                    </svg>
+                  </div>
+                  <h5 className="text-xl font-bold text-gray-900 mb-3 text-center">Auto/Boat/RV Dealers</h5>
+                  <p className="text-gray-600 text-center mb-4">
+                    Inventory needs to move fast. 360° tours are already proven in this space. Show examples and watch
+                    sales come quickly.
+                  </p>
+                  <div className="text-center">
+                    <span className="inline-flex items-center bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-semibold">
+                      Quick Wins
+                    </span>
+                  </div>
+                </div>
+
+                <div className="group hover:bg-purple-50 p-6 rounded-2xl transition-all duration-300 hover:shadow-lg">
+                  <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-600 text-white rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
+                    <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+                      <path
+                        fillRule="evenodd"
+                        d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.57A22.952 22.952 0 0110 13a22.95 22.95 0 01-8-1.43V8a2 2 0 012-2h2zm2-1a1 1 0 011-1h2a1 1 0 011 1v1H8V5zm1 5a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                  <h5 className="text-xl font-bold text-gray-900 mb-3 text-center">Subscription Businesses</h5>
+                  <p className="text-gray-600 text-center mb-4">
+                    Fitness studios, gyms, and other subscription-based businesses understand recurring value and will
+                    pay for services that bring more subscribers.
+                  </p>
+                  <div className="text-center">
+                    <span className="inline-flex items-center bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold">
+                      Perfect Match
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <div className="text-center mt-8">
+                <p className="text-lg text-gray-600 italic">
+                  "We provide over 2,400+ niches to target in the VTPS program"
+                </p>
+              </div>
+            </div>
+
+            {/* Real Life Example */}
+            <div className="mb-20">
+              <div className="text-center mb-12">
+                <h4 className="text-3xl font-bold text-gray-900 mb-4">Real Life Success Story</h4>
+                <p className="text-lg text-gray-600">Jordan Powers and his community college example</p>
+              </div>
+
+              <div className="glass-card rounded-3xl p-8 md:p-12 shadow-2xl hover-lift">
+                <div className="grid lg:grid-cols-2 gap-12 items-center">
+                  <div>
+                    <img
+                      src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-t1NkLytQbwLmqcVPrDdY6cKck4mZlB.png"
+                      alt="Jordan Powers Community College Success Story"
+                      className="w-full h-auto rounded-2xl shadow-lg"
+                    />
+                  </div>
+                  <div className="space-y-6">
+                    <h5 className="text-2xl font-bold text-gray-900">30 Customers = $525,000 Revenue</h5>
+                    <div className="space-y-4">
+                      <div className="flex justify-between items-center p-4 bg-gray-50 rounded-lg">
+                        <span className="text-gray-700">Setup Fee:</span>
+                        <span className="font-bold text-2xl text-green-600">$8,500</span>
+                      </div>
+                      <div className="flex justify-between items-center p-4 bg-gray-50 rounded-lg">
+                        <span className="text-gray-700">Monthly Subscription:</span>
+                        <span className="font-bold text-2xl text-blue-600">$250</span>
+                      </div>
+                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-green-50 to-emerald-50 rounded-lg border-2 border-green-200">
+                        <span className="text-gray-900 font-semibold">3-Year Customer Value:</span>
+                        <span className="font-bold text-3xl text-emerald-600">$17,500</span>
+                      </div>
+                    </div>
+                    <div className="text-center p-6 bg-gradient-to-r from-indigo-50 to-purple-50 rounded-2xl border border-indigo-200">
+                      <p className="text-lg text-gray-700 mb-2">Total Revenue Potential:</p>
+                      <p className="text-4xl font-bold text-indigo-600">$525,000</p>
+                      <p className="text-sm text-gray-600 mt-2">From just 30 customers over 3 years</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Software Features That Justify Subscriptions */}
+            <div className="mb-20">
+              <div className="text-center mb-12">
+                <h4 className="text-3xl font-bold text-gray-900 mb-4">Software Features That Justify Recurring Fees</h4>
+                <p className="text-lg text-gray-600">Attach ongoing value to your subscription model</p>
+              </div>
+
+              <div className="grid md:grid-cols-2 gap-8">
+                <div className="glass-card rounded-2xl p-8 shadow-lg hover-lift">
+                  <div className="flex items-center mb-6">
+                    <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-indigo-600 text-white rounded-xl flex items-center justify-center mr-4">
+                      <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                        <path
+                          fillRule="evenodd"
+                          d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                    </div>
+                    <h5 className="text-xl font-bold text-gray-900">Lead Generation</h5>
+                  </div>
+                  <p className="text-gray-600 mb-6">
+                    Continuously capture leads through your virtual tours and deliver them to your clients. This ongoing
+                    value justifies monthly fees.
+                  </p>
+                  <div className="bg-gray-50 rounded-lg p-4">
+                    <img
+                      src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-3WQZFaXNm7xRnXJAhWQqubL0yn2VBy.png"
+                      alt="Lead Generation Form Example"
+                      className="w-full h-auto rounded-lg shadow-sm"
+                    />
+                  </div>
+                </div>
+
+                <div className="glass-card rounded-2xl p-8 shadow-lg hover-lift">
+                  <div className="flex items-center mb-6">
+                    <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-xl flex items-center justify-center mr-4">
+                      <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                        <path
+                          fillRule="evenodd"
+                          d="M9.383 3.076A1 1 0 0110 4v12a1 1 0 01-1.707.707L4.586 13H2a1 1 0 01-1-1V8a1 1 0 011-1h2.586l3.707-3.707a1 1 0 011.09-.217zM15.657 6.343a1 1 0 011.414 0A9.972 9.972 0 0119 12a9.972 9.972 0 01-1.929 5.657 1 1 0 11-1.414-1.414A7.971 7.971 0 0017 12c0-2.21-.896-4.208-2.343-5.657a1 1 0 010-1.414zm-2.829 2.828a1 1 0 011.415 0A5.983 5.983 0 0115 12a5.984 5.984 0 01-.757 2.828 1 1 0 11-1.415-1.656A3.989 3.989 0 0013 12a3.989 3.989 0 00-.172-1.172 1 1 0 010-1.657z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                    </div>
+                    <h5 className="text-xl font-bold text-gray-900">CloudPano Live</h5>
+                  </div>
+                  <p className="text-gray-600 mb-6">
+                    Interactive live virtual tours with real-time communication. Perfect for remote sales and customer
+                    engagement.
+                  </p>
+                  <div className="bg-gray-50 rounded-lg p-4">
+                    <img
+                      src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-pyj74MJLvJ9w4Dq5crHFoszHjwqmyt.png"
+                      alt="CloudPano Live Virtual Tour Interface"
+                      className="w-full h-auto rounded-lg shadow-sm"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div className="mt-8 text-center">
+                <div className="inline-flex items-center bg-gradient-to-r from-yellow-100 to-orange-100 text-orange-800 px-6 py-3 rounded-full font-semibold">
+                  <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                    <path
+                      fillRule="evenodd"
+                      d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                  Pro Tip: Lead with "hosting and maintenance" when selling recurring fees
+                </div>
+              </div>
+            </div>
+
+            {/* Call to Action */}
+            <div className="text-center">
+              <div className="glass-card rounded-3xl p-8 md:p-12 shadow-2xl hover-lift">
+                <h4 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+                  Ready to Build Your Subscription Empire?
+                </h4>
+                <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto text-pretty">
+                  Transform your one-time sales into recurring revenue streams that compound over time. The math doesn't
+                  lie - subscriptions are 4x more profitable.
+                </p>
+                <div className="inline-flex items-center bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-8 py-4 rounded-full font-bold text-lg shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 cursor-pointer">
+                  <span>Discover the Complete System</span>
+                  <svg className="w-5 h-5 ml-2" fill="currentColor" viewBox="0 0 20 20">
+                    <path
+                      fillRule="evenodd"
+                      d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </div>
               </div>
             </div>
           </div>
@@ -3040,7 +3070,7 @@ export default function IntroSection() {
           </section>
         </div>
 
-        <div className="mt-16">{/* Removed the placeholder CombinedVideoTestimonials component entirely */}</div>
+        {/* Removed the placeholder CombinedVideoTestimonials component entirely */}
       </div>
     </section>
   )
