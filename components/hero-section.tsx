@@ -43,7 +43,10 @@ export function HeroSection() {
             The 360º and VR Revolution Is Here…Build a Wildly Profitable{" "}
             <span className="gradient-text text-glow">360º VR Agency</span> And Automatically Fill Your Calendar Every
             Month With Virtual Tour Sales…{" "}
-            <span className="text-muted-foreground text-3xl md:text-4xl">Even If You Have Zero Experience</span>
+            <span className="text-4xl md:text-6xl relative">
+              <span className="relative z-10">Even If You Have Zero Experience</span>
+              <span className="absolute bottom-1 left-0 w-full h-3 bg-gradient-to-r from-yellow-300 to-orange-400 opacity-70 -z-10 transform -skew-x-12"></span>
+            </span>
           </h1>
         </div>
 
