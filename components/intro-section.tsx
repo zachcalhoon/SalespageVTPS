@@ -1481,6 +1481,359 @@ export default function IntroSection() {
           </section>
         </div>
 
+        {/* High-Ticket Enterprise Section - Secret #1 */}
+        <div className="mt-32 relative overflow-hidden">
+          {/* Background Elements */}
+          <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-indigo-50"></div>
+          <div className="absolute top-0 right-1/4 w-96 h-96 bg-gradient-to-r from-blue-400/20 to-cyan-400/20 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-0 left-1/4 w-96 h-96 bg-gradient-to-r from-indigo-400/20 to-blue-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
+
+          <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+            {/* Header */}
+            <div className="text-center mb-20">
+              <div className="inline-flex items-center bg-gradient-to-r from-blue-100 to-indigo-100 text-blue-800 px-6 py-3 rounded-full font-semibold text-sm mb-6 animate-bounce">
+                <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                  <path
+                    fillRule="evenodd"
+                    d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+                Secret #1 Revealed
+              </div>
+              <h3 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 text-balance">
+                Target Enterprise Clients and
+                <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
+                  {" "}
+                  Price Based On Value
+                </span>
+              </h3>
+              <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto text-pretty">
+                Why charging $10,000 is better than $100 - and how custom virtual tours create massive value for large
+                enterprise clients
+              </p>
+            </div>
+
+            {/* Virtual Tour Demo */}
+            <div className="mb-20">
+              <div className="text-center mb-12">
+                <h4 className="text-3xl font-bold text-gray-900 mb-4">Experience The Technology</h4>
+                <p className="text-lg text-gray-600">Take a virtual tour to see the power of 360° environments</p>
+              </div>
+
+              <div className="glass-card rounded-3xl p-8 md:p-12 shadow-2xl hover-lift mb-12">
+                <iframe
+                  src="https://app.cloudpano.com/tours/p01itLQTYzpS"
+                  width="100%"
+                  height="600"
+                  frameBorder="0"
+                  allowFullScreen
+                  className="rounded-2xl shadow-lg"
+                  title="Virtual Tour Demo"
+                ></iframe>
+              </div>
+            </div>
+
+            {/* Key Insights */}
+            <div className="mb-20">
+              <div className="text-center mb-12">
+                <h4 className="text-3xl font-bold text-gray-900 mb-4">The High-Ticket Framework</h4>
+                <p className="text-lg text-gray-600">How to unlock enterprise clients and scale your business</p>
+              </div>
+
+              <div className="grid md:grid-cols-2 gap-12 mb-16">
+                <div className="space-y-8">
+                  <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
+                    <div className="w-12 h-12 bg-blue-500 text-white rounded-lg flex items-center justify-center mb-4">
+                      <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M4 4a2 2 0 00-2 2v1h16V6a2 2 0 00-2-2H4zM18 9H2v5a2 2 0 002 2h12a2 2 0 002-2V9zM4 13a1 1 0 011-1h1a1 1 0 110 2H5a1 1 0 01-1-1zm5-1a1 1 0 100 2h1a1 1 0 100-2H9z" />
+                      </svg>
+                    </div>
+                    <h5 className="text-xl font-bold text-gray-900 mb-3">Focus on Utility Value</h5>
+                    <p className="text-gray-600">
+                      When choosing a niche, the most important metric is utility value. If your client can insert a
+                      virtual tour and their customer value is 10x your price, it's a no-brainer ROI decision.
+                    </p>
+                  </div>
+
+                  <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
+                    <div className="w-12 h-12 bg-indigo-500 text-white rounded-lg flex items-center justify-center mb-4">
+                      <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                        <path
+                          fillRule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.293l-3-3a1 1 0 00-1.414 0l-3 3a1 1 0 001.414 1.414L9 9.414V13a1 1 0 102 0V9.414l1.293 1.293a1 1 0 001.414-1.414z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                    </div>
+                    <h5 className="text-xl font-bold text-gray-900 mb-3">Leverage 12-Month Value</h5>
+                    <p className="text-gray-600">
+                      When selling marketing services, always leverage the 12-month value of a customer. This increases
+                      the value discussion and gets your prospect to think long-term.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="space-y-8">
+                  <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
+                    <div className="w-12 h-12 bg-cyan-500 text-white rounded-lg flex items-center justify-center mb-4">
+                      <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                        <path
+                          fillRule="evenodd"
+                          d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                    </div>
+                    <h5 className="text-xl font-bold text-gray-900 mb-3">Client Ownership Matters</h5>
+                    <p className="text-gray-600">
+                      Does your client own the product or services they're trying to market? Clients who care deeply
+                      about their products at a fundamental level will pay premium prices.
+                    </p>
+                  </div>
+
+                  <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
+                    <div className="w-12 h-12 bg-purple-500 text-white rounded-lg flex items-center justify-center mb-4">
+                      <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
+                    </div>
+                    <h5 className="text-xl font-bold text-gray-900 mb-3">Virtual Selling Environments</h5>
+                    <p className="text-gray-600">
+                      Post-COVID, sales teams need virtual selling solutions. Set up 360° selling environments where
+                      prospects can have video conversations inside virtual spaces.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Mobile App Demo */}
+            <div className="mb-20">
+              <div className="text-center mb-12">
+                <h4 className="text-3xl font-bold text-gray-900 mb-4">Professional Tools, Simple Creation</h4>
+                <p className="text-lg text-gray-600">Create sophisticated virtual tours in minutes with CloudPano</p>
+              </div>
+
+              <div className="flex justify-center mb-12">
+                <div className="glass-card rounded-3xl p-8 shadow-2xl hover-lift">
+                  <img
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-bcYorsqlBfpBvNHbHhDXdBRIq2r0KX.png"
+                    alt="CloudPano Mobile App Interface"
+                    className="max-w-sm h-auto rounded-2xl shadow-lg"
+                  />
+                </div>
+              </div>
+            </div>
+
+            {/* Organization Structure */}
+            <div className="mb-20">
+              <div className="text-center mb-12">
+                <h4 className="text-3xl font-bold text-gray-900 mb-4">Build Your Organization</h4>
+                <p className="text-lg text-gray-600">
+                  With $3,000 to $10,000 offerings, you can hire and build an organization that scales
+                </p>
+              </div>
+
+              <div className="glass-card rounded-3xl p-8 md:p-12 shadow-2xl hover-lift mb-12">
+                {/* Modern Organization Chart */}
+                <div className="max-w-4xl mx-auto">
+                  <div className="flex flex-col items-center space-y-8">
+                    {/* CEO Level */}
+                    <div className="bg-gradient-to-r from-blue-500 to-indigo-600 text-white px-8 py-4 rounded-2xl shadow-lg">
+                      <div className="text-center">
+                        <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-2">
+                          <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                            <path
+                              fillRule="evenodd"
+                              d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-6-3a2 2 0 11-4 0 2 2 0 014 0zm-2 4a5 5 0 00-4.546 2.916A5.986 5.986 0 0010 16a5.986 5.986 0 004.546-2.084A5 5 0 0010 11z"
+                              clipRule="evenodd"
+                            />
+                          </svg>
+                        </div>
+                        <h5 className="font-bold text-lg">CEO</h5>
+                        <p className="text-sm opacity-90">You - Strategic Leadership</p>
+                      </div>
+                    </div>
+
+                    {/* Connection Lines */}
+                    <div className="w-px h-8 bg-gray-300"></div>
+
+                    {/* Management Level */}
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-3xl">
+                      <div className="bg-white border-2 border-gray-200 px-6 py-4 rounded-xl shadow-md hover:shadow-lg transition-all duration-300">
+                        <div className="text-center">
+                          <div className="w-10 h-10 bg-green-100 text-green-600 rounded-full flex items-center justify-center mx-auto mb-2">
+                            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                              <path
+                                fillRule="evenodd"
+                                d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.57A22.952 22.952 0 0110 13a22.95 22.95 0 01-8-1.43V8a2 2 0 012-2h2zm2-1a1 1 0 011-1h2a1 1 0 011 1v1H8V5zm1 5a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z"
+                                clipRule="evenodd"
+                              />
+                            </svg>
+                          </div>
+                          <h6 className="font-semibold text-gray-900">Admin</h6>
+                          <p className="text-xs text-gray-600">Operations & Support</p>
+                        </div>
+                      </div>
+
+                      <div className="bg-white border-2 border-gray-200 px-6 py-4 rounded-xl shadow-md hover:shadow-lg transition-all duration-300">
+                        <div className="text-center">
+                          <div className="w-10 h-10 bg-purple-100 text-purple-600 rounded-full flex items-center justify-center mx-auto mb-2">
+                            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                              <path
+                                fillRule="evenodd"
+                                d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z"
+                                clipRule="evenodd"
+                              />
+                            </svg>
+                          </div>
+                          <h6 className="font-semibold text-gray-900">Photographer</h6>
+                          <p className="text-xs text-gray-600">Content Creation</p>
+                        </div>
+                      </div>
+
+                      <div className="bg-white border-2 border-gray-200 px-6 py-4 rounded-xl shadow-md hover:shadow-lg transition-all duration-300">
+                        <div className="text-center">
+                          <div className="w-10 h-10 bg-orange-100 text-orange-600 rounded-full flex items-center justify-center mx-auto mb-2">
+                            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                              <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                            </svg>
+                          </div>
+                          <h6 className="font-semibold text-gray-900">Sales Rep</h6>
+                          <p className="text-xs text-gray-600">Client Acquisition</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Connection Lines */}
+                    <div className="w-px h-8 bg-gray-300"></div>
+
+                    {/* Contractors Level */}
+                    <div className="bg-white border-2 border-gray-200 px-6 py-4 rounded-xl shadow-md">
+                      <div className="text-center">
+                        <div className="w-10 h-10 bg-gray-100 text-gray-600 rounded-full flex items-center justify-center mx-auto mb-2">
+                          <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM12.93 17c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z" />
+                          </svg>
+                        </div>
+                        <h6 className="font-semibold text-gray-900">Contractors</h6>
+                        <p className="text-xs text-gray-600">Flexible Support Team</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Financial Analysis */}
+            <div className="mb-20">
+              <div className="text-center mb-12">
+                <h4 className="text-3xl font-bold text-gray-900 mb-4">The Numbers Don't Lie</h4>
+                <p className="text-lg text-gray-600">ROI analysis showing why high-ticket pricing works</p>
+              </div>
+
+              <div className="glass-card rounded-3xl p-8 md:p-12 shadow-2xl hover-lift mb-12">
+                <img
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-oCLbzSZ4GC4TJvMssOpShiAnEn8wjN.png"
+                  alt="High-Ticket Pricing ROI Analysis"
+                  className="w-full h-auto rounded-2xl shadow-lg"
+                />
+              </div>
+
+              <div className="grid md:grid-cols-3 gap-8">
+                <div className="bg-red-50 border-2 border-red-200 rounded-2xl p-6 text-center">
+                  <div className="text-3xl font-bold text-red-600 mb-2">Case 1</div>
+                  <div className="text-lg font-semibold text-gray-900 mb-2">$400 Revenue</div>
+                  <div className="text-red-600 font-bold">-37.50% ROI</div>
+                  <p className="text-sm text-gray-600 mt-2">Low pricing = negative returns</p>
+                </div>
+
+                <div className="bg-yellow-50 border-2 border-yellow-200 rounded-2xl p-6 text-center">
+                  <div className="text-3xl font-bold text-yellow-600 mb-2">Case 2</div>
+                  <div className="text-lg font-semibold text-gray-900 mb-2">$1,500 Revenue</div>
+                  <div className="text-yellow-600 font-bold">138.10% ROI</div>
+                  <p className="text-sm text-gray-600 mt-2">Better pricing = positive returns</p>
+                </div>
+
+                <div className="bg-green-50 border-2 border-green-200 rounded-2xl p-6 text-center transform hover:scale-105 transition-all duration-300">
+                  <div className="text-3xl font-bold text-green-600 mb-2">Case 3</div>
+                  <div className="text-lg font-semibold text-gray-900 mb-2">$8,500 Revenue</div>
+                  <div className="text-green-600 font-bold">441.40% ROI</div>
+                  <p className="text-sm text-gray-600 mt-2">High-ticket = massive returns</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Key Takeaways */}
+            <div className="text-center">
+              <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-3xl p-8 md:p-12">
+                <h4 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">Key Takeaways</h4>
+                <div className="grid md:grid-cols-2 gap-8 text-left">
+                  <div className="space-y-4">
+                    <div className="flex items-start space-x-3">
+                      <div className="w-6 h-6 bg-blue-500 text-white rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                        <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
+                          <path
+                            fillRule="evenodd"
+                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      </div>
+                      <p className="text-gray-700">
+                        Target enterprise clients with high transaction values and lifetime value
+                      </p>
+                    </div>
+                    <div className="flex items-start space-x-3">
+                      <div className="w-6 h-6 bg-blue-500 text-white rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                        <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
+                          <path
+                            fillRule="evenodd"
+                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      </div>
+                      <p className="text-gray-700">Create virtual selling environments for post-COVID sales teams</p>
+                    </div>
+                  </div>
+                  <div className="space-y-4">
+                    <div className="flex items-start space-x-3">
+                      <div className="w-6 h-6 bg-blue-500 text-white rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                        <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
+                          <path
+                            fillRule="evenodd"
+                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      </div>
+                      <p className="text-gray-700">
+                        Build a scalable organization with high-ticket pricing that supports team growth
+                      </p>
+                    </div>
+                    <div className="flex items-start space-x-3">
+                      <div className="w-6 h-6 bg-blue-500 text-white rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                        <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
+                          <path
+                            fillRule="evenodd"
+                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      </div>
+                      <p className="text-gray-700">
+                        Focus on utility value and 12-month customer lifetime value in pricing discussions
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* High-Ticket Revenue Model Section */}
         <div className="mt-32 relative overflow-hidden">
           {/* Background Elements */}
@@ -1652,7 +2005,7 @@ export default function IntroSection() {
                     <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
                       <path
                         fillRule="evenodd"
-                        d="M4 4a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2H4zm0 2v8h12V6H4z"
+                        d="M4 4a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm0 2v8h12V6H4z"
                         clipRule="evenodd"
                       />
                     </svg>
@@ -1800,7 +2153,7 @@ export default function IntroSection() {
                       <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
                         <path
                           fillRule="evenodd"
-                          d="M9.383 3.076A1 1 0 0110 4v12a1 1 0 01-1.707.707L4.586 13H2a1 1 0 01-1-1V8a1 1 0 011-1h2.586l3.707-3.707a1 1 0 011.09-.217zM15.657 6.343a1 1 0 011.414 0A9.972 9.972 0 0119 12a9.972 9.972 0 01-1.929 5.657 1 1 0 11-1.414-1.414A7.971 7.971 0 0017 12c0-2.21-.896-4.208-2.343-5.657a1 1 0 010-1.414zm-2.829 2.828a1 1 0 011.415 0A5.983 5.983 0 0115 12a5.984 5.984 0 01-.757 2.828 1 1 0 11-1.415-1.656A3.989 3.989 0 0013 12a3.989 3.989 0 00-.172-1.172 1 1 0 010-1.657z"
+                          d="M9.383 3.076A1 1 0 0110 4v12a1 1 0 01-1.707.707L4.586 13H2a1 1 0 01-1-1V8a1 1 0 011-1h2.586l3.707-3.707a1 1 0 011.09-.217zM15.657 6.343a1 1 0 011.414 0A9.972 9.972 0 0119 12a9.972 9.972 0 01-1.929 5.657 1 1 0 11-1.414-1.414A7.971 7.971 0 0017 12c0-2.21-.896-4.208-2.343-5.657a1 1 0 010-1.414zm-2.829 2.828a1 1 0 011.415 0A5.983 5.983 0 0115 12a5.984 5.984 0 01-.172-1.172 1 1 0 010-1.657z"
                           clipRule="evenodd"
                         />
                       </svg>
@@ -2082,7 +2435,7 @@ export default function IntroSection() {
                       <img
                         src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/Snip%202025-09-24%2011.30.23.png-e18ye4VHJVTHNnjKo8qWhHy4Bdn8Rp.jpeg"
                         alt="Private Facebook group with 8.0K members showing member profile pictures"
-                        className="w-full max-w-sm rounded-lg shadow-sm text-center"
+                        className="w-full max-w-sm rounded-lg shadow-sm"
                       />
                     </div>
                   </div>
