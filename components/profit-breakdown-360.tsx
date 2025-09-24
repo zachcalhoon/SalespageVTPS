@@ -74,7 +74,7 @@ export default function ProfitBreakdown360() {
             {/* Updated Software Bundle Image */}
             <div className="text-center mb-8 md:mb-12 px-4">
               <img
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%20Aug%204%2C%202025%2C%2003_08_07%20PM-nAYSCB4xEuTtlB1CUYzC4hnwJFbP42.png"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/ChatGPT%20Image%20Aug%204%2C%202025%2C%2003_08_07%20PM-7MMNoqHWxYwrFm0oRQQ9q9R1Rq4Rbx.png"
                 alt="Complete 360° Profit System Software Bundle - CloudPano, Floor Plan Scanner, LeadStack, Lead Finder App, and PhotoAI Video"
                 className="w-full max-w-5xl mx-auto rounded-xl shadow-2xl"
               />
