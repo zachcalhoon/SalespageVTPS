@@ -108,7 +108,7 @@ export function VideoEmbed({
       {/* Sticky Video */}
       {enableStickyOnScroll && showStickyVideo && (
         <div
-          className={`fixed ${getStickyPositionClasses()} z-[9999] w-80 bg-background/95 backdrop-blur-sm rounded-xl shadow-2xl border border-border/50 overflow-hidden animate-in slide-in-from-right-4 duration-300`}
+          className={`fixed ${getStickyPositionClasses()} z-[99999] w-80 bg-background/95 backdrop-blur-sm rounded-xl shadow-2xl border border-border/50 overflow-hidden animate-in slide-in-from-right-4 duration-300`}
         >
           <div className="relative">
             <button

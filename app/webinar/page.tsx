@@ -28,7 +28,7 @@ export default function WebinarLandingPage() {
       <WebinarNav currentPage="landing" />
 
       {showStickyVideo && (
-        <div className="fixed top-20 right-4 z-[9999] w-96 bg-background/95 backdrop-blur-sm rounded-xl shadow-2xl border border-border/50 overflow-hidden">
+        <div className="fixed top-20 right-4 z-[99999] w-96 bg-background/95 backdrop-blur-sm rounded-xl shadow-2xl border border-border/50 overflow-hidden">
           <div className="relative">
             <button
               onClick={() => setShowStickyVideo(false)}
