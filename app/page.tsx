@@ -1,86 +1,71 @@
 import type { Metadata } from "next"
-import { HeroSection } from "@/components/hero-section"
-import { IntroSection } from "@/components/intro-section"
-import { TestimonialsSection } from "@/components/testimonials-section"
-import { VideoTestimonials } from "@/components/video-testimonials"
-import { VirtualTourExamples } from "@/components/virtual-tour-examples"
-import { OfferSection } from "@/components/offer-section"
-import { ProgramBreakdown } from "@/components/program-breakdown"
-import { BonusMaterialsSection } from "@/components/bonus-materials-section"
-import { FinalCTASection } from "@/components/final-cta-section"
-import { Footer } from "@/components/footer"
-import { StickyBanner } from "@/components/sticky-banner"
-import { NotificationWidget } from "@/components/notification-widget"
 
 export const metadata: Metadata = {
   title: "VTPS Training - Build a Profitable 360° VR Agency | Virtual Tour Business System",
   description:
-    "Learn how to build a wildly profitable 360° VR agency with our proven Virtual Tour Photography System. Start earning $10,000+ per month with virtual tours, even with zero experience. Get automated lead generation, high-ticket sales training, and subscription revenue models.",
-  openGraph: {
-    title: "Build a Profitable 360° VR Agency - VTPS Training System",
-    description:
-      "The complete system to build a wildly profitable 360° VR agency. Learn high-ticket sales, subscription models, and automated lead generation for virtual tours.",
-    images: [
-      {
-        url: "/vtps-success-visual.png",
-        width: 1200,
-        height: 630,
-        alt: "VTPS Training - Virtual Tour Business Success System",
-      },
-    ],
-  },
-  alternates: {
-    canonical: "https://vtps-training.com",
-  },
+    "Learn how to build a wildly profitable 360° VR agency with our proven Virtual Tour Photography System. Start earning $10,000+ per month with virtual tours, even with zero experience.",
 }
 
 export default function VTPSPage() {
   return (
-    <main className="min-h-screen">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Course",
-            name: "VTPS Training - Virtual Tour Photography System",
-            description:
-              "Complete training system to build a profitable 360° VR agency business with automated lead generation and high-ticket sales.",
-            provider: {
-              "@type": "Organization",
-              name: "VTPS Training",
-              url: "https://vtps-training.com",
-            },
-            courseMode: "online",
-            educationalLevel: "beginner",
-            teaches: [
-              "360° Virtual Tour Photography",
-              "VR Business Development",
-              "High-Ticket Sales Strategies",
-              "Subscription Business Models",
-              "Automated Lead Generation",
-              "Virtual Tour Software Mastery",
-            ],
-            offers: {
-              "@type": "Offer",
-              category: "Business Training",
-              availability: "https://schema.org/InStock",
-            },
-          }),
-        }}
-      />
-      <HeroSection />
-      <IntroSection />
-      <TestimonialsSection />
-      <VideoTestimonials />
-      <VirtualTourExamples />
-      <ProgramBreakdown />
-      <OfferSection />
-      <BonusMaterialsSection />
-      <FinalCTASection />
-      <Footer />
-      <StickyBanner />
-      <NotificationWidget />
+    <main className="min-h-screen bg-gray-50">
+      <div className="container mx-auto px-4 py-8">
+        <h1 className="text-4xl font-bold text-center mb-8">VTPS Training</h1>
+        <p className="text-xl text-center text-gray-600 mb-8">Build a Profitable 360° VR Agency</p>
+
+        {/* Test image section */}
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl font-bold mb-4">Testing Images</h2>
+
+          {/* Placeholder images that should work */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+            <img
+              src="/virtual-tour-example.jpg"
+              alt="Virtual Tour Example"
+              className="w-full h-64 object-cover rounded-lg"
+            />
+            <img
+              src="/360-camera-setup.jpg"
+              alt="360 Camera Setup"
+              className="w-full h-64 object-cover rounded-lg"
+            />
+          </div>
+
+          {/* Test some common broken image patterns */}
+          <div className="space-y-4">
+            <h3 className="text-lg font-semibold">Checking for broken images:</h3>
+
+            {/* These might be broken - let's see */}
+            <div className="grid grid-cols-2 gap-4">
+              <div className="border p-4 rounded">
+                <p className="text-sm mb-2">Zach Calhoon Headshot:</p>
+                <img
+                  src="https://vtpstraining.blob.core.windows.net/images/zach-calhoon-headshot.jpg"
+                  alt="Zach Calhoon"
+                  className="w-32 h-32 object-cover rounded-full mx-auto"
+                  onError={(e) => {
+                    const target = e.target as HTMLImageElement
+                    target.src = "/professional-headshot.png"
+                  }}
+                />
+              </div>
+
+              <div className="border p-4 rounded">
+                <p className="text-sm mb-2">Success Visual:</p>
+                <img
+                  src="/vtps-success-visual.png"
+                  alt="VTPS Success"
+                  className="w-full h-32 object-cover rounded"
+                  onError={(e) => {
+                    const target = e.target as HTMLImageElement
+                    target.src = "/success-visualization.jpg"
+                  }}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
   )
 }
