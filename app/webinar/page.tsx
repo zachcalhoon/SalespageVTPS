@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from "react"
 import { Button } from "@/components/ui/button"
 import { Users, TrendingUp, DollarSign, X, Play } from "lucide-react"
 import { WebinarNav } from "@/components/webinar-nav"
+import { SignupNotification } from "@/components/signup-notification"
 
 export default function WebinarLandingPage() {
   const [isFormOpen, setIsFormOpen] = useState(false)
@@ -45,6 +46,8 @@ export default function WebinarLandingPage() {
   return (
     <div className="min-h-screen bg-background">
       <WebinarNav currentPage="landing" />
+
+      <SignupNotification />
 
       {showStickyVideo && (
         <div className="fixed top-20 right-4 z-[99999] w-96 bg-background/95 backdrop-blur-sm rounded-xl shadow-2xl border border-border/50 overflow-hidden">
