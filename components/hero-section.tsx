@@ -59,7 +59,7 @@ export function HeroSection() {
         <div className="max-w-5xl mx-auto pt-8">
           <VideoEmbed
             src="https://vtpssalesvideo.s3.us-west-2.amazonaws.com/VTPS+Information+VSL+-+Aug+25+2021.mp4"
-            poster="/virtual-tour-business-training-video-thumbnail.jpg"
+            poster="/placeholder.svg?key=video&width=1200&height=675"
             title="Virtual Tour Profit System Training"
             description="Press Play To Learn More"
             enableStickyOnScroll={true}

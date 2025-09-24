@@ -21,7 +21,7 @@ export function BonusMaterialsSection() {
           <div className="bg-slate-800/50 backdrop-blur-sm rounded-2xl p-8 border border-slate-700/50">
             <div className="mb-6">
               <img
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/image%281%29-2yjPIa4v8oplBBL0RbnVdI2ELnE1cu.png"
+                src="/placeholder.svg?key=website&width=600&height=400"
                 alt="Professional Virtual Tour Website Template"
                 className="w-full rounded-lg shadow-2xl"
               />
@@ -55,7 +55,7 @@ export function BonusMaterialsSection() {
           <div className="bg-slate-800/50 backdrop-blur-sm rounded-2xl p-8 border border-slate-700/50">
             <div className="mb-6">
               <img
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/image%281%29-Ib5NUVc3WKsqNozsVufEqDSTcjPR1O.png"
+                src="/placeholder.svg?key=presentation&width=600&height=400"
                 alt="Complete Virtual Tour Presentation Deck"
                 className="w-full rounded-lg shadow-2xl"
               />

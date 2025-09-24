@@ -86,7 +86,7 @@ export function VirtualTourExamples() {
 
             <div className="flex justify-center">
               <img
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/image%281%29-jg0pT266iEtkWIwaQt3tkMOAafx9e8.png"
+                src="/placeholder.svg?key=equipment&width=800&height=500"
                 alt="Professional 360° Camera Equipment Collection"
                 className="max-w-2xl w-full rounded-lg shadow-xl hover-lift"
               />

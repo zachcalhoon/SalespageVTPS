@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { XIcon, BellIcon } from "./icons"
+import { X, Bell } from "lucide-react"
 
 export function NotificationWidget() {
   const [isVisible, setIsVisible] = useState(false)
@@ -88,7 +88,7 @@ export function NotificationWidget() {
           onClick={() => setIsMinimized(false)}
           className="bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-full shadow-lg transition-all duration-300 animate-pulse"
         >
-          <BellIcon className="w-5 h-5" />
+          <Bell className="w-5 h-5" />
         </button>
       ) : (
         // Full notification widget
@@ -103,7 +103,7 @@ export function NotificationWidget() {
                 <div className="w-3 h-0.5 bg-current"></div>
               </button>
               <button onClick={() => setIsVisible(false)} className="text-gray-400 hover:text-gray-600">
-                <XIcon className="w-4 h-4" />
+                <X className="w-4 h-4" />
               </button>
             </div>
           </div>

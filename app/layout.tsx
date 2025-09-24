@@ -1,12 +1,13 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Inter } from "next/font/google"
+import { Inter } from 'next/font/google'
+import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 import { Suspense } from "react"
 
-const inter = Inter({
+const inter = Inter({ 
   subsets: ["latin"],
-  variable: "--font-inter",
+  variable: "--font-inter"
 })
 
 export const metadata: Metadata = {
@@ -94,7 +95,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`font-sans ${inter.variable}`}>
         <Suspense>{children}</Suspense>
-        {/* <Analytics /> */}
+        <Analytics />
       </body>
     </html>
   )

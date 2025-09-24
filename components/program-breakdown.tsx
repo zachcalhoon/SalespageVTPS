@@ -4,7 +4,7 @@ const programs = [
   {
     title: "The Digital Media Business Blueprint - How To Sell Virtual Tours For Profit",
     description: "Master the fundamentals of selling virtual tours and building your business from scratch",
-    image: "/placeholder.svg?key=business-blueprint",
+    image: "/placeholder.svg?key=blueprint&width=600&height=400",
     lessons: [
       "Introduction: Virtual Tour Sales. Getting Started Selling Virtual Tours",
       "How To Start a Virtual Tour Business From Scratch",
@@ -22,7 +22,7 @@ const programs = [
   {
     title: "Outbound Sales Growth Hacking Secrets",
     description: "Learn the automated system that generates $10K per month",
-    image: "/placeholder.svg?key=growth-hacking",
+    image: "/placeholder.svg?key=growth&width=600&height=400",
     lessons: [
       "[The Virtual Tour Profit System Video 1 of 2] Virtual Tour Business Automation Explained",
       "[The Virtual Tour Profit System 2 of 2] How To Build A System That Generates $10K Per Month Automatically",
@@ -86,7 +86,7 @@ const programs = [
   {
     title: "Inbound Advertising Mastery",
     description: "Buy customers for profit with Google Ads and Facebook Ads",
-    image: "/placeholder.svg?key=advertising-mastery",
+    image: "/placeholder.svg?key=advertising&width=600&height=400",
     lessons: [
       "Google Adwords Overview: How To Determine Your Local Keyword Targets",
       "Google Adwords Campaign Example: How To Build Your First PPC Campaign",
