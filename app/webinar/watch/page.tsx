@@ -28,9 +28,9 @@ export default function WebinarWatchPage() {
       </header>
 
       <div className="max-w-6xl mx-auto px-4 py-8">
-        <div className="grid lg:grid-cols-3 gap-8">
-          {/* Main Video Section */}
-          <div className="lg:col-span-2">
+        <div className="grid lg:grid-cols-4 gap-8">
+          {/* Main Video Section - Now spans 3 columns instead of 2 */}
+          <div className="lg:col-span-3">
             <div className="glass-card rounded-2xl overflow-hidden mb-8">
               <div className="aspect-video">
                 <iframe
@@ -99,51 +99,8 @@ export default function WebinarWatchPage() {
             </div>
           </div>
 
-          {/* Sidebar */}
+          {/* Sidebar - Now spans 1 column */}
           <div className="lg:col-span-1">
-            {/* Live Chat Simulation */}
-            <div className="glass-card p-6 rounded-2xl mb-6">
-              <h3 className="text-xl font-semibold mb-4">Live Chat</h3>
-              <div className="space-y-4 max-h-96 overflow-y-auto">
-                <div className="flex gap-3">
-                  <div className="w-8 h-8 bg-primary/20 rounded-full flex items-center justify-center text-xs font-semibold">
-                    JM
-                  </div>
-                  <div>
-                    <p className="text-sm font-medium">John M.</p>
-                    <p className="text-sm text-muted-foreground">This is exactly what I needed! Thanks Zach!</p>
-                  </div>
-                </div>
-                <div className="flex gap-3">
-                  <div className="w-8 h-8 bg-accent/20 rounded-full flex items-center justify-center text-xs font-semibold">
-                    SK
-                  </div>
-                  <div>
-                    <p className="text-sm font-medium">Sarah K.</p>
-                    <p className="text-sm text-muted-foreground">Already implementing these strategies!</p>
-                  </div>
-                </div>
-                <div className="flex gap-3">
-                  <div className="w-8 h-8 bg-secondary/20 rounded-full flex items-center justify-center text-xs font-semibold">
-                    MR
-                  </div>
-                  <div>
-                    <p className="text-sm font-medium">Mike R.</p>
-                    <p className="text-sm text-muted-foreground">The case studies are incredible 🔥</p>
-                  </div>
-                </div>
-                <div className="flex gap-3">
-                  <div className="w-8 h-8 bg-primary/20 rounded-full flex items-center justify-center text-xs font-semibold">
-                    LT
-                  </div>
-                  <div>
-                    <p className="text-sm font-medium">Lisa T.</p>
-                    <p className="text-sm text-muted-foreground">When does the next cohort start?</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
             {/* Key Takeaways */}
             <div className="glass-card p-6 rounded-2xl mb-6">
               <h3 className="text-xl font-semibold mb-4">Key Takeaways</h3>
