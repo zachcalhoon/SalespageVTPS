@@ -1065,23 +1065,25 @@ export default function IntroSection() {
               <p className="text-xl text-gray-600">Everything you need to build a profitable virtual tour business:</p>
             </div>
 
-            <div className="grid lg:grid-cols-2 gap-16 items-center">
-              {/* Left side - Image */}
-              <div className="relative">
-                <div className="glass-card rounded-3xl p-8 shadow-2xl hover-lift">
-                  <img
-                    src="/professional-virtual-tour-business-setup-with-vr-e.jpg"
-                    alt="VTPS Program - Virtual Tour Business Setup"
-                    className="w-full h-auto rounded-2xl shadow-lg"
-                  />
-                  <div className="absolute -top-4 -right-4 bg-gradient-to-r from-blue-500 to-indigo-600 text-white px-6 py-3 rounded-full font-bold shadow-lg">
-                    Complete System
+            <div className="space-y-16">
+              {/* Top - Image */}
+              <div className="flex justify-center">
+                <div className="relative max-w-2xl">
+                  <div className="glass-card rounded-3xl p-8 shadow-2xl hover-lift">
+                    <img
+                      src="/professional-virtual-tour-business-setup-with-vr-e.jpg"
+                      alt="VTPS Program - Virtual Tour Business Setup"
+                      className="w-full h-auto rounded-2xl shadow-lg"
+                    />
+                    <div className="absolute -top-4 -right-4 bg-gradient-to-r from-blue-500 to-indigo-600 text-white px-6 py-3 rounded-full font-bold shadow-lg">
+                      Complete System
+                    </div>
                   </div>
                 </div>
               </div>
 
-              {/* Right side - Program Items */}
-              <div className="space-y-6">
+              {/* Bottom - Program Items in 2-column grid */}
+              <div className="grid md:grid-cols-2 gap-6">
                 {/* Training & Courses */}
                 <div className="flex items-start space-x-4 group hover:bg-blue-50 p-4 rounded-xl transition-all duration-300">
                   <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-indigo-600 text-white rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
@@ -1249,24 +1251,28 @@ export default function IntroSection() {
                     <h5 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-green-600 transition-colors duration-300">
                       Complete marketing materials
                     </h5>
-                    <p className="text-gray-600">
-                      Brochures, tri-folds, pitch decks, stock images, and exactly how to use them.
-                    </p>
+                    <p className="text-gray-600">Brochures, flyers, and presentation templates.</p>
                   </div>
                 </div>
 
-                {/* Bonus Interviews */}
-                <div className="flex items-start space-x-4 group hover:bg-red-50 p-4 rounded-xl transition-all duration-300">
-                  <div className="w-12 h-12 bg-gradient-to-r from-red-500 to-orange-600 text-white rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+                {/* Bonus Item */}
+                <div className="flex items-start space-x-4 group hover:bg-purple-50 p-4 rounded-xl transition-all duration-300 md:col-span-2">
+                  <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-600 text-white rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
                     <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
-                      <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      <path
+                        fillRule="evenodd"
+                        d="M5 2a1 1 0 011 1v1h1a1 1 0 010 2H6v1a1 1 0 01-2 0V6H3a1 1 0 010-2h1V3a1 1 0 011-1zm0 10a1 1 0 011 1v1h1a1 1 0 110 2H6v1a1 1 0 11-2 0v-1H3a1 1 0 110-2h1v-1a1 1 0 011-1zM12 2a1 1 0 01.967.744L14.146 7.2 17.5 9.134a1 1 0 010 1.732L14.146 12.8l-1.179 4.456a1 1 0 01-1.934 0L9.854 12.8 6.5 10.866a1 1 0 010-1.732L9.854 7.2l1.179-4.456A1 1 0 0112 2z"
+                        clipRule="evenodd"
+                      />
                     </svg>
                   </div>
                   <div>
-                    <h5 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-red-600 transition-colors duration-300">
-                      Bonus Interviews
+                    <h5 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-purple-600 transition-colors duration-300">
+                      BONUS: Access to private Facebook group
                     </h5>
-                    <p className="text-gray-600">Exclusive interviews with successful VTPS providers.</p>
+                    <p className="text-gray-600">
+                      Connect with other successful virtual tour business owners and get ongoing support.
+                    </p>
                   </div>
                 </div>
               </div>
