@@ -2,13 +2,17 @@
 
 import { useState, useEffect, useRef } from "react"
 import { Button } from "@/components/ui/button"
-import { Users, TrendingUp, DollarSign, X } from "lucide-react"
+import { Users, TrendingUp, DollarSign, X, Play } from "lucide-react"
 import { WebinarNav } from "@/components/webinar-nav"
 
 export default function WebinarLandingPage() {
   const [isFormOpen, setIsFormOpen] = useState(false)
   const [showStickyVideo, setShowStickyVideo] = useState(false)
+  const [isMainVideoPlaying, setIsMainVideoPlaying] = useState(false)
+  const [isStickyVideoPlaying, setIsStickyVideoPlaying] = useState(false)
   const videoRef = useRef<HTMLDivElement>(null)
+  const mainVideoElementRef = useRef<HTMLVideoElement>(null)
+  const stickyVideoElementRef = useRef<HTMLVideoElement>(null)
   const registrationFormRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
@@ -24,6 +28,20 @@ export default function WebinarLandingPage() {
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
 
+  const handleMainVideoPlay = () => {
+    setIsMainVideoPlaying(true)
+    if (mainVideoElementRef.current) {
+      mainVideoElementRef.current.play()
+    }
+  }
+
+  const handleStickyVideoPlay = () => {
+    setIsStickyVideoPlaying(true)
+    if (stickyVideoElementRef.current) {
+      stickyVideoElementRef.current.play()
+    }
+  }
+
   return (
     <div className="min-h-screen bg-background">
       <WebinarNav currentPage="landing" />
@@ -37,8 +55,27 @@ export default function WebinarLandingPage() {
             >
               <X className="h-4 w-4 text-white" />
             </button>
-            <div className="aspect-video bg-black">
-              <video loop playsInline controls className="w-full h-full object-cover">
+            <div className="aspect-video bg-black relative">
+              {!isStickyVideoPlaying && (
+                <div className="absolute inset-0 z-10">
+                  <img src="/webinar-cover.jpg" alt="Webinar Cover" className="w-full h-full object-cover" />
+                  <button
+                    onClick={handleStickyVideoPlay}
+                    className="absolute inset-0 flex items-center justify-center bg-black/20 hover:bg-black/30 transition-colors group"
+                  >
+                    <div className="w-16 h-16 bg-white/90 hover:bg-white rounded-full flex items-center justify-center transition-all group-hover:scale-110">
+                      <Play className="h-8 w-8 text-black ml-1" fill="currentColor" />
+                    </div>
+                  </button>
+                </div>
+              )}
+              <video
+                ref={stickyVideoElementRef}
+                loop
+                playsInline
+                controls={isStickyVideoPlaying}
+                className="w-full h-full object-cover"
+              >
                 <source
                   src="https://webinarregistrationvtp.s3.us-west-2.amazonaws.com/Webinar+Registration+new+July+29.mp4"
                   type="video/mp4"
@@ -82,8 +119,31 @@ export default function WebinarLandingPage() {
               <div className="text-center mb-4">
                 <p className="text-lg font-semibold text-primary animate-pulse">Press Play ▶️</p>
               </div>
-              <div className="aspect-video rounded-2xl overflow-hidden shadow-2xl">
-                <video loop playsInline controls className="w-full h-full object-cover">
+              <div className="aspect-video rounded-2xl overflow-hidden shadow-2xl relative">
+                {!isMainVideoPlaying && (
+                  <div className="absolute inset-0 z-10">
+                    <img
+                      src="/webinar-cover.jpg"
+                      alt="Webinar Cover"
+                      className="w-full h-full object-cover rounded-2xl"
+                    />
+                    <button
+                      onClick={handleMainVideoPlay}
+                      className="absolute inset-0 flex items-center justify-center bg-black/20 hover:bg-black/30 transition-colors group rounded-2xl"
+                    >
+                      <div className="w-20 h-20 bg-white/90 hover:bg-white rounded-full flex items-center justify-center transition-all group-hover:scale-110 shadow-2xl">
+                        <Play className="h-10 w-10 text-black ml-1" fill="currentColor" />
+                      </div>
+                    </button>
+                  </div>
+                )}
+                <video
+                  ref={mainVideoElementRef}
+                  loop
+                  playsInline
+                  controls={isMainVideoPlaying}
+                  className="w-full h-full object-cover"
+                >
                   <source
                     src="https://webinarregistrationvtp.s3.us-west-2.amazonaws.com/Webinar+Registration+new+July+29.mp4"
                     type="video/mp4"
