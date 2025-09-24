@@ -1603,7 +1603,7 @@ export default function IntroSection() {
               </div>
               <div className="aspect-[21/9] bg-gray-100 rounded-2xl overflow-hidden shadow-2xl hover:shadow-3xl transition-shadow duration-500">
                 <iframe
-                  src="https://app.cloudpano.com/tours/UgR3P-ICE-RI"
+                  src="https://app.cloudpano.com/tours/p01itLQTYzpS"
                   width="100%"
                   height="100%"
                   frameBorder="0"
