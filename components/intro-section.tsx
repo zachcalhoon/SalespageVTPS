@@ -62,7 +62,7 @@ export default function IntroSection() {
           <div className="flex flex-col md:flex-row items-center md:items-start gap-6 mb-8">
             <div className="flex-shrink-0">
               <img
-                src="https://hebbkx1anhila5yf.blob.core.windows.net/design-mode-images/image%281%29-gMGchbx3tQ8tIve9LKyACJHHg2rf9e.png"
+                src="/placeholder.svg?key=a09ea"
                 alt="Zach Calhoon headshot"
                 className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover shadow-lg"
               />
