@@ -1278,970 +1278,1770 @@ export default function IntroSection() {
               </div>
             </div>
           </div>
+
+          {/* Program Value Breakdown Section */}
+          <div className="mt-20">
+            <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+              <div className="text-center mb-12">
+                <h4 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 leading-[2rem]">
+                  Complete Program Value Breakdown
+                </h4>
+                <p className="text-lg text-gray-600">
+                  See exactly what you get when you join the Virtual Tour Profit System
+                </p>
+              </div>
+
+              {/* Strategy Section */}
+              <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-8 rounded-lg mb-8">
+                <div className="text-center mb-8">
+                  <h5 className="text-2xl font-bold text-gray-900 mb-4">🎯 Strategy & Business Framework</h5>
+                  <p className="text-lg text-gray-700">Complete roadmap to building your profitable VR business</p>
+                </div>
+
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div className="space-y-4">
+                    <div className="flex items-center space-x-3">
+                      <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0"></div>
+                      <p className="font-medium text-gray-900">Step-by-step business setup guide</p>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0"></div>
+                      <p className="font-medium text-gray-900">Proven pricing strategies</p>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0"></div>
+                      <p className="font-medium text-gray-900">Client acquisition system</p>
+                    </div>
+                  </div>
+                  <div className="space-y-4">
+                    <div className="flex items-center space-x-3">
+                      <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0"></div>
+                      <p className="font-medium text-gray-900">Market positioning tactics</p>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0"></div>
+                      <p className="font-medium text-gray-900">Scaling and outsourcing methods</p>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0"></div>
+                      <p className="font-medium text-gray-900">Recurring revenue models</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Training Section */}
+              <div className="bg-gradient-to-r from-green-50 to-emerald-50 p-8 rounded-lg mb-8">
+                <div className="text-center mb-8">
+                  <h5 className="text-2xl font-bold text-gray-900 mb-4">📚 Comprehensive Training System</h5>
+                  <p className="text-lg text-gray-700">40+ hours of in-depth training and resources</p>
+                </div>
+
+                <div className="grid md:grid-cols-3 gap-6">
+                  <div className="text-center">
+                    <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-4">
+                      40+
+                    </div>
+                    <h6 className="font-bold text-gray-900 mb-2">Hours of Training</h6>
+                    <p className="text-gray-600 text-sm">Complete video course library</p>
+                  </div>
+                  <div className="text-center">
+                    <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-4">
+                      19
+                    </div>
+                    <h6 className="font-bold text-gray-900 mb-2">White Label Tours</h6>
+                    <p className="text-gray-600 text-sm">Ready-to-use portfolio examples</p>
+                  </div>
+                  <div className="text-center">
+                    <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-4">
+                      70+
+                    </div>
+                    <h6 className="font-bold text-gray-900 mb-2">Target Industries</h6>
+                    <p className="text-gray-600 text-sm">Proven hot buyer niches</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Results Section */}
+              <div className="bg-gradient-to-r from-purple-50 to-pink-50 p-8 rounded-lg mb-8">
+                <div className="text-center mb-8">
+                  <h5 className="text-2xl font-bold text-gray-900 mb-4">📈 Expected Results & Outcomes</h5>
+                  <p className="text-lg text-gray-700">What our successful students typically achieve</p>
+                </div>
+
+                <div className="grid md:grid-cols-2 gap-8">
+                  <div className="space-y-6">
+                    <div className="bg-white p-6 rounded-lg shadow-sm">
+                      <h6 className="text-xl font-bold text-purple-600 mb-2">First 30 Days</h6>
+                      <ul className="space-y-2 text-gray-700">
+                        <li>• Complete system setup</li>
+                        <li>• First virtual tour created</li>
+                        <li>• Initial prospect outreach</li>
+                        <li>• Portfolio development</li>
+                      </ul>
+                    </div>
+                    <div className="bg-white p-6 rounded-lg shadow-sm">
+                      <h6 className="text-xl font-bold text-purple-600 mb-2">60-90 Days</h6>
+                      <ul className="space-y-2 text-gray-700">
+                        <li>• First paying clients secured</li>
+                        <li>• $2,000-$5,000+ monthly revenue</li>
+                        <li>• Established local presence</li>
+                        <li>• Referral system activated</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div className="space-y-6">
+                    <div className="bg-white p-6 rounded-lg shadow-sm">
+                      <h6 className="text-xl font-bold text-purple-600 mb-2">6+ Months</h6>
+                      <ul className="space-y-2 text-gray-700">
+                        <li>• $10,000+ monthly revenue</li>
+                        <li>• Team building & outsourcing</li>
+                        <li>• Multiple revenue streams</li>
+                        <li>• Business automation</li>
+                      </ul>
+                    </div>
+                    <div className="bg-white p-6 rounded-lg shadow-sm">
+                      <h6 className="text-xl font-bold text-purple-600 mb-2">Long-term Success</h6>
+                      <ul className="space-y-2 text-gray-700">
+                        <li>• Six-figure annual income</li>
+                        <li>• Passive revenue streams</li>
+                        <li>• Location independence</li>
+                        <li>• Financial freedom</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Success Guarantee */}
+              <div className="bg-gradient-to-r from-yellow-50 to-orange-50 p-8 rounded-lg border-2 border-orange-200">
+                <div className="text-center">
+                  <h5 className="text-2xl font-bold text-gray-900 mb-4">🛡️ 90-Day Success Guarantee</h5>
+                  <p className="text-lg text-gray-700 mb-6">
+                    We're so confident in the VTPS system that we guarantee you'll land your first paying client within
+                    90 days, or we'll refund every penny.
+                  </p>
+                  <div className="grid md:grid-cols-2 gap-4 max-w-2xl mx-auto">
+                    <div className="flex items-center space-x-3">
+                      <div className="w-3 h-3 bg-green-500 rounded-full flex-shrink-0"></div>
+                      <span className="text-gray-700 font-medium">First client within 90 days guaranteed</span>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <div className="w-3 h-3 bg-green-500 rounded-full flex-shrink-0"></div>
+                      <span className="text-gray-700 font-medium">100% money-back guarantee</span>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <div className="w-3 h-3 bg-green-500 rounded-full flex-shrink-0"></div>
+                      <span className="text-gray-700 font-medium">Complete system setup included</span>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <div className="w-3 h-3 bg-green-500 rounded-full flex-shrink-0"></div>
+                      <span className="text-gray-700 font-medium">Personal support throughout</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Read How Content Inside VTPS Is Changing Lives Section */}
+          <section className="py-16 bg-white">
+            <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+              <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-900 leading-[2.5rem]">
+                Read How Content Inside VTPS Is Changing Lives
+              </h2>
+
+              <div className="space-y-12">
+                {/* Bobby's Testimonial */}
+                <div className="bg-gray-50 rounded-2xl p-8 shadow-lg">
+                  <img
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-9HoCt2LkPImWfKOHb1yN8XwGHDNecv.png"
+                    alt="Bobby's testimonial about VTPS content"
+                    className="w-full rounded-xl shadow-md"
+                  />
+                </div>
+
+                {/* Sports Club Success Testimonial */}
+                <div className="bg-gray-50 rounded-2xl p-8 shadow-lg">
+                  <img
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-sB96R4f2A5sb3oYjxqnxjViME6KXX4.png"
+                    alt="VTPS student success with sports club deal"
+                    className="w-full rounded-xl shadow-md"
+                  />
+                </div>
+              </div>
+            </div>
+          </section>
         </div>
 
-        {/* Program Value Breakdown Section */}
-        <div className="mt-20">
-          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-12">
-              <h4 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 leading-[2rem]">
-                Complete Program Value Breakdown
-              </h4>
-              <p className="text-lg text-gray-600">
-                See exactly what you get when you join the Virtual Tour Profit System
+        {/* High-Ticket Revenue Model Section */}
+        <div className="mt-20 bg-gradient-to-br from-slate-50 to-blue-50">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+            {/* Hero Header */}
+            <div className="text-center mb-16">
+              <div className="inline-flex items-center bg-gradient-to-r from-green-500 to-emerald-600 text-white px-6 py-3 rounded-full font-bold text-sm mb-6 animate-pulse">
+                💰 High-Ticket Revenue Model
+              </div>
+              <h3 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 text-balance">
+                How To Unlock High Ticket Clients:
+                <span className="block text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-emerald-600">
+                  Why Charging $10,000 Is Better Than $100
+                </span>
+              </h3>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto text-pretty">
+                Custom Virtual Tours Create Massive Value For Large Enterprise Clients
               </p>
             </div>
 
-            {/* Strategy Section */}
-            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-8 rounded-lg mb-8">
-              <div className="text-center mb-8">
-                <h5 className="text-2xl font-bold text-gray-900 mb-4">🎯 Strategy & Business Framework</h5>
-                <p className="text-lg text-gray-700">Complete roadmap to building your profitable VR business</p>
-              </div>
-
-              <div className="grid md:grid-cols-2 gap-6">
-                <div className="space-y-4">
-                  <div className="flex items-center space-x-3">
-                    <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0"></div>
-                    <p className="font-medium text-gray-900">Step-by-step business setup guide</p>
+            {/* ROI Value Proposition */}
+            <div className="mb-20">
+              <div className="glass-card rounded-3xl p-8 md:p-12 shadow-2xl hover-lift">
+                <div className="grid lg:grid-cols-2 gap-12 items-center">
+                  <div className="space-y-6">
+                    <h4 className="text-2xl md:text-3xl font-bold text-gray-900">The ROI Decision Framework</h4>
+                    <p className="text-lg text-gray-700 leading-relaxed">
+                      When choosing a niche, the most important metric is <strong>utility value</strong>. If your client
+                      can insert a virtual tour and their customer value is 10x your price, it's a no-brainer ROI
+                      decision.
+                    </p>
+                    <div className="space-y-4">
+                      <div className="flex items-start space-x-4 group">
+                        <div className="w-8 h-8 bg-green-500 text-white rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+                          <span className="text-sm font-bold">1</span>
+                        </div>
+                        <div>
+                          <h5 className="font-semibold text-gray-900">Leverage 12-Month Customer Value</h5>
+                          <p className="text-gray-600">
+                            Get prospects thinking about value over the next 12 months, not just days
+                          </p>
+                        </div>
+                      </div>
+                      <div className="flex items-start space-x-4 group">
+                        <div className="w-8 h-8 bg-green-500 text-white rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+                          <span className="text-sm font-bold">2</span>
+                        </div>
+                        <div>
+                          <h5 className="font-semibold text-gray-900">Target Product Owners, Not Resellers</h5>
+                          <p className="text-gray-600">
+                            Clients who own their products care deeply and pay premium prices
+                          </p>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <div className="flex items-center space-x-3">
-                    <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0"></div>
-                    <p className="font-medium text-gray-900">Proven pricing strategies</p>
-                  </div>
-                  <div className="flex items-center space-x-3">
-                    <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0"></div>
-                    <p className="font-medium text-gray-900">Client acquisition system</p>
-                  </div>
-                </div>
-                <div className="space-y-4">
-                  <div className="flex items-center space-x-3">
-                    <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0"></div>
-                    <p className="font-medium text-gray-900">Market positioning tactics</p>
-                  </div>
-                  <div className="flex items-center space-x-3">
-                    <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0"></div>
-                    <p className="font-medium text-gray-900">Scaling and outsourcing methods</p>
-                  </div>
-                  <div className="flex items-center space-x-3">
-                    <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0"></div>
-                    <p className="font-medium text-gray-900">Recurring revenue models</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Training Section */}
-            <div className="bg-gradient-to-r from-green-50 to-emerald-50 p-8 rounded-lg mb-8">
-              <div className="text-center mb-8">
-                <h5 className="text-2xl font-bold text-gray-900 mb-4">📚 Comprehensive Training System</h5>
-                <p className="text-lg text-gray-700">40+ hours of in-depth training and resources</p>
-              </div>
-
-              <div className="grid md:grid-cols-3 gap-6">
-                <div className="text-center">
-                  <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-4">
-                    40+
-                  </div>
-                  <h6 className="font-bold text-gray-900 mb-2">Hours of Training</h6>
-                  <p className="text-gray-600 text-sm">Complete video course library</p>
-                </div>
-                <div className="text-center">
-                  <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-4">
-                    19
-                  </div>
-                  <h6 className="font-bold text-gray-900 mb-2">White Label Tours</h6>
-                  <p className="text-gray-600 text-sm">Ready-to-use portfolio examples</p>
-                </div>
-                <div className="text-center">
-                  <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-4">
-                    70+
-                  </div>
-                  <h6 className="font-bold text-gray-900 mb-2">Target Industries</h6>
-                  <p className="text-gray-600 text-sm">Proven hot buyer niches</p>
-                </div>
-              </div>
-            </div>
-
-            {/* Results Section */}
-            <div className="bg-gradient-to-r from-purple-50 to-pink-50 p-8 rounded-lg mb-8">
-              <div className="text-center mb-8">
-                <h5 className="text-2xl font-bold text-gray-900 mb-4">📈 Expected Results & Outcomes</h5>
-                <p className="text-lg text-gray-700">What our successful students typically achieve</p>
-              </div>
-
-              <div className="grid md:grid-cols-2 gap-8">
-                <div className="space-y-6">
-                  <div className="bg-white p-6 rounded-lg shadow-sm">
-                    <h6 className="text-xl font-bold text-purple-600 mb-2">First 30 Days</h6>
-                    <ul className="space-y-2 text-gray-700">
-                      <li>• Complete system setup</li>
-                      <li>• First virtual tour created</li>
-                      <li>• Initial prospect outreach</li>
-                      <li>• Portfolio development</li>
-                    </ul>
-                  </div>
-                  <div className="bg-white p-6 rounded-lg shadow-sm">
-                    <h6 className="text-xl font-bold text-purple-600 mb-2">60-90 Days</h6>
-                    <ul className="space-y-2 text-gray-700">
-                      <li>• First paying clients secured</li>
-                      <li>• $2,000-$5,000+ monthly revenue</li>
-                      <li>• Established local presence</li>
-                      <li>• Referral system activated</li>
-                    </ul>
-                  </div>
-                </div>
-                <div className="space-y-6">
-                  <div className="bg-white p-6 rounded-lg shadow-sm">
-                    <h6 className="text-xl font-bold text-purple-600 mb-2">6+ Months</h6>
-                    <ul className="space-y-2 text-gray-700">
-                      <li>• $10,000+ monthly revenue</li>
-                      <li>• Team building & outsourcing</li>
-                      <li>• Multiple revenue streams</li>
-                      <li>• Business automation</li>
-                    </ul>
-                  </div>
-                  <div className="bg-white p-6 rounded-lg shadow-sm">
-                    <h6 className="text-xl font-bold text-purple-600 mb-2">Long-term Success</h6>
-                    <ul className="space-y-2 text-gray-700">
-                      <li>• Six-figure annual income</li>
-                      <li>• Passive revenue streams</li>
-                      <li>• Location independence</li>
-                      <li>• Financial freedom</li>
-                    </ul>
+                  <div className="relative">
+                    <img
+                      src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-B2gEjPaBeotBFoMCUJg8ftqYuPP5Y9.png"
+                      alt="Organization Structure Chart"
+                      className="w-full h-auto rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300"
+                    />
+                    <div className="absolute -bottom-4 -right-4 bg-gradient-to-r from-green-500 to-emerald-600 text-white px-4 py-2 rounded-full font-bold text-sm shadow-lg animate-bounce">
+                      Scale Your Team
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Success Guarantee */}
-            <div className="bg-gradient-to-r from-yellow-50 to-orange-50 p-8 rounded-lg border-2 border-orange-200">
-              <div className="text-center">
-                <h5 className="text-2xl font-bold text-gray-900 mb-4">🛡️ 90-Day Success Guarantee</h5>
-                <p className="text-lg text-gray-700 mb-6">
-                  We're so confident in the VTPS system that we guarantee you'll land your first paying client within 90
-                  days, or we'll refund every penny.
+            {/* Virtual Selling Environments */}
+            <div className="mb-20">
+              <div className="text-center mb-12">
+                <h4 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                  Virtual Selling Environments Align With Sales Goals Post COVID
+                </h4>
+                <p className="text-lg text-gray-600 max-w-4xl mx-auto text-pretty">
+                  Sales teams who typically sell in person are scrambling to adapt. Our VR entrepreneurs are setting up
+                  virtual selling environments that give the personal touch of walking someone through the space.
                 </p>
-                <div className="grid md:grid-cols-2 gap-4 max-w-2xl mx-auto">
-                  <div className="flex items-center space-x-3">
-                    <div className="w-3 h-3 bg-green-500 rounded-full flex-shrink-0"></div>
-                    <span className="text-gray-700 font-medium">First client within 90 days guaranteed</span>
-                  </div>
-                  <div className="flex items-center space-x-3">
-                    <div className="w-3 h-3 bg-green-500 rounded-full flex-shrink-0"></div>
-                    <span className="text-gray-700 font-medium">100% money-back guarantee</span>
-                  </div>
-                  <div className="flex items-center space-x-3">
-                    <div className="w-3 h-3 bg-green-500 rounded-full flex-shrink-0"></div>
-                    <span className="text-gray-700 font-medium">Complete system setup included</span>
-                  </div>
-                  <div className="flex items-center space-x-3">
-                    <div className="w-3 h-3 bg-green-500 rounded-full flex-shrink-0"></div>
-                    <span className="text-gray-700 font-medium">Personal support throughout</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Read How Content Inside VTPS Is Changing Lives Section */}
-        <section className="py-16 bg-white">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-900 leading-[2.5rem]">
-              Read How Content Inside VTPS Is Changing Lives
-            </h2>
-
-            <div className="space-y-12">
-              {/* Bobby's Testimonial */}
-              <div className="bg-gray-50 rounded-2xl p-8 shadow-lg">
-                <img
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-9HoCt2LkPImWfKOHb1yN8XwGHDNecv.png"
-                  alt="Bobby's testimonial about VTPS content"
-                  className="w-full rounded-xl shadow-md"
-                />
               </div>
 
-              {/* Sports Club Success Testimonial */}
-              <div className="bg-gray-50 rounded-2xl p-8 shadow-lg">
-                <img
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-sB96R4f2A5sb3oYjxqnxjViME6KXX4.png"
-                  alt="VTPS student success with sports club deal"
-                  className="w-full rounded-xl shadow-md"
-                />
-              </div>
-            </div>
-          </div>
-        </section>
-      </div>
-
-      {/* High-Ticket Revenue Model Section */}
-      <div className="mt-20 bg-gradient-to-br from-slate-50 to-blue-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-          {/* Hero Header */}
-          <div className="text-center mb-16">
-            <div className="inline-flex items-center bg-gradient-to-r from-green-500 to-emerald-600 text-white px-6 py-3 rounded-full font-bold text-sm mb-6 animate-pulse">
-              💰 High-Ticket Revenue Model
-            </div>
-            <h3 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 text-balance">
-              How To Unlock High Ticket Clients:
-              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-emerald-600">
-                Why Charging $10,000 Is Better Than $100
-              </span>
-            </h3>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto text-pretty">
-              Custom Virtual Tours Create Massive Value For Large Enterprise Clients
-            </p>
-          </div>
-
-          {/* ROI Value Proposition */}
-          <div className="mb-20">
-            <div className="glass-card rounded-3xl p-8 md:p-12 shadow-2xl hover-lift">
               <div className="grid lg:grid-cols-2 gap-12 items-center">
-                <div className="space-y-6">
-                  <h4 className="text-2xl md:text-3xl font-bold text-gray-900">The ROI Decision Framework</h4>
-                  <p className="text-lg text-gray-700 leading-relaxed">
-                    When choosing a niche, the most important metric is <strong>utility value</strong>. If your client
-                    can insert a virtual tour and their customer value is 10x your price, it's a no-brainer ROI
-                    decision.
-                  </p>
-                  <div className="space-y-4">
-                    <div className="flex items-start space-x-4 group">
-                      <div className="w-8 h-8 bg-green-500 text-white rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
-                        <span className="text-sm font-bold">1</span>
-                      </div>
-                      <div>
-                        <h5 className="font-semibold text-gray-900">Leverage 12-Month Customer Value</h5>
-                        <p className="text-gray-600">
-                          Get prospects thinking about value over the next 12 months, not just days
-                        </p>
-                      </div>
-                    </div>
-                    <div className="flex items-start space-x-4 group">
-                      <div className="w-8 h-8 bg-green-500 text-white rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
-                        <span className="text-sm font-bold">2</span>
-                      </div>
-                      <div>
-                        <h5 className="font-semibold text-gray-900">Target Product Owners, Not Resellers</h5>
-                        <p className="text-gray-600">
-                          Clients who own their products care deeply and pay premium prices
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
                 <div className="relative">
                   <img
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-B2gEjPaBeotBFoMCUJg8ftqYuPP5Y9.png"
-                    alt="Organization Structure Chart"
-                    className="w-full h-auto rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300"
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-IUGDjvZkvGrpjL96RWpb6hh8HNfOZL.png"
+                    alt="CloudPano Virtual Tour Mobile Interface"
+                    className="w-full max-w-md mx-auto h-auto hover:scale-105 transition-transform duration-500"
                   />
-                  <div className="absolute -bottom-4 -right-4 bg-gradient-to-r from-green-500 to-emerald-600 text-white px-4 py-2 rounded-full font-bold text-sm shadow-lg animate-bounce">
-                    Scale Your Team
+                  <div className="absolute -top-6 -left-6 bg-blue-500 text-white px-4 py-2 rounded-full font-bold text-sm shadow-lg">
+                    CloudPano Live
+                  </div>
+                </div>
+                <div className="space-y-6">
+                  <h5 className="text-2xl font-bold text-gray-900">360º Selling Environment Features</h5>
+                  <div className="space-y-4">
+                    <div className="flex items-start space-x-4 group hover:bg-blue-50 p-3 rounded-lg transition-all duration-300">
+                      <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0 mt-2 group-hover:scale-125 transition-transform duration-300"></div>
+                      <div>
+                        <p className="font-semibold text-gray-900">Video Conversations Inside 360º Spaces</p>
+                        <p className="text-gray-600 text-sm">Just like FaceTime, but in immersive environments</p>
+                      </div>
+                    </div>
+                    <div className="flex items-start space-x-4 group hover:bg-blue-50 p-3 rounded-lg transition-all duration-300">
+                      <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0 mt-2 group-hover:scale-125 transition-transform duration-300"></div>
+                      <div>
+                        <p className="font-semibold text-gray-900">Smooth Control Handoff</p>
+                        <p className="text-gray-600 text-sm">
+                          Pass control between sales person and prospect seamlessly
+                        </p>
+                      </div>
+                    </div>
+                    <div className="flex items-start space-x-4 group hover:bg-blue-50 p-3 rounded-lg transition-all duration-300">
+                      <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0 mt-2 group-hover:scale-125 transition-transform duration-300"></div>
+                      <div>
+                        <p className="font-semibold text-gray-900">Monthly Recurring Revenue</p>
+                        <p className="text-gray-600 text-sm">Charge customers monthly for continued access</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Embedded Virtual Tour */}
+              <div className="mt-16">
+                <div className="text-center mb-8">
+                  <h5 className="text-2xl font-bold text-gray-900 mb-4">Experience a Virtual Selling Environment</h5>
+                  <p className="text-gray-600">Click and drag to explore this interactive virtual tour</p>
+                </div>
+                <div className="aspect-[21/9] bg-gray-100 rounded-2xl overflow-hidden shadow-2xl hover:shadow-3xl transition-shadow duration-500">
+                  <iframe
+                    src="https://app.cloudpano.com/tours/p01itLQTYzpS"
+                    width="100%"
+                    height="100%"
+                    frameBorder="0"
+                    allowFullScreen
+                    title="Virtual Selling Environment Demo"
+                    className="w-full h-full"
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+
+            {/* High Ticket Features & Benefits */}
+            <div className="mb-20">
+              <div className="glass-card rounded-3xl p-8 md:p-12 shadow-2xl">
+                <h4 className="text-3xl md:text-4xl font-bold text-gray-900 text-center mb-12">
+                  High Ticket Custom Virtual Tours Are More Robust With Features,
+                  <span className="block text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600">
+                    But Take Little Time To Create
+                  </span>
+                </h4>
+
+                <div className="grid md:grid-cols-3 gap-8">
+                  <div className="text-center group">
+                    <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+                      <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+                        <path
+                          fillRule="evenodd"
+                          d="M3 4a1 1 0 011-1h3a1 1 0 011 1v3a1 1 0 01-1 1H4a1 1 0 01-1-1V4zm2 2V5h1v1H5zM3 13a1 1 0 011-1h3a1 1 0 011 1v3a1 1 0 01-1 1H4a1 1 0 01-1-1v-3zm2 2v-1h1v1H5zM13 4a1 1 0 011-1h3a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1V4zm2 2V5h1v1h-1zM13 13a1 1 0 011-1h3a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-3zm2 2v-1h1v1h-1z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                    </div>
+                    <h5 className="text-xl font-bold text-gray-900 mb-2">Multitude of Features</h5>
+                    <p className="text-gray-600">Embed videos, pictures, sounds, and interactive elements</p>
+                  </div>
+
+                  <div className="text-center group">
+                    <div className="w-16 h-16 bg-gradient-to-r from-green-500 to-emerald-500 text-white rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+                      <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+                        <path
+                          fillRule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                    </div>
+                    <h5 className="text-xl font-bold text-gray-900 mb-2">5 Minutes to Create</h5>
+                    <p className="text-gray-600">Quick creation process with massive profit margins</p>
+                  </div>
+
+                  <div className="text-center group">
+                    <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-indigo-500 text-white rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+                      <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
+                    </div>
+                    <h5 className="text-xl font-bold text-gray-900 mb-2">Competitive Advantage</h5>
+                    <p className="text-gray-600">Unique skillset that's very difficult to copy</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Pricing & ROI Analysis */}
+            <div className="mb-20">
+              <div className="text-center mb-12">
+                <h4 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                  With $3,000 to $10,000 Offerings
+                  <span className="block text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-emerald-600">
+                    You Can Hire and Build An Organization That Scales
+                  </span>
+                </h4>
+                <p className="text-lg text-gray-600 max-w-3xl mx-auto text-pretty">
+                  Higher prices create loyalty, happy employees, and exponential growth opportunities
+                </p>
+              </div>
+
+              <div className="glass-card rounded-3xl p-8 shadow-2xl hover-lift mb-12">
+                <img
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-SrIR5JnpaZs5zamySskOtlyVCiVbi7.png"
+                  alt="ROI Analysis Spreadsheet showing 3 pricing cases"
+                  className="w-full h-auto rounded-2xl shadow-lg"
+                />
+                <div className="mt-6 text-center">
+                  <p className="text-sm text-gray-600 mb-4">
+                    <strong>Case Analysis:</strong> See how different pricing models affect your ROI
+                  </p>
+                  <div className="grid md:grid-cols-3 gap-4">
+                    <div className="bg-red-50 border border-red-200 rounded-lg p-4">
+                      <div className="text-2xl font-bold text-red-600 mb-1">-37.50%</div>
+                      <div className="text-sm text-red-700">Case 1: Low Price Model</div>
+                    </div>
+                    <div className="bg-green-50 border border-green-200 rounded-lg p-4">
+                      <div className="text-2xl font-bold text-green-600 mb-1">138.10%</div>
+                      <div className="text-sm text-green-700">Case 2: Mid-Tier Pricing</div>
+                    </div>
+                    <div className="bg-emerald-50 border border-emerald-200 rounded-lg p-4">
+                      <div className="text-2xl font-bold text-emerald-600 mb-1">441.40%</div>
+                      <div className="text-sm text-emerald-700">Case 3: High-Ticket Model</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="grid lg:grid-cols-2 gap-12">
+                <div className="space-y-6">
+                  <h5 className="text-2xl font-bold text-gray-900">Why Higher Prices Work</h5>
+                  <div className="space-y-4">
+                    <div className="flex items-start space-x-4 group hover:bg-green-50 p-4 rounded-lg transition-all duration-300">
+                      <div className="w-8 h-8 bg-green-500 text-white rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+                        <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                          <path
+                            fillRule="evenodd"
+                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      </div>
+                      <div>
+                        <p className="font-semibold text-gray-900">High Commissions Create Loyalty</p>
+                        <p className="text-gray-600 text-sm">
+                          10-15% commissions motivate sales reps to beat down doors for you
+                        </p>
+                      </div>
+                    </div>
+                    <div className="flex items-start space-x-4 group hover:bg-green-50 p-4 rounded-lg transition-all duration-300">
+                      <div className="w-8 h-8 bg-green-500 text-white rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+                        <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                          <path
+                            fillRule="evenodd"
+                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      </div>
+                      <div>
+                        <p className="font-semibold text-gray-900">Simple Fulfillment Process</p>
+                        <p className="text-gray-600 text-sm">
+                          Train young photographers, pay hourly, scale up and down as needed
+                        </p>
+                      </div>
+                    </div>
+                    <div className="flex items-start space-x-4 group hover:bg-green-50 p-4 rounded-lg transition-all duration-300">
+                      <div className="w-8 h-8 bg-green-500 text-white rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+                        <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                          <path
+                            fillRule="evenodd"
+                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      </div>
+                      <div>
+                        <p className="font-semibold text-gray-900">Zero Risk Business Model</p>
+                        <p className="text-gray-600 text-sm">Only invest in COGS after jobs are sold</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="space-y-6">
+                  <h5 className="text-2xl font-bold text-gray-900">The Math That Works</h5>
+                  <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-6 border border-blue-200">
+                    <div className="space-y-4">
+                      <div className="flex justify-between items-center">
+                        <span className="text-gray-700">Average Project Value:</span>
+                        <span className="font-bold text-2xl text-green-600">$5,000</span>
+                      </div>
+                      <div className="flex justify-between items-center">
+                        <span className="text-gray-700">Sales Rep Commission (10%):</span>
+                        <span className="font-bold text-lg text-blue-600">$500</span>
+                      </div>
+                      <div className="flex justify-between items-center">
+                        <span className="text-gray-700">Fulfillment Cost:</span>
+                        <span className="font-bold text-lg text-orange-600">$300</span>
+                      </div>
+                      <hr className="border-gray-300" />
+                      <div className="flex justify-between items-center">
+                        <span className="text-gray-900 font-semibold">Net Profit Per Project:</span>
+                        <span className="font-bold text-3xl text-emerald-600">$4,200</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="text-center">
+                    <p className="text-sm text-gray-600 italic">
+                      "Sell bigger and win bigger. Let sales be your guide as you decide who to hire and bring onto your
+                      team."
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
 
-          {/* Virtual Selling Environments */}
-          <div className="mb-20">
-            <div className="text-center mb-12">
-              <h4 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                Virtual Selling Environments Align With Sales Goals Post COVID
+          {/* Call to Action */}
+          <div className="text-center">
+            <div className="glass-card rounded-3xl p-8 md:p-12 shadow-2xl hover-lift">
+              <h4 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+                Ready to Build Your High-Ticket Virtual Tour Business?
               </h4>
-              <p className="text-lg text-gray-600 max-w-4xl mx-auto text-pretty">
-                Sales teams who typically sell in person are scrambling to adapt. Our VR entrepreneurs are setting up
-                virtual selling environments that give the personal touch of walking someone through the space.
+              <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto text-pretty">
+                Stop competing on price and start building a scalable organization that attracts enterprise clients and
+                generates massive ROI.
+              </p>
+              <div className="inline-flex items-center bg-gradient-to-r from-green-600 to-emerald-600 text-white px-8 py-4 rounded-full font-bold text-lg shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 cursor-pointer">
+                <span>Learn the Complete System Below</span>
+                <svg className="w-5 h-5 ml-2" fill="currentColor" viewBox="0 0 20 20">
+                  <path
+                    fillRule="evenodd"
+                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* $10k/month profit section with business model diagram */}
+        <div className="mt-20">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-16">
+              <h4 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+                The VTPS Program: Your Copy and Paste Guide to a Successful Virtual Tour Business Locally
+              </h4>
+              <p className="text-xl text-gray-600">Everything you need to build a profitable virtual tour business:</p>
+            </div>
+
+            <div className="space-y-16">
+              {/* Top - Image */}
+              <div className="flex justify-center">
+                <div className="relative max-w-2xl">
+                  <div className="glass-card rounded-3xl p-8 shadow-2xl hover-lift">
+                    <img
+                      src="/professional-virtual-tour-business-setup-with-vr-e.jpg"
+                      alt="VTPS Program - Virtual Tour Business Setup"
+                      className="w-full h-auto rounded-2xl shadow-lg"
+                    />
+                    <div className="absolute -top-4 -right-4 bg-gradient-to-r from-blue-500 to-indigo-600 text-white px-6 py-3 rounded-full font-bold shadow-lg">
+                      Complete System
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Bottom - Program Items in 2-column grid */}
+              <div className="grid md:grid-cols-2 gap-6">
+                {/* Training & Courses */}
+                <div className="flex items-start space-x-4 group hover:bg-blue-50 p-4 rounded-xl transition-all duration-300">
+                  <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-indigo-600 text-white rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+                    <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h5 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-blue-600 transition-colors duration-300">
+                      40+ hours of sales training and courses
+                    </h5>
+                    <p className="text-gray-600">Zero fuzziness or question about how to proceed and profit.</p>
+                  </div>
+                </div>
+
+                {/* List Building */}
+                <div className="flex items-start space-x-4 group hover:bg-green-50 p-4 rounded-xl transition-all duration-300">
+                  <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+                    <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h5 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-green-600 transition-colors duration-300">
+                      Step-by-step guidance on building a list of 2,000 businesses
+                    </h5>
+                    <p className="text-gray-600">Likeminded businesses ready to prospect.</p>
+                  </div>
+                </div>
+
+                {/* White Label Tours */}
+                <div className="flex items-start space-x-4 group hover:bg-purple-50 p-4 rounded-xl transition-all duration-300">
+                  <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-600 text-white rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+                    <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                      <path
+                        fillRule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zM4.332 8.027a6.012 6.012 0 011.912-2.706C6.512 5.73 6.974 6 7.5 6A1.5 1.5 0 019 7.5V8a2 2 0 004 0 2 2 0 011.523-1.943A5.977 5.977 0 0116 10c0 .34-.028.675-.083 1H15a2 2 0 00-2 2v2.197A5.973 5.973 0 0110 16v-2a2 2 0 00-2-2 2 2 0 01-2-2 2 2 0 00-1.668-1.973z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <h5 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-purple-600 transition-colors duration-300">
+                      19 virtual tours to white label
+                    </h5>
+                    <p className="text-gray-600">Pre-sell your audience and help them visualize your offer.</p>
+                  </div>
+                </div>
+
+                {/* Cold Call Recordings */}
+                <div className="flex items-start space-x-4 group hover:bg-orange-50 p-4 rounded-xl transition-all duration-300">
+                  <div className="w-12 h-12 bg-gradient-to-r from-orange-500 to-red-600 text-white rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+                    <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h5 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-orange-600 transition-colors duration-300">
+                      Live cold call recordings
+                    </h5>
+                    <p className="text-gray-600">Learn exactly what to say to prospect and close business.</p>
+                  </div>
+                </div>
+
+                {/* Outreach Tools */}
+                <div className="flex items-start space-x-4 group hover:bg-teal-50 p-4 rounded-xl transition-all duration-300">
+                  <div className="w-12 h-12 bg-gradient-to-r from-teal-500 to-cyan-600 text-white rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+                    <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                      <path
+                        fillRule="evenodd"
+                        d="M18 3a1 1 0 00-1.447-.894L8.763 6H5a3 3 0 000 6h.28l1.771 5.316A1 1 0 008 18h1a1 1 0 001-1v-4.382l6.553 3.894A1 1 0 0018 16V3z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <h5 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-teal-600 transition-colors duration-300">
+                      Outreach tools
+                    </h5>
+                    <p className="text-gray-600">Better reach your audience and automate prospecting.</p>
+                  </div>
+                </div>
+
+                {/* Outsourcing Techniques */}
+                <div className="flex items-start space-x-4 group hover:bg-yellow-50 p-4 rounded-xl transition-all duration-300">
+                  <div className="w-12 h-12 bg-gradient-to-r from-yellow-500 to-amber-600 text-white rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+                    <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM12.93 17c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h5 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-yellow-600 transition-colors duration-300">
+                      "How to Outsource" techniques and tricks
+                    </h5>
+                    <p className="text-gray-600">Hire the best talent at the best prices.</p>
+                  </div>
+                </div>
+
+                {/* Niche List */}
+                <div className="flex items-start space-x-4 group hover:bg-indigo-50 p-4 rounded-xl transition-all duration-300">
+                  <div className="w-12 h-12 bg-gradient-to-r from-indigo-500 to-purple-600 text-white rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+                    <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                      <path
+                        fillRule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zM5.5 10a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM10 7a3 3 0 100 6 3 3 0 000-6z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <h5 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-indigo-600 transition-colors duration-300">
+                      Niche list of 70+ industries
+                    </h5>
+                    <p className="text-gray-600">Proven hot buyers for VR tours.</p>
+                  </div>
+                </div>
+
+                {/* Email Campaigns */}
+                <div className="flex items-start space-x-4 group hover:bg-pink-50 p-4 rounded-xl transition-all duration-300">
+                  <div className="w-12 h-12 bg-gradient-to-r from-pink-500 to-rose-600 text-white rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+                    <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                      <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h5 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-pink-600 transition-colors duration-300">
+                      Pre-written email campaigns
+                    </h5>
+                    <p className="text-gray-600">Shoot off to get fast business.</p>
+                  </div>
+                </div>
+
+                {/* Pricing Proposals */}
+                <div className="flex items-start space-x-4 group hover:bg-blue-50 p-4 rounded-xl transition-all duration-300">
+                  <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-indigo-600 text-white rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+                    <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                      <path
+                        fillRule="evenodd"
+                        d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <h5 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-blue-600 transition-colors duration-300">
+                      Pricing proposals
+                    </h5>
+                    <p className="text-gray-600">Look professional and seal the deal.</p>
+                  </div>
+                </div>
+
+                {/* Marketing Materials */}
+                <div className="flex items-start space-x-4 group hover:bg-green-50 p-4 rounded-xl transition-all duration-300">
+                  <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+                    <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                      <path
+                        fillRule="evenodd"
+                        d="M3 4a1 1 0 011-1h12a1 1 0 011 1v8a1 1 0 01-1 1h-5v2a1 1 0 01-1.707.707L7.586 14H4a1 1 0 01-1-1V4zm4 10.414l.293.293A1 1 0 008 15v-2h8V5H4v8h3z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <h5 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-green-600 transition-colors duration-300">
+                      Complete marketing materials
+                    </h5>
+                    <p className="text-gray-600">Brochures, flyers, and presentation templates.</p>
+                  </div>
+                </div>
+
+                {/* Bonus Item */}
+                <div className="flex items-start space-x-4 group hover:bg-purple-50 p-4 rounded-xl transition-all duration-300 md:col-span-2">
+                  <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-600 text-white rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+                    <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                      <path
+                        fillRule="evenodd"
+                        d="M5 2a1 1 0 011 1v1h1a1 1 0 010 2H6v1a1 1 0 01-2 0V6H3a1 1 0 010-2h1V3a1 1 0 011-1zm0 10a1 1 0 011 1v1h1a1 1 0 110 2H6v1a1 1 0 11-2 0v-1H3a1 1 0 110-2h1v-1a1 1 0 011-1zM12 2a1 1 0 01.967.744L14.146 7.2 17.5 9.134a1 1 0 010 1.732L14.146 12.8l-1.179 4.456a1 1 0 01-1.934 0L9.854 12.8 6.5 10.866a1 1 0 010-1.732L9.854 7.2l1.179-4.456A1 1 0 0112 2z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <h5 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-purple-600 transition-colors duration-300">
+                      BONUS: Access to private Facebook group
+                    </h5>
+                    <p className="text-gray-600">
+                      Connect with other successful virtual tour business owners and get ongoing support.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Program Value Breakdown Section */}
+          <div className="mt-20">
+            <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+              <div className="text-center mb-12">
+                <h4 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 leading-[2rem]">
+                  Complete Program Value Breakdown
+                </h4>
+                <p className="text-lg text-gray-600">
+                  See exactly what you get when you join the Virtual Tour Profit System
+                </p>
+              </div>
+
+              {/* Strategy Section */}
+              <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-8 rounded-lg mb-8">
+                <div className="text-center mb-8">
+                  <h5 className="text-2xl font-bold text-gray-900 mb-4">🎯 Strategy & Business Framework</h5>
+                  <p className="text-lg text-gray-700">Complete roadmap to building your profitable VR business</p>
+                </div>
+
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div className="space-y-4">
+                    <div className="flex items-center space-x-3">
+                      <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0"></div>
+                      <p className="font-medium text-gray-900">Step-by-step business setup guide</p>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0"></div>
+                      <p className="font-medium text-gray-900">Proven pricing strategies</p>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0"></div>
+                      <p className="font-medium text-gray-900">Client acquisition system</p>
+                    </div>
+                  </div>
+                  <div className="space-y-4">
+                    <div className="flex items-center space-x-3">
+                      <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0"></div>
+                      <p className="font-medium text-gray-900">Market positioning tactics</p>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0"></div>
+                      <p className="font-medium text-gray-900">Scaling and outsourcing methods</p>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0"></div>
+                      <p className="font-medium text-gray-900">Recurring revenue models</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Training Section */}
+              <div className="bg-gradient-to-r from-green-50 to-emerald-50 p-8 rounded-lg mb-8">
+                <div className="text-center mb-8">
+                  <h5 className="text-2xl font-bold text-gray-900 mb-4">📚 Comprehensive Training System</h5>
+                  <p className="text-lg text-gray-700">40+ hours of in-depth training and resources</p>
+                </div>
+
+                <div className="grid md:grid-cols-3 gap-6">
+                  <div className="text-center">
+                    <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-4">
+                      40+
+                    </div>
+                    <h6 className="font-bold text-gray-900 mb-2">Hours of Training</h6>
+                    <p className="text-gray-600 text-sm">Complete video course library</p>
+                  </div>
+                  <div className="text-center">
+                    <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-4">
+                      19
+                    </div>
+                    <h6 className="font-bold text-gray-900 mb-2">White Label Tours</h6>
+                    <p className="text-gray-600 text-sm">Ready-to-use portfolio examples</p>
+                  </div>
+                  <div className="text-center">
+                    <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-4">
+                      70+
+                    </div>
+                    <h6 className="font-bold text-gray-900 mb-2">Target Industries</h6>
+                    <p className="text-gray-600 text-sm">Proven hot buyer niches</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Results Section */}
+              <div className="bg-gradient-to-r from-purple-50 to-pink-50 p-8 rounded-lg mb-8">
+                <div className="text-center mb-8">
+                  <h5 className="text-2xl font-bold text-gray-900 mb-4">📈 Expected Results & Outcomes</h5>
+                  <p className="text-lg text-gray-700">What our successful students typically achieve</p>
+                </div>
+
+                <div className="grid md:grid-cols-2 gap-8">
+                  <div className="space-y-6">
+                    <div className="bg-white p-6 rounded-lg shadow-sm">
+                      <h6 className="text-xl font-bold text-purple-600 mb-2">First 30 Days</h6>
+                      <ul className="space-y-2 text-gray-700">
+                        <li>• Complete system setup</li>
+                        <li>• First virtual tour created</li>
+                        <li>• Initial prospect outreach</li>
+                        <li>• Portfolio development</li>
+                      </ul>
+                    </div>
+                    <div className="bg-white p-6 rounded-lg shadow-sm">
+                      <h6 className="text-xl font-bold text-purple-600 mb-2">60-90 Days</h6>
+                      <ul className="space-y-2 text-gray-700">
+                        <li>• First paying clients secured</li>
+                        <li>• $2,000-$5,000+ monthly revenue</li>
+                        <li>• Established local presence</li>
+                        <li>• Referral system activated</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div className="space-y-6">
+                    <div className="bg-white p-6 rounded-lg shadow-sm">
+                      <h6 className="text-xl font-bold text-purple-600 mb-2">6+ Months</h6>
+                      <ul className="space-y-2 text-gray-700">
+                        <li>• $10,000+ monthly revenue</li>
+                        <li>• Team building & outsourcing</li>
+                        <li>• Multiple revenue streams</li>
+                        <li>• Business automation</li>
+                      </ul>
+                    </div>
+                    <div className="bg-white p-6 rounded-lg shadow-sm">
+                      <h6 className="text-xl font-bold text-purple-600 mb-2">Long-term Success</h6>
+                      <ul className="space-y-2 text-gray-700">
+                        <li>• Six-figure annual income</li>
+                        <li>• Passive revenue streams</li>
+                        <li>• Location independence</li>
+                        <li>• Financial freedom</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Success Guarantee */}
+              <div className="bg-gradient-to-r from-yellow-50 to-orange-50 p-8 rounded-lg border-2 border-orange-200">
+                <div className="text-center">
+                  <h5 className="text-2xl font-bold text-gray-900 mb-4">🛡️ 90-Day Success Guarantee</h5>
+                  <p className="text-lg text-gray-700 mb-6">
+                    We're so confident in the VTPS system that we guarantee you'll land your first paying client within
+                    90 days, or we'll refund every penny.
+                  </p>
+                  <div className="grid md:grid-cols-2 gap-4 max-w-2xl mx-auto">
+                    <div className="flex items-center space-x-3">
+                      <div className="w-3 h-3 bg-green-500 rounded-full flex-shrink-0"></div>
+                      <span className="text-gray-700 font-medium">First client within 90 days guaranteed</span>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <div className="w-3 h-3 bg-green-500 rounded-full flex-shrink-0"></div>
+                      <span className="text-gray-700 font-medium">100% money-back guarantee</span>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <div className="w-3 h-3 bg-green-500 rounded-full flex-shrink-0"></div>
+                      <span className="text-gray-700 font-medium">Complete system setup included</span>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <div className="w-3 h-3 bg-green-500 rounded-full flex-shrink-0"></div>
+                      <span className="text-gray-700 font-medium">Personal support throughout</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Read How Content Inside VTPS Is Changing Lives Section */}
+          <section className="py-16 bg-white">
+            <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+              <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-900 leading-[2.5rem]">
+                Read How Content Inside VTPS Is Changing Lives
+              </h2>
+
+              <div className="space-y-12">
+                {/* Bobby's Testimonial */}
+                <div className="bg-gray-50 rounded-2xl p-8 shadow-lg">
+                  <img
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-9HoCt2LkPImWfKOHb1yN8XwGHDNecv.png"
+                    alt="Bobby's testimonial about VTPS content"
+                    className="w-full rounded-xl shadow-md"
+                  />
+                </div>
+
+                {/* Sports Club Success Testimonial */}
+                <div className="bg-gray-50 rounded-2xl p-8 shadow-lg">
+                  <img
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-sB96R4f2A5sb3oYjxqnxjViME6KXX4.png"
+                    alt="VTPS student success with sports club deal"
+                    className="w-full rounded-xl shadow-md"
+                  />
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        {/* Subscription Power Section */}
+        <div className="mt-32 relative overflow-hidden">
+          {/* Background Elements */}
+          <div className="absolute inset-0 bg-gradient-to-br from-indigo-50 via-white to-purple-50"></div>
+          <div className="absolute top-0 left-1/4 w-96 h-96 bg-gradient-to-r from-blue-400/20 to-indigo-400/20 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-gradient-to-r from-purple-400/20 to-pink-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
+
+          <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+            {/* Header */}
+            <div className="text-center mb-20">
+              <div className="inline-flex items-center bg-gradient-to-r from-indigo-100 to-purple-100 text-indigo-800 px-6 py-3 rounded-full font-semibold text-sm mb-6 animate-bounce">
+                <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                  <path
+                    fillRule="evenodd"
+                    d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+                Secret #2 Revealed
+              </div>
+              <h3 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 text-balance">
+                The Power of Selling
+                <span className="bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
+                  {" "}
+                  Subscriptions
+                </span>
+              </h3>
+              <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto text-pretty">
+                Why recurring revenue is more profitable, more fun, and the key to building a scalable virtual tour
+                empire
               </p>
             </div>
 
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
-              <div className="relative">
+            {/* Old Way vs New Way Comparison */}
+            <div className="mb-20">
+              <div className="text-center mb-12">
+                <h4 className="text-3xl font-bold text-gray-900 mb-4">The Mathematical Proof</h4>
+                <p className="text-lg text-gray-600">Same customers, 4x the revenue. Here's how:</p>
+              </div>
+
+              <div className="glass-card rounded-3xl p-8 md:p-12 shadow-2xl hover-lift mb-12">
                 <img
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-IUGDjvZkvGrpjL96RWpb6hh8HNfOZL.png"
-                  alt="CloudPano Virtual Tour Mobile Interface"
-                  className="w-full max-w-md mx-auto h-auto hover:scale-105 transition-transform duration-500"
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-FU67BmvrZ2zGWlXDEOM4MBqIqBaP3S.png"
+                  alt="Old Way vs New Way Subscription Comparison"
+                  className="w-full h-auto rounded-2xl shadow-lg"
                 />
-                <div className="absolute -top-6 -left-6 bg-blue-500 text-white px-4 py-2 rounded-full font-bold text-sm shadow-lg">
-                  CloudPano Live
+              </div>
+
+              <div className="grid md:grid-cols-2 gap-8 mb-12">
+                <div className="bg-red-50 border-2 border-red-200 rounded-2xl p-8 hover:shadow-lg transition-all duration-300">
+                  <div className="text-center mb-6">
+                    <div className="w-16 h-16 bg-red-500 text-white rounded-full flex items-center justify-center mx-auto mb-4">
+                      <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+                        <path
+                          fillRule="evenodd"
+                          d="M13.477 14.89A6 6 0 015.11 6.524l8.367 8.368zm1.414-1.414L6.524 5.11a6 6 0 018.367 8.367zM18 10a8 8 0 11-16 0 8 8 0 0116 0z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                    </div>
+                    <h5 className="text-2xl font-bold text-red-700 mb-2">Old Way: One-Time Fees</h5>
+                    <p className="text-red-600">100 customers × $1,100 = $110,000</p>
+                  </div>
+                  <div className="space-y-3">
+                    <div className="flex justify-between">
+                      <span className="text-gray-700">Setup Fee:</span>
+                      <span className="font-bold text-red-600">$1,100</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-gray-700">Monthly Subscription:</span>
+                      <span className="font-bold text-red-600">$0</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-gray-700">3-Year Value:</span>
+                      <span className="font-bold text-red-600">$1,100</span>
+                    </div>
+                    <hr className="border-red-300" />
+                    <div className="flex justify-between text-lg">
+                      <span className="font-semibold text-gray-900">Total (100 customers):</span>
+                      <span className="font-bold text-2xl text-red-600">$110,000</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-green-50 border-2 border-green-200 rounded-2xl p-8 hover:shadow-lg transition-all duration-300 transform hover:scale-105">
+                  <div className="text-center mb-6">
+                    <div className="w-16 h-16 bg-green-500 text-white rounded-full flex items-center justify-center mx-auto mb-4">
+                      <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+                        <path
+                          fillRule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                    </div>
+                    <h5 className="text-2xl font-bold text-green-700 mb-2">New Way: Subscriptions</h5>
+                    <p className="text-green-600">100 customers × $4,240 = $424,000</p>
+                  </div>
+                  <div className="space-y-3">
+                    <div className="flex justify-between">
+                      <span className="text-gray-700">Setup Fee:</span>
+                      <span className="font-bold text-green-600">$750</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-gray-700">Monthly Subscription:</span>
+                      <span className="font-bold text-green-600">$97</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-gray-700">3-Year Value:</span>
+                      <span className="font-bold text-green-600">$4,242</span>
+                    </div>
+                    <hr className="border-green-300" />
+                    <div className="flex justify-between text-lg">
+                      <span className="font-semibold text-gray-900">Total (100 customers):</span>
+                      <span className="font-bold text-2xl text-green-600">$424,000</span>
+                    </div>
+                  </div>
+                  <div className="mt-4 text-center">
+                    <span className="inline-flex items-center bg-green-100 text-green-800 px-4 py-2 rounded-full font-bold">
+                      <svg className="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
+                        <path
+                          fillRule="evenodd"
+                          d="M12 7a1 1 0 110-2h5a1 1 0 011 1v5a1 1 0 11-2 0V8.414l-4.293 4.293a1 1 0 01-1.414 0L8 10.414l-4.293 4.293a1 1 0 01-1.414-1.414l5-5a1 1 0 011.414 0L11 10.586 14.586 7H12z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                      4x More Revenue!
+                    </span>
+                  </div>
                 </div>
               </div>
-              <div className="space-y-6">
-                <h5 className="text-2xl font-bold text-gray-900">360º Selling Environment Features</h5>
-                <div className="space-y-4">
-                  <div className="flex items-start space-x-4 group hover:bg-blue-50 p-3 rounded-lg transition-all duration-300">
-                    <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0 mt-2 group-hover:scale-125 transition-transform duration-300"></div>
-                    <div>
-                      <p className="font-semibold text-gray-900">Video Conversations Inside 360º Spaces</p>
-                      <p className="text-gray-600 text-sm">Just like FaceTime, but in immersive environments</p>
-                    </div>
-                  </div>
-                  <div className="flex items-start space-x-4 group hover:bg-blue-50 p-3 rounded-lg transition-all duration-300">
-                    <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0 mt-2 group-hover:scale-125 transition-transform duration-300"></div>
-                    <div>
-                      <p className="font-semibold text-gray-900">Smooth Control Handoff</p>
-                      <p className="text-gray-600 text-sm">Pass control between sales person and prospect seamlessly</p>
-                    </div>
-                  </div>
-                  <div className="flex items-start space-x-4 group hover:bg-blue-50 p-3 rounded-lg transition-all duration-300">
-                    <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0 mt-2 group-hover:scale-125 transition-transform duration-300"></div>
-                    <div>
-                      <p className="font-semibold text-gray-900">Monthly Recurring Revenue</p>
-                      <p className="text-gray-600 text-sm">Charge customers monthly for continued access</p>
-                    </div>
-                  </div>
+
+              {/* Growth Charts */}
+              <div className="grid lg:grid-cols-2 gap-8 mb-16">
+                <div className="glass-card rounded-2xl p-6 shadow-lg hover-lift">
+                  <h5 className="text-xl font-bold text-gray-900 mb-4 text-center">Old Way: Flat Growth</h5>
+                  <img
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-5zmP7mVqSZ0Zbn5SrnZH1q7WfroCLl.png"
+                    alt="Old Way No Subscriptions Flat Growth Chart"
+                    className="w-full h-auto rounded-lg"
+                  />
+                  <p className="text-sm text-gray-600 text-center mt-4">Linear growth with diminishing returns</p>
+                </div>
+
+                <div className="glass-card rounded-2xl p-6 shadow-lg hover-lift">
+                  <h5 className="text-xl font-bold text-gray-900 mb-4 text-center">New Way: Exponential Growth</h5>
+                  <img
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-tevzXRAsSu0zLoEWahH7z3kAlA84uI.png"
+                    alt="New Way With Subscriptions Exponential Growth Chart"
+                    className="w-full h-auto rounded-lg"
+                  />
+                  <p className="text-sm text-gray-600 text-center mt-4">Compound growth that accelerates over time</p>
                 </div>
               </div>
             </div>
 
-            {/* Embedded Virtual Tour */}
-            <div className="mt-16">
-              <div className="text-center mb-8">
-                <h5 className="text-2xl font-bold text-gray-900 mb-4">Experience a Virtual Selling Environment</h5>
-                <p className="text-gray-600">Click and drag to explore this interactive virtual tour</p>
+            {/* Target Customer Types */}
+            <div className="mb-20">
+              <div className="text-center mb-12">
+                <h4 className="text-3xl font-bold text-gray-900 mb-4">Who to Target for Subscriptions</h4>
+                <p className="text-lg text-gray-600">
+                  The fastest way to sell subscriptions is to target customers who already charge them
+                </p>
               </div>
-              <div className="aspect-[21/9] bg-gray-100 rounded-2xl overflow-hidden shadow-2xl hover:shadow-3xl transition-shadow duration-500">
-                <iframe
-                  src="https://app.cloudpano.com/tours/p01itLQTYzpS"
-                  width="100%"
-                  height="100%"
-                  frameBorder="0"
-                  allowFullScreen
-                  title="Virtual Selling Environment Demo"
-                  className="w-full h-full"
-                ></iframe>
-              </div>
-            </div>
-          </div>
-
-          {/* High Ticket Features & Benefits */}
-          <div className="mb-20">
-            <div className="glass-card rounded-3xl p-8 md:p-12 shadow-2xl">
-              <h4 className="text-3xl md:text-4xl font-bold text-gray-900 text-center mb-12">
-                High Ticket Custom Virtual Tours Are More Robust With Features,
-                <span className="block text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600">
-                  But Take Little Time To Create
-                </span>
-              </h4>
 
               <div className="grid md:grid-cols-3 gap-8">
-                <div className="text-center group">
-                  <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+                <div className="group hover:bg-blue-50 p-6 rounded-2xl transition-all duration-300 hover:shadow-lg">
+                  <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-indigo-600 text-white rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
                     <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
                       <path
                         fillRule="evenodd"
-                        d="M3 4a1 1 0 011-1h3a1 1 0 011 1v3a1 1 0 01-1 1H4a1 1 0 01-1-1V4zm2 2V5h1v1H5zM3 13a1 1 0 011-1h3a1 1 0 011 1v3a1 1 0 01-1 1H4a1 1 0 01-1-1v-3zm2 2v-1h1v1H5zM13 4a1 1 0 011-1h3a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1V4zm2 2V5h1v1h-1zM13 13a1 1 0 011-1h3a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-3zm2 2v-1h1v1h-1z"
+                        d="M4 4a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2H4zm0 2v8h12V6H4z"
                         clipRule="evenodd"
                       />
                     </svg>
                   </div>
-                  <h5 className="text-xl font-bold text-gray-900 mb-2">Multitude of Features</h5>
-                  <p className="text-gray-600">Embed videos, pictures, sounds, and interactive elements</p>
+                  <h5 className="text-xl font-bold text-gray-900 mb-3 text-center">Commercial Real Estate</h5>
+                  <p className="text-gray-600 text-center mb-4">
+                    Properties are valued by NOI/Cap Rate. Increase NOI = Increase property value. Mathematical ROI
+                    calculations make closing easier.
+                  </p>
+                  <div className="text-center">
+                    <span className="inline-flex items-center bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-semibold">
+                      High-Value Target
+                    </span>
+                  </div>
                 </div>
 
-                <div className="text-center group">
-                  <div className="w-16 h-16 bg-gradient-to-r from-green-500 to-emerald-500 text-white rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+                <div className="group hover:bg-green-50 p-6 rounded-2xl transition-all duration-300 hover:shadow-lg">
+                  <div className="w-16 h-16 bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
+                    <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M8 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM15 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z" />
+                      <path d="M3 4a1 1 0 00-1 1v10a1 1 0 001 1h1.05a2.5 2.5 0 014.9 0H10a1 1 0 001-1V5a1 1 0 00-1-1H3zM14 7a1 1 0 00-1 1v6.05A2.5 2.5 0 0115.95 16H17a1 1 0 001-1V8a1 1 0 00-1-1h-3z" />
+                    </svg>
+                  </div>
+                  <h5 className="text-xl font-bold text-gray-900 mb-3 text-center">Auto/Boat/RV Dealers</h5>
+                  <p className="text-gray-600 text-center mb-4">
+                    Inventory needs to move fast. 360° tours are already proven in this space. Show examples and watch
+                    sales come quickly.
+                  </p>
+                  <div className="text-center">
+                    <span className="inline-flex items-center bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-semibold">
+                      Quick Wins
+                    </span>
+                  </div>
+                </div>
+
+                <div className="group hover:bg-purple-50 p-6 rounded-2xl transition-all duration-300 hover:shadow-lg">
+                  <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-600 text-white rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
                     <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
                       <path
                         fillRule="evenodd"
-                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                        d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.57A22.952 22.952 0 0110 13a22.95 22.95 0 01-8-1.43V8a2 2 0 012-2h2zm2-1a1 1 0 011-1h2a1 1 0 011 1v1H8V5zm1 5a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z"
                         clipRule="evenodd"
                       />
                     </svg>
                   </div>
-                  <h5 className="text-xl font-bold text-gray-900 mb-2">5 Minutes to Create</h5>
-                  <p className="text-gray-600">Quick creation process with massive profit margins</p>
-                </div>
-
-                <div className="text-center group">
-                  <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-indigo-500 text-white rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
-                    <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
-                      <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
+                  <h5 className="text-xl font-bold text-gray-900 mb-3 text-center">Subscription Businesses</h5>
+                  <p className="text-gray-600 text-center mb-4">
+                    Fitness studios, gyms, and other subscription-based businesses understand recurring value and will
+                    pay for services that bring more subscribers.
+                  </p>
+                  <div className="text-center">
+                    <span className="inline-flex items-center bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold">
+                      Perfect Match
+                    </span>
                   </div>
-                  <h5 className="text-xl font-bold text-gray-900 mb-2">Competitive Advantage</h5>
-                  <p className="text-gray-600">Unique skillset that's very difficult to copy</p>
                 </div>
               </div>
-            </div>
-          </div>
 
-          {/* Pricing & ROI Analysis */}
-          <div className="mb-20">
-            <div className="text-center mb-12">
-              <h4 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                With $3,000 to $10,000 Offerings
-                <span className="block text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-emerald-600">
-                  You Can Hire and Build An Organization That Scales
-                </span>
-              </h4>
-              <p className="text-lg text-gray-600 max-w-3xl mx-auto text-pretty">
-                Higher prices create loyalty, happy employees, and exponential growth opportunities
-              </p>
-            </div>
-
-            <div className="glass-card rounded-3xl p-8 shadow-2xl hover-lift mb-12">
-              <img
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-SrIR5JnpaZs5zamySskOtlyVCiVbi7.png"
-                alt="ROI Analysis Spreadsheet showing 3 pricing cases"
-                className="w-full h-auto rounded-2xl shadow-lg"
-              />
-              <div className="mt-6 text-center">
-                <p className="text-sm text-gray-600 mb-4">
-                  <strong>Case Analysis:</strong> See how different pricing models affect your ROI
+              <div className="text-center mt-8">
+                <p className="text-lg text-gray-600 italic">
+                  "We provide over 2,400+ niches to target in the VTPS program"
                 </p>
-                <div className="grid md:grid-cols-3 gap-4">
-                  <div className="bg-red-50 border border-red-200 rounded-lg p-4">
-                    <div className="text-2xl font-bold text-red-600 mb-1">-37.50%</div>
-                    <div className="text-sm text-red-700">Case 1: Low Price Model</div>
-                  </div>
-                  <div className="bg-green-50 border border-green-200 rounded-lg p-4">
-                    <div className="text-2xl font-bold text-green-600 mb-1">138.10%</div>
-                    <div className="text-sm text-green-700">Case 2: Mid-Tier Pricing</div>
-                  </div>
-                  <div className="bg-emerald-50 border border-emerald-200 rounded-lg p-4">
-                    <div className="text-2xl font-bold text-emerald-600 mb-1">441.40%</div>
-                    <div className="text-sm text-emerald-700">Case 3: High-Ticket Model</div>
-                  </div>
-                </div>
               </div>
             </div>
 
-            <div className="grid lg:grid-cols-2 gap-12">
-              <div className="space-y-6">
-                <h5 className="text-2xl font-bold text-gray-900">Why Higher Prices Work</h5>
-                <div className="space-y-4">
-                  <div className="flex items-start space-x-4 group hover:bg-green-50 p-4 rounded-lg transition-all duration-300">
-                    <div className="w-8 h-8 bg-green-500 text-white rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
-                      <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                        <path
-                          fillRule="evenodd"
-                          d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
-                    </div>
-                    <div>
-                      <p className="font-semibold text-gray-900">High Commissions Create Loyalty</p>
-                      <p className="text-gray-600 text-sm">
-                        10-15% commissions motivate sales reps to beat down doors for you
-                      </p>
-                    </div>
-                  </div>
-                  <div className="flex items-start space-x-4 group hover:bg-green-50 p-4 rounded-lg transition-all duration-300">
-                    <div className="w-8 h-8 bg-green-500 text-white rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
-                      <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                        <path
-                          fillRule="evenodd"
-                          d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
-                    </div>
-                    <div>
-                      <p className="font-semibold text-gray-900">Simple Fulfillment Process</p>
-                      <p className="text-gray-600 text-sm">
-                        Train young photographers, pay hourly, scale up and down as needed
-                      </p>
-                    </div>
-                  </div>
-                  <div className="flex items-start space-x-4 group hover:bg-green-50 p-4 rounded-lg transition-all duration-300">
-                    <div className="w-8 h-8 bg-green-500 text-white rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
-                      <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                        <path
-                          fillRule="evenodd"
-                          d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
-                    </div>
-                    <div>
-                      <p className="font-semibold text-gray-900">Zero Risk Business Model</p>
-                      <p className="text-gray-600 text-sm">Only invest in COGS after jobs are sold</p>
-                    </div>
-                  </div>
-                </div>
+            {/* Real Life Example */}
+            <div className="mb-20">
+              <div className="text-center mb-12">
+                <h4 className="text-3xl font-bold text-gray-900 mb-4">Real Life Success Story</h4>
+                <p className="text-lg text-gray-600">Jordan Powers and his community college example</p>
               </div>
 
-              <div className="space-y-6">
-                <h5 className="text-2xl font-bold text-gray-900">The Math That Works</h5>
-                <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-6 border border-blue-200">
-                  <div className="space-y-4">
-                    <div className="flex justify-between items-center">
-                      <span className="text-gray-700">Average Project Value:</span>
-                      <span className="font-bold text-2xl text-green-600">$5,000</span>
-                    </div>
-                    <div className="flex justify-between items-center">
-                      <span className="text-gray-700">Sales Rep Commission (10%):</span>
-                      <span className="font-bold text-lg text-blue-600">$500</span>
-                    </div>
-                    <div className="flex justify-between items-center">
-                      <span className="text-gray-700">Fulfillment Cost:</span>
-                      <span className="font-bold text-lg text-orange-600">$300</span>
-                    </div>
-                    <hr className="border-gray-300" />
-                    <div className="flex justify-between items-center">
-                      <span className="text-gray-900 font-semibold">Net Profit Per Project:</span>
-                      <span className="font-bold text-3xl text-emerald-600">$4,200</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="text-center">
-                  <p className="text-sm text-gray-600 italic">
-                    "Sell bigger and win bigger. Let sales be your guide as you decide who to hire and bring onto your
-                    team."
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Call to Action */}
-        <div className="text-center">
-          <div className="glass-card rounded-3xl p-8 md:p-12 shadow-2xl hover-lift">
-            <h4 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Ready to Build Your High-Ticket Virtual Tour Business?
-            </h4>
-            <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto text-pretty">
-              Stop competing on price and start building a scalable organization that attracts enterprise clients and
-              generates massive ROI.
-            </p>
-            <div className="inline-flex items-center bg-gradient-to-r from-green-600 to-emerald-600 text-white px-8 py-4 rounded-full font-bold text-lg shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 cursor-pointer">
-              <span>Learn the Complete System Below</span>
-              <svg className="w-5 h-5 ml-2" fill="currentColor" viewBox="0 0 20 20">
-                <path
-                  fillRule="evenodd"
-                  d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                  clipRule="evenodd"
-                />
-              </svg>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* $10k/month profit section with business model diagram */}
-      <div className="mt-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h4 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              The VTPS Program: Your Copy and Paste Guide to a Successful Virtual Tour Business Locally
-            </h4>
-            <p className="text-xl text-gray-600">Everything you need to build a profitable virtual tour business:</p>
-          </div>
-
-          <div className="space-y-16">
-            {/* Top - Image */}
-            <div className="flex justify-center">
-              <div className="relative max-w-2xl">
-                <div className="glass-card rounded-3xl p-8 shadow-2xl hover-lift">
-                  <img
-                    src="/professional-virtual-tour-business-setup-with-vr-e.jpg"
-                    alt="VTPS Program - Virtual Tour Business Setup"
-                    className="w-full h-auto rounded-2xl shadow-lg"
-                  />
-                  <div className="absolute -top-4 -right-4 bg-gradient-to-r from-blue-500 to-indigo-600 text-white px-6 py-3 rounded-full font-bold shadow-lg">
-                    Complete System
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Bottom - Program Items in 2-column grid */}
-            <div className="grid md:grid-cols-2 gap-6">
-              {/* Training & Courses */}
-              <div className="flex items-start space-x-4 group hover:bg-blue-50 p-4 rounded-xl transition-all duration-300">
-                <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-indigo-600 text-white rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
-                  <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z" />
-                  </svg>
-                </div>
-                <div>
-                  <h5 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-blue-600 transition-colors duration-300">
-                    40+ hours of sales training and courses
-                  </h5>
-                  <p className="text-gray-600">Zero fuzziness or question about how to proceed and profit.</p>
-                </div>
-              </div>
-
-              {/* List Building */}
-              <div className="flex items-start space-x-4 group hover:bg-green-50 p-4 rounded-xl transition-all duration-300">
-                <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
-                  <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z" />
-                  </svg>
-                </div>
-                <div>
-                  <h5 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-green-600 transition-colors duration-300">
-                    Step-by-step guidance on building a list of 2,000 businesses
-                  </h5>
-                  <p className="text-gray-600">Likeminded businesses ready to prospect.</p>
-                </div>
-              </div>
-
-              {/* White Label Tours */}
-              <div className="flex items-start space-x-4 group hover:bg-purple-50 p-4 rounded-xl transition-all duration-300">
-                <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-600 text-white rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
-                  <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
-                    <path
-                      fillRule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zM4.332 8.027a6.012 6.012 0 011.912-2.706C6.512 5.73 6.974 6 7.5 6A1.5 1.5 0 019 7.5V8a2 2 0 004 0 2 2 0 011.523-1.943A5.977 5.977 0 0116 10c0 .34-.028.675-.083 1H15a2 2 0 00-2 2v2.197A5.973 5.973 0 0110 16v-2a2 2 0 00-2-2 2 2 0 01-2-2 2 2 0 00-1.668-1.973z"
-                      clipRule="evenodd"
+              <div className="glass-card rounded-3xl p-8 md:p-12 shadow-2xl hover-lift">
+                <div className="grid lg:grid-cols-2 gap-12 items-center">
+                  <div>
+                    <img
+                      src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-t1NkLytQbwLmqcVPrDdY6cKck4mZlB.png"
+                      alt="Jordan Powers Community College Success Story"
+                      className="w-full h-auto rounded-2xl shadow-lg"
                     />
-                  </svg>
-                </div>
-                <div>
-                  <h5 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-purple-600 transition-colors duration-300">
-                    19 virtual tours to white label
-                  </h5>
-                  <p className="text-gray-600">Pre-sell your audience and help them visualize your offer.</p>
-                </div>
-              </div>
-
-              {/* Cold Call Recordings */}
-              <div className="flex items-start space-x-4 group hover:bg-orange-50 p-4 rounded-xl transition-all duration-300">
-                <div className="w-12 h-12 bg-gradient-to-r from-orange-500 to-red-600 text-white rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
-                  <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
-                  </svg>
-                </div>
-                <div>
-                  <h5 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-orange-600 transition-colors duration-300">
-                    Live cold call recordings
-                  </h5>
-                  <p className="text-gray-600">Learn exactly what to say to prospect and close business.</p>
-                </div>
-              </div>
-
-              {/* Outreach Tools */}
-              <div className="flex items-start space-x-4 group hover:bg-teal-50 p-4 rounded-xl transition-all duration-300">
-                <div className="w-12 h-12 bg-gradient-to-r from-teal-500 to-cyan-600 text-white rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
-                  <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
-                    <path
-                      fillRule="evenodd"
-                      d="M18 3a1 1 0 00-1.447-.894L8.763 6H5a3 3 0 000 6h.28l1.771 5.316A1 1 0 008 18h1a1 1 0 001-1v-4.382l6.553 3.894A1 1 0 0018 16V3z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                </div>
-                <div>
-                  <h5 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-teal-600 transition-colors duration-300">
-                    Outreach tools
-                  </h5>
-                  <p className="text-gray-600">Better reach your audience and automate prospecting.</p>
-                </div>
-              </div>
-
-              {/* Outsourcing Techniques */}
-              <div className="flex items-start space-x-4 group hover:bg-yellow-50 p-4 rounded-xl transition-all duration-300">
-                <div className="w-12 h-12 bg-gradient-to-r from-yellow-500 to-amber-600 text-white rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
-                  <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM12.93 17c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z" />
-                  </svg>
-                </div>
-                <div>
-                  <h5 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-yellow-600 transition-colors duration-300">
-                    "How to Outsource" techniques and tricks
-                  </h5>
-                  <p className="text-gray-600">Hire the best talent at the best prices.</p>
-                </div>
-              </div>
-
-              {/* Niche List */}
-              <div className="flex items-start space-x-4 group hover:bg-indigo-50 p-4 rounded-xl transition-all duration-300">
-                <div className="w-12 h-12 bg-gradient-to-r from-indigo-500 to-purple-600 text-white rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
-                  <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
-                    <path
-                      fillRule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zM5.5 10a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM10 7a3 3 0 100 6 3 3 0 000-6z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                </div>
-                <div>
-                  <h5 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-indigo-600 transition-colors duration-300">
-                    Niche list of 70+ industries
-                  </h5>
-                  <p className="text-gray-600">Proven hot buyers for VR tours.</p>
-                </div>
-              </div>
-
-              {/* Email Campaigns */}
-              <div className="flex items-start space-x-4 group hover:bg-pink-50 p-4 rounded-xl transition-all duration-300">
-                <div className="w-12 h-12 bg-gradient-to-r from-pink-500 to-rose-600 text-white rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
-                  <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-                    <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-                  </svg>
-                </div>
-                <div>
-                  <h5 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-pink-600 transition-colors duration-300">
-                    Pre-written email campaigns
-                  </h5>
-                  <p className="text-gray-600">Shoot off to get fast business.</p>
-                </div>
-              </div>
-
-              {/* Pricing Proposals */}
-              <div className="flex items-start space-x-4 group hover:bg-blue-50 p-4 rounded-xl transition-all duration-300">
-                <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-indigo-600 text-white rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
-                  <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
-                    <path
-                      fillRule="evenodd"
-                      d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                </div>
-                <div>
-                  <h5 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-blue-600 transition-colors duration-300">
-                    Pricing proposals
-                  </h5>
-                  <p className="text-gray-600">Look professional and seal the deal.</p>
-                </div>
-              </div>
-
-              {/* Marketing Materials */}
-              <div className="flex items-start space-x-4 group hover:bg-green-50 p-4 rounded-xl transition-all duration-300">
-                <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
-                  <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
-                    <path
-                      fillRule="evenodd"
-                      d="M3 4a1 1 0 011-1h12a1 1 0 011 1v8a1 1 0 01-1 1h-5v2a1 1 0 01-1.707.707L7.586 14H4a1 1 0 01-1-1V4zm4 10.414l.293.293A1 1 0 008 15v-2h8V5H4v8h3z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                </div>
-                <div>
-                  <h5 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-green-600 transition-colors duration-300">
-                    Complete marketing materials
-                  </h5>
-                  <p className="text-gray-600">Brochures, flyers, and presentation templates.</p>
-                </div>
-              </div>
-
-              {/* Bonus Item */}
-              <div className="flex items-start space-x-4 group hover:bg-purple-50 p-4 rounded-xl transition-all duration-300 md:col-span-2">
-                <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-600 text-white rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
-                  <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
-                    <path
-                      fillRule="evenodd"
-                      d="M5 2a1 1 0 011 1v1h1a1 1 0 010 2H6v1a1 1 0 01-2 0V6H3a1 1 0 010-2h1V3a1 1 0 011-1zm0 10a1 1 0 011 1v1h1a1 1 0 110 2H6v1a1 1 0 11-2 0v-1H3a1 1 0 110-2h1v-1a1 1 0 011-1zM12 2a1 1 0 01.967.744L14.146 7.2 17.5 9.134a1 1 0 010 1.732L14.146 12.8l-1.179 4.456a1 1 0 01-1.934 0L9.854 12.8 6.5 10.866a1 1 0 010-1.732L9.854 7.2l1.179-4.456A1 1 0 0112 2z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                </div>
-                <div>
-                  <h5 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-purple-600 transition-colors duration-300">
-                    BONUS: Access to private Facebook group
-                  </h5>
-                  <p className="text-gray-600">
-                    Connect with other successful virtual tour business owners and get ongoing support.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Program Value Breakdown Section */}
-        <div className="mt-20">
-          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-12">
-              <h4 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 leading-[2rem]">
-                Complete Program Value Breakdown
-              </h4>
-              <p className="text-lg text-gray-600">
-                See exactly what you get when you join the Virtual Tour Profit System
-              </p>
-            </div>
-
-            {/* Strategy Section */}
-            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-8 rounded-lg mb-8">
-              <div className="text-center mb-8">
-                <h5 className="text-2xl font-bold text-gray-900 mb-4">🎯 Strategy & Business Framework</h5>
-                <p className="text-lg text-gray-700">Complete roadmap to building your profitable VR business</p>
-              </div>
-
-              <div className="grid md:grid-cols-2 gap-6">
-                <div className="space-y-4">
-                  <div className="flex items-center space-x-3">
-                    <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0"></div>
-                    <p className="font-medium text-gray-900">Step-by-step business setup guide</p>
                   </div>
-                  <div className="flex items-center space-x-3">
-                    <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0"></div>
-                    <p className="font-medium text-gray-900">Proven pricing strategies</p>
-                  </div>
-                  <div className="flex items-center space-x-3">
-                    <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0"></div>
-                    <p className="font-medium text-gray-900">Client acquisition system</p>
-                  </div>
-                </div>
-                <div className="space-y-4">
-                  <div className="flex items-center space-x-3">
-                    <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0"></div>
-                    <p className="font-medium text-gray-900">Market positioning tactics</p>
-                  </div>
-                  <div className="flex items-center space-x-3">
-                    <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0"></div>
-                    <p className="font-medium text-gray-900">Scaling and outsourcing methods</p>
-                  </div>
-                  <div className="flex items-center space-x-3">
-                    <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0"></div>
-                    <p className="font-medium text-gray-900">Recurring revenue models</p>
+                  <div className="space-y-6">
+                    <h5 className="text-2xl font-bold text-gray-900">30 Customers = $525,000 Revenue</h5>
+                    <div className="space-y-4">
+                      <div className="flex justify-between items-center p-4 bg-gray-50 rounded-lg">
+                        <span className="text-gray-700">Setup Fee:</span>
+                        <span className="font-bold text-2xl text-green-600">$8,500</span>
+                      </div>
+                      <div className="flex justify-between items-center p-4 bg-gray-50 rounded-lg">
+                        <span className="text-gray-700">Monthly Subscription:</span>
+                        <span className="font-bold text-2xl text-blue-600">$250</span>
+                      </div>
+                      <div className="flex justify-between items-center p-4 bg-gradient-to-r from-green-50 to-emerald-50 rounded-lg border-2 border-green-200">
+                        <span className="text-gray-900 font-semibold">3-Year Customer Value:</span>
+                        <span className="font-bold text-3xl text-emerald-600">$17,500</span>
+                      </div>
+                    </div>
+                    <div className="text-center p-6 bg-gradient-to-r from-indigo-50 to-purple-50 rounded-2xl border border-indigo-200">
+                      <p className="text-lg text-gray-700 mb-2">Total Revenue Potential:</p>
+                      <p className="text-4xl font-bold text-indigo-600">$525,000</p>
+                      <p className="text-sm text-gray-600 mt-2">From just 30 customers over 3 years</p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Training Section */}
-            <div className="bg-gradient-to-r from-green-50 to-emerald-50 p-8 rounded-lg mb-8">
-              <div className="text-center mb-8">
-                <h5 className="text-2xl font-bold text-gray-900 mb-4">📚 Comprehensive Training System</h5>
-                <p className="text-lg text-gray-700">40+ hours of in-depth training and resources</p>
-              </div>
-
-              <div className="grid md:grid-cols-3 gap-6">
-                <div className="text-center">
-                  <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-4">
-                    40+
-                  </div>
-                  <h6 className="font-bold text-gray-900 mb-2">Hours of Training</h6>
-                  <p className="text-gray-600 text-sm">Complete video course library</p>
-                </div>
-                <div className="text-center">
-                  <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-4">
-                    19
-                  </div>
-                  <h6 className="font-bold text-gray-900 mb-2">White Label Tours</h6>
-                  <p className="text-gray-600 text-sm">Ready-to-use portfolio examples</p>
-                </div>
-                <div className="text-center">
-                  <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-4">
-                    70+
-                  </div>
-                  <h6 className="font-bold text-gray-900 mb-2">Target Industries</h6>
-                  <p className="text-gray-600 text-sm">Proven hot buyer niches</p>
-                </div>
-              </div>
-            </div>
-
-            {/* Results Section */}
-            <div className="bg-gradient-to-r from-purple-50 to-pink-50 p-8 rounded-lg mb-8">
-              <div className="text-center mb-8">
-                <h5 className="text-2xl font-bold text-gray-900 mb-4">📈 Expected Results & Outcomes</h5>
-                <p className="text-lg text-gray-700">What our successful students typically achieve</p>
+            {/* Software Features That Justify Subscriptions */}
+            <div className="mb-20">
+              <div className="text-center mb-12">
+                <h4 className="text-3xl font-bold text-gray-900 mb-4">Software Features That Justify Recurring Fees</h4>
+                <p className="text-lg text-gray-600">Attach ongoing value to your subscription model</p>
               </div>
 
               <div className="grid md:grid-cols-2 gap-8">
-                <div className="space-y-6">
-                  <div className="bg-white p-6 rounded-lg shadow-sm">
-                    <h6 className="text-xl font-bold text-purple-600 mb-2">First 30 Days</h6>
-                    <ul className="space-y-2 text-gray-700">
-                      <li>• Complete system setup</li>
-                      <li>• First virtual tour created</li>
-                      <li>• Initial prospect outreach</li>
-                      <li>• Portfolio development</li>
-                    </ul>
+                <div className="glass-card rounded-2xl p-8 shadow-lg hover-lift">
+                  <div className="flex items-center mb-6">
+                    <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-indigo-600 text-white rounded-xl flex items-center justify-center mr-4">
+                      <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                        <path
+                          fillRule="evenodd"
+                          d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                    </div>
+                    <h5 className="text-xl font-bold text-gray-900">Lead Generation</h5>
                   </div>
-                  <div className="bg-white p-6 rounded-lg shadow-sm">
-                    <h6 className="text-xl font-bold text-purple-600 mb-2">60-90 Days</h6>
-                    <ul className="space-y-2 text-gray-700">
-                      <li>• First paying clients secured</li>
-                      <li>• $2,000-$5,000+ monthly revenue</li>
-                      <li>• Established local presence</li>
-                      <li>• Referral system activated</li>
-                    </ul>
+                  <p className="text-gray-600 mb-6">
+                    Continuously capture leads through your virtual tours and deliver them to your clients. This ongoing
+                    value justifies monthly fees.
+                  </p>
+                  <div className="bg-gray-50 rounded-lg p-4">
+                    <img
+                      src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-3WQZFaXNm7xRnXJAhWQqubL0yn2VBy.png"
+                      alt="Lead Generation Form Example"
+                      className="w-full h-auto rounded-lg shadow-sm"
+                    />
                   </div>
                 </div>
-                <div className="space-y-6">
-                  <div className="bg-white p-6 rounded-lg shadow-sm">
-                    <h6 className="text-xl font-bold text-purple-600 mb-2">6+ Months</h6>
-                    <ul className="space-y-2 text-gray-700">
-                      <li>• $10,000+ monthly revenue</li>
-                      <li>• Team building & outsourcing</li>
-                      <li>• Multiple revenue streams</li>
-                      <li>• Business automation</li>
-                    </ul>
+
+                <div className="glass-card rounded-2xl p-8 shadow-lg hover-lift">
+                  <div className="flex items-center mb-6">
+                    <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-xl flex items-center justify-center mr-4">
+                      <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                        <path
+                          fillRule="evenodd"
+                          d="M9.383 3.076A1 1 0 0110 4v12a1 1 0 01-1.707.707L4.586 13H2a1 1 0 01-1-1V8a1 1 0 011-1h2.586l3.707-3.707a1 1 0 011.09-.217zM15.657 6.343a1 1 0 011.414 0A9.972 9.972 0 0119 12a9.972 9.972 0 01-1.929 5.657 1 1 0 11-1.414-1.414A7.971 7.971 0 0017 12c0-2.21-.896-4.208-2.343-5.657a1 1 0 010-1.414zm-2.829 2.828a1 1 0 011.415 0A5.983 5.983 0 0115 12a5.984 5.984 0 01-.757 2.828 1 1 0 11-1.415-1.656A3.989 3.989 0 0013 12a3.989 3.989 0 00-.172-1.172 1 1 0 010-1.657z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                    </div>
+                    <h5 className="text-xl font-bold text-gray-900">CloudPano Live</h5>
                   </div>
-                  <div className="bg-white p-6 rounded-lg shadow-sm">
-                    <h6 className="text-xl font-bold text-purple-600 mb-2">Long-term Success</h6>
-                    <ul className="space-y-2 text-gray-700">
-                      <li>• Six-figure annual income</li>
-                      <li>• Passive revenue streams</li>
-                      <li>• Location independence</li>
-                      <li>• Financial freedom</li>
-                    </ul>
+                  <p className="text-gray-600 mb-6">
+                    Interactive live virtual tours with real-time communication. Perfect for remote sales and customer
+                    engagement.
+                  </p>
+                  <div className="bg-gray-50 rounded-lg p-4">
+                    <img
+                      src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-pyj74MJLvJ9w4Dq5crHFoszHjwqmyt.png"
+                      alt="CloudPano Live Virtual Tour Interface"
+                      className="w-full h-auto rounded-lg shadow-sm"
+                    />
                   </div>
+                </div>
+              </div>
+
+              <div className="mt-8 text-center">
+                <div className="inline-flex items-center bg-gradient-to-r from-yellow-100 to-orange-100 text-orange-800 px-6 py-3 rounded-full font-semibold">
+                  <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                    <path
+                      fillRule="evenodd"
+                      d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                  Pro Tip: Lead with "hosting and maintenance" when selling recurring fees
                 </div>
               </div>
             </div>
 
-            {/* Success Guarantee */}
-            <div className="bg-gradient-to-r from-yellow-50 to-orange-50 p-8 rounded-lg border-2 border-orange-200">
-              <div className="text-center">
-                <h5 className="text-2xl font-bold text-gray-900 mb-4">🛡️ 90-Day Success Guarantee</h5>
-                <p className="text-lg text-gray-700 mb-6">
-                  We're so confident in the VTPS system that we guarantee you'll land your first paying client within 90
-                  days, or we'll refund every penny.
+            {/* Call to Action */}
+            <div className="text-center">
+              <div className="glass-card rounded-3xl p-8 md:p-12 shadow-2xl hover-lift">
+                <h4 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+                  Ready to Build Your Subscription Empire?
+                </h4>
+                <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto text-pretty">
+                  Transform your one-time sales into recurring revenue streams that compound over time. The math doesn't
+                  lie - subscriptions are 4x more profitable.
                 </p>
-                <div className="grid md:grid-cols-2 gap-4 max-w-2xl mx-auto">
-                  <div className="flex items-center space-x-3">
-                    <div className="w-3 h-3 bg-green-500 rounded-full flex-shrink-0"></div>
-                    <span className="text-gray-700 font-medium">First client within 90 days guaranteed</span>
-                  </div>
-                  <div className="flex items-center space-x-3">
-                    <div className="w-3 h-3 bg-green-500 rounded-full flex-shrink-0"></div>
-                    <span className="text-gray-700 font-medium">100% money-back guarantee</span>
-                  </div>
-                  <div className="flex items-center space-x-3">
-                    <div className="w-3 h-3 bg-green-500 rounded-full flex-shrink-0"></div>
-                    <span className="text-gray-700 font-medium">Complete system setup included</span>
-                  </div>
-                  <div className="flex items-center space-x-3">
-                    <div className="w-3 h-3 bg-green-500 rounded-full flex-shrink-0"></div>
-                    <span className="text-gray-700 font-medium">Personal support throughout</span>
-                  </div>
+                <div className="inline-flex items-center bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-8 py-4 rounded-full font-bold text-lg shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 cursor-pointer">
+                  <span>Discover the Complete System</span>
+                  <svg className="w-5 h-5 ml-2" fill="currentColor" viewBox="0 0 20 20">
+                    <path
+                      fillRule="evenodd"
+                      d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        {/* Read How Content Inside VTPS Is Changing Lives Section */}
-        <section className="py-16 bg-white">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-900 leading-[2.5rem]">
-              Read How Content Inside VTPS Is Changing Lives
-            </h2>
+        {/* $10k/month profit section with business model diagram */}
+        <div className="mt-20">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-16">
+              <h4 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+                The VTPS Program: Your Copy and Paste Guide to a Successful Virtual Tour Business Locally
+              </h4>
+              <p className="text-xl text-gray-600">Everything you need to build a profitable virtual tour business:</p>
+            </div>
 
-            <div className="space-y-12">
-              {/* Bobby's Testimonial */}
-              <div className="bg-gray-50 rounded-2xl p-8 shadow-lg">
-                <img
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-9HoCt2LkPImWfKOHb1yN8XwGHDNecv.png"
-                  alt="Bobby's testimonial about VTPS content"
-                  className="w-full rounded-xl shadow-md"
-                />
+            <div className="space-y-16">
+              {/* Top - Image */}
+              <div className="flex justify-center">
+                <div className="relative max-w-2xl">
+                  <div className="glass-card rounded-3xl p-8 shadow-2xl hover-lift">
+                    <img
+                      src="/professional-virtual-tour-business-setup-with-vr-e.jpg"
+                      alt="VTPS Program - Virtual Tour Business Setup"
+                      className="w-full h-auto rounded-2xl shadow-lg"
+                    />
+                    <div className="absolute -top-4 -right-4 bg-gradient-to-r from-blue-500 to-indigo-600 text-white px-6 py-3 rounded-full font-bold shadow-lg">
+                      Complete System
+                    </div>
+                  </div>
+                </div>
               </div>
 
-              {/* Sports Club Success Testimonial */}
-              <div className="bg-gray-50 rounded-2xl p-8 shadow-lg">
-                <img
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-sB96R4f2A5sb3oYjxqnxjViME6KXX4.png"
-                  alt="VTPS student success with sports club deal"
-                  className="w-full rounded-xl shadow-md"
-                />
+              {/* Bottom - Program Items in 2-column grid */}
+              <div className="grid md:grid-cols-2 gap-6">
+                {/* Training & Courses */}
+                <div className="flex items-start space-x-4 group hover:bg-blue-50 p-4 rounded-xl transition-all duration-300">
+                  <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-indigo-600 text-white rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+                    <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h5 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-blue-600 transition-colors duration-300">
+                      40+ hours of sales training and courses
+                    </h5>
+                    <p className="text-gray-600">Zero fuzziness or question about how to proceed and profit.</p>
+                  </div>
+                </div>
+
+                {/* List Building */}
+                <div className="flex items-start space-x-4 group hover:bg-green-50 p-4 rounded-xl transition-all duration-300">
+                  <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+                    <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h5 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-green-600 transition-colors duration-300">
+                      Step-by-step guidance on building a list of 2,000 businesses
+                    </h5>
+                    <p className="text-gray-600">Likeminded businesses ready to prospect.</p>
+                  </div>
+                </div>
+
+                {/* White Label Tours */}
+                <div className="flex items-start space-x-4 group hover:bg-purple-50 p-4 rounded-xl transition-all duration-300">
+                  <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-600 text-white rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+                    <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                      <path
+                        fillRule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zM4.332 8.027a6.012 6.012 0 011.912-2.706C6.512 5.73 6.974 6 7.5 6A1.5 1.5 0 019 7.5V8a2 2 0 004 0 2 2 0 011.523-1.943A5.977 5.977 0 0116 10c0 .34-.028.675-.083 1H15a2 2 0 00-2 2v2.197A5.973 5.973 0 0110 16v-2a2 2 0 00-2-2 2 2 0 01-2-2 2 2 0 00-1.668-1.973z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <h5 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-purple-600 transition-colors duration-300">
+                      19 virtual tours to white label
+                    </h5>
+                    <p className="text-gray-600">Pre-sell your audience and help them visualize your offer.</p>
+                  </div>
+                </div>
+
+                {/* Cold Call Recordings */}
+                <div className="flex items-start space-x-4 group hover:bg-orange-50 p-4 rounded-xl transition-all duration-300">
+                  <div className="w-12 h-12 bg-gradient-to-r from-orange-500 to-red-600 text-white rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+                    <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h5 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-orange-600 transition-colors duration-300">
+                      Live cold call recordings
+                    </h5>
+                    <p className="text-gray-600">Learn exactly what to say to prospect and close business.</p>
+                  </div>
+                </div>
+
+                {/* Outreach Tools */}
+                <div className="flex items-start space-x-4 group hover:bg-teal-50 p-4 rounded-xl transition-all duration-300">
+                  <div className="w-12 h-12 bg-gradient-to-r from-teal-500 to-cyan-600 text-white rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+                    <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                      <path
+                        fillRule="evenodd"
+                        d="M18 3a1 1 0 00-1.447-.894L8.763 6H5a3 3 0 000 6h.28l1.771 5.316A1 1 0 008 18h1a1 1 0 001-1v-4.382l6.553 3.894A1 1 0 0018 16V3z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <h5 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-teal-600 transition-colors duration-300">
+                      Outreach tools
+                    </h5>
+                    <p className="text-gray-600">Better reach your audience and automate prospecting.</p>
+                  </div>
+                </div>
+
+                {/* Outsourcing Techniques */}
+                <div className="flex items-start space-x-4 group hover:bg-yellow-50 p-4 rounded-xl transition-all duration-300">
+                  <div className="w-12 h-12 bg-gradient-to-r from-yellow-500 to-amber-600 text-white rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+                    <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM12.93 17c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h5 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-yellow-600 transition-colors duration-300">
+                      "How to Outsource" techniques and tricks
+                    </h5>
+                    <p className="text-gray-600">Hire the best talent at the best prices.</p>
+                  </div>
+                </div>
+
+                {/* Niche List */}
+                <div className="flex items-start space-x-4 group hover:bg-indigo-50 p-4 rounded-xl transition-all duration-300">
+                  <div className="w-12 h-12 bg-gradient-to-r from-indigo-500 to-purple-600 text-white rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+                    <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                      <path
+                        fillRule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zM5.5 10a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM10 7a3 3 0 100 6 3 3 0 000-6z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <h5 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-indigo-600 transition-colors duration-300">
+                      Niche list of 70+ industries
+                    </h5>
+                    <p className="text-gray-600">Proven hot buyers for VR tours.</p>
+                  </div>
+                </div>
+
+                {/* Email Campaigns */}
+                <div className="flex items-start space-x-4 group hover:bg-pink-50 p-4 rounded-xl transition-all duration-300">
+                  <div className="w-12 h-12 bg-gradient-to-r from-pink-500 to-rose-600 text-white rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+                    <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                      <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h5 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-pink-600 transition-colors duration-300">
+                      Pre-written email campaigns
+                    </h5>
+                    <p className="text-gray-600">Shoot off to get fast business.</p>
+                  </div>
+                </div>
+
+                {/* Pricing Proposals */}
+                <div className="flex items-start space-x-4 group hover:bg-blue-50 p-4 rounded-xl transition-all duration-300">
+                  <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-indigo-600 text-white rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+                    <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                      <path
+                        fillRule="evenodd"
+                        d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <h5 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-blue-600 transition-colors duration-300">
+                      Pricing proposals
+                    </h5>
+                    <p className="text-gray-600">Look professional and seal the deal.</p>
+                  </div>
+                </div>
+
+                {/* Marketing Materials */}
+                <div className="flex items-start space-x-4 group hover:bg-green-50 p-4 rounded-xl transition-all duration-300">
+                  <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+                    <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                      <path
+                        fillRule="evenodd"
+                        d="M3 4a1 1 0 011-1h12a1 1 0 011 1v8a1 1 0 01-1 1h-5v2a1 1 0 01-1.707.707L7.586 14H4a1 1 0 01-1-1V4zm4 10.414l.293.293A1 1 0 008 15v-2h8V5H4v8h3z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <h5 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-green-600 transition-colors duration-300">
+                      Complete marketing materials
+                    </h5>
+                    <p className="text-gray-600">Brochures, flyers, and presentation templates.</p>
+                  </div>
+                </div>
+
+                {/* Bonus Item */}
+                <div className="flex items-start space-x-4 group hover:bg-purple-50 p-4 rounded-xl transition-all duration-300 md:col-span-2">
+                  <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-600 text-white rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+                    <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                      <path
+                        fillRule="evenodd"
+                        d="M5 2a1 1 0 011 1v1h1a1 1 0 010 2H6v1a1 1 0 01-2 0V6H3a1 1 0 010-2h1V3a1 1 0 011-1zm0 10a1 1 0 011 1v1h1a1 1 0 110 2H6v1a1 1 0 11-2 0v-1H3a1 1 0 110-2h1v-1a1 1 0 011-1zM12 2a1 1 0 01.967.744L14.146 7.2 17.5 9.134a1 1 0 010 1.732L14.146 12.8l-1.179 4.456a1 1 0 01-1.934 0L9.854 12.8 6.5 10.866a1 1 0 010-1.732L9.854 7.2l1.179-4.456A1 1 0 0112 2z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <h5 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-purple-600 transition-colors duration-300">
+                      BONUS: Access to private Facebook group
+                    </h5>
+                    <p className="text-gray-600">
+                      Connect with other successful virtual tour business owners and get ongoing support.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </section>
-      </div>
 
-      <div className="mt-16">{/* Removed the placeholder CombinedVideoTestimonials component entirely */}</div>
+          {/* Program Value Breakdown Section */}
+          <div className="mt-20">
+            <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+              <div className="text-center mb-12">
+                <h4 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 leading-[2rem]">
+                  Complete Program Value Breakdown
+                </h4>
+                <p className="text-lg text-gray-600">
+                  See exactly what you get when you join the Virtual Tour Profit System
+                </p>
+              </div>
+
+              {/* Strategy Section */}
+              <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-8 rounded-lg mb-8">
+                <div className="text-center mb-8">
+                  <h5 className="text-2xl font-bold text-gray-900 mb-4">🎯 Strategy & Business Framework</h5>
+                  <p className="text-lg text-gray-700">Complete roadmap to building your profitable VR business</p>
+                </div>
+
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div className="space-y-4">
+                    <div className="flex items-center space-x-3">
+                      <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0"></div>
+                      <p className="font-medium text-gray-900">Step-by-step business setup guide</p>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0"></div>
+                      <p className="font-medium text-gray-900">Proven pricing strategies</p>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0"></div>
+                      <p className="font-medium text-gray-900">Client acquisition system</p>
+                    </div>
+                  </div>
+                  <div className="space-y-4">
+                    <div className="flex items-center space-x-3">
+                      <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0"></div>
+                      <p className="font-medium text-gray-900">Market positioning tactics</p>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0"></div>
+                      <p className="font-medium text-gray-900">Scaling and outsourcing methods</p>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0"></div>
+                      <p className="font-medium text-gray-900">Recurring revenue models</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Training Section */}
+              <div className="bg-gradient-to-r from-green-50 to-emerald-50 p-8 rounded-lg mb-8">
+                <div className="text-center mb-8">
+                  <h5 className="text-2xl font-bold text-gray-900 mb-4">📚 Comprehensive Training System</h5>
+                  <p className="text-lg text-gray-700">40+ hours of in-depth training and resources</p>
+                </div>
+
+                <div className="grid md:grid-cols-3 gap-6">
+                  <div className="text-center">
+                    <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-4">
+                      40+
+                    </div>
+                    <h6 className="font-bold text-gray-900 mb-2">Hours of Training</h6>
+                    <p className="text-gray-600 text-sm">Complete video course library</p>
+                  </div>
+                  <div className="text-center">
+                    <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-4">
+                      19
+                    </div>
+                    <h6 className="font-bold text-gray-900 mb-2">White Label Tours</h6>
+                    <p className="text-gray-600 text-sm">Ready-to-use portfolio examples</p>
+                  </div>
+                  <div className="text-center">
+                    <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-4">
+                      70+
+                    </div>
+                    <h6 className="font-bold text-gray-900 mb-2">Target Industries</h6>
+                    <p className="text-gray-600 text-sm">Proven hot buyer niches</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Results Section */}
+              <div className="bg-gradient-to-r from-purple-50 to-pink-50 p-8 rounded-lg mb-8">
+                <div className="text-center mb-8">
+                  <h5 className="text-2xl font-bold text-gray-900 mb-4">📈 Expected Results & Outcomes</h5>
+                  <p className="text-lg text-gray-700">What our successful students typically achieve</p>
+                </div>
+
+                <div className="grid md:grid-cols-2 gap-8">
+                  <div className="space-y-6">
+                    <div className="bg-white p-6 rounded-lg shadow-sm">
+                      <h6 className="text-xl font-bold text-purple-600 mb-2">First 30 Days</h6>
+                      <ul className="space-y-2 text-gray-700">
+                        <li>• Complete system setup</li>
+                        <li>• First virtual tour created</li>
+                        <li>• Initial prospect outreach</li>
+                        <li>• Portfolio development</li>
+                      </ul>
+                    </div>
+                    <div className="bg-white p-6 rounded-lg shadow-sm">
+                      <h6 className="text-xl font-bold text-purple-600 mb-2">60-90 Days</h6>
+                      <ul className="space-y-2 text-gray-700">
+                        <li>• First paying clients secured</li>
+                        <li>• $2,000-$5,000+ monthly revenue</li>
+                        <li>• Established local presence</li>
+                        <li>• Referral system activated</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div className="space-y-6">
+                    <div className="bg-white p-6 rounded-lg shadow-sm">
+                      <h6 className="text-xl font-bold text-purple-600 mb-2">6+ Months</h6>
+                      <ul className="space-y-2 text-gray-700">
+                        <li>• $10,000+ monthly revenue</li>
+                        <li>• Team building & outsourcing</li>
+                        <li>• Multiple revenue streams</li>
+                        <li>• Business automation</li>
+                      </ul>
+                    </div>
+                    <div className="bg-white p-6 rounded-lg shadow-sm">
+                      <h6 className="text-xl font-bold text-purple-600 mb-2">Long-term Success</h6>
+                      <ul className="space-y-2 text-gray-700">
+                        <li>• Six-figure annual income</li>
+                        <li>• Passive revenue streams</li>
+                        <li>• Location independence</li>
+                        <li>• Financial freedom</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Success Guarantee */}
+              <div className="bg-gradient-to-r from-yellow-50 to-orange-50 p-8 rounded-lg border-2 border-orange-200">
+                <div className="text-center">
+                  <h5 className="text-2xl font-bold text-gray-900 mb-4">🛡️ 90-Day Success Guarantee</h5>
+                  <p className="text-lg text-gray-700 mb-6">
+                    We're so confident in the VTPS system that we guarantee you'll land your first paying client within
+                    90 days, or we'll refund every penny.
+                  </p>
+                  <div className="grid md:grid-cols-2 gap-4 max-w-2xl mx-auto">
+                    <div className="flex items-center space-x-3">
+                      <div className="w-3 h-3 bg-green-500 rounded-full flex-shrink-0"></div>
+                      <span className="text-gray-700 font-medium">First client within 90 days guaranteed</span>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <div className="w-3 h-3 bg-green-500 rounded-full flex-shrink-0"></div>
+                      <span className="text-gray-700 font-medium">100% money-back guarantee</span>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <div className="w-3 h-3 bg-green-500 rounded-full flex-shrink-0"></div>
+                      <span className="text-gray-700 font-medium">Complete system setup included</span>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <div className="w-3 h-3 bg-green-500 rounded-full flex-shrink-0"></div>
+                      <span className="text-gray-700 font-medium">Personal support throughout</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Read How Content Inside VTPS Is Changing Lives Section */}
+          <section className="py-16 bg-white">
+            <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+              <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-900 leading-[2.5rem]">
+                Read How Content Inside VTPS Is Changing Lives
+              </h2>
+
+              <div className="space-y-12">
+                {/* Bobby's Testimonial */}
+                <div className="bg-gray-50 rounded-2xl p-8 shadow-lg">
+                  <img
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-9HoCt2LkPImWfKOHb1yN8XwGHDNecv.png"
+                    alt="Bobby's testimonial about VTPS content"
+                    className="w-full rounded-xl shadow-md"
+                  />
+                </div>
+
+                {/* Sports Club Success Testimonial */}
+                <div className="bg-gray-50 rounded-2xl p-8 shadow-lg">
+                  <img
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-sB96R4f2A5sb3oYjxqnxjViME6KXX4.png"
+                    alt="VTPS student success with sports club deal"
+                    className="w-full rounded-xl shadow-md"
+                  />
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div className="mt-16">{/* Removed the placeholder CombinedVideoTestimonials component entirely */}</div>
+      </div>
     </section>
   )
 }
