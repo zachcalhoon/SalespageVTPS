@@ -1275,7 +1275,7 @@ export default function IntroSection() {
                     </p>
                     <div className="mt-3">
                       <img
-                        src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-bcYorsqlBfpBvNHbHhDXdBRIq2r0KX.png"
+                        src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Snip%202025-09-24%2011.30.23.png-6za7aKLWRr1iWATL5Lgdoug5jrqcyB.jpeg"
                         alt="Private Facebook group with 8.0K members showing member profile pictures"
                         className="w-full max-w-sm rounded-lg shadow-sm"
                       />
