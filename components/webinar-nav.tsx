@@ -19,31 +19,6 @@ export function WebinarNav({ currentPage }: WebinarNavProps) {
               Back to Main Site
             </Button>
           </Link>
-
-          <div className="h-6 w-px bg-border" />
-
-          <div className="flex items-center gap-2 text-sm text-muted-foreground">
-            <Link
-              href="/webinar"
-              className={`hover:text-foreground transition-colors ${currentPage === "landing" ? "text-primary font-semibold" : ""}`}
-            >
-              Register
-            </Link>
-            <span>→</span>
-            <Link
-              href="/webinar/watch"
-              className={`hover:text-foreground transition-colors ${currentPage === "watch" ? "text-primary font-semibold" : ""}`}
-            >
-              Watch Live
-            </Link>
-            <span>→</span>
-            <Link
-              href="/webinar/replay"
-              className={`hover:text-foreground transition-colors ${currentPage === "replay" ? "text-primary font-semibold" : ""}`}
-            >
-              Replay
-            </Link>
-          </div>
         </div>
 
         <Link href="/">
