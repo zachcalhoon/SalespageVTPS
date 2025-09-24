@@ -48,7 +48,7 @@ export default function WebinarWatchPage() {
             {/* Video Description */}
             <div className="glass-card p-8 rounded-2xl">
               <h2 className="text-3xl font-bold mb-6 gradient-text">
-                How To Start a Wildly Profitable Virtual Tour Business
+                Free Training: How To Start a Wildly Profitable Virtual Tour Business
               </h2>
               <p className="text-lg leading-relaxed mb-6">
                 Welcome to this exclusive training with Zach Calhoon! In this comprehensive session, you'll discover the
