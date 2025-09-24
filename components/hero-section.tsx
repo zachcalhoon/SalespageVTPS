@@ -33,9 +33,8 @@ export function HeroSection() {
       </div>
 
       <div className="relative z-10 max-w-6xl mx-auto text-center space-y-8">
-        {/* Added revolution headline above main headline with linear glow animation */}
-        <div className="relative overflow-hidden">
-          <h2 className="text-2xl md:text-4xl font-bold text-foreground mb-4 relative">
+        <div className="relative overflow-hidden mb-6">
+          <h2 className="text-3xl md:text-5xl font-bold text-foreground relative">
             <span className="relative z-10 linear-glow">The 360º and VR Revolution Is Here…</span>
           </h2>
         </div>
@@ -57,43 +56,16 @@ export function HeroSection() {
           </p>
         </div>
 
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-16">
-          {/* Hero Content */}
-          <div className="text-center space-y-8 mb-16">
-            <div className="space-y-6">
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-foreground leading-tight">
-                <span className="bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent animate-gradient bg-300% text-balance">
-                  Virtual Tour Profit System
-                </span>
-              </h1>
-
-              <p className="text-xl sm:text-2xl text-muted-foreground max-w-4xl mx-auto leading-relaxed text-balance">
-                The Complete Blueprint to Building a Six-Figure Virtual Tour Business
-              </p>
-            </div>
-
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <button className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl">
-                Get Started Today
-              </button>
-              <button className="border border-border hover:bg-accent/10 text-foreground px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 hover:scale-105">
-                Learn More
-              </button>
-            </div>
-          </div>
-
-          {/* Video Section */}
-          <div className="max-w-5xl mx-auto">
-            <VideoEmbed
-              src="https://vtpssalesvideo.s3.us-west-2.amazonaws.com/VTPS+Information+VSL+-+Aug+25+2021.mp4"
-              poster="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-N1qjaB5tfYLiOBlaYLkHZdC9MgaEdg.png"
-              title="Virtual Tour Profit System Training"
-              description="Press Play To Learn More"
-              enableStickyOnScroll={true}
-              stickyPosition="top-right"
-              showEnrollButton={true}
-            />
-          </div>
+        <div className="max-w-5xl mx-auto pt-8">
+          <VideoEmbed
+            src="https://vtpssalesvideo.s3.us-west-2.amazonaws.com/VTPS+Information+VSL+-+Aug+25+2021.mp4"
+            poster="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-N1qjaB5tfYLiOBlaYLkHZdC9MgaEdg.png"
+            title="Virtual Tour Profit System Training"
+            description="Press Play To Learn More"
+            enableStickyOnScroll={true}
+            stickyPosition="top-right"
+            showEnrollButton={true}
+          />
         </div>
 
         <div className="flex flex-wrap justify-center gap-6 pt-12 pb-16">
