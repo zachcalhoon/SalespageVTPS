@@ -155,6 +155,27 @@
     animation: glow 2s ease-in-out infinite alternate;
   }
 
+  /* Added linear glow animation for revolution headline */
+  .linear-glow {
+    position: relative;
+    background: linear-gradient(135deg, #8b5cf6 0%, #ea580c 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .linear-glow::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.8), transparent);
+    animation: linear-glow-sweep 3s ease-in-out 1s 1;
+    z-index: 1;
+  }
+
   .hover-lift {
     @apply transition-all duration-300 ease-out will-change-transform;
   }
@@ -212,6 +233,16 @@
   }
   to {
     box-shadow: 0 0 30px rgba(139, 92, 246, 0.6);
+  }
+}
+
+/* Added linear glow sweep animation keyframes */
+@keyframes linear-glow-sweep {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
   }
 }
 

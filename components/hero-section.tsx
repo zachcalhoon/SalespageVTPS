@@ -1,7 +1,6 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { Badge } from "@/components/ui/badge"
 import Link from "next/link"
 import { VideoEmbed } from "@/components/video-embed"
 
@@ -34,15 +33,17 @@ export function HeroSection() {
       </div>
 
       <div className="relative z-10 max-w-6xl mx-auto text-center space-y-8">
-        <Badge className="glass-strong text-primary text-sm font-medium px-6 py-3 hover-lift animate-glow shadow-lg">
-          🚀 The 360º and VR Revolution Is Here
-        </Badge>
+        {/* Added revolution headline above main headline with linear glow animation */}
+        <div className="relative overflow-hidden">
+          <h2 className="text-2xl md:text-4xl font-bold text-foreground mb-4 relative">
+            <span className="relative z-10 linear-glow">The 360º and VR Revolution Is Here…</span>
+          </h2>
+        </div>
 
         <div className="glass-card rounded-3xl p-8 shadow-2xl hover-lift">
           <h1 className="text-4xl md:text-6xl font-bold text-balance leading-tight text-foreground lg:text-5xl">
-            The 360º and VR Revolution Is Here…Build a Wildly Profitable{" "}
-            <span className="gradient-text text-glow">360º VR Agency</span> And Automatically Fill Your Calendar Every
-            Month With Virtual Tour Sales…{" "}
+            Build a Wildly Profitable <span className="gradient-text text-glow">360º VR Agency</span> And Automatically
+            Fill Your Calendar Every Month With Virtual Tour Sales…{" "}
             <span className="text-4xl md:text-6xl relative">
               <span className="relative z-10">Even If You Have Zero Experience</span>
               <span className="absolute bottom-1 left-0 w-full h-3 bg-gradient-to-r from-yellow-300 to-orange-400 opacity-70 -z-10 transform -skew-x-12"></span>
@@ -51,7 +52,7 @@ export function HeroSection() {
         </div>
 
         <div className="glass rounded-2xl p-6 max-w-4xl mx-auto hover-lift shadow-xl">
-          <p className="text-xl md:text-3xl lg:text-4xl font-bold text-foreground text-pretty leading-snug">
+          <p className="text-xl sm:text-3xl lg:text-4xl font-bold text-foreground text-pretty leading-snug">
             Provide A NEW Service Local Businesses Desperately Need
           </p>
         </div>
