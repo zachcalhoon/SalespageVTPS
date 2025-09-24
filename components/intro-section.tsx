@@ -62,7 +62,7 @@ export default function IntroSection() {
           <div className="flex flex-col md:flex-row items-center md:items-start gap-6 mb-8">
             <div className="flex-shrink-0">
               <img
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/image%281%29-gMGchbx3tQ8tIve9LKyACJHHg2rf9e.png"
+                src="https://hebbkx1anhila5yf.blob.core.windows.net/design-mode-images/image%281%29-gMGchbx3tQ8tIve9LKyACJHHg2rf9e.png"
                 alt="Zach Calhoon headshot"
                 className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover shadow-lg"
               />
@@ -108,7 +108,7 @@ export default function IntroSection() {
               <h5 className="text-lg font-semibold text-foreground mb-4 text-center">Before VTPS:</h5>
               <div className="glass rounded-2xl p-4 shadow-lg hover-lift">
                 <img
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/image%281%29-OLGgeSxpMNEYuPApANrzn5LMXCdXS5.png"
+                  src="https://hebbkx1anhila5yf.blob.core.windows.net/design-mode-images/image%281%29-OLGgeSxpMNEYuPApANrzn5LMXCdXS5.png"
                   alt="Email from Jordan Arbo asking about a $30K gym deal with 13 locations, seeking guidance on hosting fees and white label embedding"
                   className="w-full rounded-lg"
                 />
@@ -119,7 +119,7 @@ export default function IntroSection() {
               <h5 className="text-lg font-semibold text-foreground mb-4 text-center">After VTPS:</h5>
               <div className="glass rounded-2xl p-4 shadow-lg hover-lift">
                 <img
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/image%281%29-U1weD2gfbA4GwxtPXTkhNtWiZwjVk3.png"
+                  src="https://hebbkx1anhila5yf.blob.core.windows.net/design-mode-images/image%281%29-U1weD2gfbA4GwxtPXTkhNtWiZwjVk3.png"
                   alt="Follow-up email from Jordan Arbo praising VTPS training as SO GOOD, thorough, easy to follow, and a literal life saver"
                   className="w-full rounded-lg"
                 />
@@ -230,7 +230,7 @@ export default function IntroSection() {
 
             <div className="glass rounded-2xl p-4 mb-8 hover-lift shadow-lg">
               <img
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/image%281%29-8EjkfZrEg6uqr0tC2FewTJuyz8eXYy.png"
+                src="https://hebbkx1anhila5yf.blob.core.windows.net/design-mode-images/image%281%29-8EjkfZrEg6uqr0tC2FewTJuyz8eXYy.png"
                 alt="Facebook testimonial from Brian Knox praising VTPS training as pure gold with more actionable content than college degrees"
                 className="w-full rounded-lg"
               />
@@ -444,7 +444,7 @@ export default function IntroSection() {
                   </div>
                   <div className="bg-gray-50 rounded-lg p-4 mb-6">
                     <img
-                      src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/image%281%29-iQ0k2EQM6A78NbprphdnH1U0fqLIrC.png"
+                      src="https://hebbkx1anhila5yf.blob.core.windows.net/design-mode-images/image%281%29-iQ0k2EQM6A78NbprphdnH1U0fqLIrC.png"
                       alt="Text message showing Caleb's two major deals: $17,964 for one project with $250/month hosting and $20,064 for another with $250/month hosting"
                       className="w-full rounded-lg"
                     />
@@ -480,7 +480,7 @@ export default function IntroSection() {
                   </div>
                   <div className="bg-gray-50 rounded-lg p-4 mb-6">
                     <img
-                      src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/image%281%29-tbNt94HRxFyiFcjl2bNwVkMl4uyqiq.png"
+                      src="https://hebbkx1anhila5yf.blob.core.windows.net/design-mode-images/image%281%29-tbNt94HRxFyiFcjl2bNwVkMl4uyqiq.png"
                       alt="Mobile phone screenshot showing Jordan Powers' text conversation mentioning an $18k project"
                       className="w-full rounded-lg"
                     />
@@ -582,7 +582,7 @@ export default function IntroSection() {
 
               <div className="mt-8">
                 <img
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/image%281%29-pqGYo77QxtRmC9kkvfwDpGGHhA0Xl9.png"
+                  src="https://hebbkx1anhila5yf.blob.core.windows.net/design-mode-images/image%281%29-pqGYo77QxtRmC9kkvfwDpGGHhA0Xl9.png"
                   alt="Smiling woman in checkered shirt holding Google Cardboard VR viewer outdoors, representing the freedom and enjoyment of working in VR technology"
                   className="w-80 h-80 object-cover rounded-lg shadow-lg mx-auto"
                 />
@@ -614,7 +614,7 @@ export default function IntroSection() {
               </div>
               <div className="bg-gray-50 rounded-lg p-4 mb-4">
                 <img
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/image%281%29-2cw4iKorGKjblCJhwKc8roPMQvjBSf.png"
+                  src="https://hebbkx1anhila5yf.blob.core.windows.net/design-mode-images/image%281%29-2cw4iKorGKjblCJhwKc8roPMQvjBSf.png"
                   alt="Email from Mark Rutherford celebrating his $10,500 virtual tour deal after getting advice from Zach, with potential for 100 more tours"
                   className="w-full rounded-lg"
                 />
@@ -694,7 +694,7 @@ export default function IntroSection() {
               </div>
               <div className="bg-gray-50 rounded-lg p-4 mb-4">
                 <img
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/image%281%29-DaZwhVedJJH331JUEz3yXvXxDBkDiX.png"
+                  src="https://hebbkx1anhila5yf.blob.core.windows.net/design-mode-images/image%281%29-DaZwhVedJJH331JUEz3yXvXxDBkDiX.png"
                   alt="Email from Tony Martin showing his rapid success - $600 contract within days plus multiple prospects in pipeline"
                   className="w-full rounded-lg"
                 />
@@ -746,7 +746,7 @@ export default function IntroSection() {
               </div>
               <div className="bg-gray-50 rounded-lg p-4 mb-4">
                 <img
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/image%281%29-erGiaf3a2UXLzhEygWruRYrqjteMpM.png"
+                  src="https://hebbkx1anhila5yf.blob.core.windows.net/design-mode-images/image%281%29-erGiaf3a2UXLzhEygWruRYrqjteMpM.png"
                   alt="Email from Jean Paul celebrating landing a $530 deal with $30 monthly subscription and additional land survey work"
                   className="w-full rounded-lg"
                 />
@@ -769,7 +769,7 @@ export default function IntroSection() {
               </div>
               <div className="bg-gray-50 rounded-lg p-4 mb-4">
                 <img
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/image%281%29-bZD4xrhdibNNMfzJ69MTqdc5G6RRPS.png"
+                  src="https://hebbkx1anhila5yf.blob.core.windows.net/design-mode-images/image%281%29-bZD4xrhdibNNMfzJ69MTqdc5G6RRPS.png"
                   alt="Facebook post from Aiden Kaczka praising Zach Calhoon's content and live FB ad training as extremely valuable"
                   className="w-full rounded-lg"
                 />
@@ -792,7 +792,7 @@ export default function IntroSection() {
               </div>
               <div className="bg-gray-50 rounded-lg p-4 mb-4">
                 <img
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/image%281%29-9NB5yPzgQk9ExZ4oBbtOjVMN5zxphS.png"
+                  src="https://hebbkx1anhila5yf.blob.core.windows.net/design-mode-images/image%281%29-9NB5yPzgQk9ExZ4oBbtOjVMN5zxphS.png"
                   alt="Facebook post from Taha Lababedi thanking the VTPS group for helping him land $2000 worth of clients just two days after getting his camera"
                   className="w-full rounded-lg"
                 />
@@ -815,7 +815,7 @@ export default function IntroSection() {
               </div>
               <div className="bg-gray-50 rounded-lg p-4 mb-4">
                 <img
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/image%281%29-n0oDLkQksJhwLjemkXkFTLOiQLE1pw.png"
+                  src="https://hebbkx1anhila5yf.blob.core.windows.net/design-mode-images/image%281%29-n0oDLkQksJhwLjemkXkFTLOiQLE1pw.png"
                   alt="Facebook comment from Rick Brazil praising CloudPano and thanking Zach and Clayton"
                   className="w-full rounded-lg"
                 />
@@ -836,7 +836,7 @@ export default function IntroSection() {
               </div>
               <div className="bg-gray-50 rounded-lg p-4 mb-4">
                 <img
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/image%281%29-lz16zHNpPMyDnyNJOTVjPSupK9g5up.png"
+                  src="https://hebbkx1anhila5yf.blob.core.windows.net/design-mode-images/image%281%29-lz16zHNpPMyDnyNJOTVjPSupK9g5up.png"
                   alt="Facebook post from Arlando Fitzgerald showing cash earnings from his first paying customer, a dispensary shoot that took 7 minutes and earned $250+"
                   className="w-full rounded-lg"
                 />
@@ -858,7 +858,7 @@ export default function IntroSection() {
               </div>
               <div className="bg-gray-50 rounded-lg p-4 mb-4">
                 <img
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/image%281%29-fpIZQPSLC0KktHUZ3BK32PjClfQFq3.png"
+                  src="https://hebbkx1anhila5yf.blob.core.windows.net/design-mode-images/image%281%29-fpIZQPSLC0KktHUZ3BK32PjClfQFq3.png"
                   alt="Email from Otavio Marques thanking Zach and saying following his content has been a life changer"
                   className="w-full rounded-lg"
                 />
@@ -883,7 +883,7 @@ export default function IntroSection() {
             {/* Aspect 360 Multimedia Love */}
             <div className="bg-white rounded-lg shadow-lg border border-gray-200 p-6">
               <img
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/image%281%29-K9Ve6DOSwXsSdv4oahvZvwF2EV8DtS.png"
+                src="https://hebbkx1anhila5yf.blob.core.windows.net/design-mode-images/image%281%29-K9Ve6DOSwXsSdv4oahvZvwF2EV8DtS.png"
                 alt="Facebook post from Aspect 360 Multimedia saying 'Cloudpano I love you' with Zach Calhoon responding"
                 className="w-full rounded-lg"
               />
@@ -892,7 +892,7 @@ export default function IntroSection() {
             {/* User Comments and Mobile Success */}
             <div className="bg-white rounded-lg shadow-lg border border-gray-200 p-6">
               <img
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/image%281%29-Zn5KwpFojtl57prFCWBYjktBCUVB64.png"
+                src="https://hebbkx1anhila5yf.blob.core.windows.net/design-mode-images/image%281%29-Zn5KwpFojtl57prFCWBYjktBCUVB64.png"
                 alt="Facebook comments praising CloudPano's mobile compatibility and ease of use"
                 className="w-full rounded-lg"
               />
@@ -901,7 +901,7 @@ export default function IntroSection() {
             {/* Caleb Bailey Success Story */}
             <div className="bg-white rounded-lg shadow-lg border border-gray-200 p-6">
               <img
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/image%281%29-g596bomokQJ0JfOU6rlI82UNpOnm1V.png"
+                src="https://hebbkx1anhila5yf.blob.core.windows.net/design-mode-images/image%281%29-g596bomokQJ0JfOU6rlI82UNpOnm1V.png"
                 alt="Caleb Bailey sharing his success with dentist office shoot and upcoming wedding venue projects"
                 className="w-full rounded-lg"
               />
@@ -910,7 +910,7 @@ export default function IntroSection() {
             {/* Sue Arnoldus Thank You Email */}
             <div className="bg-white rounded-lg shadow-lg border border-gray-200 p-6">
               <img
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/image%281%29-6NjkVfTUWJMpmF82Rifd4kTXDHRKZW.png"
+                src="https://hebbkx1anhila5yf.blob.core.windows.net/design-mode-images/image%281%29-6NjkVfTUWJMpmF82Rifd4kTXDHRKZW.png"
                 alt="Email from Sue Arnoldus praising CloudPano system and customer service"
                 className="w-full rounded-lg"
               />
@@ -919,7 +919,7 @@ export default function IntroSection() {
             {/* Craig Spradlin Architectural Success */}
             <div className="bg-white rounded-lg shadow-lg border border-gray-200 p-6">
               <img
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/image%281%29-ZNTGbAZ8o7ck4EWguWmEZFPKL7SLZ3.png"
+                src="https://hebbkx1anhila5yf.blob.core.windows.net/design-mode-images/image%281%29-ZNTGbAZ8o7ck4EWguWmEZFPKL7SLZ3.png"
                 alt="Craig Spradlin praising CloudPano for architectural documentation and virtual tours"
                 className="w-full rounded-lg"
               />
@@ -928,7 +928,7 @@ export default function IntroSection() {
             {/* Customer Service Praise */}
             <div className="bg-white rounded-lg shadow-lg border border-gray-200 p-6">
               <img
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/image%281%29-XH8uJpMAalxYroA0CQ0VLCewqpC9wx.png"
+                src="https://hebbkx1anhila5yf.blob.core.windows.net/design-mode-images/image%281%29-XH8uJpMAalxYroA0CQ0VLCewqpC9wx.png"
                 alt="Facebook comments praising CloudPano's responsive customer service"
                 className="w-full rounded-lg"
               />
@@ -947,7 +947,7 @@ export default function IntroSection() {
           </div>
           <div className="bg-gray-50 rounded-lg p-6 mb-6">
             <img
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/image%281%29-lz16zHNpPMyDnyNJOTVjPSupK9g5up.png"
+              src="https://hebbkx1anhila5yf.blob.core.windows.net/design-mode-images/image%281%29-lz16zHNpPMyDnyNJOTVjPSupK9g5up.png"
               alt="Facebook post from Arlando Fitzgerald showing cash earnings from his first paying customer, a dispensary shoot that took 7 minutes and earned $250+"
               className="w-full rounded-lg"
             />
@@ -969,7 +969,7 @@ export default function IntroSection() {
           </div>
           <div className="bg-gray-50 rounded-lg p-6 mb-6">
             <img
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/image%281%29-fpIZQPSLC0KktHUZ3BK32PjClfQFq3.png"
+              src="https://hebbkx1anhila5yf.blob.core.windows.net/design-mode-images/image%281%29-fpIZQPSLC0KktHUZ3BK32PjClfQFq3.png"
               alt="Email from Otavio Marques thanking Zach and saying following his content has been a life changer"
               className="w-full rounded-lg"
             />
@@ -1462,7 +1462,7 @@ export default function IntroSection() {
                 {/* Bobby's Testimonial */}
                 <div className="bg-gray-50 rounded-2xl p-8 shadow-lg">
                   <img
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/image%281%29-1HHlZSjpdSqeyHt8e4PCiUBY603oQP.png"
+                    src="https://hebbkx1anhila5yf.blob.core.windows.net/design-mode-images/image%281%29-1HHlZSjpdSqeyHt8e4PCiUBY603oQP.png"
                     alt="Bobby's testimonial about VTPS content"
                     className="w-full rounded-xl shadow-md"
                   />
@@ -1471,7 +1471,7 @@ export default function IntroSection() {
                 {/* Sports Club Success Testimonial */}
                 <div className="bg-gray-50 rounded-2xl p-8 shadow-lg">
                   <img
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/image%281%29-7ZgEAfJBVD09IRYSujogS08ZdfqNJu.png"
+                    src="https://hebbkx1anhila5yf.blob.core.windows.net/design-mode-images/image%281%29-7ZgEAfJBVD09IRYSujogS08ZdfqNJu.png"
                     alt="VTPS student success with sports club deal"
                     className="w-full rounded-xl shadow-md"
                   />
@@ -1524,7 +1524,7 @@ export default function IntroSection() {
                 <p className="text-lg text-gray-600">Take a virtual tour to see the power of 360° environments</p>
               </div>
 
-              <div className="glass-card rounded-3xl p-8 md:p-12 shadow-2xl hover-lift mb-12">
+              <div className="glass-card rounded-3xl p-4 md:p-6 shadow-2xl hover-lift mb-12 max-w-7xl mx-auto">
                 <iframe
                   src="https://app.cloudpano.com/tours/p01itLQTYzpS"
                   width="100%"
@@ -1738,7 +1738,7 @@ export default function IntroSection() {
 
               <div className="glass-card rounded-3xl p-8 md:p-12 shadow-2xl hover-lift mb-12">
                 <img
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-oCLbzSZ4GC4TJvMssOpShiAnEn8wjN.png"
+                  src="https://hebbkx1anhila5yf.blob.core.windows.net/design-mode-images/image%281%29-7PVz0.png"
                   alt="High-Ticket Pricing ROI Analysis"
                   className="w-full h-auto rounded-2xl shadow-lg"
                 />
@@ -1879,7 +1879,7 @@ export default function IntroSection() {
 
               <div className="glass-card rounded-3xl p-8 md:p-12 shadow-2xl hover-lift mb-12">
                 <img
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/image%281%29-30UZCJ3IJ2VD9Az9ovoZBaI4x3xcEN.png"
+                  src="https://hebbkx1anhila5yf.blob.core.windows.net/design-mode-images/image%281%29-30UZCJ3IJ2VD9Az9ovoZBaI4x3xcEN.png"
                   alt="Old Way vs New Way Subscription Comparison"
                   className="w-full h-auto rounded-2xl shadow-lg"
                 />
@@ -1974,7 +1974,7 @@ export default function IntroSection() {
                 <div className="glass-card rounded-2xl p-6 shadow-lg hover-lift">
                   <h5 className="text-xl font-bold text-gray-900 mb-4 text-center">Old Way: Flat Growth</h5>
                   <img
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/image%281%29-Wk8GlavgBYVa9yRX6TTVx22bNDzrSK.png"
+                    src="https://hebbkx1anhila5yf.blob.core.windows.net/design-mode-images/image%281%29-Wk8GlavgBYVa9yRX6TTVx22bNDzrSK.png"
                     alt="Old Way No Subscriptions Flat Growth Chart"
                     className="w-full h-auto rounded-lg"
                   />
@@ -1984,7 +1984,7 @@ export default function IntroSection() {
                 <div className="glass-card rounded-2xl p-6 shadow-lg hover-lift">
                   <h5 className="text-xl font-bold text-gray-900 mb-4 text-center">New Way: Exponential Growth</h5>
                   <img
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/image%281%29-5JF4JunBmrctcXqWIZRJq2qUEFCIIP.png"
+                    src="https://hebbkx1anhila5yf.blob.core.windows.net/design-mode-images/image%281%29-5JF4JunBmrctcXqWIZRJq2qUEFCIIP.png"
                     alt="New Way With Subscriptions Exponential Growth Chart"
                     className="w-full h-auto rounded-lg"
                   />
@@ -2085,7 +2085,7 @@ export default function IntroSection() {
                 <div className="grid lg:grid-cols-2 gap-12 items-center">
                   <div>
                     <img
-                      src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/image%281%29-KXke9LW3mQtpVBsXOz4ZYpJegiGopq.png"
+                      src="https://hebbkx1anhila5yf.blob.core.windows.net/design-mode-images/image%281%29-KXke9LW3mQtpVBsXOz4ZYpJegiGopq.png"
                       alt="Jordan Powers Community College Success Story"
                       className="w-full h-auto rounded-2xl shadow-lg"
                     />
@@ -2143,7 +2143,7 @@ export default function IntroSection() {
                   </p>
                   <div className="bg-gray-50 rounded-lg p-4">
                     <img
-                      src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/image%281%29-W16SYeUhphxdigkiMXBJlfOTD2KywG.png"
+                      src="https://hebbkx1anhila5yf.blob.core.windows.net/design-mode-images/image%281%29-W16SYeUhphxdigkiMXBJlfOTD2KywG.png"
                       alt="Lead Generation Form Example"
                       className="w-full h-auto rounded-lg shadow-sm"
                     />
