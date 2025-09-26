@@ -32,8 +32,8 @@ export function OfferSection() {
     },
     {
       name: "VTPS + Personal Coaching",
-      price: "$4997",
-      originalPrice: "$7,997",
+      price: "$3997",
+      originalPrice: "$4,997",
       description: "Everything in Core Program PLUS personal coaching with Zach",
       popular: true,
       features: [
@@ -134,7 +134,12 @@ export function OfferSection() {
                   }`}
                   size="lg"
                   onClick={() =>
-                    window.open("https://wnh.thrivecart.com/virtual-tour-profit-system/?coupon=START1000", "_blank")
+                    window.open(
+                      tier.name === "VTPS + Personal Coaching"
+                        ? "https://wnh.thrivecart.com/virtual-tour-profit-system-z/?coupon=START1000"
+                        : "https://wnh.thrivecart.com/virtual-tour-profit-system/?coupon=START1000",
+                      "_blank",
+                    )
                   }
                 >
                   Get Started Now →

@@ -38,13 +38,7 @@ export default function WebinarLandingPage() {
               <X className="h-4 w-4 text-white" />
             </button>
             <div className="aspect-video bg-black">
-              <video
-                loop
-                playsInline
-                controls
-                className="w-full h-full object-cover"
-                poster="/vr-business-training-video-thumbnail.jpg"
-              >
+              <video loop playsInline controls className="w-full h-full object-cover" poster="/webinar-cover.png">
                 <source
                   src="https://webinarregistrationvtp.s3.us-west-2.amazonaws.com/Webinar+Registration+new+July+29.mp4"
                   type="video/mp4"
@@ -89,13 +83,7 @@ export default function WebinarLandingPage() {
                 <p className="text-lg font-semibold text-primary animate-pulse">Press Play ▶️</p>
               </div>
               <div className="aspect-video rounded-2xl overflow-hidden shadow-2xl">
-                <video
-                  loop
-                  playsInline
-                  controls
-                  className="w-full h-full object-cover"
-                  poster="/vr-business-training-video-thumbnail.jpg"
-                >
+                <video loop playsInline controls className="w-full h-full object-cover" poster="/webinar-cover.png">
                   <source
                     src="https://webinarregistrationvtp.s3.us-west-2.amazonaws.com/Webinar+Registration+new+July+29.mp4"
                     type="video/mp4"
