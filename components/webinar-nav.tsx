@@ -21,11 +21,13 @@ export function WebinarNav({ currentPage }: WebinarNavProps) {
           </Link>
         </div>
 
-        <Link href="/">
-          <Button size="sm" className="bg-primary hover:bg-primary/90">
-            Join VTPS Training
-          </Button>
-        </Link>
+        {currentPage !== "landing" && (
+          <Link href="/">
+            <Button size="sm" className="bg-primary hover:bg-primary/90">
+              Join VTPS Training
+            </Button>
+          </Link>
+        )}
       </div>
     </nav>
   )
