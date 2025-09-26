@@ -1,11 +1,18 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { ArrowRight, Clock, Users } from "lucide-react"
+import { ArrowRight, Clock, Users, Play } from "lucide-react"
 import Link from "next/link"
 import { WebinarNav } from "@/components/webinar-nav"
+import { useState } from "react"
 
 export default function WebinarWatchPage() {
+  const [isVideoPlaying, setIsVideoPlaying] = useState(false)
+
+  const handlePlayVideo = () => {
+    setIsVideoPlaying(true)
+  }
+
   return (
     <div className="min-h-screen bg-background">
       <WebinarNav currentPage="watch" />
@@ -32,16 +39,44 @@ export default function WebinarWatchPage() {
           {/* Main Video Section - Now full width */}
           <div>
             <div className="glass-card rounded-2xl overflow-hidden mb-8">
-              <div className="aspect-video md:aspect-[16/10] lg:aspect-[16/9] xl:aspect-[21/10] min-h-[300px] md:min-h-[400px] lg:min-h-[500px]">
-                <iframe
-                  src="https://player.vimeo.com/video/592348094?h=0&autoplay=1&title=0&byline=0&portrait=0"
-                  width="100%"
-                  height="100%"
-                  frameBorder="0"
-                  allow="autoplay; fullscreen; picture-in-picture"
-                  allowFullScreen
-                  className="w-full h-full"
-                />
+              <div className="aspect-video md:aspect-[16/10] lg:aspect-[16/9] xl:aspect-[21/10] min-h-[300px] md:min-h-[400px] lg:min-h-[500px] relative">
+                {!isVideoPlaying ? (
+                  <div className="relative w-full h-full cursor-pointer group" onClick={handlePlayVideo}>
+                    {/* Video first frame as background */}
+                    <img
+                      src="/webinar-cover.png"
+                      alt="VTPS Training - First Frame"
+                      className="w-full h-full object-cover"
+                    />
+
+                    {/* Play button overlay */}
+                    <div className="absolute inset-0 flex items-center justify-center bg-black/20 group-hover:bg-black/30 transition-all duration-300">
+                      <div className="glass-strong rounded-full p-6 shadow-2xl group-hover:scale-110 transition-transform duration-300">
+                        <Play className="w-12 h-12 text-primary" fill="currentColor" />
+                      </div>
+                    </div>
+
+                    {/* Optional: Video title overlay */}
+                    <div className="absolute bottom-6 left-6 right-6">
+                      <div className="glass-card p-4 rounded-xl">
+                        <h3 className="text-white font-semibold text-lg">
+                          How To Start a Wildly Profitable Virtual Tour Business
+                        </h3>
+                        <p className="text-white/80 text-sm mt-1">Click to watch the full training with Zach Calhoon</p>
+                      </div>
+                    </div>
+                  </div>
+                ) : (
+                  <iframe
+                    src="https://player.vimeo.com/video/592348094?h=0&autoplay=1&title=0&byline=0&portrait=0"
+                    width="100%"
+                    height="100%"
+                    frameBorder="0"
+                    allow="autoplay; fullscreen; picture-in-picture"
+                    allowFullScreen
+                    className="w-full h-full"
+                  />
+                )}
               </div>
             </div>
 
