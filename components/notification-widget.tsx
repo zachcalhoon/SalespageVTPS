@@ -116,7 +116,7 @@ export function NotificationWidget() {
             <button
               className="w-full bg-blue-600 hover:bg-blue-700 text-white text-xs font-medium py-2 px-3 rounded transition-colors"
               onClick={() =>
-                window.open("https://wnh.thrivecart.com/virtual-tour-profit-system/?coupon=START1000", "_blank")
+                window.open("https://buy.cloudpano.com/virtual-tour-profit-system/?coupon=VTPSPROCLOUDPANO", "_blank")
               }
             >
               Enroll Now - Save $1,000

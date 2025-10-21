@@ -31,21 +31,24 @@ export function OfferSection() {
       ],
     },
     {
-      name: "VTPS + Personal Coaching",
-      price: "$3997",
+      name: "VTPS +360 Profit Software Bundle",
+      price: "$2,850",
       originalPrice: "$4,997",
-      description: "Everything in Core Program PLUS personal coaching with Zach",
+      description: "Everything in Core Program PLUS premium software tools worth $9,473/year",
       popular: true,
       features: [
         "Everything in VTPS Core Program",
-        "Coaching calls one-on-one.",
-        "Personal Success Manager",
+        "CloudPano Pro+ ($1,200/year value)",
+        "21 Lead Finder App ($1,200/year value)",
+        "LeadStack CRM ($4,764/year value)",
+        "PhotoAI Video.com ($800/year value)",
+        "Pictastic.ai Property Sites Plan ($420/year value)",
+        "Pictastic.ai Virtual Staging ($1,089/year value)",
         "Priority Support (24-hour response)",
         "Done-For-You Marketing Setup",
         "Advanced Sales Training & Role-Play Sessions",
         "Team Building & Scaling Blueprints",
         "VIP Mastermind Access",
-        "Direct Phone/Text Access to Zach",
         "Custom Business Strategy Sessions",
         "Live Deal Review & Feedback",
         "Recurring Revenue Playbook",
@@ -135,9 +138,9 @@ export function OfferSection() {
                   size="lg"
                   onClick={() =>
                     window.open(
-                      tier.name === "VTPS + Personal Coaching"
-                        ? "https://wnh.thrivecart.com/virtual-tour-profit-system-z/?coupon=START1000"
-                        : "https://wnh.thrivecart.com/virtual-tour-profit-system/?coupon=START1000",
+                      tier.name === "VTPS +360 Profit Software Bundle"
+                        ? "https://bundle.virtualtourprofit.com/"
+                        : "https://buy.cloudpano.com/virtual-tour-profit-system/?coupon=VTPSPROCLOUDPANO",
                       "_blank",
                     )
                   }
@@ -158,18 +161,18 @@ export function OfferSection() {
 
         <div className="mt-16 text-center space-y-6">
           <div className="glass-card rounded-2xl p-8 max-w-4xl mx-auto hover-lift">
-            <h3 className="text-2xl font-bold text-foreground mb-4">🎯 Why Choose VTPS + Personal Coaching?</h3>
+            <h3 className="text-2xl font-bold text-foreground mb-4">🎯 Why Choose VTPS +360 Profit Software Bundle?</h3>
             <div className="grid md:grid-cols-3 gap-6 text-left">
               <div className="space-y-2">
-                <h4 className="font-semibold text-foreground">Direct Access to Zach</h4>
+                <h4 className="font-semibold text-foreground">Premium Software Stack</h4>
                 <p className="text-sm text-muted-foreground">
-                  Get personal guidance from the creator of VTPS with monthly 1-on-1 calls
+                  Get $9,473/year worth of professional software tools to run your VR business
                 </p>
               </div>
               <div className="space-y-2">
-                <h4 className="font-semibold text-foreground">Faster Results</h4>
+                <h4 className="font-semibold text-foreground">Complete Business Solution</h4>
                 <p className="text-sm text-muted-foreground">
-                  Skip the trial and error - get proven strategies that work immediately
+                  Everything you need from lead generation to CRM, virtual staging, and tour creation
                 </p>
               </div>
               <div className="space-y-2">

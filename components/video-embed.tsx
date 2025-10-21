@@ -131,7 +131,10 @@ export function VideoEmbed({
                 <div className="mt-3">
                   <button
                     onClick={() =>
-                      window.open("https://wnh.thrivecart.com/virtual-tour-profit-system/?coupon=START1000", "_blank")
+                      window.open(
+                        "https://buy.cloudpano.com/virtual-tour-profit-system/?coupon=VTPSPROCLOUDPANO",
+                        "_blank",
+                      )
                     }
                     className="w-full bg-gradient-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90 text-primary-foreground font-semibold px-4 py-2 rounded-lg text-sm transition-all duration-300 hover:scale-105 shadow-lg"
                   >

@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from "react"
 import { Button } from "@/components/ui/button"
 import { Users, TrendingUp, DollarSign, X } from "lucide-react"
 import { WebinarNav } from "@/components/webinar-nav"
+import { WebinarNotificationWidget } from "@/components/webinar-notification-widget"
 
 export default function WebinarLandingPage() {
   const [isFormOpen, setIsFormOpen] = useState(false)
@@ -27,6 +28,8 @@ export default function WebinarLandingPage() {
   return (
     <div className="min-h-screen bg-background">
       <WebinarNav currentPage="landing" />
+
+      <WebinarNotificationWidget />
 
       {showStickyVideo && (
         <div className="fixed top-20 right-4 z-[99999] w-96 bg-background/95 backdrop-blur-sm rounded-xl shadow-2xl border border-border/50 overflow-hidden">
@@ -105,9 +108,9 @@ export default function WebinarLandingPage() {
               {/* Embedded registration form */}
               <div className="mb-6">
                 <iframe
-                  src="https://api.leadconnectorhq.com/widget/form/lO1sk3If9Q1m60lpPUQw"
-                  style={{ width: "100%", height: "432px", border: "none", borderRadius: "8px" }}
-                  id="inline-lO1sk3If9Q1m60lpPUQw"
+                  src="https://api.leadconnectorhq.com/widget/form/gthJLMjLWx4nocGAyZbV"
+                  style={{ width: "100%", height: "551px", border: "none", borderRadius: "4px" }}
+                  id="inline-gthJLMjLWx4nocGAyZbV"
                   data-layout="{'id':'INLINE'}"
                   data-trigger-type="alwaysShow"
                   data-trigger-value=""
@@ -115,11 +118,11 @@ export default function WebinarLandingPage() {
                   data-activation-value=""
                   data-deactivation-type="neverDeactivate"
                   data-deactivation-value=""
-                  data-form-name="VTPS webinar yeah "
-                  data-height="432"
-                  data-layout-iframe-id="inline-lO1sk3If9Q1m60lpPUQw"
-                  data-form-id="lO1sk3If9Q1m60lpPUQw"
-                  title="VTPS webinar yeah "
+                  data-form-name="Virtual Tour Profit System Webinar"
+                  data-height="551"
+                  data-layout-iframe-id="inline-gthJLMjLWx4nocGAyZbV"
+                  data-form-id="gthJLMjLWx4nocGAyZbV"
+                  title="Virtual Tour Profit System Webinar"
                 />
                 <script src="https://link.msgsndr.com/js/form_embed.js" />
               </div>

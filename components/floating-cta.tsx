@@ -27,7 +27,9 @@ export function FloatingCTA() {
       <Button
         size="lg"
         className="bg-gradient-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90 text-primary-foreground font-bold px-8 py-4 shadow-2xl hover-lift animate-glow border-0 text-lg"
-        onClick={() => window.open("https://wnh.thrivecart.com/virtual-tour-profit-system/?coupon=START1000", "_blank")}
+        onClick={() =>
+          window.open("https://buy.cloudpano.com/virtual-tour-profit-system/?coupon=VTPSPROCLOUDPANO", "_blank")
+        }
       >
         Enroll Now - Save $1,000 →
       </Button>
