@@ -78,6 +78,10 @@ export function NotificationWidget() {
     }
   }, [isVisible, isMinimized])
 
+  const handleNotificationClick = () => {
+    window.open("https://buy.cloudpano.com/virtual-tour-profit-system/?coupon=VTPSPROCLOUDPANO", "_blank")
+  }
+
   if (!isVisible) return null
 
   return (
@@ -92,17 +96,32 @@ export function NotificationWidget() {
         </button>
       ) : (
         // Full notification widget
-        <div className="bg-white border border-gray-200 rounded-lg shadow-xl max-w-sm p-4 animate-slide-up">
+        <div
+          onClick={handleNotificationClick}
+          className="bg-white border border-gray-200 rounded-lg shadow-xl max-w-sm p-4 animate-slide-up cursor-pointer hover:shadow-2xl hover:scale-105 transition-all duration-300"
+        >
           <div className="flex items-start justify-between mb-2">
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
               <span className="text-sm font-medium text-gray-900">Recent Sign-up</span>
             </div>
             <div className="flex gap-1">
-              <button onClick={() => setIsMinimized(true)} className="text-gray-400 hover:text-gray-600 p-1">
+              <button
+                onClick={(e) => {
+                  e.stopPropagation()
+                  setIsMinimized(true)
+                }}
+                className="text-gray-400 hover:text-gray-600 p-1"
+              >
                 <div className="w-3 h-0.5 bg-current"></div>
               </button>
-              <button onClick={() => setIsVisible(false)} className="text-gray-400 hover:text-gray-600">
+              <button
+                onClick={(e) => {
+                  e.stopPropagation()
+                  setIsVisible(false)
+                }}
+                className="text-gray-400 hover:text-gray-600"
+              >
                 <X className="w-4 h-4" />
               </button>
             </div>
@@ -113,14 +132,6 @@ export function NotificationWidget() {
             <p className="text-xs text-gray-600">
               {currentNotification.timeAgo} • Join hundreds of others building profitable virtual tour businesses
             </p>
-            <button
-              className="w-full bg-blue-600 hover:bg-blue-700 text-white text-xs font-medium py-2 px-3 rounded transition-colors"
-              onClick={() =>
-                window.open("https://buy.cloudpano.com/virtual-tour-profit-system/?coupon=VTPSPROCLOUDPANO", "_blank")
-              }
-            >
-              Enroll Now - Save $1,000
-            </button>
           </div>
         </div>
       )}
