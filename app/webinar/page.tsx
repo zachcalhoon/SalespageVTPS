@@ -66,7 +66,7 @@ export default function WebinarLandingPage() {
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
         <div className="max-w-7xl mx-auto px-4 w-full">
           {/* Headline on top */}
-          <div className="text-center mb-12">
+          <div className="text-center mb-6">
             <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-4 text-balance">
               Exclusive Free Training With Zach Calhoon:
             </h1>
@@ -97,19 +97,19 @@ export default function WebinarLandingPage() {
             </div>
 
             {/* Opt-in form on the right */}
-            <div className="glass-card p-8 rounded-2xl" ref={registrationFormRef}>
-              <div className="text-center mb-6">
+            <div className="glass-card p-4 rounded-2xl" ref={registrationFormRef}>
+              <div className="text-center mb-3">
                 <h3 className="text-2xl md:text-3xl font-bold mb-4">Reserve Your FREE Seat Now!</h3>
-                <p className="text-lg text-muted-foreground mb-6">
+                <p className="text-lg text-muted-foreground mb-3">
                   Join thousands of entrepreneurs who are building profitable VR businesses
                 </p>
               </div>
 
-              {/* Embedded registration form */}
-              <div className="mb-6">
+              <div className="mb-3">
                 <iframe
                   src="https://api.leadconnectorhq.com/widget/form/gthJLMjLWx4nocGAyZbV"
-                  style={{ width: "100%", height: "551px", border: "none", borderRadius: "4px" }}
+                  className="w-full border-none rounded"
+                  style={{ height: "650px" }}
                   id="inline-gthJLMjLWx4nocGAyZbV"
                   data-layout="{'id':'INLINE'}"
                   data-trigger-type="alwaysShow"
@@ -119,7 +119,7 @@ export default function WebinarLandingPage() {
                   data-deactivation-type="neverDeactivate"
                   data-deactivation-value=""
                   data-form-name="Virtual Tour Profit System Webinar"
-                  data-height="551"
+                  data-height="750"
                   data-layout-iframe-id="inline-gthJLMjLWx4nocGAyZbV"
                   data-form-id="gthJLMjLWx4nocGAyZbV"
                   title="Virtual Tour Profit System Webinar"
