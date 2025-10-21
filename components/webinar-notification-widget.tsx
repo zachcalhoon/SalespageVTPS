@@ -53,6 +53,10 @@ export function WebinarNotificationWidget() {
     })
   }
 
+  const handleNotificationClick = () => {
+    window.open("https://buy.cloudpano.com/virtual-tour-profit-system/?coupon=VTPSPROCLOUDPANO", "_blank")
+  }
+
   useEffect(() => {
     // Show notification after 5 seconds
     const timer = setTimeout(() => {
@@ -85,7 +89,10 @@ export function WebinarNotificationWidget() {
           <Bell className="w-5 h-5" />
         </button>
       ) : (
-        <div className="bg-background border border-border rounded-lg shadow-xl p-4 animate-slide-up">
+        <div
+          onClick={handleNotificationClick}
+          className="bg-background border border-border rounded-lg shadow-xl p-4 animate-slide-up cursor-pointer hover:shadow-2xl hover:scale-105 transition-all duration-300"
+        >
           <div className="flex items-start justify-between mb-2">
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
@@ -93,14 +100,20 @@ export function WebinarNotificationWidget() {
             </div>
             <div className="flex gap-1">
               <button
-                onClick={() => setIsMinimized(true)}
+                onClick={(e) => {
+                  e.stopPropagation()
+                  setIsMinimized(true)
+                }}
                 className="text-muted-foreground hover:text-foreground p-1"
                 aria-label="Minimize"
               >
                 <div className="w-3 h-0.5 bg-current"></div>
               </button>
               <button
-                onClick={() => setIsVisible(false)}
+                onClick={(e) => {
+                  e.stopPropagation()
+                  setIsVisible(false)
+                }}
                 className="text-muted-foreground hover:text-foreground"
                 aria-label="Close"
               >

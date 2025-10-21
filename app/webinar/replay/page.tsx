@@ -231,7 +231,7 @@ export default function WebinarReplayPage() {
               </p>
               <Link href="/">
                 <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-semibold rounded-xl hover-lift mb-3">
-                  Join VTPS Training Program
+                  Join VTPS
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </Link>

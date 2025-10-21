@@ -16,7 +16,7 @@ export function WebinarNav({ currentPage }: WebinarNavProps) {
         {currentPage !== "landing" && (
           <Link href="/">
             <Button size="sm" className="bg-primary hover:bg-primary/90">
-              Join VTPS Training
+              Join VTPS
             </Button>
           </Link>
         )}
