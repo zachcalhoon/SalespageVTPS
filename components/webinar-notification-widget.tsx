@@ -1,11 +1,9 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { X, Bell } from "lucide-react"
 
 export function WebinarNotificationWidget() {
   const [isVisible, setIsVisible] = useState(false)
-  const [isMinimized, setIsMinimized] = useState(false)
   const [currentNotification, setCurrentNotification] = useState({ name: "", location: "", timeAgo: "" })
 
   const registrations = [
@@ -65,7 +63,7 @@ export function WebinarNotificationWidget() {
     }, 5000)
 
     const interval = setInterval(() => {
-      if (isVisible && !isMinimized) {
+      if (isVisible) {
         generateRandomNotification()
       }
     }, 10000)
@@ -74,66 +72,34 @@ export function WebinarNotificationWidget() {
       clearTimeout(timer)
       clearInterval(interval)
     }
-  }, [isVisible, isMinimized])
+  }, [isVisible])
 
   if (!isVisible) return null
 
   return (
     <div className="fixed bottom-4 left-4 z-50 max-w-[calc(100vw-2rem)] sm:max-w-sm">
-      {isMinimized ? (
-        <button
-          onClick={() => setIsMinimized(false)}
-          className="bg-primary hover:bg-primary/90 text-primary-foreground p-3 rounded-full shadow-lg transition-all duration-300 animate-pulse"
-          aria-label="Show notifications"
-        >
-          <Bell className="w-5 h-5" />
-        </button>
-      ) : (
-        <div
-          onClick={handleNotificationClick}
-          className="bg-background border border-border rounded-lg shadow-xl p-4 animate-slide-up cursor-pointer hover:shadow-2xl hover:scale-105 transition-all duration-300"
-        >
-          <div className="flex items-start justify-between mb-2">
-            <div className="flex items-center gap-2">
-              <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-              <span className="text-sm font-medium">New Registration</span>
-            </div>
-            <div className="flex gap-1">
-              <button
-                onClick={(e) => {
-                  e.stopPropagation()
-                  setIsMinimized(true)
-                }}
-                className="text-muted-foreground hover:text-foreground p-1"
-                aria-label="Minimize"
-              >
-                <div className="w-3 h-0.5 bg-current"></div>
-              </button>
-              <button
-                onClick={(e) => {
-                  e.stopPropagation()
-                  setIsVisible(false)
-                }}
-                className="text-muted-foreground hover:text-foreground"
-                aria-label="Close"
-              >
-                <X className="w-4 h-4" />
-              </button>
-            </div>
-          </div>
-
-          <div className="space-y-2">
-            <p className="text-sm font-semibold">{currentNotification.name}</p>
-            <p className="text-xs text-muted-foreground">
-              from <span className="font-medium">{currentNotification.location}</span>
-            </p>
-            <p className="text-xs text-muted-foreground">registered {currentNotification.timeAgo}</p>
-            <div className="pt-2 border-t border-border">
-              <p className="text-xs text-muted-foreground">Join them and reserve your free seat now!</p>
-            </div>
+      <div
+        onClick={handleNotificationClick}
+        className="bg-background border border-border rounded-lg shadow-xl p-4 animate-slide-up cursor-pointer hover:shadow-2xl hover:scale-105 transition-all duration-300"
+      >
+        <div className="flex items-start justify-between mb-2">
+          <div className="flex items-center gap-2">
+            <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
+            <span className="text-sm font-medium">New Registration</span>
           </div>
         </div>
-      )}
+
+        <div className="space-y-2">
+          <p className="text-sm font-semibold">{currentNotification.name}</p>
+          <p className="text-xs text-muted-foreground">
+            from <span className="font-medium">{currentNotification.location}</span>
+          </p>
+          <p className="text-xs text-muted-foreground">registered {currentNotification.timeAgo}</p>
+          <div className="pt-2 border-t border-border">
+            <p className="text-xs text-muted-foreground">Join them and reserve your free seat now!</p>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
