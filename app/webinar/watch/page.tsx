@@ -118,7 +118,7 @@ export default function WebinarWatchPage() {
               </div>
 
               <div className="text-center">
-                <Link href="/">
+                <Link href="https://buy.cloudpano.com/virtual-tour-profit-system/?coupon=VTPSPROCLOUDPANO&utm_source=webinar&utm_medium=watch-page&utm_campaign=vtps-training&utm_content=main-cta">
                   <Button
                     size="lg"
                     className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4 text-xl font-semibold rounded-xl hover-lift"
@@ -165,7 +165,7 @@ export default function WebinarWatchPage() {
                 Join our comprehensive VTPS training program and get everything you need to build a profitable virtual
                 tour business.
               </p>
-              <Link href="/">
+              <Link href="https://buy.cloudpano.com/virtual-tour-profit-system/?coupon=VTPSPROCLOUDPANO&utm_source=webinar&utm_medium=watch-page&utm_campaign=vtps-training&utm_content=sidebar-cta">
                 <Button className="w-full bg-accent hover:bg-accent/90 text-accent-foreground font-semibold rounded-xl hover-lift">
                   Enroll in VTPS Training
                   <ArrowRight className="ml-2 h-4 w-4" />

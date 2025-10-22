@@ -52,7 +52,9 @@ export function WebinarNotificationWidget() {
   }
 
   const handleNotificationClick = () => {
-    window.open("https://buy.cloudpano.com/virtual-tour-profit-system/?coupon=VTPSPROCLOUDPANO", "_blank")
+    if (window.innerWidth >= 1024) {
+      window.open("https://buy.cloudpano.com/virtual-tour-profit-system/?coupon=VTPSPROCLOUDPANO", "_blank")
+    }
   }
 
   useEffect(() => {
@@ -77,26 +79,26 @@ export function WebinarNotificationWidget() {
   if (!isVisible) return null
 
   return (
-    <div className="fixed bottom-4 left-4 z-50 max-w-[calc(100vw-2rem)] sm:max-w-sm">
+    <div className="fixed bottom-4 left-4 z-50 max-w-[180px] lg:max-w-sm">
       <div
         onClick={handleNotificationClick}
-        className="bg-background border border-border rounded-lg shadow-xl p-4 animate-slide-up cursor-pointer hover:shadow-2xl hover:scale-105 transition-all duration-300"
+        className="bg-background border border-border rounded-lg shadow-xl p-2 lg:p-4 animate-slide-up lg:cursor-pointer lg:hover:shadow-2xl lg:hover:scale-105 transition-all duration-300"
       >
-        <div className="flex items-start justify-between mb-2">
-          <div className="flex items-center gap-2">
-            <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-            <span className="text-sm font-medium">New Registration</span>
+        <div className="flex items-start justify-between mb-1 lg:mb-2">
+          <div className="flex items-center gap-1 lg:gap-2">
+            <div className="w-1.5 h-1.5 lg:w-2 lg:h-2 bg-green-500 rounded-full animate-pulse"></div>
+            <span className="text-[10px] lg:text-sm font-medium">New Registration</span>
           </div>
         </div>
 
-        <div className="space-y-2">
-          <p className="text-sm font-semibold">{currentNotification.name}</p>
-          <p className="text-xs text-muted-foreground">
+        <div className="space-y-1 lg:space-y-2">
+          <p className="text-[10px] lg:text-sm font-semibold truncate">{currentNotification.name}</p>
+          <p className="text-[8px] lg:text-xs text-muted-foreground truncate">
             from <span className="font-medium">{currentNotification.location}</span>
           </p>
-          <p className="text-xs text-muted-foreground">registered {currentNotification.timeAgo}</p>
-          <div className="pt-2 border-t border-border">
-            <p className="text-xs text-muted-foreground">Join them and reserve your free seat now!</p>
+          <p className="text-[8px] lg:text-xs text-muted-foreground">{currentNotification.timeAgo}</p>
+          <div className="pt-1 lg:pt-2 border-t border-border">
+            <p className="text-[8px] lg:text-xs text-muted-foreground leading-tight">Join them now!</p>
           </div>
         </div>
       </div>

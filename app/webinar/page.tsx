@@ -1,67 +1,20 @@
 "use client"
 
-import { useState, useEffect, useRef } from "react"
+import { useState, useRef } from "react"
 import { Button } from "@/components/ui/button"
-import { Users, TrendingUp, DollarSign, X } from "lucide-react"
+import { Users, TrendingUp, DollarSign } from "lucide-react"
 import { WebinarNav } from "@/components/webinar-nav"
 import { WebinarNotificationWidget } from "@/components/webinar-notification-widget"
 
 export default function WebinarLandingPage() {
   const [isFormOpen, setIsFormOpen] = useState(false)
-  const [showStickyVideo, setShowStickyVideo] = useState(false)
-  const videoRef = useRef<HTMLDivElement>(null)
   const registrationFormRef = useRef<HTMLDivElement>(null)
-
-  useEffect(() => {
-    const handleScroll = () => {
-      if (videoRef.current) {
-        const videoRect = videoRef.current.getBoundingClientRect()
-        const isVideoOutOfView = videoRect.bottom < 0
-        setShowStickyVideo(isVideoOutOfView)
-      }
-    }
-
-    window.addEventListener("scroll", handleScroll)
-    return () => window.removeEventListener("scroll", handleScroll)
-  }, [])
 
   return (
     <div className="min-h-screen bg-background">
       <WebinarNav currentPage="landing" />
 
       <WebinarNotificationWidget />
-
-      {showStickyVideo && (
-        <div className="fixed top-20 right-4 z-[99999] w-96 bg-background/95 backdrop-blur-sm rounded-xl shadow-2xl border border-border/50 overflow-hidden">
-          <div className="relative">
-            <button
-              onClick={() => setShowStickyVideo(false)}
-              className="absolute top-2 right-2 z-10 w-8 h-8 bg-black/50 hover:bg-black/70 rounded-full flex items-center justify-center transition-colors"
-            >
-              <X className="h-4 w-4 text-white" />
-            </button>
-            <div className="aspect-video bg-black">
-              <video loop playsInline controls className="w-full h-full object-cover" poster="/webinar-cover.png">
-                <source
-                  src="https://webinarregistrationvtp.s3.us-west-2.amazonaws.com/Webinar+Registration+new+July+29.mp4"
-                  type="video/mp4"
-                />
-              </video>
-            </div>
-            <div className="p-4 bg-background">
-              <p className="text-sm font-medium mb-3">Free VR Business Training</p>
-              <Button
-                className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold"
-                onClick={() => {
-                  document.querySelector("iframe")?.scrollIntoView({ behavior: "smooth" })
-                }}
-              >
-                Enroll Now
-              </Button>
-            </div>
-          </div>
-        </div>
-      )}
 
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
         <div className="max-w-7xl mx-auto px-4 w-full">
@@ -81,7 +34,7 @@ export default function WebinarLandingPage() {
           {/* Hero content with video left, form right */}
           <div className="grid lg:grid-cols-2 gap-8 items-center">
             {/* Video on the left */}
-            <div className="relative" ref={videoRef}>
+            <div className="relative">
               <div className="text-center mb-4">
                 <p className="text-lg font-semibold text-primary animate-pulse">Press Play ▶️</p>
               </div>
