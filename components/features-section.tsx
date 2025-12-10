@@ -36,7 +36,7 @@ export function FeaturesSection() {
         "Private Facebook Community (1,500+ Members)",
         "Monthly Live Q&A Calls",
         "Direct Access to Successful Operators",
-        "Lifetime Updates & New Content",
+        "Regular Updates & New Content",
       ],
     },
   ]

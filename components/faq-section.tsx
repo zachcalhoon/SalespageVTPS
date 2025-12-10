@@ -20,7 +20,7 @@ export function FAQSection() {
     {
       question: "Is this just another course, or do I get real support?",
       answer:
-        "VTPS is far more than a course - it's a complete business system with ongoing support. You get access to our private community of 1,500+ members, monthly live coaching calls, direct access to successful operators, and lifetime updates. We're invested in your success, not just selling you information.",
+        "VTPS is far more than a course - it's a complete business system with ongoing support. You get access to our private community of 1,500+ members, monthly live coaching calls, and direct access to successful operators. We're invested in your success, not just selling you information.",
     },
     {
       question: "How is this different from learning VR on YouTube or other free resources?",

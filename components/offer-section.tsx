@@ -26,7 +26,7 @@ export function OfferSection() {
         "70+ Target Industries Guide",
         "Private Community Access (1,500+ members)",
         "Email Support",
-        "Lifetime Updates",
+        "Regular Updates",
         "90-Day Money-Back Guarantee",
       ],
     },
@@ -54,7 +54,7 @@ export function OfferSection() {
         "Recurring Revenue Playbook",
         "VR Marketing Automation Suite ($2,497 value)",
         "High-Ticket Sales Training ($1,997 value)",
-        "Lifetime VIP Support",
+        "VIP Support",
       ],
     },
   ]
@@ -113,7 +113,6 @@ export function OfferSection() {
                 <div className="space-y-2">
                   <div className="text-sm text-muted-foreground line-through">Regular Price: {tier.originalPrice}</div>
                   <div className="text-5xl font-bold gradient-text">{tier.price}</div>
-                  <div className="text-sm text-muted-foreground">One-time payment • Lifetime access</div>
                 </div>
               </CardHeader>
 

@@ -46,7 +46,7 @@ export function PricingSection() {
         "Done-For-You Marketing Setup",
         "Personal Success Manager",
         "VIP Mastermind Access",
-        "Lifetime Updates",
+        "Regular Updates",
       ],
       popular: false,
     },
@@ -64,8 +64,8 @@ export function PricingSection() {
             Choose Your Success Path
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto text-pretty">
-            Every plan includes our complete Virtual Tour Profit System with lifetime access. Choose the level of
-            support that fits your goals.
+            Every plan includes our complete Virtual Tour Profit System. Choose the level of support that fits your
+            goals.
           </p>
 
           <div className="mt-8 glass-strong inline-flex items-center gap-2 px-4 py-2 rounded-full animate-glow">
@@ -95,7 +95,6 @@ export function PricingSection() {
                 <div className="space-y-2">
                   <div className="text-sm text-muted-foreground line-through">Regular Price: {plan.originalPrice}</div>
                   <div className="text-4xl font-bold gradient-text">{plan.price}</div>
-                  <div className="text-sm text-muted-foreground">One-time payment • Lifetime access</div>
                 </div>
               </CardHeader>
 

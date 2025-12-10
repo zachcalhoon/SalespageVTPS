@@ -1,11 +1,12 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { GeistSans } from "geist/font/sans"
-import { GeistMono } from "geist/font/mono"
+import { Inter } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import Script from "next/script"
 import "./globals.css"
 import { Suspense } from "react"
+
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter" })
 
 export const metadata: Metadata = {
   title: "VTPS Training - Build a Profitable 360° VR Agency | Virtual Tour Business System",
@@ -156,7 +157,7 @@ export default function RootLayout({
           `}
         </Script>
       </head>
-      <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable}`}>
+      <body className={`font-sans ${inter.variable} antialiased`}>
         <Suspense>{children}</Suspense>
         <Analytics />
       </body>

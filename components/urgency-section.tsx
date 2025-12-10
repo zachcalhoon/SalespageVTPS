@@ -96,7 +96,7 @@ export function UrgencySection() {
             </div>
             <div className="flex items-center gap-2">
               <span className="text-green-500">✓</span>
-              Lifetime Updates Included
+              Regular Updates Included
             </div>
           </div>
         </div>

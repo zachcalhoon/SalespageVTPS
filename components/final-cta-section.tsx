@@ -86,7 +86,7 @@ export function FinalCTASection() {
             </div>
             <div className="glass rounded-full px-4 py-2 flex items-center justify-center gap-2 hover-lift">
               <span className="text-green-500">✓</span>
-              <span className="text-foreground">Lifetime Updates</span>
+              <span className="text-foreground">Regular Updates</span>
             </div>
           </div>
         </div>
