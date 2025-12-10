@@ -116,7 +116,41 @@ export default function RootLayout({
           />
         </noscript>
 
+        <Script id="meta-pixel-2" strategy="afterInteractive">
+          {`
+            !function(f,b,e,v,n,t,s)
+            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '1857515428310830');
+            fbq('track', 'PageView');
+          `}
+        </Script>
+        <noscript>
+          <img
+            height="1"
+            width="1"
+            style={{ display: "none" }}
+            src="https://www.facebook.com/tr?id=1857515428310830&ev=PageView&noscript=1"
+            alt=""
+          />
+        </noscript>
+
         <Script id="vtp-tracking" strategy="afterInteractive">
+          {`
+            var head = document.head;
+            var script = document.createElement('script');
+            script.type = 'text/javascript';
+            script.src = "https://t.virtualtourprofit.com/v1/lst/universal-script?ph=3497790c2bc9033ae79725f86bba7a43e67712f507789e8ce6c6999c40c68a3a&tag=!clicked&ref_url=" + encodeURI(document.URL);
+            head.appendChild(script);
+          `}
+        </Script>
+
+        <Script id="vtp-list-tracking" strategy="afterInteractive">
           {`
             var head = document.head;
             var script = document.createElement('script');
